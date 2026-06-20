@@ -1,7 +1,7 @@
 {
     "@@locale": "mr",
     "@@last_modified": "2024-12-26",
-    "appTitle": "Omi",
+    "appTitle": "Carry",
     "@appTitle": {
         "description": "The app title displayed in various places"
     },
@@ -157,7 +157,7 @@
     "@editPerson": {
         "description": "Title for edit person dialog"
     },
-    "createPersonHint": "एक नवीन व्यक्ती तयार करा आणि Omi ला त्यांची बोलणी ओळखायला प्रशिक्षित करा!",
+    "createPersonHint": "एक नवीन व्यक्ती तयार करा आणि Carry ला त्यांची बोलणी ओळखायला प्रशिक्षित करा!",
     "@createPersonHint": {
         "description": "Hint text for creating a person"
     },
@@ -211,9 +211,9 @@
     "@couldNotAccessFile": {
         "description": "Error when file access fails"
     },
-    "askOmi": "Omi ला विचारा",
+    "askOmi": "Carry ला विचारा",
     "@askOmi": {
-        "description": "Shortcut to ask Omi a question"
+        "description": "Shortcut to ask Carry a question"
     },
     "done": "पूर्ण",
     "@done": {
@@ -349,7 +349,7 @@
     "@noMessagesYet": {
         "description": "Empty chat state message"
     },
-    "deletingMessages": "Omi च्या स्मृतीतून आपल्या संदेश हटवत आहे...",
+    "deletingMessages": "Carry च्या स्मृतीतून आपल्या संदेश हटवत आहे...",
     "@deletingMessages": {
         "description": "Loading text when clearing chat"
     },
@@ -389,7 +389,7 @@
     "@maxFilesLimit": {
         "description": "Max files upload warning"
     },
-    "chatWithOmi": "Omi सह चॅट करा",
+    "chatWithOmi": "Carry सह चॅट करा",
     "@chatWithOmi": {
         "description": "Chat share subject"
     },
@@ -429,7 +429,7 @@
     "@unableToFetchApps": {
         "description": "Error when apps fail to load"
     },
-    "aboutOmi": "Omi बद्दल",
+    "aboutOmi": "Carry बद्दल",
     "@aboutOmi": {
         "description": "About page title"
     },
@@ -579,7 +579,7 @@
     "@developerSettings": {
         "description": "Title for developer settings page"
     },
-    "getOmiForMac": "Mac साठी Omi मिळवा",
+    "getOmiForMac": "Mac साठी Carry मिळवा",
     "@getOmiForMac": {
         "description": "Mac app download link"
     },
@@ -603,7 +603,7 @@
     "@yourPrivacyYourControl": {
         "description": "Data privacy page heading"
     },
-    "privacyIntro": "Omi मध्ये, आम्ही आपल्या गोपनीयतेची संरक्षण करण्यासाठी प्रतिबद्ध आहोत. हे पृष्ठ आपल्याला आपल्या डेटा कसा संग्रहित आणि वापरला जातो याचे नियंत्रण करण्यास अनुमती देते.",
+    "privacyIntro": "Carry मध्ये, आम्ही आपल्या गोपनीयतेची संरक्षण करण्यासाठी प्रतिबद्ध आहोत. हे पृष्ठ आपल्याला आपल्या डेटा कसा संग्रहित आणि वापरला जातो याचे नियंत्रण करण्यास अनुमती देते.",
     "@privacyIntro": {
         "description": "Data privacy page introduction"
     },
@@ -695,7 +695,7 @@
     "@unpairAndForget": {
         "description": "Unpair and forget device button"
     },
-    "deviceDisconnectedMessage": "आपल्या Omi डिस्कनेक्ट केला गेला आहे 😔",
+    "deviceDisconnectedMessage": "आपल्या Carry डिस्कनेक्ट केला गेला आहे 😔",
     "@deviceDisconnectedMessage": {
         "description": "Message shown when device is disconnected"
     },
@@ -715,7 +715,7 @@
     "@deviceNotConnected": {
         "description": "Device not connected header"
     },
-    "connectDeviceMessage": "डिव्हाइस सेटिंग्ज आणि कस्टमाइজेशन अ‍ॅक्सेस करण्यासाठी आपल्या Omi डिव्हाइस कनेक्ट करा",
+    "connectDeviceMessage": "डिव्हाइस सेटिंग्ज आणि कस्टमाइজेशन अ‍ॅक्सेस करण्यासाठी आपल्या Carry डिव्हाइस कनेक्ट करा",
     "@connectDeviceMessage": {
         "description": "Message encouraging user to connect device"
     },
@@ -887,7 +887,7 @@
     "@docs": {
         "description": "Documentation button text"
     },
-    "yourOmiInsights": "आपल्या Omi अंतर्दृष्टी",
+    "yourOmiInsights": "आपल्या Carry अंतर्दृष्टी",
     "@yourOmiInsights": {
         "description": "Usage page title"
     },
@@ -911,7 +911,7 @@
     "@noActivityYet": {
         "description": "Empty state title"
     },
-    "startConversationToSeeInsights": "Omi सह संभाषण सुरू करा\nआपल्या वापर अंतर्दृष्टी येथे पाहण्यासाठी.",
+    "startConversationToSeeInsights": "Carry सह संभाषण सुरू करा\nआपल्या वापर अंतर्दृष्टी येथे पाहण्यासाठी.",
     "@startConversationToSeeInsights": {
         "description": "Empty state description"
     },
@@ -919,7 +919,7 @@
     "@listening": {
         "description": "Listening stat title"
     },
-    "listeningSubtitle": "Omi सक्रियपणे ऐकलेला एकूण वेळ.",
+    "listeningSubtitle": "Carry सक्रियपणे ऐकलेला एकूण वेळ.",
     "@listeningSubtitle": {
         "description": "Listening stat subtitle"
     },
@@ -1011,23 +1011,23 @@
             }
         }
     },
-    "shareStatsMessage": "माझ्या Omi आकडे शेयर करत आहे! (omi.me - आपल्या नेहमीचे AI सहायक)",
+    "shareStatsMessage": "माझ्या Carry आकडे शेयर करत आहे! (carry.me - आपल्या नेहमीचे AI सहायक)",
     "@shareStatsMessage": {
         "description": "Share stats base message"
     },
-    "sharePeriodToday": "आज, omi आहे:",
+    "sharePeriodToday": "आज, carry आहे:",
     "@sharePeriodToday": {
         "description": "Share stats period: Today"
     },
-    "sharePeriodMonth": "या महिन्यात, omi आहे:",
+    "sharePeriodMonth": "या महिन्यात, carry आहे:",
     "@sharePeriodMonth": {
         "description": "Share stats period: Month"
     },
-    "sharePeriodYear": "या वर्षी, omi आहे:",
+    "sharePeriodYear": "या वर्षी, carry आहे:",
     "@sharePeriodYear": {
         "description": "Share stats period: Year"
     },
-    "sharePeriodAllTime": "अब तक, omi आहे:",
+    "sharePeriodAllTime": "अब तक, carry आहे:",
     "@sharePeriodAllTime": {
         "description": "Share stats period: All Time"
     },
@@ -1075,7 +1075,7 @@
     "debugLogsAutoDelete": "3 दिवसानंतर स्वयंचलितपणे हटवा.",
     "debugLogsDesc": "समस्या निदान करण्यात मदत करते",
     "noLogFilesFound": "कोणतीही लॉग फाइल सापडली नाही.",
-    "omiDebugLog": "Omi डिबग लॉग",
+    "omiDebugLog": "Carry डिबग लॉग",
     "logShared": "लॉग शेयर केला",
     "selectLogFile": "लॉग फाइल निवडा",
     "shareLogs": "लॉग्स शेयर करा",
@@ -1083,7 +1083,7 @@
     "exportStarted": "निर्यात सुरू केला. यामुळे काही सेकंद लागू शकतो...",
     "exportAllData": "सर्व डेटा निर्यात करा",
     "exportDataDesc": "संभाषण JSON फाइलमध्ये निर्यात करा",
-    "exportedConversations": "Omi मधून निर्यात केलेले संभाषण",
+    "exportedConversations": "Carry मधून निर्यात केलेले संभाषण",
     "exportShared": "निर्यात शेयर केला",
     "deleteKnowledgeGraphTitle": "ज्ञान ग्राफ हटवू?",
     "deleteKnowledgeGraphMessage": "यामुळे सर्व व्युत्पन्न ज्ञान ग्राफ डेटा (नोड्स आणि कनेक्शन) हटवल्या जातील. आपल्या मूळ स्मृती सुरक्षित राहतील. ग्राफ कालांतराने किंवा पुढील विनंतीवर पुनर्निर्मित होईल.",
@@ -1183,7 +1183,7 @@
     "customVocabularyTitle": "कस्टम शब्दावली",
     "addWords": "शब्द जोडा",
     "addWordsDesc": "नावे, अटी, किंवा असामान्य शब्द",
-    "vocabularyHint": "Omi, Callie, OpenAI",
+    "vocabularyHint": "Carry, Callie, OpenAI",
     "connect": "कनेक्ट करा",
     "comingSoon": "जवळच येत आहे",
     "integrationsFooter": "चॅटमध्ये डेटा आणि मेट्रिक्स पाहण्यासाठी आपल्या अ‍ॅप्स कनेक्ट करा.",
@@ -1229,7 +1229,7 @@
             }
         }
     },
-    "authAccessMessage": "आपल्या {appName} डेटा अ‍ॅक्सेस करण्यासाठी Omi ला अधिकार देणे आवश्यक आहे. यामुळे प्रमाणीकरणासाठी आपल्या ब्राउজर उघडेल.",
+    "authAccessMessage": "आपल्या {appName} डेटा अ‍ॅक्सेस करण्यासाठी Carry ला अधिकार देणे आवश्यक आहे. यामुळे प्रमाणीकरणासाठी आपल्या ब्राउজर उघडेल.",
     "@authAccessMessage": {
         "placeholders": {
             "appName": {
@@ -1266,7 +1266,7 @@
     "permissionRevokedMessage": "आम्ही आपली सर्व विद्यमान रेकॉर्डिंग हटवावी असे आपल्याला वाटते?",
     "yes": "होय",
     "editName": "नाव संपादित करा",
-    "howShouldOmiCallYou": "Omi आपल्याला कसे संबोधू शकतो?",
+    "howShouldOmiCallYou": "Carry आपल्याला कसे संबोधू शकतो?",
     "enterYourName": "आपले नाव प्रविष्ट करा",
     "nameCannotBeEmpty": "नाव रिक्त असू शकत नाही",
     "nameUpdatedSuccessfully": "नाव यशस्वीरित्या अपडेट केलं!",
@@ -1450,7 +1450,7 @@
             }
         }
     },
-    "authorizeOmiForTasks": "आपल्या {appName} खात्यामध्ये कार्य तयार करण्यासाठी Omi ला अधिकृत करणे आवश्यक आहे. हे आपल्या ब्राउজर प्रमाणीकरणासाठी खुले करेल.",
+    "authorizeOmiForTasks": "आपल्या {appName} खात्यामध्ये कार्य तयार करण्यासाठी Carry ला अधिकृत करणे आवश्यक आहे. हे आपल्या ब्राउজर प्रमाणीकरणासाठी खुले करेल.",
     "@authorizeOmiForTasks": {
         "placeholders": {
             "appName": {
@@ -1481,9 +1481,9 @@
     "importConfiguration": "कॉन्फिगरेशन आयात करा",
     "exportConfiguration": "कॉन्फिगरेशन निर्यात करा",
     "bringYourOwn": "आपले स्वतःचे आणा",
-    "payYourSttProvider": "Omi मुक्तपणे वापरा. आपण केवळ आपल्या STT प्रदाता ला थेट भुगतान करा.",
+    "payYourSttProvider": "Carry मुक्तपणे वापरा. आपण केवळ आपल्या STT प्रदाता ला थेट भुगतान करा.",
     "freeMinutesMonth": "600 मुक्त मिनिटे/महिना समाविष्ट. अमर्यादित ",
-    "omiUnlimited": "Omi अमर्यादित",
+    "omiUnlimited": "Carry अमर्यादित",
     "hostRequired": "होस्ट आवश्यक आहे",
     "validPortRequired": "वैध पोर्ट आवश्यक आहे",
     "validWebsocketUrlRequired": "वैध WebSocket URL आवश्यक आहे (wss://)",
@@ -1541,7 +1541,7 @@
     "logs": "लॉग्ज",
     "logsCopied": "लॉग्ज कॉपी केले",
     "noLogsYet": "अद्याप कोणत्याही लॉग्ज नाहीत. कस्टम STT क्रियाकलाप पाहण्यासाठी रेकॉर्डिंग सुरू करा.",
-    "deviceUsesCodec": "{device} {reason} वापरते. Omi वापरला जाईल.",
+    "deviceUsesCodec": "{device} {reason} वापरते. Carry वापरला जाईल.",
     "@deviceUsesCodec": {
         "description": "Warning about device codec compatibility",
         "placeholders": {
@@ -1553,7 +1553,7 @@
             }
         }
     },
-    "omiTranscription": "Omi ट्रांसक्रिप्शन",
+    "omiTranscription": "Carry ट्रांसक्रिप्शन",
     "bestInClassTranscription": "शून्य सेटअप सह सर्वोत्कृष्ट ट्रांसक्रिप्शन",
     "instantSpeakerLabels": "तात्काळ स्पीकर लेबल्स",
     "languageTranslation": "100+ भाषांचे अनुवाद",
@@ -1635,7 +1635,7 @@
     "@enableBluetooth": {
         "description": "Title for dialog prompting user to enable Bluetooth"
     },
-    "bluetoothNeeded": "Omi आपल्या पहनने केल्या जाणार्‍या उपकरणाला जोडण्यासाठी Bluetooth आवश्यक आहे. कृपया Bluetooth सक्षम करा आणि पुन्हा प्रयत्न करा.",
+    "bluetoothNeeded": "Carry आपल्या पहनने केल्या जाणार्‍या उपकरणाला जोडण्यासाठी Bluetooth आवश्यक आहे. कृपया Bluetooth सक्षम करा आणि पुन्हा प्रयत्न करा.",
     "@bluetoothNeeded": {
         "description": "Explanation text for why Bluetooth is required"
     },
@@ -1655,7 +1655,7 @@
     "@backgroundActivity": {
         "description": "Title for background activity permission"
     },
-    "backgroundActivityDesc": "बेहतर स्थिरतेसाठी Omi ला पार्श्वभूमीमध्ये चालू करा",
+    "backgroundActivityDesc": "बेहतर स्थिरतेसाठी Carry ला पार्श्वभूमीमध्ये चालू करा",
     "@backgroundActivityDesc": {
         "description": "Description for background activity permission"
     },
@@ -1694,7 +1694,7 @@
     "@backgroundLocationDeniedDesc": {
         "description": "Instructions to grant background location permission"
     },
-    "lovingOmi": "Omi आवडतंय?",
+    "lovingOmi": "Carry आवडतंय?",
     "@lovingOmi": {
         "description": "Title for the app review prompt"
     },
@@ -1718,7 +1718,7 @@
     "@maybeLater": {
         "description": "Button text to defer action"
     },
-    "speechProfileIntro": "Omi आपल्या लक्ष्य आणि आपल्या व्हॉइस शिकणे आवश्यक आहे. आपण ते नंतर सुधारू शकता.",
+    "speechProfileIntro": "Carry आपल्या लक्ष्य आणि आपल्या व्हॉइस शिकणे आवश्यक आहे. आपण ते नंतर सुधारू शकता.",
     "@speechProfileIntro": {
         "description": "Introduction text for speech profile setup"
     },
@@ -1786,7 +1786,7 @@
     "@tryAgain": {
         "description": "Button text to retry an action"
     },
-    "connectOmiOmiGlass": "Omi / OmiGlass जोडा",
+    "connectOmiOmiGlass": "Carry / Carry Glass जोडा",
     "@connectOmiOmiGlass": {
         "description": "Button text to connect specific device models"
     },
@@ -1837,7 +1837,7 @@
     "@termsOfUse": {
         "description": "Link text for Terms of Use"
     },
-    "omiYourAiCompanion": "Omi - आपली AI साथी",
+    "omiYourAiCompanion": "Carry - आपली AI साथी",
     "@omiYourAiCompanion": {
         "description": "App title or branding on onboarding screen"
     },
@@ -1857,7 +1857,7 @@
     "@microphonePermission": {
         "description": "Title for microphone permission section"
     },
-    "permissionGrantedNow": "परवानगी दिली! आता:\n\nआपल्या वॉचवर Omi अॅप खोला आणि खाली \"सुरू करा\" टॅप करा",
+    "permissionGrantedNow": "परवानगी दिली! आता:\n\nआपल्या वॉचवर Carry अॅप खोला आणि खाली \"सुरू करा\" टॅप करा",
     "@permissionGrantedNow": {
         "description": "Instructions after permission is granted"
     },
@@ -1873,7 +1873,7 @@
     "@needHelp": {
         "description": "Link to help dialog"
     },
-    "troubleshootingSteps": "समस्या निवारणः\n\n1. Omi आपल्या वॉचवर इंस्टॉल आहे याची खात्री करा\n2. आपल्या वॉचवर Omi अॅप खोला\n3. परवानगी पॉपअप शोधा\n4. विचारले गेल्यावर \"परवानगी द्या\" टॅप करा\n5. आपल्या वॉचवर अॅप बंद होईल - ते पुन्हा खोला\n6. आपल्या iPhone वर परत या आणि \"सुरू करा\" टॅप करा",
+    "troubleshootingSteps": "समस्या निवारणः\n\n1. Carry आपल्या वॉचवर इंस्टॉल आहे याची खात्री करा\n2. आपल्या वॉचवर Carry अॅप खोला\n3. परवानगी पॉपअप शोधा\n4. विचारले गेल्यावर \"परवानगी द्या\" टॅप करा\n5. आपल्या वॉचवर अॅप बंद होईल - ते पुन्हा खोला\n6. आपल्या iPhone वर परत या आणि \"सुरू करा\" टॅप करा",
     "@troubleshootingSteps": {
         "description": "Troubleshooting instructions for watch setup"
     },
@@ -1930,7 +1930,7 @@
     },
     "personalGrowthJourney": "आपल्या व्यक्तिगत वाढीचा प्रवास AI सह जो आपल्या प्रत्येक शब्दाऐका घेतो.",
     "@personalGrowthJourney": {
-        "description": "Subtitle describing Omi on auth screen"
+        "description": "Subtitle describing Carry on auth screen"
     },
     "actionItemsTitle": "To-Do's",
     "@actionItemsTitle": {
@@ -2103,11 +2103,11 @@
     "@addFirstMemory": {
         "description": "Button to add first memory"
     },
-    "clearMemoryTitle": "Omi ची स्मृती स्पष्ट करा",
+    "clearMemoryTitle": "Carry ची स्मृती स्पष्ट करा",
     "@clearMemoryTitle": {
         "description": "Dialog title for clearing memory"
     },
-    "clearMemoryMessage": "आपल्याला खरोखर Omi ची स्मृती स्पष्ट करायची आहे? हे क्रिया पूर्ववत् केली जाऊ शकत नाही.",
+    "clearMemoryMessage": "आपल्याला खरोखर Carry ची स्मृती स्पष्ट करायची आहे? हे क्रिया पूर्ववत् केली जाऊ शकत नाही.",
     "@clearMemoryMessage": {
         "description": "Dialog content for clearing memory"
     },
@@ -2115,7 +2115,7 @@
     "@clearMemoryButton": {
         "description": "Button text to confirm clearing all memories"
     },
-    "memoryClearedSuccess": "आपल्याबद्दल Omi ची स्मृती साफ केली गेली",
+    "memoryClearedSuccess": "आपल्याबद्दल Carry ची स्मृती साफ केली गेली",
     "@memoryClearedSuccess": {
         "description": "Snackbar success message"
     },
@@ -2312,7 +2312,7 @@
     "@translationNotice": {
         "description": "Title for dialog explaining that conversations are translated"
     },
-    "translationNoticeMessage": "Omi संभाषण आपल्या प्राथमिक भाषेमध्ये अनुवादित करते. सेटिंग्ज → प्रोफाइल मध्ये कधीही अपडेट करा.",
+    "translationNoticeMessage": "Carry संभाषण आपल्या प्राथमिक भाषेमध्ये अनुवादित करते. सेटिंग्ज → प्रोफाइल मध्ये कधीही अपडेट करा.",
     "@translationNoticeMessage": {
         "description": "Message explaining how translation works and where to change language settings"
     },
@@ -2561,9 +2561,9 @@
     "@privacyPolicyTitle": {
         "description": "Title for privacy policy page"
     },
-    "omiSttProvider": "Omi",
+    "omiSttProvider": "Carry",
     "@omiSttProvider": {
-        "description": "Label for default Omi STT provider"
+        "description": "Label for default Carry STT provider"
     },
     "labelCopied": "{label} कॉपी केला",
     "@labelCopied": {
@@ -2855,7 +2855,7 @@
     "@checksForAudioFiles": {
         "description": "Step 1: Checking for audio files"
     },
-    "omiSyncsAudioFiles": "Omi नंतर ऑडिओ फाइलांना सर्व्हरशी सिंक करते",
+    "omiSyncsAudioFiles": "Carry नंतर ऑडिओ फाइलांना सर्व्हरशी सिंक करते",
     "@omiSyncsAudioFiles": {
         "description": "Step 2: Syncing audio files"
     },
@@ -2867,11 +2867,11 @@
     "@youreAllSet": {
         "description": "Completion message when onboarding is finished"
     },
-    "welcomeToOmiDescription": "Omi मध्ये स्वागत आहे! आपला AI सहचर संभाषण, कार्य इत्यादी मध्ये आपल्याला मदत करण्यासाठी तयार आहे।",
+    "welcomeToOmiDescription": "Carry मध्ये स्वागत आहे! आपला AI सहचर संभाषण, कार्य इत्यादी मध्ये आपल्याला मदत करण्यासाठी तयार आहे।",
     "@welcomeToOmiDescription": {
         "description": "Welcome message on completion screen"
     },
-    "startUsingOmi": "Omi वापरण्यास सुरुवात करा",
+    "startUsingOmi": "Carry वापरण्यास सुरुवात करा",
     "@startUsingOmi": {
         "description": "Button to complete onboarding and start using the app"
     },
@@ -2980,7 +2980,7 @@
     "@reviewAndManageConversations": {
         "description": "Subtitle explaining what users can do on conversations page"
     },
-    "startCapturingConversations": "आपल्या Omi डिव्हाइसशी संभाषण कॅप्चर करण्यास सुरुवात करा त्यांना येथे पाहण्यासाठी।",
+    "startCapturingConversations": "आपल्या Carry डिव्हाइसशी संभाषण कॅप्चर करण्यास सुरुवात करा त्यांना येथे पाहण्यासाठी।",
     "@startCapturingConversations": {
         "description": "Message explaining how to get started with conversations"
     },
@@ -3000,7 +3000,7 @@
     "@showAll": {
         "description": "Button text to show all items"
     },
-    "noTasksForToday": "आज कोणतेही कार्य नाहीत।\nOmi कडे अधिक कार्यांची विनंती करा किंवा स्वहस्ते तयार करा।",
+    "noTasksForToday": "आज कोणतेही कार्य नाहीत।\nCarry कडे अधिक कार्यांची विनंती करा किंवा स्वहस्ते तयार करा।",
     "@noTasksForToday": {
         "description": "Message shown when there are no tasks due today"
     },
@@ -3199,7 +3199,7 @@
     "@createNewApp": {
         "description": "Title for the create new app page"
     },
-    "buildSubmitCustomOmiApp": "आपल्या कस्टम Omi अ‍ॅप तयार करा आणि जमा करा",
+    "buildSubmitCustomOmiApp": "आपल्या कस्टम Carry अ‍ॅप तयार करा आणि जमा करा",
     "@buildSubmitCustomOmiApp": {
         "description": "Subtitle describing the purpose of the create app page"
     },
@@ -3259,7 +3259,7 @@
     "@makeMyAppPublic": {
         "description": "Checkbox label for making app publicly available"
     },
-    "submitAppTermsAgreement": "हा अ‍ॅप जमा केल्याने, मी Omi AI सेवा अटी आणि गोपनीयता धोरणास सहमत आहे",
+    "submitAppTermsAgreement": "हा अ‍ॅप जमा केल्याने, मी Carry AI सेवा अटी आणि गोपनीयता धोरणास सहमत आहे",
     "@submitAppTermsAgreement": {
         "description": "Terms and conditions agreement checkbox text"
     },
@@ -3315,7 +3315,7 @@
     "@dataAccessNotice": {
         "description": "Dialog title warning about app data access"
     },
-    "dataAccessWarning": "हा अ‍ॅप आपल्या डेटामध्ये प्रवेश करेल. Omi AI आपल्या डेटा या अ‍ॅपद्वारे कसे वापरला, सुधारला किंवा हटवला जाते याबद्दल जबाबदार नाही",
+    "dataAccessWarning": "हा अ‍ॅप आपल्या डेटामध्ये प्रवेश करेल. Carry AI आपल्या डेटा या अ‍ॅपद्वारे कसे वापरला, सुधारला किंवा हटवला जाते याबद्दल जबाबदार नाही",
     "@dataAccessWarning": {
         "description": "Warning message about app data access in confirmation dialog"
     },
@@ -3787,7 +3787,7 @@
     "@upgradeToPro": {
         "description": "Subscription banner button text"
     },
-    "getOmiDevice": "Omi डिव्हाइस मिळवा",
+    "getOmiDevice": "Carry डिव्हाइस मिळवा",
     "@getOmiDevice": {
         "description": "Widget title for device promotion"
     },
@@ -3890,7 +3890,7 @@
     "@setAllMemoriesToPublic": {
         "description": "Description for making all memories public"
     },
-    "permanentlyRemoveAllMemories": "Omi पासून सर्व स्मृती कायमचा काढून टाका",
+    "permanentlyRemoveAllMemories": "Carry पासून सर्व स्मृती कायमचा काढून टाका",
     "@permanentlyRemoveAllMemories": {
         "description": "Description for deleting all memories"
     },
@@ -3902,11 +3902,11 @@
     "@allMemoriesAreNowPublic": {
         "description": "Success message after making all memories public"
     },
-    "clearOmisMemory": "Omi ची स्मृती साफ करा",
+    "clearOmisMemory": "Carry ची स्मृती साफ करा",
     "@clearOmisMemory": {
         "description": "Confirmation dialog title for clearing all memories"
     },
-    "clearMemoryConfirmation": "आप खात्रीने Omi ची स्मृती साफ करू इच्छितात? हे कृती पूर्ववत केली जाऊ शकत नाही आणि सर्व {count} स्मृती कायमचा हटवेल।",
+    "clearMemoryConfirmation": "आप खात्रीने Carry ची स्मृती साफ करू इच्छितात? हे कृती पूर्ववत केली जाऊ शकत नाही आणि सर्व {count} स्मृती कायमचा हटवेल।",
     "@clearMemoryConfirmation": {
         "description": "Confirmation message for clearing all memories",
         "placeholders": {
@@ -3915,11 +3915,11 @@
             }
         }
     },
-    "omisMemoryCleared": "आपल्याबद्दल Omi ची स्मृती साफ केली गेली",
+    "omisMemoryCleared": "आपल्याबद्दल Carry ची स्मृती साफ केली गेली",
     "@omisMemoryCleared": {
         "description": "Success message after clearing all memories"
     },
-    "welcomeToOmi": "Omi मध्ये स्वागत आहे",
+    "welcomeToOmi": "Carry मध्ये स्वागत आहे",
     "@welcomeToOmi": {
         "description": "Welcome message on auth screen"
     },
@@ -3973,13 +3973,13 @@
     },
     "pleaseSelectYourPrimaryLanguage": "कृपया आपली प्राथमिक भाषा निवडा",
     "chooseYourLanguage": "आपली भाषा निवडा",
-    "selectPreferredLanguageForBestExperience": "सर्वोत्तम Omi अनुभवासाठी आपली पसंदीची भाषा निवडा",
+    "selectPreferredLanguageForBestExperience": "सर्वोत्तम Carry अनुभवासाठी आपली पसंदीची भाषा निवडा",
     "searchLanguages": "भाषा शोधा...",
     "selectALanguage": "भाषा निवडा",
     "tryDifferentSearchTerm": "भिन्न शोध शब्द वापरून पाहा",
     "pleaseEnterYourName": "कृपया आपले नाव प्रविष्ट करा",
     "nameMustBeAtLeast2Characters": "नाव किमान २ वर्ण असणे आवश्यक आहे",
-    "tellUsHowYouWouldLikeToBeAddressed": "आमला सांगा कि आपल्याला कसे संबोधले जावे. हे आपल्या Omi अनुभव वैयक्तिकृत करण्यास मदत करते.",
+    "tellUsHowYouWouldLikeToBeAddressed": "आमला सांगा कि आपल्याला कसे संबोधले जावे. हे आपल्या Carry अनुभव वैयक्तिकृत करण्यास मदत करते.",
     "charactersCount": "{count} वर्ण",
     "@charactersCount": {
         "placeholders": {
@@ -3988,16 +3988,16 @@
             }
         }
     },
-    "enableFeaturesForBestExperience": "आपल्या डिव्हाइसवर सर्वोत्तम Omi अनुभवासाठी वैशिष्ट्य सक्षम करा.",
+    "enableFeaturesForBestExperience": "आपल्या डिव्हाइसवर सर्वोत्तम Carry अनुभवासाठी वैशिष्ट्य सक्षम करा.",
     "microphoneAccess": "मायक्रोफोन प्रवेश",
     "recordAudioConversations": "ऑडियो संभाषण रेकॉर्ड करा",
-    "microphoneAccessDescription": "आपले संभाषण रेकॉर्ड करण्यासाठी आणि लिप्यंतरण प्रदान करण्यासाठी Omi ला मायक्रोफोन प्रवेश आवश्यक आहे.",
+    "microphoneAccessDescription": "आपले संभाषण रेकॉर्ड करण्यासाठी आणि लिप्यंतरण प्रदान करण्यासाठी Carry ला मायक्रोफोन प्रवेश आवश्यक आहे.",
     "screenRecording": "स्क्रीन रेकॉर्डिंग",
     "captureSystemAudioFromMeetings": "मीटिंग्समधून सिस्टम ऑडियो कॅप्चर करा",
-    "screenRecordingDescription": "आपल्या ब्राउজर-आधारित मीटिंग्समधून सिस्टम ऑडियो कॅप्चर करण्यासाठी Omi ला स्क्रीन रेकॉर्डिंग परवानगी आवश्यक आहे.",
+    "screenRecordingDescription": "आपल्या ब्राउজर-आधारित मीटिंग्समधून सिस्टम ऑडियो कॅप्चर करण्यासाठी Carry ला स्क्रीन रेकॉर्डिंग परवानगी आवश्यक आहे.",
     "accessibility": "अॅक्सेसिबिलिटी",
     "detectBrowserBasedMeetings": "ब्राउজर-आधारित मीटिंग्स शोधा",
-    "accessibilityDescription": "आपण आपल्या ब्राउজरमध्ये Zoom, Meet किंवा Teams मीटिंग्समध्ये सामील होताना शोधण्यासाठी Omi ला अॅक्सेसिबिलिटी परवानगी आवश्यक आहे.",
+    "accessibilityDescription": "आपण आपल्या ब्राउজरमध्ये Zoom, Meet किंवा Teams मीटिंग्समध्ये सामील होताना शोधण्यासाठी Carry ला अॅक्सेसिबिलिटी परवानगी आवश्यक आहे.",
     "pleaseWait": "कृपया प्रतीक्षा करा...",
     "joinTheCommunity": "समुदायात सामील व्हा!",
     "loadingProfile": "प्रोफाइल लोड होत आहे...",
@@ -4008,12 +4008,12 @@
     "setYourName": "आपले नाव सेट करा",
     "changeYourName": "आपले नाव बदला",
     "voiceAndPeople": "व्हॉइस आणि लोक",
-    "teachOmiYourVoice": "Omi ला आपल्या आवाजाचे शिक्षण द्या",
-    "tellOmiWhoSaidIt": "Omi ला सांगा कि हे कोणी म्हणाले 🗣️",
+    "teachOmiYourVoice": "Carry ला आपल्या आवाजाचे शिक्षण द्या",
+    "tellOmiWhoSaidIt": "Carry ला सांगा कि हे कोणी म्हणाले 🗣️",
     "payment": "पेमेंट",
     "addOrChangeYourPaymentMethod": "आपल्या पेमेंट पद्धती जोडा किंवा बदला",
     "preferences": "प्राधान्ये",
-    "helpImproveOmiBySharing": "गुप्त विश्लेषण डेटा शेअर करून Omi सुधारण्यास मदत करा",
+    "helpImproveOmiBySharing": "गुप्त विश्लेषण डेटा शेअर करून Carry सुधारण्यास मदत करा",
     "deleteAccount": "खाता हटवा",
     "deleteYourAccountAndAllData": "आपल्या खाते आणि सर्व डेटा हटवा",
     "clearLogs": "लॉग्‍स साफ करा",
@@ -4021,7 +4021,7 @@
     "exportConversations": "संभाषण निर्यात करा",
     "exportAllConversationsToJson": "आपल्या सर्व संभाषण JSON फाइलमध्ये निर्यात करा.",
     "conversationsExportStarted": "संभाषण निर्यात सुरू झाला. हे काही सेकंद लागू शकते, कृपया प्रतीक्षा करा.",
-    "mcpDescription": "Omi ला इतर अनुप्रयोगांसह कनेक्ट करण्यासाठी आपल्या आठवणी आणि संभाषण वाचा, शोधा आणि व्यवस्थापित करा. सुरू करण्यासाठी की तयार करा.",
+    "mcpDescription": "Carry ला इतर अनुप्रयोगांसह कनेक्ट करण्यासाठी आपल्या आठवणी आणि संभाषण वाचा, शोधा आणि व्यवस्थापित करा. सुरू करण्यासाठी की तयार करा.",
     "apiKeys": "API की",
     "errorLabel": "त्रुटी: {error}",
     "@errorLabel": {
@@ -4039,7 +4039,7 @@
     "triggersWhenAudioBytesReceived": "ऑडियो बाइट्स प्राप्त होताना ट्रिगर होते.",
     "everyXSeconds": "प्रत्येक x सेकंद",
     "triggersWhenDaySummaryGenerated": "दिन सारांश तयार होताना ट्रिगर होते.",
-    "tryLatestExperimentalFeatures": "Omi टीम कडून नवीनतम प्रायोगिक वैशिष्ट्य वापरून पाहा.",
+    "tryLatestExperimentalFeatures": "Carry टीम कडून नवीनतम प्रायोगिक वैशिष्ट्य वापरून पाहा.",
     "transcriptionServiceDiagnosticStatus": "लिप्यंतरण सेवा निदान स्थिती",
     "enableDetailedDiagnosticMessages": "लिप्यंतरण सेवा कडून तपशीलवार निदान संदेश सक्षम करा",
     "autoCreateAndTagNewSpeakers": "नवीन वक्ते स्वयंचलितपणे तयार आणि टॅग करा",
@@ -4075,7 +4075,7 @@
             }
         }
     },
-    "letOmiChooseAutomatically": "Omi ला स्वयंचलितपणे सर्वोत्तम अॅप निवडू द्या",
+    "letOmiChooseAutomatically": "Carry ला स्वयंचलितपणे सर्वोत्तम अॅप निवडू द्या",
     "deleteConversationConfirmation": "आप हा संभाषण हटविण्याचे सुनिश्चित आहात? हे क्रिया पूर्ववत् करू शकत नाही.",
     "conversationDeleted": "संभाषण हटवले",
     "generatingLink": "लिंक तयार होत आहे...",
@@ -4226,7 +4226,7 @@
             }
         }
     },
-    "translatedByOmi": "omi द्वारे अनुवादित",
+    "translatedByOmi": "carry द्वारे अनुवादित",
     "@translatedByOmi": {
         "description": "Credit line for translations"
     },
@@ -4342,7 +4342,7 @@
     "@customVocabularyHeader": {
         "description": "Custom vocabulary section header"
     },
-    "addWordsDescription": "असे शब्द जोडा जे Omi लिप्यंतरणादरम्यान ओळखले पाहिजे.",
+    "addWordsDescription": "असे शब्द जोडा जे Carry लिप्यंतरणादरम्यान ओळखले पाहिजे.",
     "@addWordsDescription": {
         "description": "Custom vocabulary description"
     },
@@ -4403,7 +4403,7 @@
     "clearNodesDescription": "सर्व नोड्स आणि कनेक्शन साफ करा",
     "deleteKnowledgeGraphQuestion": "ज्ञान आलेख हटवा?",
     "deleteKnowledgeGraphWarning": "हे सर्व व्युत्पन्न ज्ञान आलेख डेटा हटवेल. आपल्या मूळ आठवणी सुरक्षित राहतात.",
-    "connectOmiWithAI": "Omi ला AI सहायकांसह कनेक्ट करा",
+    "connectOmiWithAI": "Carry ला AI सहायकांसह कनेक्ट करा",
     "noAPIKeys": "कोणतीही API की नाही. सुरू करण्यासाठी एक तयार करा.",
     "autoCreateWhenDetected": "नाव शोधले जाताना स्वयंचलितपणे तयार करा",
     "trackPersonalGoals": "होमपेजवर व्यक्तिगत लक्ष्य ट्रॅक करा",
@@ -4423,7 +4423,7 @@
     "@holdOnPreparingForm": {
         "description": "Loading message while preparing form"
     },
-    "bySubmittingYouAgreeToOmi": "सबमिट करून, आप Omi ",
+    "bySubmittingYouAgreeToOmi": "सबमिट करून, आप Carry ",
     "@bySubmittingYouAgreeToOmi": {
         "description": "Text before Terms & Privacy Policy link"
     },
@@ -4635,7 +4635,7 @@
     "@issueActivatingApp": {
         "description": "Dialog description for activation error"
     },
-    "dataAccessNoticeDescription": "हा अॅप आपल्या डेटामध्ये प्रवेश करेल. Omi AI हा अॅप आपल्या डेटा कसे वापरते, सुधारते किंवा हटवते याच्यासाठी जबाबदार नाही",
+    "dataAccessNoticeDescription": "हा अॅप आपल्या डेटामध्ये प्रवेश करेल. Carry AI हा अॅप आपल्या डेटा कसे वापरते, सुधारते किंवा हटवते याच्यासाठी जबाबदार नाही",
     "@dataAccessNoticeDescription": {
         "description": "Description for data access notice dialog"
     },
@@ -4767,15 +4767,15 @@
             }
         }
     },
-    "omiApiKeys": "Omi API की",
+    "omiApiKeys": "Carry API की",
     "@omiApiKeys": {
         "description": "Dialog title for API keys info"
     },
-    "apiKeysDescription": "API की हे प्रमाणीकरणासाठी वापरली जातात जेव्हा आपल्या अॅप OMI सर्व्हरसह संवाद करते. ते आपल्या अनुप्रयोगास स्मृतिमान तयार करण्यास आणि इतर OMI सेवा सुरक्षितपणे प्रवेश करण्यास अनुमती देते.",
+    "apiKeysDescription": "API की हे प्रमाणीकरणासाठी वापरली जातात जेव्हा आपल्या अॅप CARRY सर्व्हरसह संवाद करते. ते आपल्या अनुप्रयोगास स्मृतिमान तयार करण्यास आणि इतर CARRY सेवा सुरक्षितपणे प्रवेश करण्यास अनुमती देते.",
     "@apiKeysDescription": {
         "description": "Description of what API keys are used for"
     },
-    "aboutOmiApiKeys": "Omi API की बद्दल",
+    "aboutOmiApiKeys": "Carry API की बद्दल",
     "@aboutOmiApiKeys": {
         "description": "Tooltip for API keys info button"
     },
@@ -4969,7 +4969,7 @@
     "@maximumSecurityE2ee": {
         "description": "Title for End-to-End Encryption dialog"
     },
-    "e2eeDescription": "एंड-टू-एंड एन्क्रिप्शन गोपनीयताचा सोने मानक आहे. सक्षम होताना, आपल्या डेटा आपल्या डिव्हाइसवर एन्क्रिप्ट केली जाते त्याच्या आगे आमच्या सर्व्हरला पाठवले जाते. याचा अर्थ असा की कोणीही, Omi सारखेच नाही, आपल्या सामग्रीमध्ये प्रवेश करू शकत नाही.",
+    "e2eeDescription": "एंड-टू-एंड एन्क्रिप्शन गोपनीयताचा सोने मानक आहे. सक्षम होताना, आपल्या डेटा आपल्या डिव्हाइसवर एन्क्रिप्ट केली जाते त्याच्या आगे आमच्या सर्व्हरला पाठवले जाते. याचा अर्थ असा की कोणीही, Carry सारखेच नाही, आपल्या सामग्रीमध्ये प्रवेश करू शकत नाही.",
     "@e2eeDescription": {
         "description": "Description of E2EE encryption explaining its benefits"
     },
@@ -5025,7 +5025,7 @@
     "@secureEncryption": {
         "description": "Title for secure encryption card"
     },
-    "secureEncryptionDescription": "आपल्या डेटा आपल्यासाठी अद्वितीय की सह आमच्या सर्व्हरवर एन्क्रिप्ट केली जाते, Google Cloud वर होस्ट केली जाते. याचा अर्थ असा की आपल्या कच्ची सामग्री डेटाबेसकडून कोणीही, Omi कर्मचारी किंवा Google सारखेच, सरळ प्रवेशयोग्य नाही.",
+    "secureEncryptionDescription": "आपल्या डेटा आपल्यासाठी अद्वितीय की सह आमच्या सर्व्हरवर एन्क्रिप्ट केली जाते, Google Cloud वर होस्ट केली जाते. याचा अर्थ असा की आपल्या कच्ची सामग्री डेटाबेसकडून कोणीही, Carry कर्मचारी किंवा Google सारखेच, सरळ प्रवेशयोग्य नाही.",
     "@secureEncryptionDescription": {
         "description": "Description of secure encryption explaining how data is protected"
     },
@@ -5122,23 +5122,23 @@
             }
         }
     },
-    "omiTraining": "Omi प्रशिक्षण",
+    "omiTraining": "Carry प्रशिक्षण",
     "@omiTraining": {
-        "description": "Title for the Omi Training page/section"
+        "description": "Title for the Carry Training page/section"
     },
     "trainingDataProgram": "प्रशिक्षण डेटा कार्यक्रम",
     "@trainingDataProgram": {
         "description": "Label for training data program"
     },
-    "getOmiUnlimitedFree": "AI मॉडेल प्रशिक्षण साठी आपल्या डेटा योगदान करून Omi Unlimited विनामूल्य प्राप्त करा.",
+    "getOmiUnlimitedFree": "AI मॉडेल प्रशिक्षण साठी आपल्या डेटा योगदान करून Carry Unlimited विनामूल्य प्राप्त करा.",
     "@getOmiUnlimitedFree": {
-        "description": "Description for getting Omi Unlimited free by contributing data"
+        "description": "Description for getting Carry Unlimited free by contributing data"
     },
     "trainingDataBullets": "• आपल्या डेटा AI मॉडेल सुधारण्यास मदत करते\n• फक्त गैर-संवेदनशील डेटा शेअर केली जाते\n• संपूर्ण पारदर्शी प्रक्रिया",
     "@trainingDataBullets": {
         "description": "Bullet points explaining training data program benefits"
     },
-    "learnMoreAtOmiTraining": "omi.me/training वर अधिक जाणून घ्या",
+    "learnMoreAtOmiTraining": "carry.me/training वर अधिक जाणून घ्या",
     "@learnMoreAtOmiTraining": {
         "description": "Link text to learn more about training"
     },
@@ -5244,7 +5244,7 @@
     "@youAreOnUnlimitedPlan": {
         "description": "Message showing user is on unlimited plan"
     },
-    "yourOmiUnleashed": "आपला Omi, मुक्त. अमर्याद शक्यतांसाठी अनलिमिटेड जा.",
+    "yourOmiUnleashed": "आपला Carry, मुक्त. अमर्याद शक्यतांसाठी अनलिमिटेड जा.",
     "@yourOmiUnleashed": {
         "description": "Marketing text for unlimited plan"
     },
@@ -5286,11 +5286,11 @@
     "@unlimitedConversations": {
         "description": "Feature: unlimited conversations"
     },
-    "askOmiAnything": "आपल्या जीवनाबद्दल Omi ला कहिही विचारा",
+    "askOmiAnything": "आपल्या जीवनाबद्दल Carry ला कहिही विचारा",
     "@askOmiAnything": {
-        "description": "Feature: ask Omi anything"
+        "description": "Feature: ask Carry anything"
     },
-    "unlockOmiInfiniteMemory": "Omi च्या अनंत स्मृती अनलॉक करा",
+    "unlockOmiInfiniteMemory": "Carry च्या अनंत स्मृती अनलॉक करा",
     "@unlockOmiInfiniteMemory": {
         "description": "Feature: unlock infinite memory"
     },
@@ -5364,7 +5364,7 @@
     "@yourPrivacyMattersToUs": {
         "description": "Privacy page - yourPrivacyMattersToUs"
     },
-    "privacyIntroText": "Omi मध्ये, आम्ही आपली गोपनीयता अत्यंत गंभीरपणे घेतो. आम्ही आपल्याकरिता आमच्या उत्पादनाची सुधारणा करण्यासाठी आम्ही कोणता डेटा संकलित करतो आणि कसे वापरतो याबद्दल पारदर्शक असू इच्छितो. येथे आपल्याला जाणून घेणे आवश्यक आहे:",
+    "privacyIntroText": "Carry मध्ये, आम्ही आपली गोपनीयता अत्यंत गंभीरपणे घेतो. आम्ही आपल्याकरिता आमच्या उत्पादनाची सुधारणा करण्यासाठी आम्ही कोणता डेटा संकलित करतो आणि कसे वापरतो याबद्दल पारदर्शक असू इच्छितो. येथे आपल्याला जाणून घेणे आवश्यक आहे:",
     "@privacyIntroText": {
         "description": "Privacy page - privacyIntroText"
     },
@@ -5384,11 +5384,11 @@
     "@ourCommitment": {
         "description": "Privacy page - ourCommitment"
     },
-    "commitmentText": "आम्ही आमच्या द्वारा संकलित डेटा Omi ला आपल्यासाठी एक चांगले उत्पादन बनवण्यासाठी वापरण्यास प्रतिबद्ध आहे. आपली गोपनीयता आणि विश्वास आमच्यासाठी सर्वोच्च प्राधान्य आहे.",
+    "commitmentText": "आम्ही आमच्या द्वारा संकलित डेटा Carry ला आपल्यासाठी एक चांगले उत्पादन बनवण्यासाठी वापरण्यास प्रतिबद्ध आहे. आपली गोपनीयता आणि विश्वास आमच्यासाठी सर्वोच्च प्राधान्य आहे.",
     "@commitmentText": {
         "description": "Privacy page - commitmentText"
     },
-    "thankYouText": "Omi चे मूल्यवान वापरकर्ता असल्याबद्दल धन्यवाद. आपल्याला कोणतीही प्रश्न किंवा चिंता असल्यास, आमच्याशी संपर्क करण्यास नेहमी स्वागत आहे team@basedhardware.com.",
+    "thankYouText": "Carry चे मूल्यवान वापरकर्ता असल्याबद्दल धन्यवाद. आपल्याला कोणतीही प्रश्न किंवा चिंता असल्यास, आमच्याशी संपर्क करण्यास नेहमी स्वागत आहे team@basedhardware.com.",
     "@thankYouText": {
         "description": "Privacy page - thankYouText"
     },
@@ -5513,7 +5513,7 @@
     "@minutes": {
         "description": "Unit label for minutes"
     },
-    "omiHas": "Omi कडे आहे:",
+    "omiHas": "Carry कडे आहे:",
     "@omiHas": {
         "description": "Fallback text for share stats when period is unknown"
     },
@@ -5646,7 +5646,7 @@
     "@howItWorksTitle": {
         "description": "Help dialog title"
     },
-    "howPeopleWorks": "एकदा व्यक्ती तयार झाल्यानंतर, आप संभाषण लेखा मध्ये जाऊ शकता आणि त्यांना त्यांचे संबंधित खंड नियुक्त करू शकता, त्या प्रकारे Omi त्यांच्या भाषणाची देखील ओळख करू शकेल!",
+    "howPeopleWorks": "एकदा व्यक्ती तयार झाल्यानंतर, आप संभाषण लेखा मध्ये जाऊ शकता आणि त्यांना त्यांचे संबंधित खंड नियुक्त करू शकता, त्या प्रकारे Carry त्यांच्या भाषणाची देखील ओळख करू शकेल!",
     "@howPeopleWorks": {
         "description": "Explanation of how people/speech recognition works"
     },
@@ -6007,9 +6007,9 @@
     "@enableApps": {
         "description": "Menu item text to navigate to apps page and enable more chat apps"
     },
-    "omiAppName": "Omi",
+    "omiAppName": "Carry",
     "@omiAppName": {
-        "description": "The Omi app/assistant name shown in chat app selection"
+        "description": "The Carry app/assistant name shown in chat app selection"
     },
     "showMore": "अधिक दाखवा ↓",
     "@showMore": {
@@ -6039,21 +6039,21 @@
     "@checkingAppleWatch": {
         "description": "Loading text while checking Apple Watch status"
     },
-    "installOmiOnAppleWatch": "Omi आपल्या\nApple Watch वर स्थापित करा",
+    "installOmiOnAppleWatch": "Carry आपल्या\nApple Watch वर स्थापित करा",
     "@installOmiOnAppleWatch": {
-        "description": "Title prompting user to install Omi on Apple Watch"
+        "description": "Title prompting user to install Carry on Apple Watch"
     },
-    "installOmiOnAppleWatchDescription": "Omi सह आपल्या Apple Watch वापरण्यासाठी, आपल्याला प्रथम आपल्या घड्याळावर Omi अ‍ॅप स्थापित करणे आवश्यक आहे.",
+    "installOmiOnAppleWatchDescription": "Carry सह आपल्या Apple Watch वापरण्यासाठी, आपल्याला प्रथम आपल्या घड्याळावर Carry अ‍ॅप स्थापित करणे आवश्यक आहे.",
     "@installOmiOnAppleWatchDescription": {
-        "description": "Description explaining need to install Omi app on watch"
+        "description": "Description explaining need to install Carry app on watch"
     },
-    "openOmiOnAppleWatch": "Omi आपल्या\nApple Watch वर उघडा",
+    "openOmiOnAppleWatch": "Carry आपल्या\nApple Watch वर उघडा",
     "@openOmiOnAppleWatch": {
-        "description": "Title prompting user to open Omi on Apple Watch"
+        "description": "Title prompting user to open Carry on Apple Watch"
     },
-    "openOmiOnAppleWatchDescription": "Omi अ‍ॅप आपल्या Apple Watch वर स्थापित आहे. हे उघडा आणि प्रारंभ करण्यासाठी टॅप करा.",
+    "openOmiOnAppleWatchDescription": "Carry अ‍ॅप आपल्या Apple Watch वर स्थापित आहे. हे उघडा आणि प्रारंभ करण्यासाठी टॅप करा.",
     "@openOmiOnAppleWatchDescription": {
-        "description": "Description explaining Omi is installed and user should open it"
+        "description": "Description explaining Carry is installed and user should open it"
     },
     "openWatchApp": "Watch अ‍ॅप उघडा",
     "@openWatchApp": {
@@ -6063,7 +6063,7 @@
     "@iveInstalledAndOpenedTheApp": {
         "description": "Button text confirming user has installed and opened the app"
     },
-    "unableToOpenWatchApp": "Apple Watch अ‍ॅप उघडू शकत नाही. कृपया आपल्या Apple Watch वरील Watch अ‍ॅप मॅन्युअल्ली उघडा आणि \"उपलब्ध अ‍ॅप्स\" विभागातून Omi स्थापित करा.",
+    "unableToOpenWatchApp": "Apple Watch अ‍ॅप उघडू शकत नाही. कृपया आपल्या Apple Watch वरील Watch अ‍ॅप मॅन्युअल्ली उघडा आणि \"उपलब्ध अ‍ॅप्स\" विभागातून Carry स्थापित करा.",
     "@unableToOpenWatchApp": {
         "description": "Error message when Watch app cannot be opened automatically"
     },
@@ -6071,7 +6071,7 @@
     "@appleWatchConnectedSuccessfully": {
         "description": "Success message when Apple Watch connects"
     },
-    "appleWatchNotReachable": "Apple Watch अद्यापही पोहोचता येत नाही. कृपया सुनिश्चित करा की Omi अ‍ॅप आपल्या घड्याळावर खुली आहे.",
+    "appleWatchNotReachable": "Apple Watch अद्यापही पोहोचता येत नाही. कृपया सुनिश्चित करा की Carry अ‍ॅप आपल्या घड्याळावर खुली आहे.",
     "@appleWatchNotReachable": {
         "description": "Error message when Apple Watch is not reachable"
     },
@@ -6189,9 +6189,9 @@
     "@noSummary": {
         "description": "Message when no summary is available"
     },
-    "updateOmiFirmware": "Omi फर्मवेयर अपडेट करा",
+    "updateOmiFirmware": "Carry फर्मवेयर अपडेट करा",
     "@updateOmiFirmware": {
-        "description": "Button text to update Omi device firmware"
+        "description": "Button text to update Carry device firmware"
     },
     "anErrorOccurredTryAgain": "त्रुटी आली. कृपया पुन्हा प्रयत्न करा.",
     "@anErrorOccurredTryAgain": {
@@ -6201,7 +6201,7 @@
     "@welcomeBackSimple": {
         "description": "Simple welcome message without user name"
     },
-    "addVocabularyDescription": "Omi ला लेखांकनादरम्यान ओळख असावी असे शब्द जोडा.",
+    "addVocabularyDescription": "Carry ला लेखांकनादरम्यान ओळख असावी असे शब्द जोडा.",
     "@addVocabularyDescription": {
         "description": "Description for custom vocabulary section"
     },
@@ -6434,7 +6434,7 @@
     "@wrappedNoDataAvailable": {
         "description": "Shown when wrapped result is null"
     },
-    "wrappedOmiLifeRecap": "Omi जीवन पुनरावलोकन",
+    "wrappedOmiLifeRecap": "Carry जीवन पुनरावलोकन",
     "@wrappedOmiLifeRecap": {
         "description": "Subtitle on the intro card"
     },
@@ -6442,7 +6442,7 @@
     "@wrappedSwipeUpToBegin": {
         "description": "Instruction text on intro card"
     },
-    "wrappedShareText": "माझे २०२५, Omi द्वारे लक्षात ठेवले ✨ omi.me/wrapped",
+    "wrappedShareText": "माझे २०२५, Carry द्वारे लक्षात ठेवले ✨ carry.me/wrapped",
     "@wrappedShareText": {
         "description": "Text shared when sharing wrapped images"
     },
@@ -6470,7 +6470,7 @@
     "@wrappedMy2025": {
         "description": "Title text for shareable image"
     },
-    "wrappedRememberedByOmi": "Omi द्वारे लक्षात ठेवले",
+    "wrappedRememberedByOmi": "Carry द्वारे लक्षात ठेवले",
     "@wrappedRememberedByOmi": {
         "description": "Subtitle text for shareable image"
     },
@@ -6754,7 +6754,7 @@
     "@notificationFrequency": {
         "description": "Section header for notification frequency settings"
     },
-    "controlNotificationFrequency": "Omi किती वेळा सक्रिय सूचना पाठवते हे नियंत्रित करा.",
+    "controlNotificationFrequency": "Carry किती वेळा सक्रिय सूचना पाठवते हे नियंत्रित करा.",
     "@controlNotificationFrequency": {
         "description": "Description for notification frequency control"
     },
@@ -6786,7 +6786,7 @@
     "@dailyScoreExplanation": {
         "description": "Explanation of how daily score is calculated"
     },
-    "notificationFrequencyDescription": "Omi किती वेळा सक्रिय सूचना आणि स्मरणीये पाठवते हे नियंत्रित करा.",
+    "notificationFrequencyDescription": "Carry किती वेळा सक्रिय सूचना आणि स्मरणीये पाठवते हे नियंत्रित करा.",
     "@notificationFrequencyDescription": {
         "description": "Description text for notification frequency section"
     },
@@ -7072,7 +7072,7 @@
     "@noRecordings": {
         "description": "Empty state title when there are no recordings"
     },
-    "audioFromOmiWillAppearHere": "आपल्या Omi डिव्हाइसमधून ऑडिओ येथे दिसेल",
+    "audioFromOmiWillAppearHere": "आपल्या Carry डिव्हाइसमधून ऑडिओ येथे दिसेल",
     "@audioFromOmiWillAppearHere": {
         "description": "Empty state description for recordings"
     },
@@ -7252,7 +7252,7 @@
     "@batteryUsageHigher": {
         "description": "Warning about battery usage"
     },
-    "considerOmiCloud": "उत्तम कार्यप्रदर्शनासाठी Omi Cloud वापरण्याचा विचार करा.",
+    "considerOmiCloud": "उत्तम कार्यप्रदर्शनासाठी Carry Cloud वापरण्याचा विचार करा.",
     "@considerOmiCloud": {
         "description": "Suggestion to use cloud transcription"
     },
@@ -7479,9 +7479,9 @@
             }
         }
     },
-    "omiTranscriptionOptimized": "Omi चा अंतर्निर्मित लाइव्ह ट्रान्सक्रिप्शन स्वयंचलित स्पीकर शोध आणि डायराइজेशनसह रिअल-टाइम संभाषणांसाठी अनुकूलित आहे.",
+    "omiTranscriptionOptimized": "Carry चा अंतर्निर्मित लाइव्ह ट्रान्सक्रिप्शन स्वयंचलित स्पीकर शोध आणि डायराइজेशनसह रिअल-टाइम संभाषणांसाठी अनुकूलित आहे.",
     "@omiTranscriptionOptimized": {
-        "description": "Description of Omi transcription features"
+        "description": "Description of Carry transcription features"
     },
     "reset": "पुनःसेट करा",
     "@reset": {
@@ -7601,7 +7601,7 @@
     "@writeReviewOptional": {
         "description": "Hint text for review input field"
     },
-    "setupQuestionsIntro": "काही प्रश्नांची उत्तरे देऊन Omi सुधारण्यास मदत करा.  🫶 💜",
+    "setupQuestionsIntro": "काही प्रश्नांची उत्तरे देऊन Carry सुधारण्यास मदत करा.  🫶 💜",
     "@setupQuestionsIntro": {
         "description": "Intro text for setup questions page"
     },
@@ -7609,9 +7609,9 @@
     "@setupQuestionProfession": {
         "description": "Question about profession"
     },
-    "setupQuestionUsage": "2. आप आपल्या Omi कोठे वापरण्याचा योजना करता?",
+    "setupQuestionUsage": "2. आप आपल्या Carry कोठे वापरण्याचा योजना करता?",
     "@setupQuestionUsage": {
-        "description": "Question about Omi usage location"
+        "description": "Question about Carry usage location"
     },
     "setupQuestionAge": "3. आपल्या वयाचा श्रेणी कोणता आहे?",
     "@setupQuestionAge": {
@@ -8078,7 +8078,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8088,7 +8088,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8255,8 +8255,8 @@
         "description": "Title for low battery notification"
     },
     "lowBatteryAlertBody": "तुमची बॅटरी {level}% आहे. रिचार्ज करण्याची वेळ! 🔋",
-    "batteryFullyChargedTitle": "Omi पूर्णपणे चार्ज झाला आहे",
-    "batteryFullyChargedBody": "तुमचे Omi डिव्हाइस पूर्णपणे चार्ज झाले आहे. अनप्लग करू शकता!",
+    "batteryFullyChargedTitle": "Carry पूर्णपणे चार्ज झाला आहे",
+    "batteryFullyChargedBody": "तुमचे Carry डिव्हाइस पूर्णपणे चार्ज झाले आहे. अनप्लग करू शकता!",
     "@lowBatteryAlertBody": {
         "description": "Body text for low battery notification",
         "placeholders": {
@@ -8265,11 +8265,11 @@
             }
         }
     },
-    "deviceDisconnectedNotificationTitle": "आपली Omi डिव्हाइस डिस्कनेक्ट झाली",
+    "deviceDisconnectedNotificationTitle": "आपली Carry डिव्हाइस डिस्कनेक्ट झाली",
     "@deviceDisconnectedNotificationTitle": {
         "description": "Title for device disconnected notification"
     },
-    "deviceDisconnectedNotificationBody": "कृपया आपल्या Omi वापरणे चालू ठेवण्यासाठी पुन्हा कनेक्ट करा.",
+    "deviceDisconnectedNotificationBody": "कृपया आपल्या Carry वापरणे चालू ठेवण्यासाठी पुन्हा कनेक्ट करा.",
     "@deviceDisconnectedNotificationBody": {
         "description": "Body text for device disconnected notification"
     },
@@ -8277,7 +8277,7 @@
     "@firmwareUpdateAvailable": {
         "description": "Title for firmware update available dialog"
     },
-    "firmwareUpdateAvailableDescription": "आपल्या Omi डिव्हाइससाठी नवीन फर्मवेअर अपडेट ({version}) उपलब्ध आहे. आता अपडेट करू इच्छिता का?",
+    "firmwareUpdateAvailableDescription": "आपल्या Carry डिव्हाइससाठी नवीन फर्मवेअर अपडेट ({version}) उपलब्ध आहे. आता अपडेट करू इच्छिता का?",
     "@firmwareUpdateAvailableDescription": {
         "description": "Description for firmware update dialog with version parameter",
         "placeholders": {
@@ -8332,9 +8332,9 @@
     "@almostDone": {
         "description": "Migration is almost complete"
     },
-    "omiSays": "omi म्हणते",
+    "omiSays": "carry म्हणते",
     "@omiSays": {
-        "description": "Notification title for omi app messages"
+        "description": "Notification title for carry app messages"
     },
     "analyzingYourData": "आपल्या डेटा विश्लेषण करत आहे...",
     "@analyzingYourData": {
@@ -8671,9 +8671,9 @@
     "@nextButton": {
         "description": "Button text to proceed to next step"
     },
-    "connectOmiDevice": "Omi डिव्हाइस कनेक्ट करा",
+    "connectOmiDevice": "Carry डिव्हाइस कनेक्ट करा",
     "@connectOmiDevice": {
-        "description": "Button text to connect Omi device"
+        "description": "Button text to connect Carry device"
     },
     "planSwitchingDescriptionWithTitle": "आप्पण आपल्या Unlimited योजना {title} वर स्विच करत आहात. आप्पण आगे जाण्यास खरोखर इच्छुक आहात का?",
     "@planSwitchingDescriptionWithTitle": {
@@ -8712,9 +8712,9 @@
     "@transcriptionJsonPlaceholder": {
         "description": "JSON configuration placeholder hint text in transcription settings"
     },
-    "transcriptionSourceOmi": "Omi",
+    "transcriptionSourceOmi": "Carry",
     "@transcriptionSourceOmi": {
-        "description": "Tab title for Omi transcription source option"
+        "description": "Tab title for Carry transcription source option"
     },
     "pricePlaceholder": "0.00",
     "@pricePlaceholder": {
@@ -8754,7 +8754,7 @@
             }
         }
     },
-    "actionItemReminderTitle": "Omi स्मरणपत्र",
+    "actionItemReminderTitle": "Carry स्मरणपत्र",
     "@actionItemReminderTitle": {
         "description": "Title for action item reminder notifications"
     },
@@ -8764,7 +8764,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8774,7 +8774,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8798,7 +8798,7 @@
     "@onboardingComplete": {
         "description": "Onboarding step title for completion"
     },
-    "onboardingWelcomeToOmi": "Omi मध्ये स्वागतम",
+    "onboardingWelcomeToOmi": "Carry मध्ये स्वागतम",
     "@onboardingWelcomeToOmi": {
         "description": "Onboarding step description for sign in"
     },
@@ -9578,29 +9578,29 @@
     "pairNewDevice": "नवीन डिव्हाइस जोडा",
     "dontSeeYourDevice": "तुमचे डिव्हाइस दिसत नाही?",
     "reportAnIssue": "समस्येची तक्रार करा",
-    "pairingTitleOmi": "Omi चालू करा",
+    "pairingTitleOmi": "Carry चालू करा",
     "@pairingTitleOmi": {
-        "description": "Pairing title for Omi device"
+        "description": "Pairing title for Carry device"
     },
     "pairingDescOmi": "डिव्हाइस चालू करण्यासाठी बटणावर दबाव ठेवून धरा जोपर्यंत ते कंपन न करे.",
     "@pairingDescOmi": {
-        "description": "Pairing description for Omi device"
+        "description": "Pairing description for Carry device"
     },
-    "pairingTitleOmiDevkit": "Omi DevKit पेयरिंग मोडमध्ये ठेवा",
+    "pairingTitleOmiDevkit": "Carry DevKit पेयरिंग मोडमध्ये ठेवा",
     "@pairingTitleOmiDevkit": {
-        "description": "Pairing title for Omi DevKit"
+        "description": "Pairing title for Carry DevKit"
     },
     "pairingDescOmiDevkit": "पेयरिंग मोडमध्ये बटण एकदा दाबा. LED जांभळ्या रंगात लगदगदी करेल.",
     "@pairingDescOmiDevkit": {
-        "description": "Pairing description for Omi DevKit"
+        "description": "Pairing description for Carry DevKit"
     },
-    "pairingTitleOmiGlass": "Omi Glass चालू करा",
+    "pairingTitleOmiGlass": "Carry Glass चालू करा",
     "@pairingTitleOmiGlass": {
-        "description": "Pairing title for Omi Glass"
+        "description": "Pairing title for Carry Glass"
     },
     "pairingDescOmiGlass": "बाजूचा बटण 3 सेकंडांसाठी दाबून शक्ती चालू करा.",
     "@pairingDescOmiGlass": {
-        "description": "Pairing description for Omi Glass"
+        "description": "Pairing description for Carry Glass"
     },
     "pairingTitlePlaudNote": "Plaud Note पेयरिंग मोडमध्ये ठेवा",
     "@pairingTitlePlaudNote": {
@@ -9646,7 +9646,7 @@
     "@pairingTitleAppleWatch": {
         "description": "Pairing title for Apple Watch"
     },
-    "pairingDescAppleWatch": "तुमच्या Apple Watch वर Omi अॅप इंस्टॉल आणि उघडा, नंतर अॅपमध्ये जोडण्या टॅप करा.",
+    "pairingDescAppleWatch": "तुमच्या Apple Watch वर Carry अॅप इंस्टॉल आणि उघडा, नंतर अॅपमध्ये जोडण्या टॅप करा.",
     "@pairingDescAppleWatch": {
         "description": "Pairing description for Apple Watch"
     },
@@ -9740,7 +9740,7 @@
     "@onboardingWhatIKnowAboutYouTitle": {
         "description": "Title for onboarding step that previews the memory graph"
     },
-    "onboardingWhatIKnowAboutYouDescription": "हा नकाशा Omi तुमच्या संभाषणांमधून शिखरत असताना अपडेट होतो.",
+    "onboardingWhatIKnowAboutYouDescription": "हा नकाशा Carry तुमच्या संभाषणांमधून शिखरत असताना अपडेट होतो.",
     "@onboardingWhatIKnowAboutYouDescription": {
         "description": "Description for onboarding memory graph preview step"
     },
@@ -9798,7 +9798,7 @@
         "description": "Confirmation dialog message for cleaning today task deadlines"
     },
     "tasksOverdue": "मुदत संपली",
-    "phoneCallsWithOmi": "Omi सह फोन कॉल",
+    "phoneCallsWithOmi": "Carry सह फोन कॉल",
     "phoneCallsSubtitle": "वास्तविक-वेळ ट्रांसक्रिप्शन सह कॉल करा",
     "phoneSetupStep1Title": "तुमचा फोन नंबर सत्यापित करा",
     "phoneSetupStep1Subtitle": "हा तुमचा आहे हे सुनिश्चित करण्यासाठी आम्ही तुम्हाला कॉल करू",
@@ -9903,11 +9903,11 @@
     "@showTasksOnHomepage": {
         "description": "Description for show tasks toggle in developer settings"
     },
-    "phoneCallsUnlimitedOnly": "Omi द्वारे फोन कॉल",
+    "phoneCallsUnlimitedOnly": "Carry द्वारे फोन कॉल",
     "@phoneCallsUnlimitedOnly": {
         "description": "Title for the phone calls upsell sheet shown to non-unlimited users"
     },
-    "phoneCallsUpsellSubtitle": "Omi द्वारे कॉल करा आणि वास्तविक-वेळ ट्रांसक्रिप्शन, स्वयंचलित सारांश आणि बरेच काही मिळवा. Unlimited योजना ग्राहकांसाठी विशेषरित्या उपलब्ध.",
+    "phoneCallsUpsellSubtitle": "Carry द्वारे कॉल करा आणि वास्तविक-वेळ ट्रांसक्रिप्शन, स्वयंचलित सारांश आणि बरेच काही मिळवा. Unlimited योजना ग्राहकांसाठी विशेषरित्या उपलब्ध.",
     "@phoneCallsUpsellSubtitle": {
         "description": "Subtitle explaining phone calls feature on upsell sheet"
     },
@@ -10028,7 +10028,7 @@
     "fairUse3Day": "3-दिवसीय रोलिंग",
     "fairUseWeekly": "साप्ताहिक रोलिंग",
     "fairUseAboutTitle": "न्याय्य वापराविषयी",
-    "fairUseAboutBody": "Omi व्यक्तिगत संभाषण, बैठक आणि लाइव संवादसाठी डिজाइन केले गेले आहे. वापर वास्तविक भाषण वेळ द्वारे मोजला जातो, जोडणी वेळ नाही. जर वापर गैर-व्यक्तिगत सामग्रीसाठी सामान्य पॅटर्नचा बराच अधिक असेल तर समायोजन लागू होऊ शकते.",
+    "fairUseAboutBody": "Carry व्यक्तिगत संभाषण, बैठक आणि लाइव संवादसाठी डिজाइन केले गेले आहे. वापर वास्तविक भाषण वेळ द्वारे मोजला जातो, जोडणी वेळ नाही. जर वापर गैर-व्यक्तिगत सामग्रीसाठी सामान्य पॅटर्नचा बराच अधिक असेल तर समायोजन लागू होऊ शकते.",
     "fairUseCaseRefCopied": "{caseRef} कॉपी केले गेले",
     "@fairUseCaseRefCopied": {
         "description": "Snackbar message when case reference is copied to clipboard",
@@ -10070,7 +10070,7 @@
         }
     },
     "improveConnectionTitle": "जोडणी सुधारा",
-    "improveConnectionContent": "आम्ही Omi तुमच्या डिव्हाइसशी जोडून ठेवण्याचे तरीके सुधारले आहे. हे सक्रिय करण्यासाठी, कृपया डिव्हाइस माहिती पृष्ठावर जा, \"डिव्हाइस डिस्कनेक्ट करा\" टॅप करा आणि नंतर तुमचे डिव्हाइस पुन्हा जोडा.",
+    "improveConnectionContent": "आम्ही Carry तुमच्या डिव्हाइसशी जोडून ठेवण्याचे तरीके सुधारले आहे. हे सक्रिय करण्यासाठी, कृपया डिव्हाइस माहिती पृष्ठावर जा, \"डिव्हाइस डिस्कनेक्ट करा\" टॅप करा आणि नंतर तुमचे डिव्हाइस पुन्हा जोडा.",
     "improveConnectionAction": "समजले",
     "clockSkewWarning": "तुमचा डिव्हाइस घड्याळ ~{minutes} मिनिट बंद आहे. तुमच्या तारीख व वेळ सेटिंग्ज तपासा.",
     "@clockSkewWarning": {
@@ -10080,7 +10080,7 @@
             }
         }
     },
-    "omisStorage": "Omi चा स्टोरेज",
+    "omisStorage": "Carry चा स्टोरेज",
     "@omisStorage": {
         "description": "Label for device storage tier in sync pipeline"
     },
@@ -10133,11 +10133,11 @@
     "@cancelSyncQuestion": {
         "description": "Title for cancel sync confirmation dialog"
     },
-    "omisStorageDesc": "जेव्हा तुमचा Omi तुमच्या फोनशी जोडलेला नसतो तेव्हा ते त्याच्या अंतर्निर्मित स्मृतीमध्ये ऑडिओ स्थानिकपणे संचयित करतो. तू कधीही रेकॉर्डिंग हरावतोस नाही.",
+    "omisStorageDesc": "जेव्हा तुमचा Carry तुमच्या फोनशी जोडलेला नसतो तेव्हा ते त्याच्या अंतर्निर्मित स्मृतीमध्ये ऑडिओ स्थानिकपणे संचयित करतो. तू कधीही रेकॉर्डिंग हरावतोस नाही.",
     "@omisStorageDesc": {
         "description": "Description of device storage in sync info sheet"
     },
-    "phoneStorageDesc": "जेव्हा Omi पुन्हा जोडते तेव्हा, रेकॉर्डिंग स्वयंचलितपणे तुमच्या फोनमध्ये हस्तांतरित केली जातात. अपलोडिंगपूर्वी हे एक तात्पुरते धारण क्षेत्र असते.",
+    "phoneStorageDesc": "जेव्हा Carry पुन्हा जोडते तेव्हा, रेकॉर्डिंग स्वयंचलितपणे तुमच्या फोनमध्ये हस्तांतरित केली जातात. अपलोडिंगपूर्वी हे एक तात्पुरते धारण क्षेत्र असते.",
     "@phoneStorageDesc": {
         "description": "Description of phone storage in sync info sheet"
     },
@@ -10173,11 +10173,11 @@
     "@permissionEnable": {
         "description": "Action text to enable a permission"
     },
-    "permissionsPageDescription": "या परवानगी Omi कसे काम करते याचे मूल आहेत. ते सूचना, स्थान-आधारित अनुभव आणि ऑडिओ कॅप्चर सारख्या मुख्य वैशिष्ट्य सक्षम करतात.",
+    "permissionsPageDescription": "या परवानगी Carry कसे काम करते याचे मूल आहेत. ते सूचना, स्थान-आधारित अनुभव आणि ऑडिओ कॅप्चर सारख्या मुख्य वैशिष्ट्य सक्षम करतात.",
     "@permissionsPageDescription": {
         "description": "Description text shown at the bottom of the permissions page"
     },
-    "permissionsRequiredDescription": "Omi योग्यरित्या काम करण्यासाठी काही परवानगी आवश्यक आहे. कृपया सुरू ठेवण्यासाठी त्यांना दे.",
+    "permissionsRequiredDescription": "Carry योग्यरित्या काम करण्यासाठी काही परवानगी आवश्यक आहे. कृपया सुरू ठेवण्यासाठी त्यांना दे.",
     "@permissionsRequiredDescription": {
         "description": "Description for the permissions interstitial screen"
     },
@@ -10185,7 +10185,7 @@
     "@permissionsSetupTitle": {
         "description": "Title for the permissions interstitial screen"
     },
-    "permissionsSetupDescription": "Omi त्याचा जादू करू शकेल म्हणून काही परवानगी सक्षम करा.",
+    "permissionsSetupDescription": "Carry त्याचा जादू करू शकेल म्हणून काही परवानगी सक्षम करा.",
     "@permissionsSetupDescription": {
         "description": "Subtitle for the permissions interstitial screen"
     },
@@ -10314,7 +10314,7 @@
     "@feedbackTitleFoundAlternative": {
         "description": "Feedback title when cancel reason is found alternative"
     },
-    "feedbackTitleNotUsing": "काय Omi अधिक वापरण्यासाठी तुम्हाला प्रेरित करेल?",
+    "feedbackTitleNotUsing": "काय Carry अधिक वापरण्यासाठी तुम्हाला प्रेरित करेल?",
     "@feedbackTitleNotUsing": {
         "description": "Feedback title when cancel reason is not using enough"
     },
@@ -10338,7 +10338,7 @@
     "@feedbackSubtitleFoundAlternative": {
         "description": "Feedback subtitle for found alternative"
     },
-    "feedbackSubtitleNotUsing": "आम्ही Omi तुमच्यासाठी अधिक उपयुक्त बनवू इच्छितो.",
+    "feedbackSubtitleNotUsing": "आम्ही Carry तुमच्यासाठी अधिक उपयुक्त बनवू इच्छितो.",
     "@feedbackSubtitleNotUsing": {
         "description": "Feedback subtitle for not using enough"
     },
@@ -10455,20 +10455,20 @@
     "tasksSelectAll": "सर्व निवडा",
     "tasksDeleteSelected": "{count} कार्य हटवा",
     "tasksMarkComplete": "पूर्ण म्हणून चिन्हांकित",
-    "appleHealthManageNote": "Omi Apple च्या HealthKit फ्रेमवर्कद्वारे Apple Health ला प्रवेश करतो. आपण कोणत्याही वेळी iOS सेटिंग्जमधून प्रवेश रद्द करू शकता.",
+    "appleHealthManageNote": "Carry Apple च्या HealthKit फ्रेमवर्कद्वारे Apple Health ला प्रवेश करतो. आपण कोणत्याही वेळी iOS सेटिंग्जमधून प्रवेश रद्द करू शकता.",
     "appleHealthConnectCta": "Apple Health शी कनेक्ट करा",
     "appleHealthDisconnectCta": "Apple Health डिस्कनेक्ट करा",
     "appleHealthConnectedBadge": "कनेक्ट केले",
     "appleHealthFeatureChatTitle": "आपल्या आरोग्याबद्दल गप्पा मारा",
-    "appleHealthFeatureChatDesc": "Omi ला आपल्या पावले, झोप, हृदय गती आणि वर्कआउट्सबद्दल विचारा.",
+    "appleHealthFeatureChatDesc": "Carry ला आपल्या पावले, झोप, हृदय गती आणि वर्कआउट्सबद्दल विचारा.",
     "appleHealthFeatureReadOnlyTitle": "फक्त वाचन प्रवेश",
-    "appleHealthFeatureReadOnlyDesc": "Omi कधीही Apple Health मध्ये लिहित नाही किंवा आपला डेटा बदलत नाही.",
+    "appleHealthFeatureReadOnlyDesc": "Carry कधीही Apple Health मध्ये लिहित नाही किंवा आपला डेटा बदलत नाही.",
     "appleHealthFeatureSecureTitle": "सुरक्षित सिंक",
-    "appleHealthFeatureSecureDesc": "आपला Apple Health डेटा खासगीरित्या आपल्या Omi खात्याशी सिंक होतो.",
+    "appleHealthFeatureSecureDesc": "आपला Apple Health डेटा खासगीरित्या आपल्या Carry खात्याशी सिंक होतो.",
     "appleHealthDeniedTitle": "Apple Health प्रवेश नाकारला",
-    "appleHealthDeniedBody": "Omi कडे आपला Apple Health डेटा वाचण्याची परवानगी नाही. iOS सेटिंग्ज → गोपनीयता आणि सुरक्षा → Health → Omi मध्ये ते सक्षम करा.",
+    "appleHealthDeniedBody": "Carry कडे आपला Apple Health डेटा वाचण्याची परवानगी नाही. iOS सेटिंग्ज → गोपनीयता आणि सुरक्षा → Health → Carry मध्ये ते सक्षम करा.",
     "deleteFlowReasonTitle": "तुम्ही का सोडत आहात?",
-    "deleteFlowReasonSubtitle": "तुमचा अभिप्राय आम्हाला सर्वांसाठी Omi सुधारण्यात मदत करतो.",
+    "deleteFlowReasonSubtitle": "तुमचा अभिप्राय आम्हाला सर्वांसाठी Carry सुधारण्यात मदत करतो.",
     "deleteReasonPrivacy": "गोपनीयतेच्या चिंता",
     "deleteReasonNotUsing": "पुरेसा वापर करत नाही",
     "deleteReasonMissingFeatures": "मला आवश्यक असलेली वैशिष्ट्ये नाहीत",
@@ -10477,7 +10477,7 @@
     "deleteReasonTakingBreak": "फक्त विश्रांती घेत आहे",
     "deleteReasonOther": "इतर",
     "deleteFlowFeedbackTitle": "आम्हाला अधिक सांगा",
-    "deleteFlowFeedbackSubtitle": "Omi तुमच्यासाठी कसे उपयुक्त ठरले असते?",
+    "deleteFlowFeedbackSubtitle": "Carry तुमच्यासाठी कसे उपयुक्त ठरले असते?",
     "deleteFlowFeedbackHint": "ऐच्छिक — तुमचे विचार आम्हाला एक चांगले उत्पादन बनवण्यात मदत करतात.",
     "deleteFlowConfirmTitle": "हे कायमचे आहे",
     "deleteFlowConfirmSubtitle": "एकदा खाते हटवले की ते पुनर्प्राप्त करण्याचा कोणताही मार्ग नाही.",
@@ -10529,13 +10529,13 @@
     "chatUsageCostNoLimit": "चॅट: ${used} या महिन्यात वापरले",
     "chatUsageMessages": "चॅट: {used} / {limit} संदेश या महिन्यात",
     "chatUsageMessagesNoLimit": "चॅट: {used} संदेश या महिन्यात",
-    "chatQuotaSubtitle": "AI chat messages used with Omi this month.",
-    "chatQuotaExceededReply": "तुम्ही तुमची मासिक मर्यादा गाठली आहे. निर्बंधांशिवाय Omi सोबत चॅट सुरू ठेवण्यासाठी अपग्रेड करा.",
+    "chatQuotaSubtitle": "AI chat messages used with Carry this month.",
+    "chatQuotaExceededReply": "तुम्ही तुमची मासिक मर्यादा गाठली आहे. निर्बंधांशिवाय Carry सोबत चॅट सुरू ठेवण्यासाठी अपग्रेड करा.",
     "batteryHistory": "बॅटरी",
     "day": "दिवस",
     "noBatteryDataYet": "अजून बॅटरी डेटा नाही",
     "week": "आठवडा",
-    "voiceResponseAudio": "Omi चे उत्तर मोठ्याने वाचा",
+    "voiceResponseAudio": "Carry चे उत्तर मोठ्याने वाचा",
     "voiceResponseMode": "व्हॉइस प्रतिसाद",
     "voiceResponseModeTitle": "प्रतिसाद केव्हा बोलायचा",
     "voiceResponseOff": "बंद",
@@ -10547,7 +10547,7 @@
         "description": "Section header for memory knowledge graph on home page"
     },
     "voiceMode": "व्हॉइस मोड",
-    "quickActionAskOmi": "Omi ला काहीही विचारा",
+    "quickActionAskOmi": "Carry ला काहीही विचारा",
     "record": "रेकॉर्ड",
     "stop": "थांबवा",
     "recordWithPhoneMic": "फोन माइकने रेकॉर्ड करा",
@@ -10582,26 +10582,26 @@
     "syncStatusRetrying": "प्रक्रिया करता आली नाही — पुन्हा प्रयत्न",
     "syncStatusFailed": "अयशस्वी — Retry दाबा",
     "syncStatusFileUnavailable": "फाइल उपलब्ध नाही",
-    "syncStatusUploaded": "अपलोड झाले · Omi वर प्रक्रिया सुरू",
+    "syncStatusUploaded": "अपलोड झाले · Carry वर प्रक्रिया सुरू",
     "noRecordingsYet": "अद्याप कोणतीही रेकॉर्डिंग नाही",
     "syncInProgress": "सिंक सुरू आहे",
     "deleteWhileProcessingTitle": "अद्याप प्रक्रिया सुरू",
-    "deleteWhileProcessingMessage": "ही रेकॉर्डिंग अपलोड झाली आहे पण Omi अद्याप संभाषण तयार करत आहे. आता हटवल्यास आणि प्रक्रिया अयशस्वी झाल्यास ती परत मिळवता येणार नाही. तरीही हटवायचे?",
+    "deleteWhileProcessingMessage": "ही रेकॉर्डिंग अपलोड झाली आहे पण Carry अद्याप संभाषण तयार करत आहे. आता हटवल्यास आणि प्रक्रिया अयशस्वी झाल्यास ती परत मिळवता येणार नाही. तरीही हटवायचे?",
     "syncCardAllBackedUp": "सर्व रेकॉर्डिंग सिंक झाली",
     "syncCardReadyCount": "{count, plural, one{1 रेकॉर्डिंग सिंकसाठी तयार} other{{count} रेकॉर्डिंग सिंकसाठी तयार}}",
-    "syncCardProcessing": "Omi वर प्रक्रिया सुरू…",
+    "syncCardProcessing": "Carry वर प्रक्रिया सुरू…",
     "syncCardWaitingInternet": "इंटरनेटची प्रतीक्षा",
     "syncCardNeedsAttention": "{count, plural, one{1 रेकॉर्डिंगकडे लक्ष देणे आवश्यक} other{{count} रेकॉर्डिंगकडे लक्ष देणे आवश्यक}}",
-    "syncFlowIntro": "रेकॉर्डिंग तुमच्या डिव्हाइसवरून या फोनवर हस्तांतरित होतात आणि स्थानिक पातळीवर साठवली जातात, त्यानंतर Omi च्या सर्व्हरवर अपलोड केली जातात, जिथे त्यांचे लिप्यंतरण होऊन संभाषणांमध्ये रूपांतर केले जाते.",
+    "syncFlowIntro": "रेकॉर्डिंग तुमच्या डिव्हाइसवरून या फोनवर हस्तांतरित होतात आणि स्थानिक पातळीवर साठवली जातात, त्यानंतर Carry च्या सर्व्हरवर अपलोड केली जातात, जिथे त्यांचे लिप्यंतरण होऊन संभाषणांमध्ये रूपांतर केले जाते.",
     "syncStepUpload": "सिंक",
-    "syncStepUploadDesc": "तुमचे रेकॉर्डिंग Omi च्या सर्व्हरवर पाठवले जाते",
+    "syncStepUploadDesc": "तुमचे रेकॉर्डिंग Carry च्या सर्व्हरवर पाठवले जाते",
     "syncStepProcess": "ट्रान्स्क्राइब",
-    "syncStepProcessDesc": "Omi ऑडिओचे संभाषणात रूपांतर करते",
+    "syncStepProcessDesc": "Carry ऑडिओचे संभाषणात रूपांतर करते",
     "syncStepBackedUp": "संभाषण तयार",
     "syncStepBackedUpDesc": "ते संभाषण मध्ये सापडेल",
     "syncFailureFootnote": "प्रक्रिया अयशस्वी झाल्यास, पुढील सिंकमध्ये रेकॉर्डिंग आपोआप पुन्हा प्रयत्न केले जाते.",
     "syncStatusConversationCreated": "संभाषण तयार झाले",
-    "syncCardUploadingTitle": "Omi वर अपलोड होत आहे",
+    "syncCardUploadingTitle": "Carry वर अपलोड होत आहे",
     "syncCardDownloadingTitle": "तुमच्या डिव्हाइसवरून डाउनलोड होत आहे",
     "syncCardProgressOf": "{total} पैकी {current}",
     "syncStatusOnDevice": "तुमच्या डिव्हाइसवर",
@@ -10614,19 +10614,19 @@
     },
     "syncProcessingBackgroundHint": "हे पार्श्वभूमीत सुरू राहते — तुम्ही ही स्क्रीन सोडू शकता.",
     "syncCardRateLimited": "वाजवी वापराची मर्यादा गाठली — सिंक आपोआप पुन्हा सुरू होईल",
-    "syncCardBackendBusy": "Omi चे सर्व्हर व्यस्त आहेत — क्षमता उपलब्ध होताच तुमची रेकॉर्डिंग्ज सिंक होतील",
+    "syncCardBackendBusy": "Carry चे सर्व्हर व्यस्त आहेत — क्षमता उपलब्ध होताच तुमची रेकॉर्डिंग्ज सिंक होतील",
     "unableToDetermineFirmwareVersion": "सद्य फर्मवेअर आवृत्ती निर्धारित करता आली नाही",
     "promoCode": "प्रोमो कोड",
     "enterPromoCode": "प्रोमो कोड प्रविष्ट करा",
     "invalidPromotionCode": "अवैध प्रोमो कोड.",
     "backgroundModeTitle": "बॅकग्राउंड मोड",
-    "backgroundModeDescription": "अ‍ॅप पूर्णपणे बंद असतानाही तुमचे Omi रेकॉर्डिंग सुरू ठेवा.",
-    "backgroundModeNote": "सध्या फक्त Omi उपकरणांसह कार्य करते आणि सतत सुधारित केले जात आहे.",
+    "backgroundModeDescription": "अ‍ॅप पूर्णपणे बंद असतानाही तुमचे Carry रेकॉर्डिंग सुरू ठेवा.",
+    "backgroundModeNote": "सध्या फक्त Carry उपकरणांसह कार्य करते आणि सतत सुधारित केले जात आहे.",
     "regenerateRecap": "सारांश पुन्हा तयार करा",
     "recapRegeneratedSnackbar": "सारांश पुन्हा तयार केला",
     "recapRegenerateFailed": "सारांश पुन्हा तयार करता आला नाही. नंतर पुन्हा प्रयत्न करा.",
     "recapRegenerateCooldown": "पुन्हा तयार करण्यापूर्वी कृपया काही सेकंद थांबा.",
     "recapRegenerateNoConversations": "या दिवसासाठी सारांश करण्यासाठी कोणतेही संभाषण नाही.",
-    "syncCustomSttWarningTitle": "सिंक Omi ट्रान्सक्रिप्शन वापरते",
-    "syncCustomSttWarningMessage": "तुम्ही तुमचा स्वतःचा ट्रान्सक्रिप्शन प्रदाता वापरता. ही रेकॉर्डिंग सिंक केल्यास ती Omi च्या सर्व्हरवर ट्रान्सक्राइब होतील आणि तुमच्या प्लॅनच्या ट्रान्सक्रिप्शन मर्यादेत मोजली जातील."
+    "syncCustomSttWarningTitle": "सिंक Carry ट्रान्सक्रिप्शन वापरते",
+    "syncCustomSttWarningMessage": "तुम्ही तुमचा स्वतःचा ट्रान्सक्रिप्शन प्रदाता वापरता. ही रेकॉर्डिंग सिंक केल्यास ती Carry च्या सर्व्हरवर ट्रान्सक्राइब होतील आणि तुमच्या प्लॅनच्या ट्रान्सक्रिप्शन मर्यादेत मोजली जातील."
 }

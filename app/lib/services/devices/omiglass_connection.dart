@@ -224,7 +224,7 @@ class OmiGlassConnection extends DeviceConnection {
     }
 
     deviceInfo['modelNumber'] ??= 'OMI Glass';
-    deviceInfo['manufacturerName'] ??= 'Based Hardware';
+    deviceInfo['manufacturerName'] ??= 'Carry';
 
     return deviceInfo;
   }

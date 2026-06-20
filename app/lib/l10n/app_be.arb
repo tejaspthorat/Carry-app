@@ -1,7 +1,7 @@
 {
     "@@locale": "be",
     "@@last_modified": "2024-12-26",
-    "appTitle": "Omi",
+    "appTitle": "Carry",
     "@appTitle": {
         "description": "The app title displayed in various places"
     },
@@ -157,7 +157,7 @@
     "@editPerson": {
         "description": "Title for edit person dialog"
     },
-    "createPersonHint": "Стварыце новую асобу і навучыце Omi распазнаваць яе голас!",
+    "createPersonHint": "Стварыце новую асобу і навучыце Carry распазнаваць яе голас!",
     "@createPersonHint": {
         "description": "Hint text for creating a person"
     },
@@ -211,9 +211,9 @@
     "@couldNotAccessFile": {
         "description": "Error when file access fails"
     },
-    "askOmi": "Запытаць Omi",
+    "askOmi": "Запытаць Carry",
     "@askOmi": {
-        "description": "Shortcut to ask Omi a question"
+        "description": "Shortcut to ask Carry a question"
     },
     "done": "Готава",
     "@done": {
@@ -349,7 +349,7 @@
     "@noMessagesYet": {
         "description": "Empty chat state message"
     },
-    "deletingMessages": "Выданне вашых паведамленняў з памяці Omi...",
+    "deletingMessages": "Выданне вашых паведамленняў з памяці Carry...",
     "@deletingMessages": {
         "description": "Loading text when clearing chat"
     },
@@ -389,7 +389,7 @@
     "@maxFilesLimit": {
         "description": "Max files upload warning"
     },
-    "chatWithOmi": "Чатаваць з Omi",
+    "chatWithOmi": "Чатаваць з Carry",
     "@chatWithOmi": {
         "description": "Chat share subject"
     },
@@ -429,7 +429,7 @@
     "@unableToFetchApps": {
         "description": "Error when apps fail to load"
     },
-    "aboutOmi": "Пра Omi",
+    "aboutOmi": "Пра Carry",
     "@aboutOmi": {
         "description": "About page title"
     },
@@ -579,7 +579,7 @@
     "@developerSettings": {
         "description": "Title for developer settings page"
     },
-    "getOmiForMac": "Атрымаць Omi для Mac",
+    "getOmiForMac": "Атрымаць Carry для Mac",
     "@getOmiForMac": {
         "description": "Mac app download link"
     },
@@ -603,7 +603,7 @@
     "@yourPrivacyYourControl": {
         "description": "Data privacy page heading"
     },
-    "privacyIntro": "У Omi мы адданы абаронцы вашай прыватнасці. Гэта старонка дазваляе вам кантраляваць, як вашы дадзеныя захоўваюцца і выкарыстоўваюцца.",
+    "privacyIntro": "У Carry мы адданы абаронцы вашай прыватнасці. Гэта старонка дазваляе вам кантраляваць, як вашы дадзеныя захоўваюцца і выкарыстоўваюцца.",
     "@privacyIntro": {
         "description": "Data privacy page introduction"
     },
@@ -695,7 +695,7 @@
     "@unpairAndForget": {
         "description": "Unpair and forget device button"
     },
-    "deviceDisconnectedMessage": "Ваш Omi быў адключаны 😔",
+    "deviceDisconnectedMessage": "Ваш Carry быў адключаны 😔",
     "@deviceDisconnectedMessage": {
         "description": "Message shown when device is disconnected"
     },
@@ -715,7 +715,7 @@
     "@deviceNotConnected": {
         "description": "Device not connected header"
     },
-    "connectDeviceMessage": "Падключыце вашу прыладу Omi, каб атрымаць доступ\nдаа параметраў прылады і персанолізацыі",
+    "connectDeviceMessage": "Падключыце вашу прыладу Carry, каб атрымаць доступ\nдаа параметраў прылады і персанолізацыі",
     "@connectDeviceMessage": {
         "description": "Message encouraging user to connect device"
     },
@@ -887,7 +887,7 @@
     "@docs": {
         "description": "Documentation button text"
     },
-    "yourOmiInsights": "Вашы ўсвідомленні Omi",
+    "yourOmiInsights": "Вашы ўсвідомленні Carry",
     "@yourOmiInsights": {
         "description": "Usage page title"
     },
@@ -911,7 +911,7 @@
     "@noActivityYet": {
         "description": "Empty state title"
     },
-    "startConversationToSeeInsights": "Пачніце размову з Omi\nкаб убачыць вашыя ўсвідомленні выкарыстання тут.",
+    "startConversationToSeeInsights": "Пачніце размову з Carry\nкаб убачыць вашыя ўсвідомленні выкарыстання тут.",
     "@startConversationToSeeInsights": {
         "description": "Empty state description"
     },
@@ -919,7 +919,7 @@
     "@listening": {
         "description": "Listening stat title"
     },
-    "listeningSubtitle": "Усяго часу Omi актыўна слуша.",
+    "listeningSubtitle": "Усяго часу Carry актыўна слуша.",
     "@listeningSubtitle": {
         "description": "Listening stat subtitle"
     },
@@ -1011,23 +1011,23 @@
             }
         }
     },
-    "shareStatsMessage": "Раздзеляюся мая статыстыкай Omi! (omi.me - ваш заўсёды ўключаны AI ассістэнт)",
+    "shareStatsMessage": "Раздзеляюся мая статыстыкай Carry! (carry.me - ваш заўсёды ўключаны AI ассістэнт)",
     "@shareStatsMessage": {
         "description": "Share stats base message"
     },
-    "sharePeriodToday": "Сёння, omi:",
+    "sharePeriodToday": "Сёння, carry:",
     "@sharePeriodToday": {
         "description": "Share stats period: Today"
     },
-    "sharePeriodMonth": "Гэты месяц, omi:",
+    "sharePeriodMonth": "Гэты месяц, carry:",
     "@sharePeriodMonth": {
         "description": "Share stats period: Month"
     },
-    "sharePeriodYear": "Гэты год, omi:",
+    "sharePeriodYear": "Гэты год, carry:",
     "@sharePeriodYear": {
         "description": "Share stats period: Year"
     },
-    "sharePeriodAllTime": "Да гэтага пункта, omi:",
+    "sharePeriodAllTime": "Да гэтага пункта, carry:",
     "@sharePeriodAllTime": {
         "description": "Share stats period: All Time"
     },
@@ -1075,7 +1075,7 @@
     "debugLogsAutoDelete": "Аўтаматычна выдаляюцца пасля 3 дзён.",
     "debugLogsDesc": "Дапамагае дыягнаставаць праблемы",
     "noLogFilesFound": "Файлы логаў не знойдзены.",
-    "omiDebugLog": "Лог адладкі Omi",
+    "omiDebugLog": "Лог адладкі Carry",
     "logShared": "Лог раздзелены",
     "selectLogFile": "Выберыце файл логу",
     "shareLogs": "Раздзеліцеся логамі",
@@ -1083,7 +1083,7 @@
     "exportStarted": "Экспорт пачаўся. Гэта можа заняць нешто секунд...",
     "exportAllData": "Экспартаваць усе дадзеныя",
     "exportDataDesc": "Экспартаваць размовы ў JSON файл",
-    "exportedConversations": "Экспартаваныя размовы з Omi",
+    "exportedConversations": "Экспартаваныя размовы з Carry",
     "exportShared": "Экспорт раздзелены",
     "deleteKnowledgeGraphTitle": "Выдаліць граф ведаў?",
     "deleteKnowledgeGraphMessage": "Гэта выдаліць усе вывераныя дадзеныя графа ведаў (вузлы і звязкі). Вашы арыгінальныя ўспаміны заставаюцца бяспечныя. Граф будзе перабудаваны з часам або пры наступным запыце.",
@@ -1183,7 +1183,7 @@
     "customVocabularyTitle": "Дапаўніты слоўнік",
     "addWords": "Дадаць словы",
     "addWordsDesc": "Імёны, тэрміны або не звычайныя словы",
-    "vocabularyHint": "Omi, Callie, OpenAI",
+    "vocabularyHint": "Carry, Callie, OpenAI",
     "connect": "Падключыць",
     "comingSoon": "Па-скорасцінаў",
     "integrationsFooter": "Падключыце вашы дадатыі, каб праглядаць дадзеныя і метрыкі ў чаце.",
@@ -1229,7 +1229,7 @@
             }
         }
     },
-    "authAccessMessage": "Вам потрабіцца аўтарызаваць Omi, каб атрымаць доступ да вашых дадзеных {appName}. Гэта адкрые ваш браўзер для аўтэнтыфікацыі.",
+    "authAccessMessage": "Вам потрабіцца аўтарызаваць Carry, каб атрымаць доступ да вашых дадзеных {appName}. Гэта адкрые ваш браўзер для аўтэнтыфікацыі.",
     "@authAccessMessage": {
         "placeholders": {
             "appName": {
@@ -1266,7 +1266,7 @@
     "permissionRevokedMessage": "Хочаце, каб мы выдалілі ўсе вашы існуючыя запісы?",
     "yes": "Так",
     "editName": "Змяніць імя",
-    "howShouldOmiCallYou": "Як Omi павінна вас называць?",
+    "howShouldOmiCallYou": "Як Carry павінна вас называць?",
     "enterYourName": "Уведзіце ваше імя",
     "nameCannotBeEmpty": "Імя не можа быць пустым",
     "nameUpdatedSuccessfully": "Імя паспяхова абноўлена!",
@@ -1450,7 +1450,7 @@
             }
         }
     },
-    "authorizeOmiForTasks": "Вам трэба авторызаваць Omi для стварэння задач ў вашым ліку {appName}. Гэта адкрые ваш браўзер для аўтэнтыфікацыі.",
+    "authorizeOmiForTasks": "Вам трэба авторызаваць Carry для стварэння задач ў вашым ліку {appName}. Гэта адкрые ваш браўзер для аўтэнтыфікацыі.",
     "@authorizeOmiForTasks": {
         "placeholders": {
             "appName": {
@@ -1481,9 +1481,9 @@
     "importConfiguration": "Імпартаваць канфігурацыю",
     "exportConfiguration": "Экспартаваць канфігурацыю",
     "bringYourOwn": "Прынясіце ваше",
-    "payYourSttProvider": "Свабодна выкарыстоўвайце omi. Вы плаціце толькі вашаму паставальніку STT прама.",
+    "payYourSttProvider": "Свабодна выкарыстоўвайце carry. Вы плаціце толькі вашаму паставальніку STT прама.",
     "freeMinutesMonth": "600 свабодных мінут/месяц уключана. Неабмежавана з ",
-    "omiUnlimited": "Omi Unlimited",
+    "omiUnlimited": "Carry Unlimited",
     "hostRequired": "Хост абавязаны",
     "validPortRequired": "Абавязаны сапраўдны порт",
     "validWebsocketUrlRequired": "Абавязаны сапраўдны URL WebSocket (wss://)",
@@ -1541,7 +1541,7 @@
     "logs": "Логі",
     "logsCopied": "Логі скапіяваны",
     "noLogsYet": "Логаў яшчэ нету. Пачніце запіс, каб убачыць дзейнасць користуемага STT.",
-    "deviceUsesCodec": "{device} выкарыстоўвае {reason}. Omi будзе выкарыстовуваца.",
+    "deviceUsesCodec": "{device} выкарыстоўвае {reason}. Carry будзе выкарыстовуваца.",
     "@deviceUsesCodec": {
         "description": "Warning about device codec compatibility",
         "placeholders": {
@@ -1553,7 +1553,7 @@
             }
         }
     },
-    "omiTranscription": "Расшыфроўка Omi",
+    "omiTranscription": "Расшыфроўка Carry",
     "bestInClassTranscription": "Лепшая ў сваім класе расшыфроўка без наладкі",
     "instantSpeakerLabels": "Імгненныя метакі дыктарай",
     "languageTranslation": "Пераклад более чем 100 моў",
@@ -1635,7 +1635,7 @@
     "@enableBluetooth": {
         "description": "Title for dialog prompting user to enable Bluetooth"
     },
-    "bluetoothNeeded": "Omi трэба Bluetooth для падлучэння да вашага нашпігальнага прыстроя. Калі ласка, уключыце Bluetooth і спробуйце яшчэ раз.",
+    "bluetoothNeeded": "Carry трэба Bluetooth для падлучэння да вашага нашпігальнага прыстроя. Калі ласка, уключыце Bluetooth і спробуйце яшчэ раз.",
     "@bluetoothNeeded": {
         "description": "Explanation text for why Bluetooth is required"
     },
@@ -1655,7 +1655,7 @@
     "@backgroundActivity": {
         "description": "Title for background activity permission"
     },
-    "backgroundActivityDesc": "Дайцюе Omi працаваць у фоне для лучшай стабільнасці",
+    "backgroundActivityDesc": "Дайцюе Carry працаваць у фоне для лучшай стабільнасці",
     "@backgroundActivityDesc": {
         "description": "Description for background activity permission"
     },
@@ -1694,7 +1694,7 @@
     "@backgroundLocationDeniedDesc": {
         "description": "Instructions to grant background location permission"
     },
-    "lovingOmi": "Нравіцца вам Omi?",
+    "lovingOmi": "Нравіцца вам Carry?",
     "@lovingOmi": {
         "description": "Title for the app review prompt"
     },
@@ -1718,7 +1718,7 @@
     "@maybeLater": {
         "description": "Button text to defer action"
     },
-    "speechProfileIntro": "Omi трэба вывучыць вашы мэты і ваш голас. Вы зможаце яго змяніць пазней.",
+    "speechProfileIntro": "Carry трэба вывучыць вашы мэты і ваш голас. Вы зможаце яго змяніць пазней.",
     "@speechProfileIntro": {
         "description": "Introduction text for speech profile setup"
     },
@@ -1786,7 +1786,7 @@
     "@tryAgain": {
         "description": "Button text to retry an action"
     },
-    "connectOmiOmiGlass": "Падключыце Omi / OmiGlass",
+    "connectOmiOmiGlass": "Падключыце Carry / Carry Glass",
     "@connectOmiOmiGlass": {
         "description": "Button text to connect specific device models"
     },
@@ -1837,7 +1837,7 @@
     "@termsOfUse": {
         "description": "Link text for Terms of Use"
     },
-    "omiYourAiCompanion": "Omi – вашы AI помочнік",
+    "omiYourAiCompanion": "Carry – вашы AI помочнік",
     "@omiYourAiCompanion": {
         "description": "App title or branding on onboarding screen"
     },
@@ -1857,7 +1857,7 @@
     "@microphonePermission": {
         "description": "Title for microphone permission section"
     },
-    "permissionGrantedNow": "Дазвол дадзены! Зараз:\n\nАдкрыйце прыкладанне Omi на вашым гадзінніку і дакніце \"Прадоўжыць\" ніжэй",
+    "permissionGrantedNow": "Дазвол дадзены! Зараз:\n\nАдкрыйце прыкладанне Carry на вашым гадзінніку і дакніце \"Прадоўжыць\" ніжэй",
     "@permissionGrantedNow": {
         "description": "Instructions after permission is granted"
     },
@@ -1873,7 +1873,7 @@
     "@needHelp": {
         "description": "Link to help dialog"
     },
-    "troubleshootingSteps": "Развязанне праблем:\n\n1. Пераканайцеся, што Omi ўстаноўлена на вашым гадзінніку\n2. Адкрыйце прыкладанне Omi на вашым гадзінніку\n3. Поўкайце спливаючае акно дазвола\n4. Дакніце \"Дазволіць\" пры запыте\n5. Прыкладанне на гадзінніку затворыцца - адкрыйце яго\n6. Вярніцеся і дакніце \"Прадоўжыць\" на вашым iPhone",
+    "troubleshootingSteps": "Развязанне праблем:\n\n1. Пераканайцеся, што Carry ўстаноўлена на вашым гадзінніку\n2. Адкрыйце прыкладанне Carry на вашым гадзінніку\n3. Поўкайце спливаючае акно дазвола\n4. Дакніце \"Дазволіць\" пры запыте\n5. Прыкладанне на гадзінніку затворыцца - адкрыйце яго\n6. Вярніцеся і дакніце \"Прадоўжыць\" на вашым iPhone",
     "@troubleshootingSteps": {
         "description": "Troubleshooting instructions for watch setup"
     },
@@ -1930,7 +1930,7 @@
     },
     "personalGrowthJourney": "Ваш персаніфічны шлях росту з AI, які слухае кожнае вашае слова.",
     "@personalGrowthJourney": {
-        "description": "Subtitle describing Omi on auth screen"
+        "description": "Subtitle describing Carry on auth screen"
     },
     "actionItemsTitle": "Да-зроб",
     "@actionItemsTitle": {
@@ -2103,11 +2103,11 @@
     "@addFirstMemory": {
         "description": "Button to add first memory"
     },
-    "clearMemoryTitle": "Вычысціць памяць Omi",
+    "clearMemoryTitle": "Вычысціць памяць Carry",
     "@clearMemoryTitle": {
         "description": "Dialog title for clearing memory"
     },
-    "clearMemoryMessage": "Вы ўпэўнены, што хочаце вычысціць памяць Omi? Гэтае дзеянне нельга адмяніць.",
+    "clearMemoryMessage": "Вы ўпэўнены, што хочаце вычысціць памяць Carry? Гэтае дзеянне нельга адмяніць.",
     "@clearMemoryMessage": {
         "description": "Dialog content for clearing memory"
     },
@@ -2115,7 +2115,7 @@
     "@clearMemoryButton": {
         "description": "Button text to confirm clearing all memories"
     },
-    "memoryClearedSuccess": "Памяць Omi аб вас вычышчана",
+    "memoryClearedSuccess": "Памяць Carry аб вас вычышчана",
     "@memoryClearedSuccess": {
         "description": "Snackbar success message"
     },
@@ -2312,7 +2312,7 @@
     "@translationNotice": {
         "description": "Title for dialog explaining that conversations are translated"
     },
-    "translationNoticeMessage": "Omi перакладае разговоры на вашу асноўную мову. Абнавіце яе ў любы час у Наладах → Профілі.",
+    "translationNoticeMessage": "Carry перакладае разговоры на вашу асноўную мову. Абнавіце яе ў любы час у Наладах → Профілі.",
     "@translationNoticeMessage": {
         "description": "Message explaining how translation works and where to change language settings"
     },
@@ -2561,9 +2561,9 @@
     "@privacyPolicyTitle": {
         "description": "Title for privacy policy page"
     },
-    "omiSttProvider": "Omi",
+    "omiSttProvider": "Carry",
     "@omiSttProvider": {
-        "description": "Label for default Omi STT provider"
+        "description": "Label for default Carry STT provider"
     },
     "labelCopied": "{label} скапіраван",
     "@labelCopied": {
@@ -2855,7 +2855,7 @@
     "@checksForAudioFiles": {
         "description": "Step 1: Checking for audio files"
     },
-    "omiSyncsAudioFiles": "Omi затым сінхранізуе аўдыёфайлы з сервером",
+    "omiSyncsAudioFiles": "Carry затым сінхранізуе аўдыёфайлы з сервером",
     "@omiSyncsAudioFiles": {
         "description": "Step 2: Syncing audio files"
     },
@@ -2867,11 +2867,11 @@
     "@youreAllSet": {
         "description": "Completion message when onboarding is finished"
     },
-    "welcomeToOmiDescription": "Вітаем у Omi! Ваш AI асістэнт готаў дапамагаць вам з разнамовамі, задачамі і многім іншым.",
+    "welcomeToOmiDescription": "Вітаем у Carry! Ваш AI асістэнт готаў дапамагаць вам з разнамовамі, задачамі і многім іншым.",
     "@welcomeToOmiDescription": {
         "description": "Welcome message on completion screen"
     },
-    "startUsingOmi": "Пачаць выкарыстоўваць Omi",
+    "startUsingOmi": "Пачаць выкарыстоўваць Carry",
     "@startUsingOmi": {
         "description": "Button to complete onboarding and start using the app"
     },
@@ -2980,7 +2980,7 @@
     "@reviewAndManageConversations": {
         "description": "Subtitle explaining what users can do on conversations page"
     },
-    "startCapturingConversations": "Пачніце перахоплівацьразнамовы з вашым прыбором Omi, каб яны паяўіліся здесь.",
+    "startCapturingConversations": "Пачніце перахоплівацьразнамовы з вашым прыбором Carry, каб яны паяўіліся здесь.",
     "@startCapturingConversations": {
         "description": "Message explaining how to get started with conversations"
     },
@@ -3000,7 +3000,7 @@
     "@showAll": {
         "description": "Button text to show all items"
     },
-    "noTasksForToday": "Памежаў на сёння няма.\nПапросіце Omi для дапамогаў або стварыце ручна.",
+    "noTasksForToday": "Памежаў на сёння няма.\nПапросіце Carry для дапамогаў або стварыце ручна.",
     "@noTasksForToday": {
         "description": "Message shown when there are no tasks due today"
     },
@@ -3199,7 +3199,7 @@
     "@createNewApp": {
         "description": "Title for the create new app page"
     },
-    "buildSubmitCustomOmiApp": "Збудуйце і падайце ваш другасны Omi прыбор",
+    "buildSubmitCustomOmiApp": "Збудуйце і падайце ваш другасны Carry прыбор",
     "@buildSubmitCustomOmiApp": {
         "description": "Subtitle describing the purpose of the create app page"
     },
@@ -3259,7 +3259,7 @@
     "@makeMyAppPublic": {
         "description": "Checkbox label for making app publicly available"
     },
-    "submitAppTermsAgreement": "Адпраўляючы гэты прыбор, я пагаджаюся з Тэрмінамі абслугоўвання Omi AI і Палітыкай прыватнасці",
+    "submitAppTermsAgreement": "Адпраўляючы гэты прыбор, я пагаджаюся з Тэрмінамі абслугоўвання Carry AI і Палітыкай прыватнасці",
     "@submitAppTermsAgreement": {
         "description": "Terms and conditions agreement checkbox text"
     },
@@ -3315,7 +3315,7 @@
     "@dataAccessNotice": {
         "description": "Dialog title warning about app data access"
     },
-    "dataAccessWarning": "Гэты прыбор будзе мець доступ да вашых дадзеных. Omi AI не адказны за тое, як вашыя дадзеныя выкарыстоўваюцца, змяняюцца ці выдаляюцца гэтым прыбором",
+    "dataAccessWarning": "Гэты прыбор будзе мець доступ да вашых дадзеных. Carry AI не адказны за тое, як вашыя дадзеныя выкарыстоўваюцца, змяняюцца ці выдаляюцца гэтым прыбором",
     "@dataAccessWarning": {
         "description": "Warning message about app data access in confirmation dialog"
     },
@@ -3787,7 +3787,7 @@
     "@upgradeToPro": {
         "description": "Subscription banner button text"
     },
-    "getOmiDevice": "Атрымаць прыбор Omi",
+    "getOmiDevice": "Атрымаць прыбор Carry",
     "@getOmiDevice": {
         "description": "Widget title for device promotion"
     },
@@ -3890,7 +3890,7 @@
     "@setAllMemoriesToPublic": {
         "description": "Description for making all memories public"
     },
-    "permanentlyRemoveAllMemories": "Назаўсёды выдаліць усе памяткі з Omi",
+    "permanentlyRemoveAllMemories": "Назаўсёды выдаліць усе памяткі з Carry",
     "@permanentlyRemoveAllMemories": {
         "description": "Description for deleting all memories"
     },
@@ -3902,11 +3902,11 @@
     "@allMemoriesAreNowPublic": {
         "description": "Success message after making all memories public"
     },
-    "clearOmisMemory": "Очыстіць памяць Omi",
+    "clearOmisMemory": "Очыстіць памяць Carry",
     "@clearOmisMemory": {
         "description": "Confirmation dialog title for clearing all memories"
     },
-    "clearMemoryConfirmation": "Вы ўпэўнены, што хочаце очыстіць памяць Omi? Гэта дзеянне невозможна адмяніць і назаўсёды выдаліць усе {count} памяткі.",
+    "clearMemoryConfirmation": "Вы ўпэўнены, што хочаце очыстіць памяць Carry? Гэта дзеянне невозможна адмяніць і назаўсёды выдаліць усе {count} памяткі.",
     "@clearMemoryConfirmation": {
         "description": "Confirmation message for clearing all memories",
         "placeholders": {
@@ -3915,11 +3915,11 @@
             }
         }
     },
-    "omisMemoryCleared": "Памяць Omi аб вас была очышчана",
+    "omisMemoryCleared": "Памяць Carry аб вас была очышчана",
     "@omisMemoryCleared": {
         "description": "Success message after clearing all memories"
     },
-    "welcomeToOmi": "Вітаем у Omi",
+    "welcomeToOmi": "Вітаем у Carry",
     "@welcomeToOmi": {
         "description": "Welcome message on auth screen"
     },
@@ -3973,13 +3973,13 @@
     },
     "pleaseSelectYourPrimaryLanguage": "Пажалуйста, выберыце вашу асноўную мову",
     "chooseYourLanguage": "Выберыце вашу мову",
-    "selectPreferredLanguageForBestExperience": "Выберыце вашу аддаленую мову для лепшага вопыту Omi",
+    "selectPreferredLanguageForBestExperience": "Выберыце вашу аддаленую мову для лепшага вопыту Carry",
     "searchLanguages": "Шукаць мовы...",
     "selectALanguage": "Выберыце мову",
     "tryDifferentSearchTerm": "Спрабуйце іншы тэрмін пошуку",
     "pleaseEnterYourName": "Пажалуйста, увядзіце ваше імя",
     "nameMustBeAtLeast2Characters": "Імя павінна быць не менш за 2 сімвалы",
-    "tellUsHowYouWouldLikeToBeAddressed": "Скажыце нам, як вас завяць. Гэта дапамагае персаналізаваць ваш вопыт Omi.",
+    "tellUsHowYouWouldLikeToBeAddressed": "Скажыце нам, як вас завяць. Гэта дапамагае персаналізаваць ваш вопыт Carry.",
     "charactersCount": "{count} сімвалаў",
     "@charactersCount": {
         "placeholders": {
@@ -3988,16 +3988,16 @@
             }
         }
     },
-    "enableFeaturesForBestExperience": "Ўключыце функцыі для лепшага вопыту Omi на вашым прыладзе.",
+    "enableFeaturesForBestExperience": "Ўключыце функцыі для лепшага вопыту Carry на вашым прыладзе.",
     "microphoneAccess": "Доступ да мікрофона",
     "recordAudioConversations": "Запісваць аўдыёразмовы",
-    "microphoneAccessDescription": "Omi патрабуе доступ да мікрофона для запісу вашых размаў і прадастаўлення транскрыпцый.",
+    "microphoneAccessDescription": "Carry патрабуе доступ да мікрофона для запісу вашых размаў і прадастаўлення транскрыпцый.",
     "screenRecording": "Запіс экрана",
     "captureSystemAudioFromMeetings": "Захопіць сістэмны аўдыё з сустрэч",
-    "screenRecordingDescription": "Omi патрабуе дазвол на запіс экрана для захопу сістэмнага аўдыё з вашых веб-сустрэч.",
+    "screenRecordingDescription": "Carry патрабуе дазвол на запіс экрана для захопу сістэмнага аўдыё з вашых веб-сустрэч.",
     "accessibility": "Доступнасць",
     "detectBrowserBasedMeetings": "Выявіць веб-сустрэчы",
-    "accessibilityDescription": "Omi патрабуе дазвол на доступнасць для выявлення, калі вы ўдзельнічаеце ў сустрэчах Zoom, Meet або Teams у вашым браўзеры.",
+    "accessibilityDescription": "Carry патрабуе дазвол на доступнасць для выявлення, калі вы ўдзельнічаеце ў сустрэчах Zoom, Meet або Teams у вашым браўзеры.",
     "pleaseWait": "Пачакайце...",
     "joinTheCommunity": "Приєднайцеся да суполкі!",
     "loadingProfile": "Загрузка профіля...",
@@ -4008,12 +4008,12 @@
     "setYourName": "Ўстаноўце ваше імя",
     "changeYourName": "Змяніце ваше імя",
     "voiceAndPeople": "Голас і людзі",
-    "teachOmiYourVoice": "Навучыце Omi вашему голасу",
-    "tellOmiWhoSaidIt": "Скажыце Omi, хто гэта сказаў 🗣️",
+    "teachOmiYourVoice": "Навучыце Carry вашему голасу",
+    "tellOmiWhoSaidIt": "Скажыце Carry, хто гэта сказаў 🗣️",
     "payment": "Плата",
     "addOrChangeYourPaymentMethod": "Дадайце або змяніце спосаб платы",
     "preferences": "Адпавіды",
-    "helpImproveOmiBySharing": "Дапамажыце палепшыць Omi, дзяліўшыся анонімнымі дадзенымі аналітыкі",
+    "helpImproveOmiBySharing": "Дапамажыце палепшыць Carry, дзяліўшыся анонімнымі дадзенымі аналітыкі",
     "deleteAccount": "Выдаліць акаўнт",
     "deleteYourAccountAndAllData": "Выдаліце ваш акаўнт і ўсе даныя",
     "clearLogs": "Очысціць журналы",
@@ -4021,7 +4021,7 @@
     "exportConversations": "Экспартаваць размовы",
     "exportAllConversationsToJson": "Экспартуйце ўсе вашы размовы ў JSON файл.",
     "conversationsExportStarted": "Экспарт размаў пачаўся. Гэта можа заняць некалькі секунд, пачакайце.",
-    "mcpDescription": "Для злучэння Omi з іншымі прыкладаннямі для чытання, пошуку і кіравання вашымі спогадамі і размовамі. Создайте ключ для пачатку.",
+    "mcpDescription": "Для злучэння Carry з іншымі прыкладаннямі для чытання, пошуку і кіравання вашымі спогадамі і размовамі. Создайте ключ для пачатку.",
     "apiKeys": "API ключы",
     "errorLabel": "Памылка: {error}",
     "@errorLabel": {
@@ -4039,7 +4039,7 @@
     "triggersWhenAudioBytesReceived": "Спрацёўвае, калі атрыманы байты аўдыё.",
     "everyXSeconds": "Кожныя х секунд",
     "triggersWhenDaySummaryGenerated": "Спрацёўвае, калі генеруецца зводка дня.",
-    "tryLatestExperimentalFeatures": "Спрабуйце найноўшыя эксперыментальныя функцыі ад каманды Omi.",
+    "tryLatestExperimentalFeatures": "Спрабуйце найноўшыя эксперыментальныя функцыі ад каманды Carry.",
     "transcriptionServiceDiagnosticStatus": "Статус дыягностыкі сервісу транскрыпцыі",
     "enableDetailedDiagnosticMessages": "Ўключыце дэталёвыя дыягностычныя паведамленні з сервісу транскрыпцыі",
     "autoCreateAndTagNewSpeakers": "Аўтаматычна стварыць і пазначыць новых дыктараў",
@@ -4075,7 +4075,7 @@
             }
         }
     },
-    "letOmiChooseAutomatically": "Дозвольце Omi выбраць най­лепшае прыкладанне аўтаматычна",
+    "letOmiChooseAutomatically": "Дозвольце Carry выбраць най­лепшае прыкладанне аўтаматычна",
     "deleteConversationConfirmation": "Вы сапраўды хочаце выдаліць гэтую размову? Гэта дзеянне не можна адмяніць.",
     "conversationDeleted": "Размова выдалена",
     "generatingLink": "Генеруецца спасылка...",
@@ -4226,7 +4226,7 @@
             }
         }
     },
-    "translatedByOmi": "перавязана omi",
+    "translatedByOmi": "перавязана carry",
     "@translatedByOmi": {
         "description": "Credit line for translations"
     },
@@ -4342,7 +4342,7 @@
     "@customVocabularyHeader": {
         "description": "Custom vocabulary section header"
     },
-    "addWordsDescription": "Дадайце словы, якія Omi павінна распазнаць падчас транскрыпцыі.",
+    "addWordsDescription": "Дадайце словы, якія Carry павінна распазнаць падчас транскрыпцыі.",
     "@addWordsDescription": {
         "description": "Custom vocabulary description"
     },
@@ -4403,7 +4403,7 @@
     "clearNodesDescription": "Очысціць ўсе вузлы і злучэнні",
     "deleteKnowledgeGraphQuestion": "Выдаліць граф ведаў?",
     "deleteKnowledgeGraphWarning": "Гэта выдаліць ўсе вывядзеныя даныя графа ведаў. Вашы асноўныя спогады застаюцца бяспечны.",
-    "connectOmiWithAI": "Злучыце Omi з помацнікамі ШІ",
+    "connectOmiWithAI": "Злучыце Carry з помацнікамі ШІ",
     "noAPIKeys": "Адсутнічаюць API ключы. Создайте адзін для пачатку.",
     "autoCreateWhenDetected": "Аўтаматычна стварыць, калі выявлена імя",
     "trackPersonalGoals": "Сачыць персанальныя мэты на хатняй старонцы",
@@ -4423,7 +4423,7 @@
     "@holdOnPreparingForm": {
         "description": "Loading message while preparing form"
     },
-    "bySubmittingYouAgreeToOmi": "Адправляючы, вы пагаджаецеся з Omi ",
+    "bySubmittingYouAgreeToOmi": "Адправляючы, вы пагаджаецеся з Carry ",
     "@bySubmittingYouAgreeToOmi": {
         "description": "Text before Terms & Privacy Policy link"
     },
@@ -4635,7 +4635,7 @@
     "@issueActivatingApp": {
         "description": "Dialog description for activation error"
     },
-    "dataAccessNoticeDescription": "Гэта прыкладанне будзе мець доступ да вашых даных. Omi AI не адказвае за тое, як ваша прыкладанне выкарыстоўвае, змяняе або выдаляе вашы даныя",
+    "dataAccessNoticeDescription": "Гэта прыкладанне будзе мець доступ да вашых даных. Carry AI не адказвае за тое, як ваша прыкладанне выкарыстоўвае, змяняе або выдаляе вашы даныя",
     "@dataAccessNoticeDescription": {
         "description": "Description for data access notice dialog"
     },
@@ -4767,15 +4767,15 @@
             }
         }
     },
-    "omiApiKeys": "API ключы Omi",
+    "omiApiKeys": "API ключы Carry",
     "@omiApiKeys": {
         "description": "Dialog title for API keys info"
     },
-    "apiKeysDescription": "API ключы выкарыстоўваюцца для аўтэнтыфікацыі, калі ваша прыкладанне зносіцца з сервером OMI. Яны дазваляюць вашаму прыкладанню стварыць спогады і бяспечна атрымаць доступ да іншых сервісаў OMI.",
+    "apiKeysDescription": "API ключы выкарыстоўваюцца для аўтэнтыфікацыі, калі ваша прыкладанне зносіцца з сервером CARRY. Яны дазваляюць вашаму прыкладанню стварыць спогады і бяспечна атрымаць доступ да іншых сервісаў CARRY.",
     "@apiKeysDescription": {
         "description": "Description of what API keys are used for"
     },
-    "aboutOmiApiKeys": "Аб API ключах Omi",
+    "aboutOmiApiKeys": "Аб API ключах Carry",
     "@aboutOmiApiKeys": {
         "description": "Tooltip for API keys info button"
     },
@@ -4969,7 +4969,7 @@
     "@maximumSecurityE2ee": {
         "description": "Title for End-to-End Encryption dialog"
     },
-    "e2eeDescription": "Шыфраванне ад канца да канца - гэта золаты стандарт для прыватнасці. Калі ўключана, вашы даныя шыфруюцца на вашым прыладзе да адпраўкі на нашы серверы. Гэта азначае, што ніхто, нават Omi, не можа атрымаць доступ да вашага змесціва.",
+    "e2eeDescription": "Шыфраванне ад канца да канца - гэта золаты стандарт для прыватнасці. Калі ўключана, вашы даныя шыфруюцца на вашым прыладзе да адпраўкі на нашы серверы. Гэта азначае, што ніхто, нават Carry, не можа атрымаць доступ да вашага змесціва.",
     "@e2eeDescription": {
         "description": "Description of E2EE encryption explaining its benefits"
     },
@@ -5025,7 +5025,7 @@
     "@secureEncryption": {
         "description": "Title for secure encryption card"
     },
-    "secureEncryptionDescription": "Вашы даныя шыфруюцца з ключом, адзінкавым для вас на нашых серверах, размешчаны на Google Cloud. Гэта азначае, што ваше сыра змесціва недаступна ніхто, уключаючы персонал Omi або Google, непасрэдна з базы даных.",
+    "secureEncryptionDescription": "Вашы даныя шыфруюцца з ключом, адзінкавым для вас на нашых серверах, размешчаны на Google Cloud. Гэта азначае, што ваше сыра змесціва недаступна ніхто, уключаючы персонал Carry або Google, непасрэдна з базы даных.",
     "@secureEncryptionDescription": {
         "description": "Description of secure encryption explaining how data is protected"
     },
@@ -5122,23 +5122,23 @@
             }
         }
     },
-    "omiTraining": "Omi обучение",
+    "omiTraining": "Carry обучение",
     "@omiTraining": {
-        "description": "Title for the Omi Training page/section"
+        "description": "Title for the Carry Training page/section"
     },
     "trainingDataProgram": "Праграма даных навучання",
     "@trainingDataProgram": {
         "description": "Label for training data program"
     },
-    "getOmiUnlimitedFree": "Атрымайце Omi Unlimited бясплатна, удзельнічаючы ў даных для навучання мадэляў ШІ.",
+    "getOmiUnlimitedFree": "Атрымайце Carry Unlimited бясплатна, удзельнічаючы ў даных для навучання мадэляў ШІ.",
     "@getOmiUnlimitedFree": {
-        "description": "Description for getting Omi Unlimited free by contributing data"
+        "description": "Description for getting Carry Unlimited free by contributing data"
     },
     "trainingDataBullets": "• Ваша даныя дапамагаюць палепшыць мадэлі ШІ\n• Толькі нечуллівыя даныя дзяляцца\n• Цалкам прозрыста процес",
     "@trainingDataBullets": {
         "description": "Bullet points explaining training data program benefits"
     },
-    "learnMoreAtOmiTraining": "Больш дзеянняў на omi.me/training",
+    "learnMoreAtOmiTraining": "Больш дзеянняў на carry.me/training",
     "@learnMoreAtOmiTraining": {
         "description": "Link text to learn more about training"
     },
@@ -5244,7 +5244,7 @@
     "@youAreOnUnlimitedPlan": {
         "description": "Message showing user is on unlimited plan"
     },
-    "yourOmiUnleashed": "Ваш Omi, далі. Прайсцяце неабмежавана для бясконцых магчымасцей.",
+    "yourOmiUnleashed": "Ваш Carry, далі. Прайсцяце неабмежавана для бясконцых магчымасцей.",
     "@yourOmiUnleashed": {
         "description": "Marketing text for unlimited plan"
     },
@@ -5286,11 +5286,11 @@
     "@unlimitedConversations": {
         "description": "Feature: unlimited conversations"
     },
-    "askOmiAnything": "Запытайцеся у Omi ўсё аб вашым жыцці",
+    "askOmiAnything": "Запытайцеся у Carry ўсё аб вашым жыцці",
     "@askOmiAnything": {
-        "description": "Feature: ask Omi anything"
+        "description": "Feature: ask Carry anything"
     },
-    "unlockOmiInfiniteMemory": "Разблакуйце бясконцую память Omi",
+    "unlockOmiInfiniteMemory": "Разблакуйце бясконцую память Carry",
     "@unlockOmiInfiniteMemory": {
         "description": "Feature: unlock infinite memory"
     },
@@ -5364,7 +5364,7 @@
     "@yourPrivacyMattersToUs": {
         "description": "Privacy page - yourPrivacyMattersToUs"
     },
-    "privacyIntroText": "У Omi мы вельмі цэнім вашу прыватнасць. Мы хочам быць прозрыстымі адносна дадзеных, якія мы збіраем, і як мы іх выкарыстоўваем для палепшэння нашага прадукту для вас. Вось што вам трэба ведаць:",
+    "privacyIntroText": "У Carry мы вельмі цэнім вашу прыватнасць. Мы хочам быць прозрыстымі адносна дадзеных, якія мы збіраем, і як мы іх выкарыстоўваем для палепшэння нашага прадукту для вас. Вось што вам трэба ведаць:",
     "@privacyIntroText": {
         "description": "Privacy page - privacyIntroText"
     },
@@ -5384,11 +5384,11 @@
     "@ourCommitment": {
         "description": "Privacy page - ourCommitment"
     },
-    "commitmentText": "Мы зацвёрджаны выкарыстоўваць дадзеныя, якія мы збіраем, толькі для палепшэння Omi. Ваша прыватнасць і даверыгу нам вельмі важныя.",
+    "commitmentText": "Мы зацвёрджаны выкарыстоўваць дадзеныя, якія мы збіраем, толькі для палепшэння Carry. Ваша прыватнасць і даверыгу нам вельмі важныя.",
     "@commitmentText": {
         "description": "Privacy page - commitmentText"
     },
-    "thankYouText": "Дзякуем, што вы каристальнік Omi. Калі ў вас ёсць якія-либо пытанні або ўзнікаюць праблемы, не вагайцеся звяртацца да нас team@basedhardware.com.",
+    "thankYouText": "Дзякуем, што вы каристальнік Carry. Калі ў вас ёсць якія-либо пытанні або ўзнікаюць праблемы, не вагайцеся звяртацца да нас team@basedhardware.com.",
     "@thankYouText": {
         "description": "Privacy page - thankYouText"
     },
@@ -5513,7 +5513,7 @@
     "@minutes": {
         "description": "Unit label for minutes"
     },
-    "omiHas": "Omi мае:",
+    "omiHas": "Carry мае:",
     "@omiHas": {
         "description": "Fallback text for share stats when period is unknown"
     },
@@ -5646,7 +5646,7 @@
     "@howItWorksTitle": {
         "description": "Help dialog title"
     },
-    "howPeopleWorks": "Як толькі чалавек створаны, вы можаце перайсці да транскрыпцыі разговора і прызначыць яму іх адпаведныя сегменты, гэта дозваліт Omi распазнаваць іх мову!",
+    "howPeopleWorks": "Як толькі чалавек створаны, вы можаце перайсці да транскрыпцыі разговора і прызначыць яму іх адпаведныя сегменты, гэта дозваліт Carry распазнаваць іх мову!",
     "@howPeopleWorks": {
         "description": "Explanation of how people/speech recognition works"
     },
@@ -6007,9 +6007,9 @@
     "@enableApps": {
         "description": "Menu item text to navigate to apps page and enable more chat apps"
     },
-    "omiAppName": "Omi",
+    "omiAppName": "Carry",
     "@omiAppName": {
-        "description": "The Omi app/assistant name shown in chat app selection"
+        "description": "The Carry app/assistant name shown in chat app selection"
     },
     "showMore": "Паказаць больш ↓",
     "@showMore": {
@@ -6039,21 +6039,21 @@
     "@checkingAppleWatch": {
         "description": "Loading text while checking Apple Watch status"
     },
-    "installOmiOnAppleWatch": "Ўстаноўьце Omi на ваш\nApple Watch",
+    "installOmiOnAppleWatch": "Ўстаноўьце Carry на ваш\nApple Watch",
     "@installOmiOnAppleWatch": {
-        "description": "Title prompting user to install Omi on Apple Watch"
+        "description": "Title prompting user to install Carry on Apple Watch"
     },
-    "installOmiOnAppleWatchDescription": "Каб выкарыстоўваць ваш Apple Watch з Omi, вам трэба спачатку ўсталяваць прыложэнне Omi на вашы гадзінкі.",
+    "installOmiOnAppleWatchDescription": "Каб выкарыстоўваць ваш Apple Watch з Carry, вам трэба спачатку ўсталяваць прыложэнне Carry на вашы гадзінкі.",
     "@installOmiOnAppleWatchDescription": {
-        "description": "Description explaining need to install Omi app on watch"
+        "description": "Description explaining need to install Carry app on watch"
     },
-    "openOmiOnAppleWatch": "Адкрыйце Omi на ваш\nApple Watch",
+    "openOmiOnAppleWatch": "Адкрыйце Carry на ваш\nApple Watch",
     "@openOmiOnAppleWatch": {
-        "description": "Title prompting user to open Omi on Apple Watch"
+        "description": "Title prompting user to open Carry on Apple Watch"
     },
-    "openOmiOnAppleWatchDescription": "Прыложэнне Omi ўстаноўлена на вашым Apple Watch. Адкрыйце яго і тапніце Пачаць, каб пачаць.",
+    "openOmiOnAppleWatchDescription": "Прыложэнне Carry ўстаноўлена на вашым Apple Watch. Адкрыйце яго і тапніце Пачаць, каб пачаць.",
     "@openOmiOnAppleWatchDescription": {
-        "description": "Description explaining Omi is installed and user should open it"
+        "description": "Description explaining Carry is installed and user should open it"
     },
     "openWatchApp": "Адкрыць Прыложэнне Watch",
     "@openWatchApp": {
@@ -6063,7 +6063,7 @@
     "@iveInstalledAndOpenedTheApp": {
         "description": "Button text confirming user has installed and opened the app"
     },
-    "unableToOpenWatchApp": "Не ўдалося адкрыць прыложэнне Apple Watch. Калі ласка, ручнічна адкрыйце прыложэнне Watch на вашым Apple Watch і ўсталяйце Omi з секкіі \"Даступныя Прыложэнні\".",
+    "unableToOpenWatchApp": "Не ўдалося адкрыць прыложэнне Apple Watch. Калі ласка, ручнічна адкрыйце прыложэнне Watch на вашым Apple Watch і ўсталяйце Carry з секкіі \"Даступныя Прыложэнні\".",
     "@unableToOpenWatchApp": {
         "description": "Error message when Watch app cannot be opened automatically"
     },
@@ -6071,7 +6071,7 @@
     "@appleWatchConnectedSuccessfully": {
         "description": "Success message when Apple Watch connects"
     },
-    "appleWatchNotReachable": "Apple Watch яшчэ недаступна. Калі ласка, пераканайцеся, што прыложэнне Omi адкрыто на вашых гадзінках.",
+    "appleWatchNotReachable": "Apple Watch яшчэ недаступна. Калі ласка, пераканайцеся, што прыложэнне Carry адкрыто на вашых гадзінках.",
     "@appleWatchNotReachable": {
         "description": "Error message when Apple Watch is not reachable"
     },
@@ -6189,9 +6189,9 @@
     "@noSummary": {
         "description": "Message when no summary is available"
     },
-    "updateOmiFirmware": "Абнавіць прашыўку omi",
+    "updateOmiFirmware": "Абнавіць прашыўку carry",
     "@updateOmiFirmware": {
-        "description": "Button text to update Omi device firmware"
+        "description": "Button text to update Carry device firmware"
     },
     "anErrorOccurredTryAgain": "Здарылася ошибка. Калі ласка, спробуйце яшчэ раз.",
     "@anErrorOccurredTryAgain": {
@@ -6201,7 +6201,7 @@
     "@welcomeBackSimple": {
         "description": "Simple welcome message without user name"
     },
-    "addVocabularyDescription": "Дадайце словы, якія Omi павінен распазнаваць падчас транскрыпцыі.",
+    "addVocabularyDescription": "Дадайце словы, якія Carry павінен распазнаваць падчас транскрыпцыі.",
     "@addVocabularyDescription": {
         "description": "Description for custom vocabulary section"
     },
@@ -6434,7 +6434,7 @@
     "@wrappedNoDataAvailable": {
         "description": "Shown when wrapped result is null"
     },
-    "wrappedOmiLifeRecap": "Omi Жыццё Резюмэ",
+    "wrappedOmiLifeRecap": "Carry Жыццё Резюмэ",
     "@wrappedOmiLifeRecap": {
         "description": "Subtitle on the intro card"
     },
@@ -6442,7 +6442,7 @@
     "@wrappedSwipeUpToBegin": {
         "description": "Instruction text on intro card"
     },
-    "wrappedShareText": "Мая 2025, запамінана Omi ✨ omi.me/wrapped",
+    "wrappedShareText": "Мая 2025, запамінана Carry ✨ carry.me/wrapped",
     "@wrappedShareText": {
         "description": "Text shared when sharing wrapped images"
     },
@@ -6470,7 +6470,7 @@
     "@wrappedMy2025": {
         "description": "Title text for shareable image"
     },
-    "wrappedRememberedByOmi": "запамінана Omi",
+    "wrappedRememberedByOmi": "запамінана Carry",
     "@wrappedRememberedByOmi": {
         "description": "Subtitle text for shareable image"
     },
@@ -6754,7 +6754,7 @@
     "@notificationFrequency": {
         "description": "Section header for notification frequency settings"
     },
-    "controlNotificationFrequency": "Кантраліруйце, як часта Omi адпраўляе вам прааактыўныя апавяшчэнні.",
+    "controlNotificationFrequency": "Кантраліруйце, як часта Carry адпраўляе вам прааактыўныя апавяшчэнні.",
     "@controlNotificationFrequency": {
         "description": "Description for notification frequency control"
     },
@@ -6786,7 +6786,7 @@
     "@dailyScoreExplanation": {
         "description": "Explanation of how daily score is calculated"
     },
-    "notificationFrequencyDescription": "Кантраліруйце, як часта Omi адпраўляе вам прааактыўныя апавяшчэнні і напамінаўі.",
+    "notificationFrequencyDescription": "Кантраліруйце, як часта Carry адпраўляе вам прааактыўныя апавяшчэнні і напамінаўі.",
     "@notificationFrequencyDescription": {
         "description": "Description text for notification frequency section"
     },
@@ -7072,7 +7072,7 @@
     "@noRecordings": {
         "description": "Empty state title when there are no recordings"
     },
-    "audioFromOmiWillAppearHere": "Аудыё з вашага прыбора Omi будзе пацвяршана тут",
+    "audioFromOmiWillAppearHere": "Аудыё з вашага прыбора Carry будзе пацвяршана тут",
     "@audioFromOmiWillAppearHere": {
         "description": "Empty state description for recordings"
     },
@@ -7252,7 +7252,7 @@
     "@batteryUsageHigher": {
         "description": "Warning about battery usage"
     },
-    "considerOmiCloud": "Разгледайце выкарыстанне Omi Cloud для лепшай прадуктыўнасці.",
+    "considerOmiCloud": "Разгледайце выкарыстанне Carry Cloud для лепшай прадуктыўнасці.",
     "@considerOmiCloud": {
         "description": "Suggestion to use cloud transcription"
     },
@@ -7479,9 +7479,9 @@
             }
         }
     },
-    "omiTranscriptionOptimized": "Убудаваная жывая транскрыпцыя Omi аптымізавана для разговораў у рэальным часе з аўтаматычным распазнаваннем дыктарыў і дыяризацыяй.",
+    "omiTranscriptionOptimized": "Убудаваная жывая транскрыпцыя Carry аптымізавана для разговораў у рэальным часе з аўтаматычным распазнаваннем дыктарыў і дыяризацыяй.",
     "@omiTranscriptionOptimized": {
-        "description": "Description of Omi transcription features"
+        "description": "Description of Carry transcription features"
     },
     "reset": "Скінуць",
     "@reset": {
@@ -7601,7 +7601,7 @@
     "@writeReviewOptional": {
         "description": "Hint text for review input field"
     },
-    "setupQuestionsIntro": "Дапамажыце нам палепшыць Omi, адпавядаючы на некалькі пытанняў. 🫶 💜",
+    "setupQuestionsIntro": "Дапамажыце нам палепшыць Carry, адпавядаючы на некалькі пытанняў. 🫶 💜",
     "@setupQuestionsIntro": {
         "description": "Intro text for setup questions page"
     },
@@ -7609,9 +7609,9 @@
     "@setupQuestionProfession": {
         "description": "Question about profession"
     },
-    "setupQuestionUsage": "2. Дзе вы плануеце выкарыстоўваць сваю Omi?",
+    "setupQuestionUsage": "2. Дзе вы плануеце выкарыстоўваць сваю Carry?",
     "@setupQuestionUsage": {
-        "description": "Question about Omi usage location"
+        "description": "Question about Carry usage location"
     },
     "setupQuestionAge": "3. Якой ваш ўзрост?",
     "@setupQuestionAge": {
@@ -8078,7 +8078,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8088,7 +8088,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8255,8 +8255,8 @@
         "description": "Title for low battery notification"
     },
     "lowBatteryAlertBody": "Ваша батарэя на {level}%. Час пазарадзіць! 🔋",
-    "batteryFullyChargedTitle": "Omi поўнасцю зараджаны",
-    "batteryFullyChargedBody": "Ваш прылада Omi поўнасцю зараджана. Можаце адключыць!",
+    "batteryFullyChargedTitle": "Carry поўнасцю зараджаны",
+    "batteryFullyChargedBody": "Ваш прылада Carry поўнасцю зараджана. Можаце адключыць!",
     "@lowBatteryAlertBody": {
         "description": "Body text for low battery notification",
         "placeholders": {
@@ -8265,11 +8265,11 @@
             }
         }
     },
-    "deviceDisconnectedNotificationTitle": "Ваша прыстасаванне Omi адключылося",
+    "deviceDisconnectedNotificationTitle": "Ваша прыстасаванне Carry адключылося",
     "@deviceDisconnectedNotificationTitle": {
         "description": "Title for device disconnected notification"
     },
-    "deviceDisconnectedNotificationBody": "Калі ласка, перазлучыцеся, каб пацягнуць Omi.",
+    "deviceDisconnectedNotificationBody": "Калі ласка, перазлучыцеся, каб пацягнуць Carry.",
     "@deviceDisconnectedNotificationBody": {
         "description": "Body text for device disconnected notification"
     },
@@ -8277,7 +8277,7 @@
     "@firmwareUpdateAvailable": {
         "description": "Title for firmware update available dialog"
     },
-    "firmwareUpdateAvailableDescription": "Новае абнаўленне прашывак ({version}) даступнае для вашага прыстасавання Omi. Ці хочаце вы абнавіць прямо зараз?",
+    "firmwareUpdateAvailableDescription": "Новае абнаўленне прашывак ({version}) даступнае для вашага прыстасавання Carry. Ці хочаце вы абнавіць прямо зараз?",
     "@firmwareUpdateAvailableDescription": {
         "description": "Description for firmware update dialog with version parameter",
         "placeholders": {
@@ -8332,9 +8332,9 @@
     "@almostDone": {
         "description": "Migration is almost complete"
     },
-    "omiSays": "Omi кажа",
+    "omiSays": "Carry кажа",
     "@omiSays": {
-        "description": "Notification title for omi app messages"
+        "description": "Notification title for carry app messages"
     },
     "analyzingYourData": "Аналіз вашых даных...",
     "@analyzingYourData": {
@@ -8671,9 +8671,9 @@
     "@nextButton": {
         "description": "Button text to proceed to next step"
     },
-    "connectOmiDevice": "Падключыць прыстасаванне Omi",
+    "connectOmiDevice": "Падключыць прыстасаванне Carry",
     "@connectOmiDevice": {
-        "description": "Button text to connect Omi device"
+        "description": "Button text to connect Carry device"
     },
     "planSwitchingDescriptionWithTitle": "Вы мяняеце ваш Unlimite план на {title}. Вы ўпэўнены, што хочаце адкіць?",
     "@planSwitchingDescriptionWithTitle": {
@@ -8712,9 +8712,9 @@
     "@transcriptionJsonPlaceholder": {
         "description": "JSON configuration placeholder hint text in transcription settings"
     },
-    "transcriptionSourceOmi": "Omi",
+    "transcriptionSourceOmi": "Carry",
     "@transcriptionSourceOmi": {
-        "description": "Tab title for Omi transcription source option"
+        "description": "Tab title for Carry transcription source option"
     },
     "pricePlaceholder": "0.00",
     "@pricePlaceholder": {
@@ -8754,7 +8754,7 @@
             }
         }
     },
-    "actionItemReminderTitle": "Нагадаванне Omi",
+    "actionItemReminderTitle": "Нагадаванне Carry",
     "@actionItemReminderTitle": {
         "description": "Title for action item reminder notifications"
     },
@@ -8764,7 +8764,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8774,7 +8774,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8798,7 +8798,7 @@
     "@onboardingComplete": {
         "description": "Onboarding step title for completion"
     },
-    "onboardingWelcomeToOmi": "Вітаем у Omi",
+    "onboardingWelcomeToOmi": "Вітаем у Carry",
     "@onboardingWelcomeToOmi": {
         "description": "Onboarding step description for sign in"
     },
@@ -9578,29 +9578,29 @@
     "pairNewDevice": "Спарыць новае прыстасаванне",
     "dontSeeYourDevice": "Не бачыце свайго прыстасавання?",
     "reportAnIssue": "Паведаміць аб праблеме",
-    "pairingTitleOmi": "Уключыце Omi",
+    "pairingTitleOmi": "Уключыце Carry",
     "@pairingTitleOmi": {
-        "description": "Pairing title for Omi device"
+        "description": "Pairing title for Carry device"
     },
     "pairingDescOmi": "Прыціскайце і трымайце прыстасаванне да вібрацыі.",
     "@pairingDescOmi": {
-        "description": "Pairing description for Omi device"
+        "description": "Pairing description for Carry device"
     },
-    "pairingTitleOmiDevkit": "Пакладзіце Omi DevKit у рэжым спарыпання",
+    "pairingTitleOmiDevkit": "Пакладзіце Carry DevKit у рэжым спарыпання",
     "@pairingTitleOmiDevkit": {
-        "description": "Pairing title for Omi DevKit"
+        "description": "Pairing title for Carry DevKit"
     },
     "pairingDescOmiDevkit": "Натысніце кнопку адзін раз для ўключэння. Калі рэжым спарыпання актыўны, LED мігацьме фіялетавым.",
     "@pairingDescOmiDevkit": {
-        "description": "Pairing description for Omi DevKit"
+        "description": "Pairing description for Carry DevKit"
     },
-    "pairingTitleOmiGlass": "Уключыце Omi Glass",
+    "pairingTitleOmiGlass": "Уключыце Carry Glass",
     "@pairingTitleOmiGlass": {
-        "description": "Pairing title for Omi Glass"
+        "description": "Pairing title for Carry Glass"
     },
     "pairingDescOmiGlass": "Уключыце, натыснуўшы бакавую кнопку на 3 секунды.",
     "@pairingDescOmiGlass": {
-        "description": "Pairing description for Omi Glass"
+        "description": "Pairing description for Carry Glass"
     },
     "pairingTitlePlaudNote": "Пакладзіце Plaud Note у рэжым спарыпання",
     "@pairingTitlePlaudNote": {
@@ -9646,7 +9646,7 @@
     "@pairingTitleAppleWatch": {
         "description": "Pairing title for Apple Watch"
     },
-    "pairingDescAppleWatch": "Устанавіце і адкрыйце прыкладанне Omi на сваім Apple Watch, потым натысніце Connect у прыкладанні.",
+    "pairingDescAppleWatch": "Устанавіце і адкрыйце прыкладанне Carry на сваім Apple Watch, потым натысніце Connect у прыкладанні.",
     "@pairingDescAppleWatch": {
         "description": "Pairing description for Apple Watch"
     },
@@ -9740,7 +9740,7 @@
     "@onboardingWhatIKnowAboutYouTitle": {
         "description": "Title for onboarding step that previews the memory graph"
     },
-    "onboardingWhatIKnowAboutYouDescription": "Гэта карта абнаўляецца, калі Omi вучыцца з вашых размоў.",
+    "onboardingWhatIKnowAboutYouDescription": "Гэта карта абнаўляецца, калі Carry вучыцца з вашых размоў.",
     "@onboardingWhatIKnowAboutYouDescription": {
         "description": "Description for onboarding memory graph preview step"
     },
@@ -9798,7 +9798,7 @@
         "description": "Confirmation dialog message for cleaning today task deadlines"
     },
     "tasksOverdue": "Прострочаныя",
-    "phoneCallsWithOmi": "Тэлефонныя вызовы з Omi",
+    "phoneCallsWithOmi": "Тэлефонныя вызовы з Carry",
     "phoneCallsSubtitle": "Делайце вызовы з трансляцыяй у рэжыме рэальнага часу",
     "phoneSetupStep1Title": "Параўнайце свой тэлефонны нумар",
     "phoneSetupStep1Subtitle": "Мы вам пазвоним, каб растацьь яго",
@@ -9903,11 +9903,11 @@
     "@showTasksOnHomepage": {
         "description": "Description for show tasks toggle in developer settings"
     },
-    "phoneCallsUnlimitedOnly": "Тэлефонныя вызовы праз Omi",
+    "phoneCallsUnlimitedOnly": "Тэлефонныя вызовы праз Carry",
     "@phoneCallsUnlimitedOnly": {
         "description": "Title for the phone calls upsell sheet shown to non-unlimited users"
     },
-    "phoneCallsUpsellSubtitle": "Звяжэцца праз Omi і атрымайце трансляцыю у рэжыме рэальнага часу, аўтаматычныя аніяцыі і іншае. Даступна толькі для падпісчыкаў плана Unlimited.",
+    "phoneCallsUpsellSubtitle": "Звяжэцца праз Carry і атрымайце трансляцыю у рэжыме рэальнага часу, аўтаматычныя аніяцыі і іншае. Даступна толькі для падпісчыкаў плана Unlimited.",
     "@phoneCallsUpsellSubtitle": {
         "description": "Subtitle explaining phone calls feature on upsell sheet"
     },
@@ -10028,7 +10028,7 @@
     "fairUse3Day": "3-дневны прокат",
     "fairUseWeekly": "Еженедельны прокат",
     "fairUseAboutTitle": "Аб справядлівым ўжыванні",
-    "fairUseAboutBody": "Omi прызначаны для асобных размоў, сустрэч і жывых узаёмадзеянняў. Ужыванне вымяраецца рэальным часом мовы, а не часам злучэння. Калі ўжыванне значна перавышае нармальныя мадэлі для ненасобнага контэнта, могуць быць зробленыя карэкцыі.",
+    "fairUseAboutBody": "Carry прызначаны для асобных размоў, сустрэч і жывых узаёмадзеянняў. Ужыванне вымяраецца рэальным часом мовы, а не часам злучэння. Калі ўжыванне значна перавышае нармальныя мадэлі для ненасобнага контэнта, могуць быць зробленыя карэкцыі.",
     "fairUseCaseRefCopied": "{caseRef} скапіравана",
     "@fairUseCaseRefCopied": {
         "description": "Snackbar message when case reference is copied to clipboard",
@@ -10070,7 +10070,7 @@
         }
     },
     "improveConnectionTitle": "Палепшыць злучэнне",
-    "improveConnectionContent": "Мы палепшылі, як Omi астается злучаным з вашым прыстасаваннем. Каб актывіраваць гэта, перайдзіце на старонку Device Info, натысніце \"Адключыць прыстасаванне\", а потым яшчэ раз спарыце свая прыстасаванне.",
+    "improveConnectionContent": "Мы палепшылі, як Carry астается злучаным з вашым прыстасаваннем. Каб актывіраваць гэта, перайдзіце на старонку Device Info, натысніце \"Адключыць прыстасаванне\", а потым яшчэ раз спарыце свая прыстасаванне.",
     "improveConnectionAction": "Зразумелі",
     "clockSkewWarning": "Годзiнник вашага прыстасавання збіты прыблізна на {minutes} мін. Праверьце параметры даты і часу.",
     "@clockSkewWarning": {
@@ -10080,7 +10080,7 @@
             }
         }
     },
-    "omisStorage": "Сховішча Omi",
+    "omisStorage": "Сховішча Carry",
     "@omisStorage": {
         "description": "Label for device storage tier in sync pipeline"
     },
@@ -10133,11 +10133,11 @@
     "@cancelSyncQuestion": {
         "description": "Title for cancel sync confirmation dialog"
     },
-    "omisStorageDesc": "Калі вашы Omi не злучаны з вашым тэлефонам, ён захоўвае аўдыё адзінаў у абрана пам'яці прыстасавання. Вы ніколі не страчаеце запіс.",
+    "omisStorageDesc": "Калі вашы Carry не злучаны з вашым тэлефонам, ён захоўвае аўдыё адзінаў у абрана пам'яці прыстасавання. Вы ніколі не страчаеце запіс.",
     "@omisStorageDesc": {
         "description": "Description of device storage in sync info sheet"
     },
-    "phoneStorageDesc": "Калі Omi яшчэ раз злучаюцца, запісы аўтаматычна переносяцца на вашы тэлефон як часовае адзінаў да загрузкі.",
+    "phoneStorageDesc": "Калі Carry яшчэ раз злучаюцца, запісы аўтаматычна переносяцца на вашы тэлефон як часовае адзінаў да загрузкі.",
     "@phoneStorageDesc": {
         "description": "Description of phone storage in sync info sheet"
     },
@@ -10173,11 +10173,11 @@
     "@permissionEnable": {
         "description": "Action text to enable a permission"
     },
-    "permissionsPageDescription": "Гэтыя дазволы важны для таго, как працуе Omi. Яны дазваляюць ключавыя функцыі, такія як апавяшчэнні, месцазнаходжанні і захоп аўдыё.",
+    "permissionsPageDescription": "Гэтыя дазволы важны для таго, как працуе Carry. Яны дазваляюць ключавыя функцыі, такія як апавяшчэнні, месцазнаходжанні і захоп аўдыё.",
     "@permissionsPageDescription": {
         "description": "Description text shown at the bottom of the permissions page"
     },
-    "permissionsRequiredDescription": "Omi патрабуе некалькі дазволаў для нармальнай работы. Калі ласка, дайце іх, каб прадолжыць.",
+    "permissionsRequiredDescription": "Carry патрабуе некалькі дазволаў для нармальнай работы. Калі ласка, дайце іх, каб прадолжыць.",
     "@permissionsRequiredDescription": {
         "description": "Description for the permissions interstitial screen"
     },
@@ -10185,7 +10185,7 @@
     "@permissionsSetupTitle": {
         "description": "Title for the permissions interstitial screen"
     },
-    "permissionsSetupDescription": "Уключыце некалькі дазволаў, каб Omi мог адкрыць свайна магію.",
+    "permissionsSetupDescription": "Уключыце некалькі дазволаў, каб Carry мог адкрыць свайна магію.",
     "@permissionsSetupDescription": {
         "description": "Subtitle for the permissions interstitial screen"
     },
@@ -10314,7 +10314,7 @@
     "@feedbackTitleFoundAlternative": {
         "description": "Feedback title when cancel reason is found alternative"
     },
-    "feedbackTitleNotUsing": "Што б зрабіў Omi больш карыснаю?",
+    "feedbackTitleNotUsing": "Што б зрабіў Carry больш карыснаю?",
     "@feedbackTitleNotUsing": {
         "description": "Feedback title when cancel reason is not using enough"
     },
@@ -10338,7 +10338,7 @@
     "@feedbackSubtitleFoundAlternative": {
         "description": "Feedback subtitle for found alternative"
     },
-    "feedbackSubtitleNotUsing": "Мы хочам зрабіць Omi больш карыснаю для вас.",
+    "feedbackSubtitleNotUsing": "Мы хочам зрабіць Carry больш карыснаю для вас.",
     "@feedbackSubtitleNotUsing": {
         "description": "Feedback subtitle for not using enough"
     },
@@ -10455,20 +10455,20 @@
     "tasksSelectAll": "Выбраць усё",
     "tasksDeleteSelected": "Выдаліць {count} задачу(і)",
     "tasksMarkComplete": "Адзначана як выкананае",
-    "appleHealthManageNote": "Omi атрымлівае доступ да Apple Health праз фрэймворк HealthKit ад Apple. Вы можаце адклікаць доступ у любы час у Наладах iOS.",
+    "appleHealthManageNote": "Carry атрымлівае доступ да Apple Health праз фрэймворк HealthKit ад Apple. Вы можаце адклікаць доступ у любы час у Наладах iOS.",
     "appleHealthConnectCta": "Падключыць Apple Health",
     "appleHealthDisconnectCta": "Адключыць Apple Health",
     "appleHealthConnectedBadge": "Падключана",
     "appleHealthFeatureChatTitle": "Размаўляйце пра здароўе",
-    "appleHealthFeatureChatDesc": "Пытайцеся ў Omi пра крокі, сон, пульс і трэніроўкі.",
+    "appleHealthFeatureChatDesc": "Пытайцеся ў Carry пра крокі, сон, пульс і трэніроўкі.",
     "appleHealthFeatureReadOnlyTitle": "Толькі для чытання",
-    "appleHealthFeatureReadOnlyDesc": "Omi ніколі не піша ў Apple Health і не змяняе вашы даныя.",
+    "appleHealthFeatureReadOnlyDesc": "Carry ніколі не піша ў Apple Health і не змяняе вашы даныя.",
     "appleHealthFeatureSecureTitle": "Бяспечная сінхранізацыя",
-    "appleHealthFeatureSecureDesc": "Даныя Apple Health прыватна сінхранізуюцца з акаўнтам Omi.",
+    "appleHealthFeatureSecureDesc": "Даныя Apple Health прыватна сінхранізуюцца з акаўнтам Carry.",
     "appleHealthDeniedTitle": "Доступ да Apple Health адхілены",
-    "appleHealthDeniedBody": "У Omi няма дазволу на чытанне даных Apple Health. Уключыце яго ў Налады iOS → Прыватнасць і бяспека → Health → Omi.",
+    "appleHealthDeniedBody": "У Carry няма дазволу на чытанне даных Apple Health. Уключыце яго ў Налады iOS → Прыватнасць і бяспека → Health → Carry.",
     "deleteFlowReasonTitle": "Чаму вы сыходзіце?",
-    "deleteFlowReasonSubtitle": "Ваш водгук дапамагае нам зрабіць Omi лепшым для ўсіх.",
+    "deleteFlowReasonSubtitle": "Ваш водгук дапамагае нам зрабіць Carry лепшым для ўсіх.",
     "deleteReasonPrivacy": "Праблемы з прыватнасцю",
     "deleteReasonNotUsing": "Карыстаюся недастаткова часта",
     "deleteReasonMissingFeatures": "Не хапае патрэбных функцый",
@@ -10477,7 +10477,7 @@
     "deleteReasonTakingBreak": "Проста раблю перапынак",
     "deleteReasonOther": "Іншае",
     "deleteFlowFeedbackTitle": "Раскажыце падрабязней",
-    "deleteFlowFeedbackSubtitle": "Што прымусіла б Omi працаваць для вас?",
+    "deleteFlowFeedbackSubtitle": "Што прымусіла б Carry працаваць для вас?",
     "deleteFlowFeedbackHint": "Неабавязкова — вашы думкі дапамагаюць нам ствараць лепшы прадукт.",
     "deleteFlowConfirmTitle": "Гэта назаўсёды",
     "deleteFlowConfirmSubtitle": "Пасля выдалення ўліковага запісу аднавіць яго немагчыма.",
@@ -10529,13 +10529,13 @@
     "chatUsageCostNoLimit": "Чат: ${used} выкарыстана ў гэтым месяцы",
     "chatUsageMessages": "Чат: {used} / {limit} паведамленняў у гэтым месяцы",
     "chatUsageMessagesNoLimit": "Чат: {used} паведамленняў у гэтым месяцы",
-    "chatQuotaSubtitle": "AI chat messages used with Omi this month.",
-    "chatQuotaExceededReply": "Вы дасягнулі свайго месячнага ліміту. Абнавіце, каб працягваць размаўляць з Omi без абмежаванняў.",
+    "chatQuotaSubtitle": "AI chat messages used with Carry this month.",
+    "chatQuotaExceededReply": "Вы дасягнулі свайго месячнага ліміту. Абнавіце, каб працягваць размаўляць з Carry без абмежаванняў.",
     "batteryHistory": "Батарэя",
     "day": "Дзень",
     "noBatteryDataYet": "Даных пра батарэю яшчэ няма",
     "week": "Тыдзень",
-    "voiceResponseAudio": "Чытаць адказ Omi уголас",
+    "voiceResponseAudio": "Чытаць адказ Carry уголас",
     "voiceResponseMode": "Галасавы адказ",
     "voiceResponseModeTitle": "Калі агучваць адказы",
     "voiceResponseOff": "Выкл",
@@ -10582,26 +10582,26 @@
     "syncStatusRetrying": "Не атрымалася апрацаваць — паўтор",
     "syncStatusFailed": "Памылка — націсніце «Паўтарыць»",
     "syncStatusFileUnavailable": "Файл недаступны",
-    "syncStatusUploaded": "Запампавана · апрацоўка ў Omi",
+    "syncStatusUploaded": "Запампавана · апрацоўка ў Carry",
     "noRecordingsYet": "Запісаў пакуль няма",
     "syncInProgress": "Сінхранізацыя выконваецца",
     "deleteWhileProcessingTitle": "Усё яшчэ апрацоўваецца",
-    "deleteWhileProcessingMessage": "Гэты запіс запампаваны, але Omi яшчэ стварае размову. Калі выдаліць зараз і апрацоўка не атрымаецца, аднавіць будзе немагчыма. Усё роўна выдаліць?",
+    "deleteWhileProcessingMessage": "Гэты запіс запампаваны, але Carry яшчэ стварае размову. Калі выдаліць зараз і апрацоўка не атрымаецца, аднавіць будзе немагчыма. Усё роўна выдаліць?",
     "syncCardAllBackedUp": "Усе запісы сінхранізаваны",
     "syncCardReadyCount": "{count, plural, one{1 запіс гатовы да сінхранізацыі} few{{count} запісы гатовыя да сінхранізацыі} many{{count} запісаў гатовыя да сінхранізацыі} other{{count} запісу гатовыя да сінхранізацыі}}",
-    "syncCardProcessing": "Апрацоўка ў Omi…",
+    "syncCardProcessing": "Апрацоўка ў Carry…",
     "syncCardWaitingInternet": "Чаканне інтэрнэту",
     "syncCardNeedsAttention": "{count, plural, one{{count} запіс патрабуе ўвагі} few{{count} запісы патрабуюць увагі} many{{count} запісаў патрабуюць увагі} other{{count} запісу патрабуе ўвагі}}",
-    "syncFlowIntro": "Запісы перадаюцца з вашага прыбора на гэты тэлефон і захоўваюцца лакальна, а потым загружаюцца на сервер Omi, дзе яны транскрыбуюцца і ператвараюцца ў размовы.",
+    "syncFlowIntro": "Запісы перадаюцца з вашага прыбора на гэты тэлефон і захоўваюцца лакальна, а потым загружаюцца на сервер Carry, дзе яны транскрыбуюцца і ператвараюцца ў размовы.",
     "syncStepUpload": "Сінхранізацыя",
-    "syncStepUploadDesc": "Ваш запіс адпраўляецца на сервер Omi",
+    "syncStepUploadDesc": "Ваш запіс адпраўляецца на сервер Carry",
     "syncStepProcess": "Транскрыпцыя",
-    "syncStepProcessDesc": "Omi ператварае аўдыя ў размову",
+    "syncStepProcessDesc": "Carry ператварае аўдыя ў размову",
     "syncStepBackedUp": "Размова гатовая",
     "syncStepBackedUpDesc": "Знайдзіце яе ў раздзеле «Разнамовы»",
     "syncFailureFootnote": "Калі апрацоўка не атрымаецца, запіс будзе аўтаматычна паўторны падчас наступнай сінхранізацыі.",
     "syncStatusConversationCreated": "Размова створана",
-    "syncCardUploadingTitle": "Запампоўка ў Omi",
+    "syncCardUploadingTitle": "Запампоўка ў Carry",
     "syncCardDownloadingTitle": "Загрузка з вашага прыбора",
     "syncCardProgressOf": "{current} з {total}",
     "syncStatusOnDevice": "На вашым прыборы",
@@ -10614,19 +10614,19 @@
     },
     "syncProcessingBackgroundHint": "Працэс працягваецца ў фонавым рэжыме — вы можаце пакінуць гэты экран.",
     "syncCardRateLimited": "Дасягнуты ліміт сумленнага выкарыстання — сінхранізацыя адновіцца аўтаматычна",
-    "syncCardBackendBusy": "Серверы Omi загружаныя — вашы запісы сінхранізуюцца, калі з'явіцца магчымасць",
+    "syncCardBackendBusy": "Серверы Carry загружаныя — вашы запісы сінхранізуюцца, калі з'явіцца магчымасць",
     "unableToDetermineFirmwareVersion": "Не ўдалося вызначыць бягучую версію прашыўкі",
     "promoCode": "Промакод",
     "enterPromoCode": "Увядзіце промакод",
     "invalidPromotionCode": "Няправільны промакод.",
     "backgroundModeTitle": "Фонавы рэжым",
-    "backgroundModeDescription": "Працягвайце запіс Omi, нават калі праграма цалкам закрыта.",
-    "backgroundModeNote": "Пакуль працуе толькі з прыладамі Omi і пастаянна ўдасканальваецца.",
+    "backgroundModeDescription": "Працягвайце запіс Carry, нават калі праграма цалкам закрыта.",
+    "backgroundModeNote": "Пакуль працуе толькі з прыладамі Carry і пастаянна ўдасканальваецца.",
     "regenerateRecap": "Згенераваць рэзюмэ паўторна",
     "recapRegeneratedSnackbar": "Рэзюмэ перагенеравана",
     "recapRegenerateFailed": "Не атрымалася перагенераваць рэзюмэ. Паспрабуйце пазней.",
     "recapRegenerateCooldown": "Калі ласка, пачакайце некалькі секунд перад паўторнай генерацыяй.",
     "recapRegenerateNoConversations": "Няма размоў для рэзюмавання гэтага дня.",
-    "syncCustomSttWarningTitle": "Сінхранізацыя выкарыстоўвае транскрыпцыю Omi",
-    "syncCustomSttWarningMessage": "Вы карыстаецеся ўласным сэрвісам транскрыпцыі. Сінхранізацыя гэтых запісаў транскрыбуе іх на серверах Omi, і яны залічацца ў ліміт транскрыпцыі вашага тарыфу."
+    "syncCustomSttWarningTitle": "Сінхранізацыя выкарыстоўвае транскрыпцыю Carry",
+    "syncCustomSttWarningMessage": "Вы карыстаецеся ўласным сэрвісам транскрыпцыі. Сінхранізацыя гэтых запісаў транскрыбуе іх на серверах Carry, і яны залічацца ў ліміт транскрыпцыі вашага тарыфу."
 }

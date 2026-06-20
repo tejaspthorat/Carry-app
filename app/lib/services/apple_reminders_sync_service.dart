@@ -55,7 +55,7 @@ class AppleRemindersSyncService {
     for (final item in pendingItems) {
       final calendarItemId = await _remindersService.addReminder(
         title: item.description,
-        notes: 'From Omi',
+        notes: 'From Carry',
         dueDate: item.dueAt,
       );
 

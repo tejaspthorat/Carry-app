@@ -1,7 +1,7 @@
 {
     "@@locale": "bs",
     "@@last_modified": "2024-12-26",
-    "appTitle": "Omi",
+    "appTitle": "Carry",
     "@appTitle": {
         "description": "The app title displayed in various places"
     },
@@ -157,7 +157,7 @@
     "@editPerson": {
         "description": "Title for edit person dialog"
     },
-    "createPersonHint": "Kreiraj novu osobu i trenings Omi-ja da prepozna njihov govor!",
+    "createPersonHint": "Kreiraj novu osobu i trenings Carry-ja da prepozna njihov govor!",
     "@createPersonHint": {
         "description": "Hint text for creating a person"
     },
@@ -211,9 +211,9 @@
     "@couldNotAccessFile": {
         "description": "Error when file access fails"
     },
-    "askOmi": "Pitaj Omija",
+    "askOmi": "Pitaj Carryja",
     "@askOmi": {
-        "description": "Shortcut to ask Omi a question"
+        "description": "Shortcut to ask Carry a question"
     },
     "done": "Gotovo",
     "@done": {
@@ -349,7 +349,7 @@
     "@noMessagesYet": {
         "description": "Empty chat state message"
     },
-    "deletingMessages": "Brisanje vaših poruka iz Omiove memorije...",
+    "deletingMessages": "Brisanje vaših poruka iz Carryove memorije...",
     "@deletingMessages": {
         "description": "Loading text when clearing chat"
     },
@@ -389,7 +389,7 @@
     "@maxFilesLimit": {
         "description": "Max files upload warning"
     },
-    "chatWithOmi": "Čatujte sa Omijom",
+    "chatWithOmi": "Čatujte sa Carryjom",
     "@chatWithOmi": {
         "description": "Chat share subject"
     },
@@ -429,7 +429,7 @@
     "@unableToFetchApps": {
         "description": "Error when apps fail to load"
     },
-    "aboutOmi": "O Omiju",
+    "aboutOmi": "O Carryju",
     "@aboutOmi": {
         "description": "About page title"
     },
@@ -579,7 +579,7 @@
     "@developerSettings": {
         "description": "Title for developer settings page"
     },
-    "getOmiForMac": "Nabavi Omija za Mac",
+    "getOmiForMac": "Nabavi Carryja za Mac",
     "@getOmiForMac": {
         "description": "Mac app download link"
     },
@@ -603,7 +603,7 @@
     "@yourPrivacyYourControl": {
         "description": "Data privacy page heading"
     },
-    "privacyIntro": "U Omiju smo posvećeni zaštiti vaše privatnosti. Ova stranica vam omogućava da kontrolišete kako se vaši podaci čuvaju i koriste.",
+    "privacyIntro": "U Carryju smo posvećeni zaštiti vaše privatnosti. Ova stranica vam omogućava da kontrolišete kako se vaši podaci čuvaju i koriste.",
     "@privacyIntro": {
         "description": "Data privacy page introduction"
     },
@@ -695,7 +695,7 @@
     "@unpairAndForget": {
         "description": "Unpair and forget device button"
     },
-    "deviceDisconnectedMessage": "Vaš Omi je iskopčan 😔",
+    "deviceDisconnectedMessage": "Vaš Carry je iskopčan 😔",
     "@deviceDisconnectedMessage": {
         "description": "Message shown when device is disconnected"
     },
@@ -715,7 +715,7 @@
     "@deviceNotConnected": {
         "description": "Device not connected header"
     },
-    "connectDeviceMessage": "Povežite svoj Omi uređaj da pristupite\npostavkama uređaja i prilagođavanju",
+    "connectDeviceMessage": "Povežite svoj Carry uređaj da pristupite\npostavkama uređaja i prilagođavanju",
     "@connectDeviceMessage": {
         "description": "Message encouraging user to connect device"
     },
@@ -887,7 +887,7 @@
     "@docs": {
         "description": "Documentation button text"
     },
-    "yourOmiInsights": "Vaši Omi uvidi",
+    "yourOmiInsights": "Vaši Carry uvidi",
     "@yourOmiInsights": {
         "description": "Usage page title"
     },
@@ -911,7 +911,7 @@
     "@noActivityYet": {
         "description": "Empty state title"
     },
-    "startConversationToSeeInsights": "Započnite razgovor sa Omijom\nda vidite vaše uvide o upotrebi ovde.",
+    "startConversationToSeeInsights": "Započnite razgovor sa Carryjom\nda vidite vaše uvide o upotrebi ovde.",
     "@startConversationToSeeInsights": {
         "description": "Empty state description"
     },
@@ -919,7 +919,7 @@
     "@listening": {
         "description": "Listening stat title"
     },
-    "listeningSubtitle": "Ukupno vreme koje je Omi aktivno slušao.",
+    "listeningSubtitle": "Ukupno vreme koje je Carry aktivno slušao.",
     "@listeningSubtitle": {
         "description": "Listening stat subtitle"
     },
@@ -1011,23 +1011,23 @@
             }
         }
     },
-    "shareStatsMessage": "Dele svoje Omi statistike! (omi.me - vaš AI asistent koji je uvek dostupan)",
+    "shareStatsMessage": "Dele svoje Carry statistike! (carry.me - vaš AI asistent koji je uvek dostupan)",
     "@shareStatsMessage": {
         "description": "Share stats base message"
     },
-    "sharePeriodToday": "Danas, omi je:",
+    "sharePeriodToday": "Danas, carry je:",
     "@sharePeriodToday": {
         "description": "Share stats period: Today"
     },
-    "sharePeriodMonth": "Ovaj mesec, omi je:",
+    "sharePeriodMonth": "Ovaj mesec, carry je:",
     "@sharePeriodMonth": {
         "description": "Share stats period: Month"
     },
-    "sharePeriodYear": "Ove godine, omi je:",
+    "sharePeriodYear": "Ove godine, carry je:",
     "@sharePeriodYear": {
         "description": "Share stats period: Year"
     },
-    "sharePeriodAllTime": "Do sada, omi je:",
+    "sharePeriodAllTime": "Do sada, carry je:",
     "@sharePeriodAllTime": {
         "description": "Share stats period: All Time"
     },
@@ -1075,7 +1075,7 @@
     "debugLogsAutoDelete": "Automatski se briše nakon 3 dana.",
     "debugLogsDesc": "Pomaže dijagnostici problema",
     "noLogFilesFound": "Nema pronađenih log datoteka.",
-    "omiDebugLog": "Omi log otklanjanja grešaka",
+    "omiDebugLog": "Carry log otklanjanja grešaka",
     "logShared": "Log je deljenje",
     "selectLogFile": "Odaberi log datoteku",
     "shareLogs": "Deli logove",
@@ -1083,7 +1083,7 @@
     "exportStarted": "Izvoz je počeo. Ovo može potrajati nekoliko sekundi...",
     "exportAllData": "Izvezi sve podatke",
     "exportDataDesc": "Izvezite razgovore u JSON datoteku",
-    "exportedConversations": "Izveženi razgovori iz Omija",
+    "exportedConversations": "Izveženi razgovori iz Carryja",
     "exportShared": "Izvoz je deljenje",
     "deleteKnowledgeGraphTitle": "Izbrisati grafikon znanja?",
     "deleteKnowledgeGraphMessage": "Ovo će izbrisati sve izvedene podatke grafikona znanja (čvorove i veze). Vaše originalne uspomene će ostati sigurne. Grafikon će biti ponovo izgrađen tokom vremena ili na sledeći zahtev.",
@@ -1183,7 +1183,7 @@
     "customVocabularyTitle": "Prilagođeni rečnik",
     "addWords": "Dodaj reči",
     "addWordsDesc": "Imena, uslovi ili neuobičajne reči",
-    "vocabularyHint": "Omi, Callie, OpenAI",
+    "vocabularyHint": "Carry, Callie, OpenAI",
     "connect": "Poveži",
     "comingSoon": "Uskoro dolazi",
     "integrationsFooter": "Povežite svoje aplikacije da vidite podatke i metrike u čatu.",
@@ -1229,7 +1229,7 @@
             }
         }
     },
-    "authAccessMessage": "Trebate da autorizujete Omija da pristupi vašim {appName} podacima. Ovo će otvoriti vaš preglednika za autentifikaciju.",
+    "authAccessMessage": "Trebate da autorizujete Carryja da pristupi vašim {appName} podacima. Ovo će otvoriti vaš preglednika za autentifikaciju.",
     "@authAccessMessage": {
         "placeholders": {
             "appName": {
@@ -1266,7 +1266,7 @@
     "permissionRevokedMessage": "Želite li da obrišemo i sva vaša postojeća snimanja?",
     "yes": "Da",
     "editName": "Izmeni ime",
-    "howShouldOmiCallYou": "Kako treba da vas Omi naziva?",
+    "howShouldOmiCallYou": "Kako treba da vas Carry naziva?",
     "enterYourName": "Unesite svoje ime",
     "nameCannotBeEmpty": "Ime ne sme biti prazno",
     "nameUpdatedSuccessfully": "Ime je uspešno ažurirano!",
@@ -1450,7 +1450,7 @@
             }
         }
     },
-    "authorizeOmiForTasks": "Trebalo bi da autentifikujete Omi da kreira zadatke u vašem {appName} nalogu. Ovo će otvoriti vaš preglednik za autentifikaciju.",
+    "authorizeOmiForTasks": "Trebalo bi da autentifikujete Carry da kreira zadatke u vašem {appName} nalogu. Ovo će otvoriti vaš preglednik za autentifikaciju.",
     "@authorizeOmiForTasks": {
         "placeholders": {
             "appName": {
@@ -1481,9 +1481,9 @@
     "importConfiguration": "Uvezi konfiguraciju",
     "exportConfiguration": "Izvezi konfiguraciju",
     "bringYourOwn": "Dovedite svoje",
-    "payYourSttProvider": "Slobodno koristi omi. Plaćate samo vašem STT dobavljaču direktno.",
+    "payYourSttProvider": "Slobodno koristi carry. Plaćate samo vašem STT dobavljaču direktno.",
     "freeMinutesMonth": "1.200 besplatnih minuta/mesec uključeno. Neograničeno sa ",
-    "omiUnlimited": "Omi Unlimited",
+    "omiUnlimited": "Carry Unlimited",
     "hostRequired": "Domaćin je obavezan",
     "validPortRequired": "Validan port je obavezan",
     "validWebsocketUrlRequired": "Validan WebSocket URL je obavezan (wss://)",
@@ -1541,7 +1541,7 @@
     "logs": "Logovi",
     "logsCopied": "Logovi su kopirani",
     "noLogsYet": "Nema logova. Počnite sa snimanjem da vidite prilagođenu STT aktivnost.",
-    "deviceUsesCodec": "{device} koristi {reason}. Omi će biti korišćen.",
+    "deviceUsesCodec": "{device} koristi {reason}. Carry će biti korišćen.",
     "@deviceUsesCodec": {
         "description": "Warning about device codec compatibility",
         "placeholders": {
@@ -1553,7 +1553,7 @@
             }
         }
     },
-    "omiTranscription": "Omi transkripcija",
+    "omiTranscription": "Carry transkripcija",
     "bestInClassTranscription": "Najbolja transkripcija sa nultom konfiguracijom",
     "instantSpeakerLabels": "Trenutni labele govornika",
     "languageTranslation": "Prevod na 100+ jezika",
@@ -1635,7 +1635,7 @@
     "@enableBluetooth": {
         "description": "Title for dialog prompting user to enable Bluetooth"
     },
-    "bluetoothNeeded": "Omi koristi Bluetooth da bi se povezao sa vašim nosivim uređajem. Molimo omogućite Bluetooth i pokušajte ponovo.",
+    "bluetoothNeeded": "Carry koristi Bluetooth da bi se povezao sa vašim nosivim uređajem. Molimo omogućite Bluetooth i pokušajte ponovo.",
     "@bluetoothNeeded": {
         "description": "Explanation text for why Bluetooth is required"
     },
@@ -1655,7 +1655,7 @@
     "@backgroundActivity": {
         "description": "Title for background activity permission"
     },
-    "backgroundActivityDesc": "Dozvolite da Omi radi u pozadini za bolju stabilnost",
+    "backgroundActivityDesc": "Dozvolite da Carry radi u pozadini za bolju stabilnost",
     "@backgroundActivityDesc": {
         "description": "Description for background activity permission"
     },
@@ -1694,7 +1694,7 @@
     "@backgroundLocationDeniedDesc": {
         "description": "Instructions to grant background location permission"
     },
-    "lovingOmi": "Vam se sviđa Omi?",
+    "lovingOmi": "Vam se sviđa Carry?",
     "@lovingOmi": {
         "description": "Title for the app review prompt"
     },
@@ -1718,7 +1718,7 @@
     "@maybeLater": {
         "description": "Button text to defer action"
     },
-    "speechProfileIntro": "Omi trebا da nauči vaše ciljeve i vaš glas. Moći ćete ga da izmenjujete kasnije.",
+    "speechProfileIntro": "Carry trebا da nauči vaše ciljeve i vaš glas. Moći ćete ga da izmenjujete kasnije.",
     "@speechProfileIntro": {
         "description": "Introduction text for speech profile setup"
     },
@@ -1786,7 +1786,7 @@
     "@tryAgain": {
         "description": "Button text to retry an action"
     },
-    "connectOmiOmiGlass": "Povežite Omi / OmiGlass",
+    "connectOmiOmiGlass": "Povežite Carry / Carry Glass",
     "@connectOmiOmiGlass": {
         "description": "Button text to connect specific device models"
     },
@@ -1837,7 +1837,7 @@
     "@termsOfUse": {
         "description": "Link text for Terms of Use"
     },
-    "omiYourAiCompanion": "Omi – Vaš AI pratilac",
+    "omiYourAiCompanion": "Carry – Vaš AI pratilac",
     "@omiYourAiCompanion": {
         "description": "App title or branding on onboarding screen"
     },
@@ -1857,7 +1857,7 @@
     "@microphonePermission": {
         "description": "Title for microphone permission section"
     },
-    "permissionGrantedNow": "Dozvola je data! Sada:\n\nOtvorite Omi aplikaciju na svom satu i dodirnite \"Nastavi\" ispod",
+    "permissionGrantedNow": "Dozvola je data! Sada:\n\nOtvorite Carry aplikaciju na svom satu i dodirnite \"Nastavi\" ispod",
     "@permissionGrantedNow": {
         "description": "Instructions after permission is granted"
     },
@@ -1873,7 +1873,7 @@
     "@needHelp": {
         "description": "Link to help dialog"
     },
-    "troubleshootingSteps": "Rešavanje problema:\n\n1. Uverite se da je Omi instaliran na vašem satu\n2. Otvorite Omi aplikaciju na svom satu\n3. Tražite skočni prozor dozvole\n4. Dodirnite \"Dozvoli\" kada se traži\n5. Aplikacija na vašem satu će se zatvoriti - ponovo je otvorite\n6. Vratite se i dodirnite \"Nastavi\" na vašem iPhone-u",
+    "troubleshootingSteps": "Rešavanje problema:\n\n1. Uverite se da je Carry instaliran na vašem satu\n2. Otvorite Carry aplikaciju na svom satu\n3. Tražite skočni prozor dozvole\n4. Dodirnite \"Dozvoli\" kada se traži\n5. Aplikacija na vašem satu će se zatvoriti - ponovo je otvorite\n6. Vratite se i dodirnite \"Nastavi\" na vašem iPhone-u",
     "@troubleshootingSteps": {
         "description": "Troubleshooting instructions for watch setup"
     },
@@ -1930,7 +1930,7 @@
     },
     "personalGrowthJourney": "Vaš lični put rasta sa AI koji sluša svaku vašu reč.",
     "@personalGrowthJourney": {
-        "description": "Subtitle describing Omi on auth screen"
+        "description": "Subtitle describing Carry on auth screen"
     },
     "actionItemsTitle": "Na- Uradi",
     "@actionItemsTitle": {
@@ -2103,11 +2103,11 @@
     "@addFirstMemory": {
         "description": "Button to add first memory"
     },
-    "clearMemoryTitle": "Obriši Omi-jevu memoriju",
+    "clearMemoryTitle": "Obriši Carry-jevu memoriju",
     "@clearMemoryTitle": {
         "description": "Dialog title for clearing memory"
     },
-    "clearMemoryMessage": "Ste li sigurni da želite da obrišete Omi-jevu memoriju? Ova akcija se ne može poništiti.",
+    "clearMemoryMessage": "Ste li sigurni da želite da obrišete Carry-jevu memoriju? Ova akcija se ne može poništiti.",
     "@clearMemoryMessage": {
         "description": "Dialog content for clearing memory"
     },
@@ -2115,7 +2115,7 @@
     "@clearMemoryButton": {
         "description": "Button text to confirm clearing all memories"
     },
-    "memoryClearedSuccess": "Omi-jeva memorija o vama je obrisana",
+    "memoryClearedSuccess": "Carry-jeva memorija o vama je obrisana",
     "@memoryClearedSuccess": {
         "description": "Snackbar success message"
     },
@@ -2312,7 +2312,7 @@
     "@translationNotice": {
         "description": "Title for dialog explaining that conversations are translated"
     },
-    "translationNoticeMessage": "Omi prevodi razgovore na vašem primarnom jeziku. Ažurirajte ga bilo kada u Postavke → Profili.",
+    "translationNoticeMessage": "Carry prevodi razgovore na vašem primarnom jeziku. Ažurirajte ga bilo kada u Postavke → Profili.",
     "@translationNoticeMessage": {
         "description": "Message explaining how translation works and where to change language settings"
     },
@@ -2561,9 +2561,9 @@
     "@privacyPolicyTitle": {
         "description": "Title for privacy policy page"
     },
-    "omiSttProvider": "Omi",
+    "omiSttProvider": "Carry",
     "@omiSttProvider": {
-        "description": "Label for default Omi STT provider"
+        "description": "Label for default Carry STT provider"
     },
     "labelCopied": "{label} kopiran",
     "@labelCopied": {
@@ -2855,7 +2855,7 @@
     "@checksForAudioFiles": {
         "description": "Step 1: Checking for audio files"
     },
-    "omiSyncsAudioFiles": "Omi zatim sinhronizuje audio datoteke sa serverom",
+    "omiSyncsAudioFiles": "Carry zatim sinhronizuje audio datoteke sa serverom",
     "@omiSyncsAudioFiles": {
         "description": "Step 2: Syncing audio files"
     },
@@ -2867,11 +2867,11 @@
     "@youreAllSet": {
         "description": "Completion message when onboarding is finished"
     },
-    "welcomeToOmiDescription": "Dobrodošao u Omi! Tvoj AI asistent je spreman da ti pomogne sa razgovorima, zadacima i još mnogo toga.",
+    "welcomeToOmiDescription": "Dobrodošao u Carry! Tvoj AI asistent je spreman da ti pomogne sa razgovorima, zadacima i još mnogo toga.",
     "@welcomeToOmiDescription": {
         "description": "Welcome message on completion screen"
     },
-    "startUsingOmi": "Počni koristiti Omi",
+    "startUsingOmi": "Počni koristiti Carry",
     "@startUsingOmi": {
         "description": "Button to complete onboarding and start using the app"
     },
@@ -2980,7 +2980,7 @@
     "@reviewAndManageConversations": {
         "description": "Subtitle explaining what users can do on conversations page"
     },
-    "startCapturingConversations": "Počni bilježenje razgovora sa Omi uređajem kako bi ih vidio ovdje.",
+    "startCapturingConversations": "Počni bilježenje razgovora sa Carry uređajem kako bi ih vidio ovdje.",
     "@startCapturingConversations": {
         "description": "Message explaining how to get started with conversations"
     },
@@ -3000,7 +3000,7 @@
     "@showAll": {
         "description": "Button text to show all items"
     },
-    "noTasksForToday": "Nema zadataka za danas.\nZatraži Omi za više zadataka ili kreiraj ručno.",
+    "noTasksForToday": "Nema zadataka za danas.\nZatraži Carry za više zadataka ili kreiraj ručno.",
     "@noTasksForToday": {
         "description": "Message shown when there are no tasks due today"
     },
@@ -3199,7 +3199,7 @@
     "@createNewApp": {
         "description": "Title for the create new app page"
     },
-    "buildSubmitCustomOmiApp": "Izgradi i pošalji svoju prilagođenu Omi aplikaciju",
+    "buildSubmitCustomOmiApp": "Izgradi i pošalji svoju prilagođenu Carry aplikaciju",
     "@buildSubmitCustomOmiApp": {
         "description": "Subtitle describing the purpose of the create app page"
     },
@@ -3259,7 +3259,7 @@
     "@makeMyAppPublic": {
         "description": "Checkbox label for making app publicly available"
     },
-    "submitAppTermsAgreement": "Slanjem ove aplikacije, slažem se sa Omi AI Uvjetima pružanja usluge i Politikom privatnosti",
+    "submitAppTermsAgreement": "Slanjem ove aplikacije, slažem se sa Carry AI Uvjetima pružanja usluge i Politikom privatnosti",
     "@submitAppTermsAgreement": {
         "description": "Terms and conditions agreement checkbox text"
     },
@@ -3315,7 +3315,7 @@
     "@dataAccessNotice": {
         "description": "Dialog title warning about app data access"
     },
-    "dataAccessWarning": "Ova aplikacija će pristupiti tvojim podacima. Omi AI nije odgovoran za kako se tvoji podaci koriste, mijenjaju ili brišu ovom aplikacijom",
+    "dataAccessWarning": "Ova aplikacija će pristupiti tvojim podacima. Carry AI nije odgovoran za kako se tvoji podaci koriste, mijenjaju ili brišu ovom aplikacijom",
     "@dataAccessWarning": {
         "description": "Warning message about app data access in confirmation dialog"
     },
@@ -3787,7 +3787,7 @@
     "@upgradeToPro": {
         "description": "Subscription banner button text"
     },
-    "getOmiDevice": "Nabavi Omi uređaj",
+    "getOmiDevice": "Nabavi Carry uređaj",
     "@getOmiDevice": {
         "description": "Widget title for device promotion"
     },
@@ -3890,7 +3890,7 @@
     "@setAllMemoriesToPublic": {
         "description": "Description for making all memories public"
     },
-    "permanentlyRemoveAllMemories": "Trajno ukloni sve uspomene iz Omija",
+    "permanentlyRemoveAllMemories": "Trajno ukloni sve uspomene iz Carryja",
     "@permanentlyRemoveAllMemories": {
         "description": "Description for deleting all memories"
     },
@@ -3902,11 +3902,11 @@
     "@allMemoriesAreNowPublic": {
         "description": "Success message after making all memories public"
     },
-    "clearOmisMemory": "Očisti Omijevu memoriju",
+    "clearOmisMemory": "Očisti Carryjevu memoriju",
     "@clearOmisMemory": {
         "description": "Confirmation dialog title for clearing all memories"
     },
-    "clearMemoryConfirmation": "Jesi li siguran da želiš očistiti Omijevu memoriju? Ova radnja se ne može opozvati i trajno će obrisati sve {count} uspomena.",
+    "clearMemoryConfirmation": "Jesi li siguran da želiš očistiti Carryjevu memoriju? Ova radnja se ne može opozvati i trajno će obrisati sve {count} uspomena.",
     "@clearMemoryConfirmation": {
         "description": "Confirmation message for clearing all memories",
         "placeholders": {
@@ -3915,11 +3915,11 @@
             }
         }
     },
-    "omisMemoryCleared": "Omijeva memorija o tebi je očišćena",
+    "omisMemoryCleared": "Carryjeva memorija o tebi je očišćena",
     "@omisMemoryCleared": {
         "description": "Success message after clearing all memories"
     },
-    "welcomeToOmi": "Dobrodošao u Omi",
+    "welcomeToOmi": "Dobrodošao u Carry",
     "@welcomeToOmi": {
         "description": "Welcome message on auth screen"
     },
@@ -3973,13 +3973,13 @@
     },
     "pleaseSelectYourPrimaryLanguage": "Molimo odaberi svoj primarni jezik",
     "chooseYourLanguage": "Odaberi svoj jezik",
-    "selectPreferredLanguageForBestExperience": "Odaberi svoj omiljeni jezik za najbolje Omi iskustvo",
+    "selectPreferredLanguageForBestExperience": "Odaberi svoj omiljeni jezik za najbolje Carry iskustvo",
     "searchLanguages": "Pretraži jezike...",
     "selectALanguage": "Odaberi jezik",
     "tryDifferentSearchTerm": "Pokušaj s drugim izrazom za pretragu",
     "pleaseEnterYourName": "Molimo unesi svoje ime",
     "nameMustBeAtLeast2Characters": "Ime mora sadržavati najmanje 2 znaka",
-    "tellUsHowYouWouldLikeToBeAddressed": "Reci nam kako bi se htio obraćati. To pomaže personalizirati tvoje Omi iskustvo.",
+    "tellUsHowYouWouldLikeToBeAddressed": "Reci nam kako bi se htio obraćati. To pomaže personalizirati tvoje Carry iskustvo.",
     "charactersCount": "{count} znakova",
     "@charactersCount": {
         "placeholders": {
@@ -3988,16 +3988,16 @@
             }
         }
     },
-    "enableFeaturesForBestExperience": "Aktiviraj značajke za najbolje Omi iskustvo na svom uređaju.",
+    "enableFeaturesForBestExperience": "Aktiviraj značajke za najbolje Carry iskustvo na svom uređaju.",
     "microphoneAccess": "Pristup mikrofonu",
     "recordAudioConversations": "Snimi audio razgovore",
-    "microphoneAccessDescription": "Omi trebam pristup mikrofonu kako bi snimi tvoje razgovore i pružio transkripcije.",
+    "microphoneAccessDescription": "Carry trebam pristup mikrofonu kako bi snimi tvoje razgovore i pružio transkripcije.",
     "screenRecording": "Snimanje zaslonom",
     "captureSystemAudioFromMeetings": "Snimaj sistemski audio sa sastanaka",
-    "screenRecordingDescription": "Omi trebam dozvolu za snimanje zaslona kako bi snimio sistemski audio s tvojih web-sastanaka.",
+    "screenRecordingDescription": "Carry trebam dozvolu za snimanje zaslona kako bi snimio sistemski audio s tvojih web-sastanaka.",
     "accessibility": "Dostupnost",
     "detectBrowserBasedMeetings": "Otkrij web-sastanke",
-    "accessibilityDescription": "Omi trebam dozvolu dostupnosti kako bi otkrio kad se priključiš Zoom, Meet ili Teams sastancima u svom pregledniku.",
+    "accessibilityDescription": "Carry trebam dozvolu dostupnosti kako bi otkrio kad se priključiš Zoom, Meet ili Teams sastancima u svom pregledniku.",
     "pleaseWait": "Molimo čekaj...",
     "joinTheCommunity": "Pridruži se zajednici!",
     "loadingProfile": "Učitavanje profila...",
@@ -4008,12 +4008,12 @@
     "setYourName": "Postavi svoje ime",
     "changeYourName": "Promijeni svoje ime",
     "voiceAndPeople": "Glas i ljudi",
-    "teachOmiYourVoice": "Nauči Omi svoj glas",
-    "tellOmiWhoSaidIt": "Reci Omi tko je to rekao 🗣️",
+    "teachOmiYourVoice": "Nauči Carry svoj glas",
+    "tellOmiWhoSaidIt": "Reci Carry tko je to rekao 🗣️",
     "payment": "Plaćanje",
     "addOrChangeYourPaymentMethod": "Dodaj ili promijeni način plaćanja",
     "preferences": "Postavke",
-    "helpImproveOmiBySharing": "Pomozi poboljšati Omi dijeljenjem anonimiziranih podataka analitike",
+    "helpImproveOmiBySharing": "Pomozi poboljšati Carry dijeljenjem anonimiziranih podataka analitike",
     "deleteAccount": "Obriši račun",
     "deleteYourAccountAndAllData": "Obriši svoj račun i sve podatke",
     "clearLogs": "Očisti dnevnike",
@@ -4021,7 +4021,7 @@
     "exportConversations": "Izvezi razgovore",
     "exportAllConversationsToJson": "Izvezi sve svoje razgovore u JSON datoteku.",
     "conversationsExportStarted": "Izvoz razgovora je započeo. Ovo može potrajati nekoliko sekundi, molimo čekaj.",
-    "mcpDescription": "Kako bi povezao Omi s drugim aplikacijama za čitanje, pretragu i upravljanje tvojim uspomenama i razgovorima. Stvori ključ kako bi započeo.",
+    "mcpDescription": "Kako bi povezao Carry s drugim aplikacijama za čitanje, pretragu i upravljanje tvojim uspomenama i razgovorima. Stvori ključ kako bi započeo.",
     "apiKeys": "API ključevi",
     "errorLabel": "Greška: {error}",
     "@errorLabel": {
@@ -4039,7 +4039,7 @@
     "triggersWhenAudioBytesReceived": "Pokreće se kada su primljeni bajtovi zvuka.",
     "everyXSeconds": "Svakih x sekundi",
     "triggersWhenDaySummaryGenerated": "Pokreće se kada je generiran sažetak dana.",
-    "tryLatestExperimentalFeatures": "Pokušaj najnovije eksperimentalne značajke od Omi tima.",
+    "tryLatestExperimentalFeatures": "Pokušaj najnovije eksperimentalne značajke od Carry tima.",
     "transcriptionServiceDiagnosticStatus": "Status dijagnostike servisa transkripcije",
     "enableDetailedDiagnosticMessages": "Aktiviraj detaljne dijagnostičke poruke iz servisa transkripcije",
     "autoCreateAndTagNewSpeakers": "Automatski stvori i označi nove govornike",
@@ -4075,7 +4075,7 @@
             }
         }
     },
-    "letOmiChooseAutomatically": "Pusti Omi da automatski odabere najbolju aplikaciju",
+    "letOmiChooseAutomatically": "Pusti Carry da automatski odabere najbolju aplikaciju",
     "deleteConversationConfirmation": "Jesi li siguran da želiš obrisati ovaj razgovor? Ova se akcija ne može poništiti.",
     "conversationDeleted": "Razgovor je obrisan",
     "generatingLink": "Generiranje veze...",
@@ -4226,7 +4226,7 @@
             }
         }
     },
-    "translatedByOmi": "prevedeno od strane omi",
+    "translatedByOmi": "prevedeno od strane carry",
     "@translatedByOmi": {
         "description": "Credit line for translations"
     },
@@ -4342,7 +4342,7 @@
     "@customVocabularyHeader": {
         "description": "Custom vocabulary section header"
     },
-    "addWordsDescription": "Dodaj riječi koje Omi trebam prepoznati tijekom transkripcije.",
+    "addWordsDescription": "Dodaj riječi koje Carry trebam prepoznati tijekom transkripcije.",
     "@addWordsDescription": {
         "description": "Custom vocabulary description"
     },
@@ -4403,7 +4403,7 @@
     "clearNodesDescription": "Očisti sve čvorove i veze",
     "deleteKnowledgeGraphQuestion": "Obriši graf znanja?",
     "deleteKnowledgeGraphWarning": "Ovo će obrisati sve izvedene podatke grafa znanja. Tvoje originalne uspomene ostaju sigurne.",
-    "connectOmiWithAI": "Poveži Omi s AI asistentima",
+    "connectOmiWithAI": "Poveži Carry s AI asistentima",
     "noAPIKeys": "Nema API ključeva. Stvori jedan kako bi započeo.",
     "autoCreateWhenDetected": "Automatski stvori kada je ime detektirano",
     "trackPersonalGoals": "Prati osobne ciljeve na početnoj stranici",
@@ -4423,7 +4423,7 @@
     "@holdOnPreparingForm": {
         "description": "Loading message while preparing form"
     },
-    "bySubmittingYouAgreeToOmi": "Slanjem se slažeš s Omi ",
+    "bySubmittingYouAgreeToOmi": "Slanjem se slažeš s Carry ",
     "@bySubmittingYouAgreeToOmi": {
         "description": "Text before Terms & Privacy Policy link"
     },
@@ -4635,7 +4635,7 @@
     "@issueActivatingApp": {
         "description": "Dialog description for activation error"
     },
-    "dataAccessNoticeDescription": "Ova aplikacija će pristupiti tvojim podacima. Omi AI nije odgovorna za način na koji ova aplikacija koristi, mijenja ili briše tvoje podatke",
+    "dataAccessNoticeDescription": "Ova aplikacija će pristupiti tvojim podacima. Carry AI nije odgovorna za način na koji ova aplikacija koristi, mijenja ili briše tvoje podatke",
     "@dataAccessNoticeDescription": {
         "description": "Description for data access notice dialog"
     },
@@ -4767,15 +4767,15 @@
             }
         }
     },
-    "omiApiKeys": "Omi API ključevi",
+    "omiApiKeys": "Carry API ključevi",
     "@omiApiKeys": {
         "description": "Dialog title for API keys info"
     },
-    "apiKeysDescription": "API ključevi se koriste za autentifikaciju kada se tvoja aplikacija komunicira s OMI poslužiteljem. Omogućuju tvojoj aplikaciji sigurno stvaranje uspomena i pristup ostalim OMI uslugama.",
+    "apiKeysDescription": "API ključevi se koriste za autentifikaciju kada se tvoja aplikacija komunicira s CARRY poslužiteljem. Omogućuju tvojoj aplikaciji sigurno stvaranje uspomena i pristup ostalim CARRY uslugama.",
     "@apiKeysDescription": {
         "description": "Description of what API keys are used for"
     },
-    "aboutOmiApiKeys": "O Omi API ključevima",
+    "aboutOmiApiKeys": "O Carry API ključevima",
     "@aboutOmiApiKeys": {
         "description": "Tooltip for API keys info button"
     },
@@ -4969,7 +4969,7 @@
     "@maximumSecurityE2ee": {
         "description": "Title for End-to-End Encryption dialog"
     },
-    "e2eeDescription": "End-to-end enkripcija je zlatni standard za privatnost. Kada je aktivirana, tvoji su podaci šifrirani na svom uređaju prije nego što se pošalju našim poslužiteljima. To znači da nitko, čak ni Omi, ne može pristupiti tvojoj sadržaju.",
+    "e2eeDescription": "End-to-end enkripcija je zlatni standard za privatnost. Kada je aktivirana, tvoji su podaci šifrirani na svom uređaju prije nego što se pošalju našim poslužiteljima. To znači da nitko, čak ni Carry, ne može pristupiti tvojoj sadržaju.",
     "@e2eeDescription": {
         "description": "Description of E2EE encryption explaining its benefits"
     },
@@ -5025,7 +5025,7 @@
     "@secureEncryption": {
         "description": "Title for secure encryption card"
     },
-    "secureEncryptionDescription": "Tvoji su podaci šifrirani s ključem jedinstvenim za tebe na našim poslužiteljima, hostiranom na Google Cloud-u. To znači da je tvoj sirovi sadržaj nedostupan bilo kome, uključujući Omi personale ili Google, izravno iz baze podataka.",
+    "secureEncryptionDescription": "Tvoji su podaci šifrirani s ključem jedinstvenim za tebe na našim poslužiteljima, hostiranom na Google Cloud-u. To znači da je tvoj sirovi sadržaj nedostupan bilo kome, uključujući Carry personale ili Google, izravno iz baze podataka.",
     "@secureEncryptionDescription": {
         "description": "Description of secure encryption explaining how data is protected"
     },
@@ -5122,23 +5122,23 @@
             }
         }
     },
-    "omiTraining": "Omi obuka",
+    "omiTraining": "Carry obuka",
     "@omiTraining": {
-        "description": "Title for the Omi Training page/section"
+        "description": "Title for the Carry Training page/section"
     },
     "trainingDataProgram": "Program podataka za obuku",
     "@trainingDataProgram": {
         "description": "Label for training data program"
     },
-    "getOmiUnlimitedFree": "Dobij Omi Unlimited besplatno doprinošenjem svojih podataka za treniranje AI modela.",
+    "getOmiUnlimitedFree": "Dobij Carry Unlimited besplatno doprinošenjem svojih podataka za treniranje AI modela.",
     "@getOmiUnlimitedFree": {
-        "description": "Description for getting Omi Unlimited free by contributing data"
+        "description": "Description for getting Carry Unlimited free by contributing data"
     },
     "trainingDataBullets": "• Tvoji podaci pomažu poboljšati AI modele\n• Samo ne-osjetljivi podaci se dijele\n• Potpuno transparentan proces",
     "@trainingDataBullets": {
         "description": "Bullet points explaining training data program benefits"
     },
-    "learnMoreAtOmiTraining": "Saznaj više na omi.me/training",
+    "learnMoreAtOmiTraining": "Saznaj više na carry.me/training",
     "@learnMoreAtOmiTraining": {
         "description": "Link text to learn more about training"
     },
@@ -5244,7 +5244,7 @@
     "@youAreOnUnlimitedPlan": {
         "description": "Message showing user is on unlimited plan"
     },
-    "yourOmiUnleashed": "Vaš Omi, oslobođen. Idite na neograničeno za beskonačne mogućnosti.",
+    "yourOmiUnleashed": "Vaš Carry, oslobođen. Idite na neograničeno za beskonačne mogućnosti.",
     "@yourOmiUnleashed": {
         "description": "Marketing text for unlimited plan"
     },
@@ -5286,11 +5286,11 @@
     "@unlimitedConversations": {
         "description": "Feature: unlimited conversations"
     },
-    "askOmiAnything": "Pitajte Omija bilo što o svojoj životu",
+    "askOmiAnything": "Pitajte Carryja bilo što o svojoj životu",
     "@askOmiAnything": {
-        "description": "Feature: ask Omi anything"
+        "description": "Feature: ask Carry anything"
     },
-    "unlockOmiInfiniteMemory": "Otključajte Omijevu beskonačnu memoriju",
+    "unlockOmiInfiniteMemory": "Otključajte Carryjevu beskonačnu memoriju",
     "@unlockOmiInfiniteMemory": {
         "description": "Feature: unlock infinite memory"
     },
@@ -5364,7 +5364,7 @@
     "@yourPrivacyMattersToUs": {
         "description": "Privacy page - yourPrivacyMattersToUs"
     },
-    "privacyIntroText": "U Omiju shvaćamo vašu privatnost vrlo ozbiljno. Želimo biti transparentni o podacima koje prikupljamo i kako ih koristimo da poboljšamo naš proizvod za vas. Evo što trebate znati:",
+    "privacyIntroText": "U Carryju shvaćamo vašu privatnost vrlo ozbiljno. Želimo biti transparentni o podacima koje prikupljamo i kako ih koristimo da poboljšamo naš proizvod za vas. Evo što trebate znati:",
     "@privacyIntroText": {
         "description": "Privacy page - privacyIntroText"
     },
@@ -5384,11 +5384,11 @@
     "@ourCommitment": {
         "description": "Privacy page - ourCommitment"
     },
-    "commitmentText": "Obavezani smo koristiti podatke koje prikupljamo samo kako bismo Omi učinili boljim proizvodom za vas. Vaša privatnost i povjerenje su nama od prvorazrednog značaja.",
+    "commitmentText": "Obavezani smo koristiti podatke koje prikupljamo samo kako bismo Carry učinili boljim proizvodom za vas. Vaša privatnost i povjerenje su nama od prvorazrednog značaja.",
     "@commitmentText": {
         "description": "Privacy page - commitmentText"
     },
-    "thankYouText": "Hvala što ste dragocjeni korisnik Omija. Ako imate bilo kakvih pitanja ili zabrinutosti, slobodno nam se obratite na team@basedhardware.com.",
+    "thankYouText": "Hvala što ste dragocjeni korisnik Carryja. Ako imate bilo kakvih pitanja ili zabrinutosti, slobodno nam se obratite na team@basedhardware.com.",
     "@thankYouText": {
         "description": "Privacy page - thankYouText"
     },
@@ -5513,7 +5513,7 @@
     "@minutes": {
         "description": "Unit label for minutes"
     },
-    "omiHas": "Omi ima:",
+    "omiHas": "Carry ima:",
     "@omiHas": {
         "description": "Fallback text for share stats when period is unknown"
     },
@@ -5646,7 +5646,7 @@
     "@howItWorksTitle": {
         "description": "Help dialog title"
     },
-    "howPeopleWorks": "Kada se osoba kreira, možete prijeći na transkripciju razgovora i dodijeliti im odgovarajuće segmente, tako će Omi moći prepoznati njihov govor!",
+    "howPeopleWorks": "Kada se osoba kreira, možete prijeći na transkripciju razgovora i dodijeliti im odgovarajuće segmente, tako će Carry moći prepoznati njihov govor!",
     "@howPeopleWorks": {
         "description": "Explanation of how people/speech recognition works"
     },
@@ -6007,9 +6007,9 @@
     "@enableApps": {
         "description": "Menu item text to navigate to apps page and enable more chat apps"
     },
-    "omiAppName": "Omi",
+    "omiAppName": "Carry",
     "@omiAppName": {
-        "description": "The Omi app/assistant name shown in chat app selection"
+        "description": "The Carry app/assistant name shown in chat app selection"
     },
     "showMore": "prikaži više ↓",
     "@showMore": {
@@ -6039,21 +6039,21 @@
     "@checkingAppleWatch": {
         "description": "Loading text while checking Apple Watch status"
     },
-    "installOmiOnAppleWatch": "Instalirajte Omi na vaš\nApple Watch",
+    "installOmiOnAppleWatch": "Instalirajte Carry na vaš\nApple Watch",
     "@installOmiOnAppleWatch": {
-        "description": "Title prompting user to install Omi on Apple Watch"
+        "description": "Title prompting user to install Carry on Apple Watch"
     },
-    "installOmiOnAppleWatchDescription": "Kako biste koristili Apple Watch s Omijom, trebate prvo instalirati Omi aplikaciju na svoj satnici.",
+    "installOmiOnAppleWatchDescription": "Kako biste koristili Apple Watch s Carryjom, trebate prvo instalirati Carry aplikaciju na svoj satnici.",
     "@installOmiOnAppleWatchDescription": {
-        "description": "Description explaining need to install Omi app on watch"
+        "description": "Description explaining need to install Carry app on watch"
     },
-    "openOmiOnAppleWatch": "Otvorite Omi na vaš\nApple Watch",
+    "openOmiOnAppleWatch": "Otvorite Carry na vaš\nApple Watch",
     "@openOmiOnAppleWatch": {
-        "description": "Title prompting user to open Omi on Apple Watch"
+        "description": "Title prompting user to open Carry on Apple Watch"
     },
-    "openOmiOnAppleWatchDescription": "Omi aplikacija je instalirana na vašoj Apple Watch satnici. Otvorite je i dodirnite Počni kako biste započeli.",
+    "openOmiOnAppleWatchDescription": "Carry aplikacija je instalirana na vašoj Apple Watch satnici. Otvorite je i dodirnite Počni kako biste započeli.",
     "@openOmiOnAppleWatchDescription": {
-        "description": "Description explaining Omi is installed and user should open it"
+        "description": "Description explaining Carry is installed and user should open it"
     },
     "openWatchApp": "Otvori aplikaciju satnice",
     "@openWatchApp": {
@@ -6063,7 +6063,7 @@
     "@iveInstalledAndOpenedTheApp": {
         "description": "Button text confirming user has installed and opened the app"
     },
-    "unableToOpenWatchApp": "Nije moguće otvoriti Apple Watch aplikaciju. Molimo ručno otvorite Watch aplikaciju na vašoj Apple Watch satnici i instalirajte Omi iz odjeljka \"Dostupne aplikacije\".",
+    "unableToOpenWatchApp": "Nije moguće otvoriti Apple Watch aplikaciju. Molimo ručno otvorite Watch aplikaciju na vašoj Apple Watch satnici i instalirajte Carry iz odjeljka \"Dostupne aplikacije\".",
     "@unableToOpenWatchApp": {
         "description": "Error message when Watch app cannot be opened automatically"
     },
@@ -6071,7 +6071,7 @@
     "@appleWatchConnectedSuccessfully": {
         "description": "Success message when Apple Watch connects"
     },
-    "appleWatchNotReachable": "Apple Watch još nije dostupan. Molimo provjerite je li Omi aplikacija otvorena na vašoj satnici.",
+    "appleWatchNotReachable": "Apple Watch još nije dostupan. Molimo provjerite je li Carry aplikacija otvorena na vašoj satnici.",
     "@appleWatchNotReachable": {
         "description": "Error message when Apple Watch is not reachable"
     },
@@ -6189,9 +6189,9 @@
     "@noSummary": {
         "description": "Message when no summary is available"
     },
-    "updateOmiFirmware": "Ažuriraj omi firmware",
+    "updateOmiFirmware": "Ažuriraj carry firmware",
     "@updateOmiFirmware": {
-        "description": "Button text to update Omi device firmware"
+        "description": "Button text to update Carry device firmware"
     },
     "anErrorOccurredTryAgain": "Došlo je do greške. Molimo pokušajte ponovno.",
     "@anErrorOccurredTryAgain": {
@@ -6201,7 +6201,7 @@
     "@welcomeBackSimple": {
         "description": "Simple welcome message without user name"
     },
-    "addVocabularyDescription": "Dodajte riječi koje bi Omi trebao prepoznati tijekom transkripcije.",
+    "addVocabularyDescription": "Dodajte riječi koje bi Carry trebao prepoznati tijekom transkripcije.",
     "@addVocabularyDescription": {
         "description": "Description for custom vocabulary section"
     },
@@ -6434,7 +6434,7 @@
     "@wrappedNoDataAvailable": {
         "description": "Shown when wrapped result is null"
     },
-    "wrappedOmiLifeRecap": "Sažetak Omijeva života",
+    "wrappedOmiLifeRecap": "Sažetak Carryjeva života",
     "@wrappedOmiLifeRecap": {
         "description": "Subtitle on the intro card"
     },
@@ -6442,7 +6442,7 @@
     "@wrappedSwipeUpToBegin": {
         "description": "Instruction text on intro card"
     },
-    "wrappedShareText": "Moja 2025, zapamćena od Omija ✨ omi.me/wrapped",
+    "wrappedShareText": "Moja 2025, zapamćena od Carryja ✨ carry.me/wrapped",
     "@wrappedShareText": {
         "description": "Text shared when sharing wrapped images"
     },
@@ -6470,7 +6470,7 @@
     "@wrappedMy2025": {
         "description": "Title text for shareable image"
     },
-    "wrappedRememberedByOmi": "zapamćena od Omija",
+    "wrappedRememberedByOmi": "zapamćena od Carryja",
     "@wrappedRememberedByOmi": {
         "description": "Subtitle text for shareable image"
     },
@@ -6754,7 +6754,7 @@
     "@notificationFrequency": {
         "description": "Section header for notification frequency settings"
     },
-    "controlNotificationFrequency": "Kontroliši kako često Omi šalje proaktivna obaveštenja.",
+    "controlNotificationFrequency": "Kontroliši kako često Carry šalje proaktivna obaveštenja.",
     "@controlNotificationFrequency": {
         "description": "Description for notification frequency control"
     },
@@ -6786,7 +6786,7 @@
     "@dailyScoreExplanation": {
         "description": "Explanation of how daily score is calculated"
     },
-    "notificationFrequencyDescription": "Kontroliši kako često Omi šalje proaktivna obaveštenja i podsetnike.",
+    "notificationFrequencyDescription": "Kontroliši kako često Carry šalje proaktivna obaveštenja i podsetnike.",
     "@notificationFrequencyDescription": {
         "description": "Description text for notification frequency section"
     },
@@ -7072,7 +7072,7 @@
     "@noRecordings": {
         "description": "Empty state title when there are no recordings"
     },
-    "audioFromOmiWillAppearHere": "Audio sa vašeg Omi uređaja će se pojaviti ovdje",
+    "audioFromOmiWillAppearHere": "Audio sa vašeg Carry uređaja će se pojaviti ovdje",
     "@audioFromOmiWillAppearHere": {
         "description": "Empty state description for recordings"
     },
@@ -7252,7 +7252,7 @@
     "@batteryUsageHigher": {
         "description": "Warning about battery usage"
     },
-    "considerOmiCloud": "Razmotri korištenje Omi Cloud-a za bolje performanse.",
+    "considerOmiCloud": "Razmotri korištenje Carry Cloud-a za bolje performanse.",
     "@considerOmiCloud": {
         "description": "Suggestion to use cloud transcription"
     },
@@ -7479,9 +7479,9 @@
             }
         }
     },
-    "omiTranscriptionOptimized": "Ugrađena transkripcija u realnom vremenu tvrtke Omi je optimizovana za razgovore u realnom vremenu sa automatskim detektovanjem govornika i dijalizacijom.",
+    "omiTranscriptionOptimized": "Ugrađena transkripcija u realnom vremenu tvrtke Carry je optimizovana za razgovore u realnom vremenu sa automatskim detektovanjem govornika i dijalizacijom.",
     "@omiTranscriptionOptimized": {
-        "description": "Description of Omi transcription features"
+        "description": "Description of Carry transcription features"
     },
     "reset": "Resetuj",
     "@reset": {
@@ -7601,7 +7601,7 @@
     "@writeReviewOptional": {
         "description": "Hint text for review input field"
     },
-    "setupQuestionsIntro": "Pomozi nam poboljšati Omi odgovarajući na nekoliko pitanja.  🫶 💜",
+    "setupQuestionsIntro": "Pomozi nam poboljšati Carry odgovarajući na nekoliko pitanja.  🫶 💜",
     "@setupQuestionsIntro": {
         "description": "Intro text for setup questions page"
     },
@@ -7609,9 +7609,9 @@
     "@setupQuestionProfession": {
         "description": "Question about profession"
     },
-    "setupQuestionUsage": "2. Gdje planirate koristiti svoj Omi?",
+    "setupQuestionUsage": "2. Gdje planirate koristiti svoj Carry?",
     "@setupQuestionUsage": {
-        "description": "Question about Omi usage location"
+        "description": "Question about Carry usage location"
     },
     "setupQuestionAge": "3. Koji je vaš raspon godina?",
     "@setupQuestionAge": {
@@ -8078,7 +8078,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8088,7 +8088,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8255,8 +8255,8 @@
         "description": "Title for low battery notification"
     },
     "lowBatteryAlertBody": "Vaša baterija je na {level}%. Vrijeme je za punjenje! 🔋",
-    "batteryFullyChargedTitle": "Omi je potpuno napunjen",
-    "batteryFullyChargedBody": "Vaš Omi uređaj je potpuno napunjen. Možete ga iskopčati!",
+    "batteryFullyChargedTitle": "Carry je potpuno napunjen",
+    "batteryFullyChargedBody": "Vaš Carry uređaj je potpuno napunjen. Možete ga iskopčati!",
     "@lowBatteryAlertBody": {
         "description": "Body text for low battery notification",
         "placeholders": {
@@ -8265,11 +8265,11 @@
             }
         }
     },
-    "deviceDisconnectedNotificationTitle": "Vaš Omi uređaj se odvojio",
+    "deviceDisconnectedNotificationTitle": "Vaš Carry uređaj se odvojio",
     "@deviceDisconnectedNotificationTitle": {
         "description": "Title for device disconnected notification"
     },
-    "deviceDisconnectedNotificationBody": "Molimo da se ponovno povežete da biste nastavili sa korišćenjem vašeg Omi-ja.",
+    "deviceDisconnectedNotificationBody": "Molimo da se ponovno povežete da biste nastavili sa korišćenjem vašeg Carry-ja.",
     "@deviceDisconnectedNotificationBody": {
         "description": "Body text for device disconnected notification"
     },
@@ -8277,7 +8277,7 @@
     "@firmwareUpdateAvailable": {
         "description": "Title for firmware update available dialog"
     },
-    "firmwareUpdateAvailableDescription": "Nova ažuriranja firmvera ({version}) je dostupna za vaš Omi uređaj. Želite li da ažurirate sada?",
+    "firmwareUpdateAvailableDescription": "Nova ažuriranja firmvera ({version}) je dostupna za vaš Carry uređaj. Želite li da ažurirate sada?",
     "@firmwareUpdateAvailableDescription": {
         "description": "Description for firmware update dialog with version parameter",
         "placeholders": {
@@ -8332,9 +8332,9 @@
     "@almostDone": {
         "description": "Migration is almost complete"
     },
-    "omiSays": "Omi kaže",
+    "omiSays": "Carry kaže",
     "@omiSays": {
-        "description": "Notification title for omi app messages"
+        "description": "Notification title for carry app messages"
     },
     "analyzingYourData": "Analiza vaših podataka u toku...",
     "@analyzingYourData": {
@@ -8671,9 +8671,9 @@
     "@nextButton": {
         "description": "Button text to proceed to next step"
     },
-    "connectOmiDevice": "Povežite Omi uređaj",
+    "connectOmiDevice": "Povežite Carry uređaj",
     "@connectOmiDevice": {
-        "description": "Button text to connect Omi device"
+        "description": "Button text to connect Carry device"
     },
     "planSwitchingDescriptionWithTitle": "Prebacujete svoj Unlimited plan na {title}. Jeste li sigurni da želite nastaviti?",
     "@planSwitchingDescriptionWithTitle": {
@@ -8712,9 +8712,9 @@
     "@transcriptionJsonPlaceholder": {
         "description": "JSON configuration placeholder hint text in transcription settings"
     },
-    "transcriptionSourceOmi": "Omi",
+    "transcriptionSourceOmi": "Carry",
     "@transcriptionSourceOmi": {
-        "description": "Tab title for Omi transcription source option"
+        "description": "Tab title for Carry transcription source option"
     },
     "pricePlaceholder": "0.00",
     "@pricePlaceholder": {
@@ -8754,7 +8754,7 @@
             }
         }
     },
-    "actionItemReminderTitle": "Omi podsjetnik",
+    "actionItemReminderTitle": "Carry podsjetnik",
     "@actionItemReminderTitle": {
         "description": "Title for action item reminder notifications"
     },
@@ -8764,7 +8764,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8774,7 +8774,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8798,7 +8798,7 @@
     "@onboardingComplete": {
         "description": "Onboarding step title for completion"
     },
-    "onboardingWelcomeToOmi": "Dobrodošli u Omi",
+    "onboardingWelcomeToOmi": "Dobrodošli u Carry",
     "@onboardingWelcomeToOmi": {
         "description": "Onboarding step description for sign in"
     },
@@ -9578,29 +9578,29 @@
     "pairNewDevice": "Upari novi uređaj",
     "dontSeeYourDevice": "Ne vidite vaš uređaj?",
     "reportAnIssue": "Prijavi problem",
-    "pairingTitleOmi": "Uključi Omi",
+    "pairingTitleOmi": "Uključi Carry",
     "@pairingTitleOmi": {
-        "description": "Pairing title for Omi device"
+        "description": "Pairing title for Carry device"
     },
     "pairingDescOmi": "Drži uređaj pritisnuo/a dok se ne vibrira da bi ga uključio/a.",
     "@pairingDescOmi": {
-        "description": "Pairing description for Omi device"
+        "description": "Pairing description for Carry device"
     },
-    "pairingTitleOmiDevkit": "Postavi Omi DevKit u režim uparivanja",
+    "pairingTitleOmiDevkit": "Postavi Carry DevKit u režim uparivanja",
     "@pairingTitleOmiDevkit": {
-        "description": "Pairing title for Omi DevKit"
+        "description": "Pairing title for Carry DevKit"
     },
     "pairingDescOmiDevkit": "Pritisni dugme jednom da uključiš. LED će treperiti ljubičasto kada je u režimu uparivanja.",
     "@pairingDescOmiDevkit": {
-        "description": "Pairing description for Omi DevKit"
+        "description": "Pairing description for Carry DevKit"
     },
-    "pairingTitleOmiGlass": "Uključi Omi Glass",
+    "pairingTitleOmiGlass": "Uključi Carry Glass",
     "@pairingTitleOmiGlass": {
-        "description": "Pairing title for Omi Glass"
+        "description": "Pairing title for Carry Glass"
     },
     "pairingDescOmiGlass": "Uključi pritiskivanjem bočnog dugmeta 3 sekunde.",
     "@pairingDescOmiGlass": {
-        "description": "Pairing description for Omi Glass"
+        "description": "Pairing description for Carry Glass"
     },
     "pairingTitlePlaudNote": "Postavi Plaud Note u režim uparivanja",
     "@pairingTitlePlaudNote": {
@@ -9646,7 +9646,7 @@
     "@pairingTitleAppleWatch": {
         "description": "Pairing title for Apple Watch"
     },
-    "pairingDescAppleWatch": "Instaliraj i otvori Omi aplikaciju na Apple Watch-u, zatim dotakni Poveži u aplikaciji.",
+    "pairingDescAppleWatch": "Instaliraj i otvori Carry aplikaciju na Apple Watch-u, zatim dotakni Poveži u aplikaciji.",
     "@pairingDescAppleWatch": {
         "description": "Pairing description for Apple Watch"
     },
@@ -9740,7 +9740,7 @@
     "@onboardingWhatIKnowAboutYouTitle": {
         "description": "Title for onboarding step that previews the memory graph"
     },
-    "onboardingWhatIKnowAboutYouDescription": "Ova mapa se ažurira kako Omi uči iz vaših razgovora.",
+    "onboardingWhatIKnowAboutYouDescription": "Ova mapa se ažurira kako Carry uči iz vaših razgovora.",
     "@onboardingWhatIKnowAboutYouDescription": {
         "description": "Description for onboarding memory graph preview step"
     },
@@ -9798,7 +9798,7 @@
         "description": "Confirmation dialog message for cleaning today task deadlines"
     },
     "tasksOverdue": "Prosječni rok",
-    "phoneCallsWithOmi": "Pozivi sa Omi-em",
+    "phoneCallsWithOmi": "Pozivi sa Carry-em",
     "phoneCallsSubtitle": "Pozivaj sa transkribovanjem u realnom vremenu",
     "phoneSetupStep1Title": "Verifikuj svoj telefonski broj",
     "phoneSetupStep1Subtitle": "Poslacemo ti poziv da potvrdi da je tvoj",
@@ -9903,11 +9903,11 @@
     "@showTasksOnHomepage": {
         "description": "Description for show tasks toggle in developer settings"
     },
-    "phoneCallsUnlimitedOnly": "Pozivi preko Omi-a",
+    "phoneCallsUnlimitedOnly": "Pozivi preko Carry-a",
     "@phoneCallsUnlimitedOnly": {
         "description": "Title for the phone calls upsell sheet shown to non-unlimited users"
     },
-    "phoneCallsUpsellSubtitle": "Pozivaj preko Omi-a i dobij transkribovanje u realnom vremenu, automatske rezime i još mnogo toga. Dostupno isključivo pretplatnicima Unlimited plana.",
+    "phoneCallsUpsellSubtitle": "Pozivaj preko Carry-a i dobij transkribovanje u realnom vremenu, automatske rezime i još mnogo toga. Dostupno isključivo pretplatnicima Unlimited plana.",
     "@phoneCallsUpsellSubtitle": {
         "description": "Subtitle explaining phone calls feature on upsell sheet"
     },
@@ -10028,7 +10028,7 @@
     "fairUse3Day": "3-dnevna klizanja",
     "fairUseWeekly": "Sedmična klizanja",
     "fairUseAboutTitle": "O fer upotrebi",
-    "fairUseAboutBody": "Omi je dizajniran za lične razgovore, sastanke i živu interakciju. Upotreba se meri vremenom stvarnog govora koji je detektovan, ne vremenom konekcije. Ako upotreba značajno prelazi normalne obrasce za ne-lični sadržaj, mogu se primeniti prilagođavanja.",
+    "fairUseAboutBody": "Carry je dizajniran za lične razgovore, sastanke i živu interakciju. Upotreba se meri vremenom stvarnog govora koji je detektovan, ne vremenom konekcije. Ako upotreba značajno prelazi normalne obrasce za ne-lični sadržaj, mogu se primeniti prilagođavanja.",
     "fairUseCaseRefCopied": "{caseRef} kopiran",
     "@fairUseCaseRefCopied": {
         "description": "Snackbar message when case reference is copied to clipboard",
@@ -10070,7 +10070,7 @@
         }
     },
     "improveConnectionTitle": "Poboljšaj konekciju",
-    "improveConnectionContent": "Poboljšali smo kako Omi ostaje povezan sa vašim uređajem. Da biste ovo aktivirali, molim vas da idete na stranicu Informacije o uređaju, dodirnete \"Otkačite uređaj\", a zatim ponovo uparite vaš uređaj.",
+    "improveConnectionContent": "Poboljšali smo kako Carry ostaje povezan sa vašim uređajem. Da biste ovo aktivirali, molim vas da idete na stranicu Informacije o uređaju, dodirnete \"Otkačite uređaj\", a zatim ponovo uparite vaš uređaj.",
     "improveConnectionAction": "Shvaćeno",
     "clockSkewWarning": "Sat vašeg uređaja je pogrešan za ~{minutes} min. Proverite vaše podešavanja datuma i vremena.",
     "@clockSkewWarning": {
@@ -10080,7 +10080,7 @@
             }
         }
     },
-    "omisStorage": "Memorija Omi-ja",
+    "omisStorage": "Memorija Carry-ja",
     "@omisStorage": {
         "description": "Label for device storage tier in sync pipeline"
     },
@@ -10133,11 +10133,11 @@
     "@cancelSyncQuestion": {
         "description": "Title for cancel sync confirmation dialog"
     },
-    "omisStorageDesc": "Kada vaš Omi nije povezan sa vašim telefonom, čuva audio lokalno na svojoj ugrađenoj memoriji. Nikada ne gubite snimak.",
+    "omisStorageDesc": "Kada vaš Carry nije povezan sa vašim telefonom, čuva audio lokalno na svojoj ugrađenoj memoriji. Nikada ne gubite snimak.",
     "@omisStorageDesc": {
         "description": "Description of device storage in sync info sheet"
     },
-    "phoneStorageDesc": "Kada se Omi ponovo poveže, snimke se automatski prenose na vaš telefon kao privremena oblast čuvanja pre učitavanja.",
+    "phoneStorageDesc": "Kada se Carry ponovo poveže, snimke se automatski prenose na vaš telefon kao privremena oblast čuvanja pre učitavanja.",
     "@phoneStorageDesc": {
         "description": "Description of phone storage in sync info sheet"
     },
@@ -10173,11 +10173,11 @@
     "@permissionEnable": {
         "description": "Action text to enable a permission"
     },
-    "permissionsPageDescription": "Ove dozvole su jezgro kako Omi funkcionira. One omogućavaju ključne funkcije poput obaveštenja, iskustava zasnovanih na lokaciji i hvatanja zvuka.",
+    "permissionsPageDescription": "Ove dozvole su jezgro kako Carry funkcionira. One omogućavaju ključne funkcije poput obaveštenja, iskustava zasnovanih na lokaciji i hvatanja zvuka.",
     "@permissionsPageDescription": {
         "description": "Description text shown at the bottom of the permissions page"
     },
-    "permissionsRequiredDescription": "Omi treba nekoliko dozvola da funkcionira pravilno. Molim vas da ih odobrite da biste nastavili.",
+    "permissionsRequiredDescription": "Carry treba nekoliko dozvola da funkcionira pravilno. Molim vas da ih odobrite da biste nastavili.",
     "@permissionsRequiredDescription": {
         "description": "Description for the permissions interstitial screen"
     },
@@ -10185,7 +10185,7 @@
     "@permissionsSetupTitle": {
         "description": "Title for the permissions interstitial screen"
     },
-    "permissionsSetupDescription": "Omogući nekoliko dozvola kako bi Omi mogao da radi svoju magiju.",
+    "permissionsSetupDescription": "Omogući nekoliko dozvola kako bi Carry mogao da radi svoju magiju.",
     "@permissionsSetupDescription": {
         "description": "Subtitle for the permissions interstitial screen"
     },
@@ -10314,7 +10314,7 @@
     "@feedbackTitleFoundAlternative": {
         "description": "Feedback title when cancel reason is found alternative"
     },
-    "feedbackTitleNotUsing": "Šta bi vas učinilo da više koristite Omi?",
+    "feedbackTitleNotUsing": "Šta bi vas učinilo da više koristite Carry?",
     "@feedbackTitleNotUsing": {
         "description": "Feedback title when cancel reason is not using enough"
     },
@@ -10338,7 +10338,7 @@
     "@feedbackSubtitleFoundAlternative": {
         "description": "Feedback subtitle for found alternative"
     },
-    "feedbackSubtitleNotUsing": "Želimo da učinimo Omi korisnijim za vas.",
+    "feedbackSubtitleNotUsing": "Želimo da učinimo Carry korisnijim za vas.",
     "@feedbackSubtitleNotUsing": {
         "description": "Feedback subtitle for not using enough"
     },
@@ -10455,20 +10455,20 @@
     "tasksSelectAll": "Odaberi sve",
     "tasksDeleteSelected": "Obriši {count} zadatak(e)",
     "tasksMarkComplete": "Označeno kao završeno",
-    "appleHealthManageNote": "Omi pristupa Apple Health-u preko Appleovog HealthKit okvira. Pristup možete opozvati u bilo kojem trenutku u iOS postavkama.",
+    "appleHealthManageNote": "Carry pristupa Apple Health-u preko Appleovog HealthKit okvira. Pristup možete opozvati u bilo kojem trenutku u iOS postavkama.",
     "appleHealthConnectCta": "Poveži s Apple Health",
     "appleHealthDisconnectCta": "Prekini vezu s Apple Health",
     "appleHealthConnectedBadge": "Povezano",
     "appleHealthFeatureChatTitle": "Razgovarajte o svom zdravlju",
-    "appleHealthFeatureChatDesc": "Pitajte Omi o vašim koracima, snu, otkucajima srca i treninzima.",
+    "appleHealthFeatureChatDesc": "Pitajte Carry o vašim koracima, snu, otkucajima srca i treninzima.",
     "appleHealthFeatureReadOnlyTitle": "Samo za čitanje",
-    "appleHealthFeatureReadOnlyDesc": "Omi nikada ne upisuje u Apple Health niti mijenja vaše podatke.",
+    "appleHealthFeatureReadOnlyDesc": "Carry nikada ne upisuje u Apple Health niti mijenja vaše podatke.",
     "appleHealthFeatureSecureTitle": "Sigurna sinhronizacija",
-    "appleHealthFeatureSecureDesc": "Vaši Apple Health podaci se privatno sinhroniziraju s vašim Omi računom.",
+    "appleHealthFeatureSecureDesc": "Vaši Apple Health podaci se privatno sinhroniziraju s vašim Carry računom.",
     "appleHealthDeniedTitle": "Pristup Apple Health-u je odbijen",
-    "appleHealthDeniedBody": "Omi nema dozvolu za čitanje vaših Apple Health podataka. Omogućite ga u iOS Postavke → Privatnost i sigurnost → Health → Omi.",
+    "appleHealthDeniedBody": "Carry nema dozvolu za čitanje vaših Apple Health podataka. Omogućite ga u iOS Postavke → Privatnost i sigurnost → Health → Carry.",
     "deleteFlowReasonTitle": "Zašto odlazite?",
-    "deleteFlowReasonSubtitle": "Vaše povratne informacije pomažu nam da Omi bude bolji za sve.",
+    "deleteFlowReasonSubtitle": "Vaše povratne informacije pomažu nam da Carry bude bolji za sve.",
     "deleteReasonPrivacy": "Brige o privatnosti",
     "deleteReasonNotUsing": "Ne koristim dovoljno često",
     "deleteReasonMissingFeatures": "Nedostaju funkcije koje trebam",
@@ -10477,7 +10477,7 @@
     "deleteReasonTakingBreak": "Samo pravim pauzu",
     "deleteReasonOther": "Ostalo",
     "deleteFlowFeedbackTitle": "Recite nam više",
-    "deleteFlowFeedbackSubtitle": "Šta bi učinilo da Omi radi za vas?",
+    "deleteFlowFeedbackSubtitle": "Šta bi učinilo da Carry radi za vas?",
     "deleteFlowFeedbackHint": "Opcionalno — vaše misli nam pomažu da napravimo bolji proizvod.",
     "deleteFlowConfirmTitle": "Ovo je trajno",
     "deleteFlowConfirmSubtitle": "Nakon brisanja računa nije ga moguće vratiti.",
@@ -10529,13 +10529,13 @@
     "chatUsageCostNoLimit": "Chat: ${used} iskorišteno ovog mjeseca",
     "chatUsageMessages": "Chat: {used} / {limit} poruka ovog mjeseca",
     "chatUsageMessagesNoLimit": "Chat: {used} poruka ovog mjeseca",
-    "chatQuotaSubtitle": "AI chat messages used with Omi this month.",
-    "chatQuotaExceededReply": "Dosegli ste svoj mjesečni limit. Nadogradite da nastavite razgovarati s Omi bez ograničenja.",
+    "chatQuotaSubtitle": "AI chat messages used with Carry this month.",
+    "chatQuotaExceededReply": "Dosegli ste svoj mjesečni limit. Nadogradite da nastavite razgovarati s Carry bez ograničenja.",
     "batteryHistory": "Baterija",
     "day": "Dan",
     "noBatteryDataYet": "Još nema podataka o bateriji",
     "week": "Sedmica",
-    "voiceResponseAudio": "Pročitaj Omi odgovor naglas",
+    "voiceResponseAudio": "Pročitaj Carry odgovor naglas",
     "voiceResponseMode": "Glasovni odgovor",
     "voiceResponseModeTitle": "Kada izgovarati odgovore",
     "voiceResponseOff": "Isključeno",
@@ -10547,7 +10547,7 @@
         "description": "Section header for memory knowledge graph on home page"
     },
     "voiceMode": "Glasovni način",
-    "quickActionAskOmi": "Pitajte Omi bilo što",
+    "quickActionAskOmi": "Pitajte Carry bilo što",
     "record": "Snimi",
     "stop": "Zaustavi",
     "recordWithPhoneMic": "Snimaj mikrofonom telefona",
@@ -10582,26 +10582,26 @@
     "syncStatusRetrying": "Obrada nije uspjela — ponovni pokušaj",
     "syncStatusFailed": "Neuspjelo — dodirnite Ponovi",
     "syncStatusFileUnavailable": "Datoteka nije dostupna",
-    "syncStatusUploaded": "Otpremljeno · obrada na Omi",
+    "syncStatusUploaded": "Otpremljeno · obrada na Carry",
     "noRecordingsYet": "Još nema snimaka",
     "syncInProgress": "Sinhronizacija u toku",
     "deleteWhileProcessingTitle": "Još se obrađuje",
-    "deleteWhileProcessingMessage": "Ovaj snimak je otpremljen, ali Omi još kreira razgovor. Ako ga sada izbrišete i obrada ne uspije, ne može se vratiti. Svejedno izbrisati?",
+    "deleteWhileProcessingMessage": "Ovaj snimak je otpremljen, ali Carry još kreira razgovor. Ako ga sada izbrišete i obrada ne uspije, ne može se vratiti. Svejedno izbrisati?",
     "syncCardAllBackedUp": "Sve snimke su sinkronizovane",
     "syncCardReadyCount": "{count, plural, one{1 snimak spreman za sinkronizaciju} few{{count} snimka spremna za sinkronizaciju} other{{count} snimaka spremno za sinkronizaciju}}",
-    "syncCardProcessing": "Obrada u Omi…",
+    "syncCardProcessing": "Obrada u Carry…",
     "syncCardWaitingInternet": "Čekanje interneta",
     "syncCardNeedsAttention": "{count, plural, one{{count} snimak zahtijeva pažnju} few{{count} snimke zahtijevaju pažnju} other{{count} snimaka zahtijeva pažnju}}",
-    "syncFlowIntro": "Snimci se prenose s vašeg uređaja na ovaj telefon i pohranjuju lokalno, a zatim učitavaju na Omijev server gdje se transkribiraju i pretvaraju u razgovore.",
+    "syncFlowIntro": "Snimci se prenose s vašeg uređaja na ovaj telefon i pohranjuju lokalno, a zatim učitavaju na Carryjev server gdje se transkribiraju i pretvaraju u razgovore.",
     "syncStepUpload": "Sinkronizacija",
-    "syncStepUploadDesc": "Vaša snimka se šalje na Omijev server",
+    "syncStepUploadDesc": "Vaša snimka se šalje na Carryjev server",
     "syncStepProcess": "Transkripcija",
-    "syncStepProcessDesc": "Omi pretvara zvuk u razgovor",
+    "syncStepProcessDesc": "Carry pretvara zvuk u razgovor",
     "syncStepBackedUp": "Razgovor je spreman",
     "syncStepBackedUpDesc": "Pronađite ga u Razgovori",
     "syncFailureFootnote": "Ako obrada ne uspije, snimak se automatski ponavlja pri sljedećoj sinkronizaciji.",
     "syncStatusConversationCreated": "Razgovor stvoren",
-    "syncCardUploadingTitle": "Slanje na Omi",
+    "syncCardUploadingTitle": "Slanje na Carry",
     "syncCardDownloadingTitle": "Preuzimanje s vašeg uređaja",
     "syncCardProgressOf": "{current} od {total}",
     "syncStatusOnDevice": "Na vašem uređaju",
@@ -10614,19 +10614,19 @@
     },
     "syncProcessingBackgroundHint": "Ovo se nastavlja u pozadini — možete napustiti ovaj ekran.",
     "syncCardRateLimited": "Dostignut je limit poštene upotrebe — sinkronizacija će se automatski nastaviti",
-    "syncCardBackendBusy": "Omi serveri su zauzeti — vaši snimci će se sinhronizovati kada se oslobodi kapacitet",
+    "syncCardBackendBusy": "Carry serveri su zauzeti — vaši snimci će se sinhronizovati kada se oslobodi kapacitet",
     "unableToDetermineFirmwareVersion": "Nije moguće odrediti trenutnu verziju firmvera",
     "promoCode": "Promo kod",
     "enterPromoCode": "Unesite promo kod",
     "invalidPromotionCode": "Nevažeći promo kod.",
     "backgroundModeTitle": "Pozadinski način rada",
-    "backgroundModeDescription": "Zadržite Omi snimanje čak i kada je aplikacija potpuno zatvorena.",
-    "backgroundModeNote": "Zasad radi samo s Omi uređajima i kontinuirano se poboljšava.",
+    "backgroundModeDescription": "Zadržite Carry snimanje čak i kada je aplikacija potpuno zatvorena.",
+    "backgroundModeNote": "Zasad radi samo s Carry uređajima i kontinuirano se poboljšava.",
     "regenerateRecap": "Ponovo generiši rezime",
     "recapRegeneratedSnackbar": "Rezime je ponovo generisan",
     "recapRegenerateFailed": "Nije moguće ponovo generisati rezime. Pokušajte ponovo kasnije.",
     "recapRegenerateCooldown": "Molimo sačekajte nekoliko sekundi prije ponovnog generisanja.",
     "recapRegenerateNoConversations": "Nema razgovora za sažimanje za ovaj dan.",
-    "syncCustomSttWarningTitle": "Sinkronizacija koristi Omi transkripciju",
-    "syncCustomSttWarningMessage": "Koristite vlastiti provajder transkripcije. Sinkronizacija ovih snimaka transkribuje ih na Omi serverima i broje se u limit transkripcije vašeg plana."
+    "syncCustomSttWarningTitle": "Sinkronizacija koristi Carry transkripciju",
+    "syncCustomSttWarningMessage": "Koristite vlastiti provajder transkripcije. Sinkronizacija ovih snimaka transkribuje ih na Carry serverima i broje se u limit transkripcije vašeg plana."
 }

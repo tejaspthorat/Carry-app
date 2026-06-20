@@ -747,7 +747,7 @@ class _HomePageState extends State<HomePage> with WidgetsBindingObserver, Ticker
             const SizedBox(width: 18),
             Expanded(
               child: Text(
-                'Ask Omi anything about your life...',
+                'Ask Carry anything about your life...',
                 style: const TextStyle(color: Color(0xFF8E8E93), fontSize: 15),
                 overflow: TextOverflow.ellipsis,
               ),

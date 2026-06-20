@@ -154,7 +154,7 @@ class ForegroundUtil {
         result = await FlutterForegroundTask.restartService();
       } else {
         result = await FlutterForegroundTask.startService(
-          notificationTitle: 'Your Omi Device is connected.',
+          notificationTitle: 'Your Carry device is connected.',
           notificationText: 'Transcription service is running in the background.',
           callback: _startForegroundCallback,
         );

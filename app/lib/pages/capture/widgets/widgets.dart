@@ -140,7 +140,7 @@ class UpdateFirmwareCardWidget extends StatelessWidget {
                           const Icon(Icons.upload),
                           const SizedBox(width: 16),
                           Text(
-                            isOmiGlass ? 'Update OmiGlass Firmware' : context.l10n.updateOmiFirmware,
+                            isOmiGlass ? 'Update Carry Glass Firmware' : context.l10n.updateOmiFirmware,
                             style: const TextStyle(color: Colors.white, fontSize: 16),
                           ),
                         ],

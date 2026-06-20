@@ -376,7 +376,7 @@ class ServerConversation {
 
   String getTag() {
     if (source == ConversationSource.screenpipe) return 'Screenpipe';
-    if (source == ConversationSource.openglass) return 'OmiGlass';
+    if (source == ConversationSource.openglass) return 'Carry Glass';
     if (source == ConversationSource.sdcard) return 'SD Card';
     if (discarded) return 'Discarded';
     if (structured.category.isEmpty) return 'Other';

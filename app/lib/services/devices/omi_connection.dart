@@ -986,10 +986,10 @@ class OmiDeviceConnection extends DeviceConnection {
     // default like '1.0.2' tricked the backend into recommending Omi_CV1_v3.0.5
     // (the only release whose minimum_firmware_required is 1.0.0) to users
     // whose actual firmware was 3.0.19 — see callers for the empty-check guard.
-    deviceInfo['modelNumber'] ??= 'Omi Device';
+    deviceInfo['modelNumber'] ??= 'Carry Device';
     deviceInfo['firmwareRevision'] ??= '';
     deviceInfo['hardwareRevision'] ??= 'Seeed Xiao BLE Sense';
-    deviceInfo['manufacturerName'] ??= 'Based Hardware';
+    deviceInfo['manufacturerName'] ??= 'Carry';
     deviceInfo['hasImageStream'] ??= 'false';
 
     return deviceInfo;

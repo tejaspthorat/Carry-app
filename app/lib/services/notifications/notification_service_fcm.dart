@@ -30,9 +30,9 @@ class _FCMNotificationService implements NotificationInterface {
   final channel = NotificationChannel(
     channelGroupKey: 'channel_group_key',
     channelKey: 'channel',
-    channelName: 'Omi Notifications',
-    channelDescription: 'Notification channel for Omi',
-    defaultColor: const Color(0xFF9D50DD),
+    channelName: 'Carry Notifications',
+    channelDescription: 'Notification channel for Carry',
+    defaultColor: const Color(0xFF2E7DA7),
     ledColor: Colors.white,
   );
 
@@ -57,7 +57,7 @@ class _FCMNotificationService implements NotificationInterface {
           channelKey: channel.channelKey,
           channelName: channel.channelName,
           channelDescription: channel.channelDescription,
-          defaultColor: const Color(0xFF9D50DD),
+          defaultColor: const Color(0xFF2E7DA7),
           ledColor: Colors.white,
         ),
       ],

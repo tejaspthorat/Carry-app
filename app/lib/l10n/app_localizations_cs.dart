@@ -9,7 +9,7 @@ class AppLocalizationsCs extends AppLocalizations {
   AppLocalizationsCs([String locale = 'cs']) : super(locale);
 
   @override
-  String get appTitle => 'Omi';
+  String get appTitle => 'Carry';
 
   @override
   String get conversationTab => 'Konverzace';
@@ -129,7 +129,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get editPerson => 'Upravit osobu';
 
   @override
-  String get createPersonHint => 'Vytvořte novou osobu a naučte Omi rozpoznat i její řeč!';
+  String get createPersonHint => 'Vytvořte novou osobu a naučte Carry rozpoznat i její řeč!';
 
   @override
   String get speechProfile => 'Řečový Profil';
@@ -168,7 +168,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get couldNotAccessFile => 'K vybranému souboru se nepodařilo získat přístup';
 
   @override
-  String get askOmi => 'Zeptat se Omi';
+  String get askOmi => 'Zeptat se Carry';
 
   @override
   String get done => 'Hotovo';
@@ -269,7 +269,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get noMessagesYet => 'Zatím žádné zprávy!\nProč nezačít konverzaci?';
 
   @override
-  String get deletingMessages => 'Mazání vašich zpráv z paměti Omi...';
+  String get deletingMessages => 'Mazání vašich zpráv z paměti Carry...';
 
   @override
   String get messageCopied => '✨ Zpráva zkopírována do schránky';
@@ -299,7 +299,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get maxFilesLimit => 'Najednou můžete nahrát pouze 4 soubory';
 
   @override
-  String get chatWithOmi => 'Chat s Omi';
+  String get chatWithOmi => 'Chat s Carry';
 
   @override
   String get apps => 'Aplikace';
@@ -330,7 +330,7 @@ class AppLocalizationsCs extends AppLocalizations {
       'Nelze načíst aplikace :(\n\nZkontrolujte prosím připojení k internetu a zkuste to znovu.';
 
   @override
-  String get aboutOmi => 'O Omi';
+  String get aboutOmi => 'O Carry';
 
   @override
   String get privacyPolicy => 'Zásadami ochrany osobních údajů';
@@ -450,7 +450,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get developerSettings => 'Vývojářské nastavení';
 
   @override
-  String get getOmiForMac => 'Získat Omi pro Mac';
+  String get getOmiForMac => 'Získat Carry pro Mac';
 
   @override
   String get referralProgram => 'Doporučovací program';
@@ -469,7 +469,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get privacyIntro =>
-      'V Omi se zavazujeme chránit vaše soukromí. Tato stránka vám umožňuje kontrolovat, jak jsou vaše data ukládána a používána.';
+      'V Carry se zavazujeme chránit vaše soukromí. Tato stránka vám umožňuje kontrolovat, jak jsou vaše data ukládána a používána.';
 
   @override
   String get learnMore => 'Dozvědět se více...';
@@ -540,7 +540,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get unpairAndForget => 'Zrušit párování a zapomenout zařízení';
 
   @override
-  String get deviceDisconnectedMessage => 'Vaše Omi bylo odpojeno 😔';
+  String get deviceDisconnectedMessage => 'Vaše Carry bylo odpojeno 😔';
 
   @override
   String get deviceUnpairedMessage =>
@@ -557,7 +557,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get deviceNotConnected => 'Zařízení není připojeno';
 
   @override
-  String get connectDeviceMessage => 'Připojte své zařízení Omi pro přístup\nk nastavením a přizpůsobení zařízení';
+  String get connectDeviceMessage => 'Připojte své zařízení Carry pro přístup\nk nastavením a přizpůsobení zařízení';
 
   @override
   String get deviceInfoSection => 'Informace o zařízení';
@@ -687,7 +687,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get docs => 'Dokumentace';
 
   @override
-  String get yourOmiInsights => 'Vaše přehledy Omi';
+  String get yourOmiInsights => 'Vaše přehledy Carry';
 
   @override
   String get today => 'Dnes';
@@ -705,13 +705,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get noActivityYet => 'Zatím žádná aktivita';
 
   @override
-  String get startConversationToSeeInsights => 'Začněte konverzaci s Omi,\nabyste zde viděli své přehledy využití.';
+  String get startConversationToSeeInsights => 'Začněte konverzaci s Carry,\nabyste zde viděli své přehledy využití.';
 
   @override
   String get listening => 'Naslouchání';
 
   @override
-  String get listeningSubtitle => 'Celková doba, po kterou Omi aktivně naslouchalo.';
+  String get listeningSubtitle => 'Celková doba, po kterou Carry aktivně naslouchalo.';
 
   @override
   String get understanding => 'Porozumění';
@@ -767,19 +767,19 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get shareStatsMessage => 'Sdílím své statistiky Omi! (omi.me - váš AI asistent, který je vždy online)';
+  String get shareStatsMessage => 'Sdílím své statistiky Carry! (carry.me - váš AI asistent, který je vždy online)';
 
   @override
-  String get sharePeriodToday => 'Dnes Omi:';
+  String get sharePeriodToday => 'Dnes Carry:';
 
   @override
-  String get sharePeriodMonth => 'Tento měsíc Omi:';
+  String get sharePeriodMonth => 'Tento měsíc Carry:';
 
   @override
-  String get sharePeriodYear => 'Letos Omi:';
+  String get sharePeriodYear => 'Letos Carry:';
 
   @override
-  String get sharePeriodAllTime => 'Dosud Omi:';
+  String get sharePeriodAllTime => 'Dosud Carry:';
 
   @override
   String shareStatsListened(String minutes) {
@@ -814,7 +814,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get noLogFilesFound => 'Nebyly nalezeny žádné soubory protokolu.';
 
   @override
-  String get omiDebugLog => 'Protokol ladění Omi';
+  String get omiDebugLog => 'Protokol ladění Carry';
 
   @override
   String get logShared => 'Protokol sdílen';
@@ -838,7 +838,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get exportDataDesc => 'Exportovat konverzace do souboru JSON';
 
   @override
-  String get exportedConversations => 'Exportované konverzace z Omi';
+  String get exportedConversations => 'Exportované konverzace z Carry';
 
   @override
   String get exportShared => 'Export sdílen';
@@ -1015,7 +1015,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get addWordsDesc => 'Jména, výrazy nebo neobvyklá slova';
 
   @override
-  String get vocabularyHint => 'Omi, Callie, OpenAI';
+  String get vocabularyHint => 'Carry, Callie, OpenAI';
 
   @override
   String get connect => 'Připojit';
@@ -1060,7 +1060,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String authAccessMessage(String appName) {
-    return 'Budete muset autorizovat Omi pro přístup k vašim datům $appName. Tím se otevře váš prohlížeč pro ověření.';
+    return 'Budete muset autorizovat Carry pro přístup k vašim datům $appName. Tím se otevře váš prohlížeč pro ověření.';
   }
 
   @override
@@ -1156,7 +1156,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get editName => 'Upravit jméno';
 
   @override
-  String get howShouldOmiCallYou => 'Jak vás má Omi oslovovat?';
+  String get howShouldOmiCallYou => 'Jak vás má Carry oslovovat?';
 
   @override
   String get enterYourName => 'Zadejte své jméno';
@@ -1427,7 +1427,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String authorizeOmiForTasks(String appName) {
-    return 'Budete muset autorizovat Omi k vytváření úkolů ve vašem účtu $appName. Tím se otevře váš prohlížeč pro ověření.';
+    return 'Budete muset autorizovat Carry k vytváření úkolů ve vašem účtu $appName. Tím se otevře váš prohlížeč pro ověření.';
   }
 
   @override
@@ -1462,13 +1462,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get bringYourOwn => 'Přineste si vlastní';
 
   @override
-  String get payYourSttProvider => 'Používejte Omi zdarma. Platíte pouze svému poskytovateli STT přímo.';
+  String get payYourSttProvider => 'Používejte Carry zdarma. Platíte pouze svému poskytovateli STT přímo.';
 
   @override
   String get freeMinutesMonth => '1 200 bezplatných minut měsíčně. Neomezené s ';
 
   @override
-  String get omiUnlimited => 'Omi Unlimited';
+  String get omiUnlimited => 'Carry Unlimited';
 
   @override
   String get hostRequired => 'Host je povinný';
@@ -1586,11 +1586,11 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String deviceUsesCodec(String device, String reason) {
-    return '$device používá $reason. Bude použito Omi.';
+    return '$device používá $reason. Bude použito Carry.';
   }
 
   @override
-  String get omiTranscription => 'Přepis Omi';
+  String get omiTranscription => 'Přepis Carry';
 
   @override
   String get bestInClassTranscription => 'Nejlepší přepis ve své třídě bez nutnosti nastavení';
@@ -1742,7 +1742,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get bluetoothNeeded =>
-      'Omi potřebuje Bluetooth pro připojení k vašemu nositelného zařízení. Povolte prosím Bluetooth a zkuste to znovu.';
+      'Carry potřebuje Bluetooth pro připojení k vašemu nositelného zařízení. Povolte prosím Bluetooth a zkuste to znovu.';
 
   @override
   String get contactSupport => 'Kontaktovat podporu?';
@@ -1757,7 +1757,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get backgroundActivity => 'Aktivita na pozadí';
 
   @override
-  String get backgroundActivityDesc => 'Umožněte Omi běžet na pozadí pro lepší stabilitu';
+  String get backgroundActivityDesc => 'Umožněte Carry běžet na pozadí pro lepší stabilitu';
 
   @override
   String get locationAccess => 'Přístup k poloze';
@@ -1786,7 +1786,7 @@ class AppLocalizationsCs extends AppLocalizations {
       'Přejděte do nastavení zařízení a nastavte oprávnění k poloze na \"Vždy povolit\"';
 
   @override
-  String get lovingOmi => 'Líbí se vám Omi?';
+  String get lovingOmi => 'Líbí se vám Carry?';
 
   @override
   String get leaveReviewIos =>
@@ -1806,7 +1806,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get maybeLater => 'Možná později';
 
   @override
-  String get speechProfileIntro => 'Omi potřebuje poznat vaše cíle a váš hlas. Později to budete moci upravit.';
+  String get speechProfileIntro => 'Carry potřebuje poznat vaše cíle a váš hlas. Později to budete moci upravit.';
 
   @override
   String get getStarted => 'Začít';
@@ -1861,7 +1861,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get tryAgain => 'Zkusit znovu';
 
   @override
-  String get connectOmiOmiGlass => 'Připojit Omi / OmiGlass';
+  String get connectOmiOmiGlass => 'Připojit Carry / Carry Glass';
 
   @override
   String get continueWithoutDevice => 'Pokračovat bez zařízení';
@@ -1898,7 +1898,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get termsOfUse => 'Podmínkami použití';
 
   @override
-  String get omiYourAiCompanion => 'Omi – Váš AI společník';
+  String get omiYourAiCompanion => 'Carry – Váš AI společník';
 
   @override
   String get captureEveryMoment =>
@@ -1915,7 +1915,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get permissionGrantedNow =>
-      'Oprávnění uděleno! Nyní:\n\nOtevřete aplikaci Omi na hodinkách a klepněte níže na \"Pokračovat\"';
+      'Oprávnění uděleno! Nyní:\n\nOtevřete aplikaci Carry na hodinkách a klepněte níže na \"Pokračovat\"';
 
   @override
   String get needMicrophonePermission =>
@@ -1929,7 +1929,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get troubleshootingSteps =>
-      'Řešení problémů:\n\n1. Ujistěte se, že Omi je nainstalováno na vašich hodinkách\n2. Otevřete aplikaci Omi na hodinkách\n3. Hledejte vyskakovací okno s oprávněním\n4. Klepněte na \"Povolit\", když budete vyzváni\n5. Aplikace na hodinkách se zavře - znovu ji otevřete\n6. Vraťte se a klepněte na \"Pokračovat\" na svém iPhone';
+      'Řešení problémů:\n\n1. Ujistěte se, že Carry je nainstalováno na vašich hodinkách\n2. Otevřete aplikaci Carry na hodinkách\n3. Hledejte vyskakovací okno s oprávněním\n4. Klepněte na \"Povolit\", když budete vyzváni\n5. Aplikace na hodinkách se zavře - znovu ji otevřete\n6. Vraťte se a klepněte na \"Pokračovat\" na svém iPhone';
 
   @override
   String get recordingStartedSuccessfully => 'Nahrávání úspěšně zahájeno!';
@@ -2081,16 +2081,16 @@ class AppLocalizationsCs extends AppLocalizations {
   String get addFirstMemory => 'Přidat první vzpomínku';
 
   @override
-  String get clearMemoryTitle => 'Vymazat paměť Omi';
+  String get clearMemoryTitle => 'Vymazat paměť Carry';
 
   @override
-  String get clearMemoryMessage => 'Opravdu chcete vymazat paměť Omi? Tuto akci nelze vrátit zpět.';
+  String get clearMemoryMessage => 'Opravdu chcete vymazat paměť Carry? Tuto akci nelze vrátit zpět.';
 
   @override
   String get clearMemoryButton => 'Vymazat paměť';
 
   @override
-  String get memoryClearedSuccess => 'Paměť Omi o vás byla vymazána';
+  String get memoryClearedSuccess => 'Paměť Carry o vás byla vymazána';
 
   @override
   String get noMemoriesToDelete => 'Žádné vzpomínky ke smazání';
@@ -2238,7 +2238,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get translationNoticeMessage =>
-      'Omi překládá konverzace do vašeho hlavního jazyka. Aktualizujte to kdykoli v Nastavení → Profily.';
+      'Carry překládá konverzace do vašeho hlavního jazyka. Aktualizujte to kdykoli v Nastavení → Profily.';
 
   @override
   String get pleaseCheckInternetConnection => 'Zkontrolujte prosím připojení k internetu a zkuste to znovu';
@@ -2421,7 +2421,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get privacyPolicyTitle => 'Zásady ochrany osobních údajů';
 
   @override
-  String get omiSttProvider => 'Omi';
+  String get omiSttProvider => 'Carry';
 
   @override
   String labelCopied(String label) {
@@ -2566,7 +2566,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get checksForAudioFiles => 'Kontroluje zvukové soubory na SD kartě';
 
   @override
-  String get omiSyncsAudioFiles => 'Omi poté synchronizuje zvukové soubory se serverem';
+  String get omiSyncsAudioFiles => 'Carry poté synchronizuje zvukové soubory se serverem';
 
   @override
   String get serverProcessesAudio => 'Server zpracovává zvukové soubory a vytváří vzpomínky';
@@ -2576,10 +2576,10 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get welcomeToOmiDescription =>
-      'Vítejte v Omi! Váš AI společník je připraven vám pomoci s rozhovory, úkoly a mnoho dalšího.';
+      'Vítejte v Carry! Váš AI společník je připraven vám pomoci s rozhovory, úkoly a mnoho dalšího.';
 
   @override
-  String get startUsingOmi => 'Začít používat Omi';
+  String get startUsingOmi => 'Začít používat Carry';
 
   @override
   String get back => 'Zpět';
@@ -2655,7 +2655,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get reviewAndManageConversations => 'Prohlížejte a spravujte své zachycené konverzace';
 
   @override
-  String get startCapturingConversations => 'Začněte zachytávat konverzace pomocí zařízení Omi a zobrazí se zde.';
+  String get startCapturingConversations => 'Začněte zachytávat konverzace pomocí zařízení Carry a zobrazí se zde.';
 
   @override
   String get useMobileAppToCapture => 'Použijte mobilní aplikaci k zachycení zvuku';
@@ -2670,7 +2670,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get showAll => 'Zobrazit vše →';
 
   @override
-  String get noTasksForToday => 'Žádné úkoly pro dnešek.\nZeptejte se Omi na další úkoly nebo je vytvořte ručně.';
+  String get noTasksForToday => 'Žádné úkoly pro dnešek.\nZeptejte se Carry na další úkoly nebo je vytvořte ručně.';
 
   @override
   String get dailyScore => 'DENNÍ SKÓRE';
@@ -2818,7 +2818,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get createNewApp => 'Vytvořit novou aplikaci';
 
   @override
-  String get buildSubmitCustomOmiApp => 'Vytvořte a odešlete svou vlastní Omi aplikaci';
+  String get buildSubmitCustomOmiApp => 'Vytvořte a odešlete svou vlastní Carry aplikaci';
 
   @override
   String get submittingYourApp => 'Odesílání vaší aplikace...';
@@ -2865,7 +2865,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get submitAppTermsAgreement =>
-      'Odesláním této aplikace souhlasím se Smluvními podmínkami a Zásadami ochrany osobních údajů Omi AI';
+      'Odesláním této aplikace souhlasím se Smluvními podmínkami a Zásadami ochrany osobních údajů Carry AI';
 
   @override
   String get submitApp => 'Odeslat aplikaci';
@@ -2910,7 +2910,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get dataAccessWarning =>
-      'Tato aplikace bude mít přístup k vašim datům. Omi AI nenese odpovědnost za to, jak jsou vaše data touto aplikací používána, upravována nebo mazána';
+      'Tato aplikace bude mít přístup k vašim datům. Carry AI nenese odpovědnost za to, jak jsou vaše data touto aplikací používána, upravována nebo mazána';
 
   @override
   String get installApp => 'Nainstalovat aplikaci';
@@ -3258,7 +3258,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get upgradeToPro => 'Upgrade na Pro';
 
   @override
-  String get getOmiDevice => 'Získat zařízení Omi';
+  String get getOmiDevice => 'Získat zařízení Carry';
 
   @override
   String get wearableAiCompanion => 'Nositelný AI společník';
@@ -3324,7 +3324,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get setAllMemoriesToPublic => 'Nastavit všechny vzpomínky na veřejnou viditelnost';
 
   @override
-  String get permanentlyRemoveAllMemories => 'Trvale odstranit všechny vzpomínky z Omi';
+  String get permanentlyRemoveAllMemories => 'Trvale odstranit všechny vzpomínky z Carry';
 
   @override
   String get allMemoriesAreNowPrivate => 'Všechny vzpomínky jsou nyní soukromé';
@@ -3333,18 +3333,18 @@ class AppLocalizationsCs extends AppLocalizations {
   String get allMemoriesAreNowPublic => 'Všechny vzpomínky jsou nyní veřejné';
 
   @override
-  String get clearOmisMemory => 'Vymazat paměť Omi';
+  String get clearOmisMemory => 'Vymazat paměť Carry';
 
   @override
   String clearMemoryConfirmation(int count) {
-    return 'Opravdu chcete vymazat paměť Omi? Tuto akci nelze vrátit zpět a trvale odstraní všech $count vzpomínek.';
+    return 'Opravdu chcete vymazat paměť Carry? Tuto akci nelze vrátit zpět a trvale odstraní všech $count vzpomínek.';
   }
 
   @override
-  String get omisMemoryCleared => 'Paměť Omi o vás byla vymazána';
+  String get omisMemoryCleared => 'Paměť Carry o vás byla vymazána';
 
   @override
-  String get welcomeToOmi => 'Vítejte v Omi';
+  String get welcomeToOmi => 'Vítejte v Carry';
 
   @override
   String get continueWithApple => 'Pokračovat s Apple';
@@ -3390,7 +3390,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get chooseYourLanguage => 'Vyberte svůj jazyk';
 
   @override
-  String get selectPreferredLanguageForBestExperience => 'Vyberte si preferovaný jazyk pro nejlepší Omi zážitek';
+  String get selectPreferredLanguageForBestExperience => 'Vyberte si preferovaný jazyk pro nejlepší Carry zážitek';
 
   @override
   String get searchLanguages => 'Hledat jazyky...';
@@ -3409,7 +3409,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get tellUsHowYouWouldLikeToBeAddressed =>
-      'Řekněte nám, jak byste chtěli být oslovováni. To pomáhá personalizovat váš Omi zážitek.';
+      'Řekněte nám, jak byste chtěli být oslovováni. To pomáhá personalizovat váš Carry zážitek.';
 
   @override
   String charactersCount(int count) {
@@ -3417,7 +3417,7 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get enableFeaturesForBestExperience => 'Povolte funkce pro nejlepší Omi zážitek na vašem zařízení.';
+  String get enableFeaturesForBestExperience => 'Povolte funkce pro nejlepší Carry zážitek na vašem zařízení.';
 
   @override
   String get microphoneAccess => 'Přístup k mikrofonu';
@@ -3427,7 +3427,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get microphoneAccessDescription =>
-      'Omi potřebuje přístup k mikrofonu pro nahrávání vašich konverzací a poskytování přepisů.';
+      'Carry potřebuje přístup k mikrofonu pro nahrávání vašich konverzací a poskytování přepisů.';
 
   @override
   String get screenRecording => 'Záznam obrazovky';
@@ -3437,7 +3437,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get screenRecordingDescription =>
-      'Omi potřebuje oprávnění k záznamu obrazovky pro zachycení systémového zvuku z vašich schůzek v prohlížeči.';
+      'Carry potřebuje oprávnění k záznamu obrazovky pro zachycení systémového zvuku z vašich schůzek v prohlížeči.';
 
   @override
   String get accessibility => 'Přístupnost';
@@ -3447,7 +3447,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get accessibilityDescription =>
-      'Omi potřebuje oprávnění k přístupnosti pro detekci, kdy se připojujete ke schůzkám Zoom, Meet nebo Teams ve vašem prohlížeči.';
+      'Carry potřebuje oprávnění k přístupnosti pro detekci, kdy se připojujete ke schůzkám Zoom, Meet nebo Teams ve vašem prohlížeči.';
 
   @override
   String get pleaseWait => 'Prosím čekejte...';
@@ -3480,10 +3480,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get voiceAndPeople => 'Hlas a Lidé';
 
   @override
-  String get teachOmiYourVoice => 'Naučit Omi svůj hlas';
+  String get teachOmiYourVoice => 'Naučit Carry svůj hlas';
 
   @override
-  String get tellOmiWhoSaidIt => 'Řekněte Omi, kdo to řekl 🗣️';
+  String get tellOmiWhoSaidIt => 'Řekněte Carry, kdo to řekl 🗣️';
 
   @override
   String get payment => 'Platba';
@@ -3495,7 +3495,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get preferences => 'Předvolby';
 
   @override
-  String get helpImproveOmiBySharing => 'Pomozte vylepšit Omi sdílením anonymizovaných analytických dat';
+  String get helpImproveOmiBySharing => 'Pomozte vylepšit Carry sdílením anonymizovaných analytických dat';
 
   @override
   String get deleteAccount => 'Smazat Účet';
@@ -3520,7 +3520,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get mcpDescription =>
-      'Pro připojení Omi k dalším aplikacím pro čtení, vyhledávání a správu vašich vzpomínek a konverzací. Začněte vytvořením klíče.';
+      'Pro připojení Carry k dalším aplikacím pro čtení, vyhledávání a správu vašich vzpomínek a konverzací. Začněte vytvořením klíče.';
 
   @override
   String get apiKeys => 'API klíče';
@@ -3555,7 +3555,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get triggersWhenDaySummaryGenerated => 'Spouští se při vygenerování denního souhrnu.';
 
   @override
-  String get tryLatestExperimentalFeatures => 'Vyzkoušejte nejnovější experimentální funkce od týmu Omi.';
+  String get tryLatestExperimentalFeatures => 'Vyzkoušejte nejnovější experimentální funkce od týmu Carry.';
 
   @override
   String get transcriptionServiceDiagnosticStatus => 'Diagnostický stav služby přepisu';
@@ -3625,7 +3625,7 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get letOmiChooseAutomatically => 'Nechte Omi automaticky vybrat nejlepší aplikaci';
+  String get letOmiChooseAutomatically => 'Nechte Carry automaticky vybrat nejlepší aplikaci';
 
   @override
   String get deleteConversationConfirmation => 'Opravdu chcete smazat tuto konverzaci? Tuto akci nelze vrátit zpět.';
@@ -3762,7 +3762,7 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get translatedByOmi => 'přeloženo pomocí omi';
+  String get translatedByOmi => 'přeloženo pomocí carry';
 
   @override
   String get backToConversations => 'Zpět na Konverzace';
@@ -3823,7 +3823,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get customVocabularyHeader => 'VLASTNÍ SLOVNÍK';
 
   @override
-  String get addWordsDescription => 'Přidejte slova, která má Omi rozpoznávat během přepisu.';
+  String get addWordsDescription => 'Přidejte slova, která má Carry rozpoznávat během přepisu.';
 
   @override
   String get enterWordsHint => 'Zadejte slova (oddělená čárkami)';
@@ -3908,7 +3908,7 @@ class AppLocalizationsCs extends AppLocalizations {
       'Tím se smažou všechna odvozená data grafu znalostí. Vaše původní vzpomínky zůstanou v bezpečí.';
 
   @override
-  String get connectOmiWithAI => 'Připojte Omi k AI asistentům';
+  String get connectOmiWithAI => 'Připojte Carry k AI asistentům';
 
   @override
   String get noAPIKeys => 'Žádné klíče API. Vytvořte jeden, abyste mohli začít.';
@@ -3941,7 +3941,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get holdOnPreparingForm => 'Počkejte, připravujeme pro vás formulář';
 
   @override
-  String get bySubmittingYouAgreeToOmi => 'Odesláním souhlasíte s Omi ';
+  String get bySubmittingYouAgreeToOmi => 'Odesláním souhlasíte s Carry ';
 
   @override
   String get termsAndPrivacyPolicy => 'Podmínky a Zásady ochrany osobních údajů';
@@ -4102,7 +4102,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get dataAccessNoticeDescription =>
-      'Tato aplikace bude mít přístup k vašim datům. Omi AI nenese odpovědnost za to, jak jsou vaše data používána třetími stranami.';
+      'Tato aplikace bude mít přístup k vašim datům. Carry AI nenese odpovědnost za to, jak jsou vaše data používána třetími stranami.';
 
   @override
   String get copyUrl => 'Kopírovat URL';
@@ -4187,14 +4187,14 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get omiApiKeys => 'Omi API klíče';
+  String get omiApiKeys => 'Carry API klíče';
 
   @override
   String get apiKeysDescription =>
-      'API klíče se používají pro ověření, když vaše aplikace komunikuje se serverem OMI. Umožňují vaší aplikaci vytvářet vzpomínky a bezpečně přistupovat k dalším službám OMI.';
+      'API klíče se používají pro ověření, když vaše aplikace komunikuje se serverem CARRY. Umožňují vaší aplikaci vytvářet vzpomínky a bezpečně přistupovat k dalším službám CARRY.';
 
   @override
-  String get aboutOmiApiKeys => 'O Omi API klíčích';
+  String get aboutOmiApiKeys => 'O Carry API klíčích';
 
   @override
   String get yourNewKey => 'Váš nový klíč:';
@@ -4325,7 +4325,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get e2eeDescription =>
-      'End-to-end šifrování je zlatý standard ochrany soukromí. Když je povoleno, vaše data jsou šifrována na vašem zařízení před odesláním na naše servery. To znamená, že nikdo, ani Omi, nemůže přistupovat k vašemu obsahu.';
+      'End-to-end šifrování je zlatý standard ochrany soukromí. Když je povoleno, vaše data jsou šifrována na vašem zařízení před odesláním na naše servery. To znamená, že nikdo, ani Carry, nemůže přistupovat k vašemu obsahu.';
 
   @override
   String get importantTradeoffs => 'Důležité kompromisy:';
@@ -4360,7 +4360,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get secureEncryptionDescription =>
-      'Vaše data jsou šifrována klíčem jedinečným pro vás na našich serverech hostovaných v Google Cloud. To znamená, že váš surový obsah je nepřístupný nikomu, včetně zaměstnanců Omi nebo Google, přímo z databáze.';
+      'Vaše data jsou šifrována klíčem jedinečným pro vás na našich serverech hostovaných v Google Cloud. To znamená, že váš surový obsah je nepřístupný nikomu, včetně zaměstnanců Carry nebo Google, přímo z databáze.';
 
   @override
   String get endToEndEncryption => 'End-to-end šifrování';
@@ -4429,20 +4429,20 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get omiTraining => 'Omi Trénink';
+  String get omiTraining => 'Carry Trénink';
 
   @override
   String get trainingDataProgram => 'Program trénovacích dat';
 
   @override
-  String get getOmiUnlimitedFree => 'Získejte Omi Unlimited zdarma přispěním vašich dat k trénování AI modelů.';
+  String get getOmiUnlimitedFree => 'Získejte Carry Unlimited zdarma přispěním vašich dat k trénování AI modelů.';
 
   @override
   String get trainingDataBullets =>
       '• Vaše data pomáhají vylepšovat AI modely\n• Sdílena jsou pouze necitlivá data\n• Plně transparentní proces';
 
   @override
-  String get learnMoreAtOmiTraining => 'Zjistěte více na omi.me/training';
+  String get learnMoreAtOmiTraining => 'Zjistěte více na carry.me/training';
 
   @override
   String get agreeToContributeData => 'Rozumím a souhlasím s přispěním mých dat pro trénování AI';
@@ -4520,7 +4520,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get youAreOnUnlimitedPlan => 'Jste na plánu Unlimited.';
 
   @override
-  String get yourOmiUnleashed => 'Váš Omi, uvolněný. Přejděte na neomezený pro nekonečné možnosti.';
+  String get yourOmiUnleashed => 'Váš Carry, uvolněný. Přejděte na neomezený pro nekonečné možnosti.';
 
   @override
   String planEndedOn(String date) {
@@ -4544,10 +4544,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get unlimitedConversations => 'Neomezené konverzace';
 
   @override
-  String get askOmiAnything => 'Zeptejte se Omi na cokoli o svém životě';
+  String get askOmiAnything => 'Zeptejte se Carry na cokoli o svém životě';
 
   @override
-  String get unlockOmiInfiniteMemory => 'Odemkněte nekonečnou paměť Omi';
+  String get unlockOmiInfiniteMemory => 'Odemkněte nekonečnou paměť Carry';
 
   @override
   String get youreOnAnnualPlan => 'Jste na ročním plánu';
@@ -4601,7 +4601,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get privacyIntroText =>
-      'V Omi bereme vaše soukromí velmi vážně. Chceme být transparentní ohledně dat, která shromažďujeme a jak je používáme ke zlepšení produktu. Zde je to, co potřebujete vědět:';
+      'V Carry bereme vaše soukromí velmi vážně. Chceme být transparentní ohledně dat, která shromažďujeme a jak je používáme ke zlepšení produktu. Zde je to, co potřebujete vědět:';
 
   @override
   String get whatWeTrack => 'Co sledujeme';
@@ -4617,11 +4617,11 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get commitmentText =>
-      'Zavazujeme se používat shromážděná data pouze k tomu, abychom z Omi udělali lepší produkt. Vaše soukromí a důvěra jsou pro nás prvořadé.';
+      'Zavazujeme se používat shromážděná data pouze k tomu, abychom z Carry udělali lepší produkt. Vaše soukromí a důvěra jsou pro nás prvořadé.';
 
   @override
   String get thankYouText =>
-      'Děkujeme, že jste váženým uživatelem Omi. Máte-li jakékoli dotazy nebo obavy, neváhejte nás kontaktovat na team@basedhardware.com.';
+      'Děkujeme, že jste váženým uživatelem Carry. Máte-li jakékoli dotazy nebo obavy, neváhejte nás kontaktovat na team@basedhardware.com.';
 
   @override
   String get password => 'Heslo';
@@ -4705,7 +4705,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get minutes => 'minut';
 
   @override
-  String get omiHas => 'Omi má:';
+  String get omiHas => 'Carry má:';
 
   @override
   String get premiumMinutesUsed => 'Prémiové minuty vyčerpány.';
@@ -4798,7 +4798,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get howPeopleWorks =>
-      'Jakmile je osoba vytvořena, můžete přejít k přepisu konverzace a přiřadit jim odpovídající segmenty, tak Omi bude moci rozpoznat i jejich řeč!';
+      'Jakmile je osoba vytvořena, můžete přejít k přepisu konverzace a přiřadit jim odpovídající segmenty, tak Carry bude moci rozpoznat i jejich řeč!';
 
   @override
   String get tapToDelete => 'Klepněte pro smazání';
@@ -5076,7 +5076,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get enableApps => 'Povolit aplikace';
 
   @override
-  String get omiAppName => 'Omi';
+  String get omiAppName => 'Carry';
 
   @override
   String get showMore => 'zobrazit více ↓';
@@ -5100,18 +5100,18 @@ class AppLocalizationsCs extends AppLocalizations {
   String get checkingAppleWatch => 'Kontrola Apple Watch...';
 
   @override
-  String get installOmiOnAppleWatch => 'Nainstalujte Omi na\nApple Watch';
+  String get installOmiOnAppleWatch => 'Nainstalujte Carry na\nApple Watch';
 
   @override
   String get installOmiOnAppleWatchDescription =>
-      'Chcete-li používat Apple Watch s Omi, musíte nejprve nainstalovat aplikaci Omi na hodinky.';
+      'Chcete-li používat Apple Watch s Carry, musíte nejprve nainstalovat aplikaci Carry na hodinky.';
 
   @override
-  String get openOmiOnAppleWatch => 'Otevřete Omi na\nApple Watch';
+  String get openOmiOnAppleWatch => 'Otevřete Carry na\nApple Watch';
 
   @override
   String get openOmiOnAppleWatchDescription =>
-      'Aplikace Omi je nainstalována na vašem Apple Watch. Otevřete ji a klepněte na Start.';
+      'Aplikace Carry je nainstalována na vašem Apple Watch. Otevřete ji a klepněte na Start.';
 
   @override
   String get openWatchApp => 'Otevřít aplikaci Watch';
@@ -5121,14 +5121,14 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get unableToOpenWatchApp =>
-      'Nelze otevřít aplikaci Apple Watch. Ručně otevřete aplikaci Watch na Apple Watch a nainstalujte Omi ze sekce \"Dostupné aplikace\".';
+      'Nelze otevřít aplikaci Apple Watch. Ručně otevřete aplikaci Watch na Apple Watch a nainstalujte Carry ze sekce \"Dostupné aplikace\".';
 
   @override
   String get appleWatchConnectedSuccessfully => 'Apple Watch úspěšně připojeny!';
 
   @override
   String get appleWatchNotReachable =>
-      'Apple Watch stále není dostupné. Ujistěte se, že aplikace Omi je na hodinkách otevřená.';
+      'Apple Watch stále není dostupné. Ujistěte se, že aplikace Carry je na hodinkách otevřená.';
 
   @override
   String errorCheckingConnection(String error) {
@@ -5206,7 +5206,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get noSummary => 'Žádný souhrn';
 
   @override
-  String get updateOmiFirmware => 'Aktualizovat firmware omi';
+  String get updateOmiFirmware => 'Aktualizovat firmware carry';
 
   @override
   String get anErrorOccurredTryAgain => 'Došlo k chybě. Zkuste to prosím znovu.';
@@ -5215,7 +5215,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get welcomeBackSimple => 'Vítejte zpět';
 
   @override
-  String get addVocabularyDescription => 'Přidejte slova, která má Omi rozpoznat během přepisu.';
+  String get addVocabularyDescription => 'Přidejte slova, která má Carry rozpoznat během přepisu.';
 
   @override
   String get enterWordsCommaSeparated => 'Zadejte slova (oddělená čárkou)';
@@ -5376,13 +5376,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get wrappedNoDataAvailable => 'Žádná data nejsou k dispozici';
 
   @override
-  String get wrappedOmiLifeRecap => 'Omi shrnutí života';
+  String get wrappedOmiLifeRecap => 'Carry shrnutí života';
 
   @override
   String get wrappedSwipeUpToBegin => 'Přejeď nahoru pro začátek';
 
   @override
-  String get wrappedShareText => 'Můj rok 2025, zachycený Omi ✨ omi.me/wrapped';
+  String get wrappedShareText => 'Můj rok 2025, zachycený Carry ✨ carry.me/wrapped';
 
   @override
   String get wrappedFailedToShare => 'Sdílení se nezdařilo. Zkuste to prosím znovu.';
@@ -5403,7 +5403,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get wrappedMy2025 => 'Můj 2025';
 
   @override
-  String get wrappedRememberedByOmi => 'zachycený Omi';
+  String get wrappedRememberedByOmi => 'zachycený Carry';
 
   @override
   String get wrappedMostFunDay => 'Nejzábavnější';
@@ -5619,7 +5619,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get notificationFrequency => 'Frekvence oznámení';
 
   @override
-  String get controlNotificationFrequency => 'Ovládejte, jak často vám Omi posílá proaktivní oznámení.';
+  String get controlNotificationFrequency => 'Ovládejte, jak často vám Carry posílá proaktivní oznámení.';
 
   @override
   String get yourScore => 'Vaše skóre';
@@ -5645,7 +5645,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get notificationFrequencyDescription =>
-      'Ovládejte, jak často vám Omi zasílá proaktivní oznámení a připomínky.';
+      'Ovládejte, jak často vám Carry zasílá proaktivní oznámení a připomínky.';
 
   @override
   String get sliderOff => 'Vyp.';
@@ -5846,7 +5846,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get noRecordings => 'Žádné nahrávky';
 
   @override
-  String get audioFromOmiWillAppearHere => 'Zvuk z vašeho zařízení Omi se zobrazí zde';
+  String get audioFromOmiWillAppearHere => 'Zvuk z vašeho zařízení Carry se zobrazí zde';
 
   @override
   String get deleteProcessed => 'Smazat zpracované';
@@ -5966,7 +5966,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get batteryUsageHigher => 'Spotřeba baterie bude vyšší než u cloudového přepisu.';
 
   @override
-  String get considerOmiCloud => 'Zvažte použití Omi Cloud pro lepší výkon.';
+  String get considerOmiCloud => 'Zvažte použití Carry Cloud pro lepší výkon.';
 
   @override
   String get highResourceUsage => 'Vysoká spotřeba prostředků';
@@ -6122,7 +6122,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get omiTranscriptionOptimized =>
-      'Vestavěný živý přepis Omi je optimalizován pro konverzace v reálném čase s automatickou detekcí mluvčích a diarizací.';
+      'Vestavěný živý přepis Carry je optimalizován pro konverzace v reálném čase s automatickou detekcí mluvčích a diarizací.';
 
   @override
   String get reset => 'Resetovat';
@@ -6210,13 +6210,13 @@ class AppLocalizationsCs extends AppLocalizations {
   String get writeReviewOptional => 'Napsat recenzi (volitelné)';
 
   @override
-  String get setupQuestionsIntro => 'Pomozte nám vylepšit Omi odpověďmi na pár otázek. 🫶 💜';
+  String get setupQuestionsIntro => 'Pomozte nám vylepšit Carry odpověďmi na pár otázek. 🫶 💜';
 
   @override
   String get setupQuestionProfession => '1. Čím se zabýváte?';
 
   @override
-  String get setupQuestionUsage => '2. Kde plánujete Omi používat?';
+  String get setupQuestionUsage => '2. Kde plánujete Carry používat?';
 
   @override
   String get setupQuestionAge => '3. Jaká je vaše věková kategorie?';
@@ -6731,24 +6731,24 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get batteryFullyChargedTitle => 'Omi je plně nabitý';
+  String get batteryFullyChargedTitle => 'Carry je plně nabitý';
 
   @override
-  String get batteryFullyChargedBody => 'Vaše zařízení Omi je plně nabité. Můžete jej odpojit!';
+  String get batteryFullyChargedBody => 'Vaše zařízení Carry je plně nabité. Můžete jej odpojit!';
 
   @override
-  String get deviceDisconnectedNotificationTitle => 'Vaše zařízení Omi bylo odpojeno';
+  String get deviceDisconnectedNotificationTitle => 'Vaše zařízení Carry bylo odpojeno';
 
   @override
   String get deviceDisconnectedNotificationBody =>
-      'Prosím, znovu se připojte, abyste mohli pokračovat v používání Omi.';
+      'Prosím, znovu se připojte, abyste mohli pokračovat v používání Carry.';
 
   @override
   String get firmwareUpdateAvailable => 'K dispozici je aktualizace firmwaru';
 
   @override
   String firmwareUpdateAvailableDescription(String version) {
-    return 'Pro vaše zařízení Omi je k dispozici nová aktualizace firmwaru ($version). Chcete aktualizovat nyní?';
+    return 'Pro vaše zařízení Carry je k dispozici nová aktualizace firmwaru ($version). Chcete aktualizovat nyní?';
   }
 
   @override
@@ -6786,7 +6786,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get almostDone => 'Téměř hotovo...';
 
   @override
-  String get omiSays => 'Omi říká';
+  String get omiSays => 'Carry říká';
 
   @override
   String get analyzingYourData => 'Analyzuji vaše data...';
@@ -7026,7 +7026,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get nextButton => 'Další';
 
   @override
-  String get connectOmiDevice => 'Připojit zařízení Omi';
+  String get connectOmiDevice => 'Připojit zařízení Carry';
 
   @override
   String planSwitchingDescriptionWithTitle(String title) {
@@ -7057,7 +7057,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get transcriptionJsonPlaceholder => 'Vložte sem svou JSON konfiguraci...';
 
   @override
-  String get transcriptionSourceOmi => 'Omi';
+  String get transcriptionSourceOmi => 'Carry';
 
   @override
   String get pricePlaceholder => '0,00';
@@ -7081,7 +7081,7 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get actionItemReminderTitle => 'Připomínka Omi';
+  String get actionItemReminderTitle => 'Připomínka Carry';
 
   @override
   String deviceDisconnectedTitle(String deviceName) {
@@ -7109,7 +7109,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get onboardingComplete => 'Hotovo';
 
   @override
-  String get onboardingWelcomeToOmi => 'Vítejte v Omi';
+  String get onboardingWelcomeToOmi => 'Vítejte v Carry';
 
   @override
   String get onboardingTellUsAboutYourself => 'Řekněte nám o sobě';
@@ -7846,20 +7846,20 @@ class AppLocalizationsCs extends AppLocalizations {
   String get reportAnIssue => 'Nahlásit problém';
 
   @override
-  String get pairingTitleOmi => 'Zapněte Omi';
+  String get pairingTitleOmi => 'Zapněte Carry';
 
   @override
   String get pairingDescOmi => 'Stiskněte a podržte zařízení, dokud nezavibruje, pro zapnutí.';
 
   @override
-  String get pairingTitleOmiDevkit => 'Přepněte Omi DevKit do režimu párování';
+  String get pairingTitleOmiDevkit => 'Přepněte Carry DevKit do režimu párování';
 
   @override
   String get pairingDescOmiDevkit =>
       'Stiskněte tlačítko jednou pro zapnutí. LED bude blikat fialově v režimu párování.';
 
   @override
-  String get pairingTitleOmiGlass => 'Zapněte Omi Glass';
+  String get pairingTitleOmiGlass => 'Zapněte Carry Glass';
 
   @override
   String get pairingDescOmiGlass => 'Stiskněte a podržte boční tlačítko po dobu 3 sekund pro zapnutí.';
@@ -7902,7 +7902,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get pairingDescAppleWatch =>
-      'Nainstalujte a otevřete aplikaci Omi na Apple Watch, poté klepněte na Připojit v aplikaci.';
+      'Nainstalujte a otevřete aplikaci Carry na Apple Watch, poté klepněte na Připojit v aplikaci.';
 
   @override
   String get pairingTitleNeoOne => 'Přepněte Neo One do režimu párování';
@@ -7997,7 +7997,8 @@ class AppLocalizationsCs extends AppLocalizations {
   String get onboardingWhatIKnowAboutYouTitle => 'Toto o vás vím';
 
   @override
-  String get onboardingWhatIKnowAboutYouDescription => 'Tato mapa se aktualizuje, jak se Omi učí z vašich konverzací.';
+  String get onboardingWhatIKnowAboutYouDescription =>
+      'Tato mapa se aktualizuje, jak se Carry učí z vašich konverzací.';
 
   @override
   String get apiEnvironment => 'Prostředí API';
@@ -8051,7 +8052,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get tasksOverdue => 'Po termínu';
 
   @override
-  String get phoneCallsWithOmi => 'Hovory s Omi';
+  String get phoneCallsWithOmi => 'Hovory s Carry';
 
   @override
   String get phoneCallsSubtitle => 'Volejte s prepisem v realnem case';
@@ -8253,11 +8254,11 @@ class AppLocalizationsCs extends AppLocalizations {
   String get showTasksOnHomepage => 'Zobrazit úkoly na domovské stránce';
 
   @override
-  String get phoneCallsUnlimitedOnly => 'Telefonní hovory přes Omi';
+  String get phoneCallsUnlimitedOnly => 'Telefonní hovory přes Carry';
 
   @override
   String get phoneCallsUpsellSubtitle =>
-      'Volejte přes Omi a získejte přepis v reálném čase, automatické shrnutí a další.';
+      'Volejte přes Carry a získejte přepis v reálném čase, automatické shrnutí a další.';
 
   @override
   String get phoneCallsUpsellFeature1 => 'Přepis každého hovoru v reálném čase';
@@ -8377,7 +8378,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get fairUseAboutBody =>
-      'Omi je navržen pro osobní konverzace, schůzky a živé interakce. Používání se měří skutečným detekovaným časem řeči, nikoli časem připojení. Pokud používání výrazně překročí běžné vzorce pro neosobní obsah, mohou být provedeny úpravy.';
+      'Carry je navržen pro osobní konverzace, schůzky a živé interakce. Používání se měří skutečným detekovaným časem řeči, nikoli časem připojení. Pokud používání výrazně překročí běžné vzorce pro neosobní obsah, mohou být provedeny úpravy.';
 
   @override
   String fairUseCaseRefCopied(String caseRef) {
@@ -8416,7 +8417,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get improveConnectionContent =>
-      'Vylepšili jsme způsob, jakým Omi zůstává připojeno k vašemu zařízení. Pro aktivaci přejděte na stránku Informace o zařízení, klepněte na \"Odpojit zařízení\" a poté zařízení znovu spárujte.';
+      'Vylepšili jsme způsob, jakým Carry zůstává připojeno k vašemu zařízení. Pro aktivaci přejděte na stránku Informace o zařízení, klepněte na \"Odpojit zařízení\" a poté zařízení znovu spárujte.';
 
   @override
   String get improveConnectionAction => 'Rozumím';
@@ -8427,7 +8428,7 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get omisStorage => 'Úložiště Omi';
+  String get omisStorage => 'Úložiště Carry';
 
   @override
   String get phoneStorage => 'Úložiště telefonu';
@@ -8472,11 +8473,11 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get omisStorageDesc =>
-      'Když váš Omi není připojen k telefonu, ukládá zvuk lokálně ve své vestavěné paměti. Nikdy neztratíte nahrávku.';
+      'Když váš Carry není připojen k telefonu, ukládá zvuk lokálně ve své vestavěné paměti. Nikdy neztratíte nahrávku.';
 
   @override
   String get phoneStorageDesc =>
-      'Když se Omi znovu připojí, nahrávky se automaticky přenesou do telefonu jako dočasné úložiště před nahráním.';
+      'Když se Carry znovu připojí, nahrávky se automaticky přenesou do telefonu jako dočasné úložiště před nahráním.';
 
   @override
   String get cloudStorageDesc =>
@@ -8505,17 +8506,17 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get permissionsPageDescription =>
-      'Tato oprávnění jsou klíčová pro fungování Omi. Umožňují klíčové funkce jako oznámení, služby založené na poloze a záznam zvuku.';
+      'Tato oprávnění jsou klíčová pro fungování Carry. Umožňují klíčové funkce jako oznámení, služby založené na poloze a záznam zvuku.';
 
   @override
   String get permissionsRequiredDescription =>
-      'Omi potřebuje několik oprávnění, aby správně fungoval. Prosím, udělte je pro pokračování.';
+      'Carry potřebuje několik oprávnění, aby správně fungoval. Prosím, udělte je pro pokračování.';
 
   @override
   String get permissionsSetupTitle => 'Získejte nejlepší zážitek';
 
   @override
-  String get permissionsSetupDescription => 'Povolte několik oprávnění, aby Omi mohl fungovat naplno.';
+  String get permissionsSetupDescription => 'Povolte několik oprávnění, aby Carry mohl fungovat naplno.';
 
   @override
   String get permissionsChangeAnytime => 'Toto můžete kdykoli změnit v Nastavení > Oprávnění';
@@ -8610,7 +8611,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get feedbackTitleFoundAlternative => 'Na co přecházíte?';
 
   @override
-  String get feedbackTitleNotUsing => 'Co by vás přimělo používat Omi více?';
+  String get feedbackTitleNotUsing => 'Co by vás přimělo používat Carry více?';
 
   @override
   String get feedbackSubtitleTooExpensive => 'Vaše zpětná vazba nám pomáhá najít správnou rovnováhu.';
@@ -8628,7 +8629,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get feedbackSubtitleFoundAlternative => 'Rádi bychom se dozvěděli, co vás zaujalo.';
 
   @override
-  String get feedbackSubtitleNotUsing => 'Chceme, aby byl Omi pro vás užitečnější.';
+  String get feedbackSubtitleNotUsing => 'Chceme, aby byl Carry pro vás užitečnější.';
 
   @override
   String get deviceDiagnostics => 'Diagnostika zařízení';
@@ -8808,7 +8809,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get appleHealthManageNote =>
-      'Omi přistupuje k Apple Health prostřednictvím frameworku HealthKit od Applu. Přístup můžete kdykoli odvolat v Nastavení iOS.';
+      'Carry přistupuje k Apple Health prostřednictvím frameworku HealthKit od Applu. Přístup můžete kdykoli odvolat v Nastavení iOS.';
 
   @override
   String get appleHealthConnectCta => 'Připojit k Apple Health';
@@ -8823,32 +8824,32 @@ class AppLocalizationsCs extends AppLocalizations {
   String get appleHealthFeatureChatTitle => 'Mluvte o svém zdraví';
 
   @override
-  String get appleHealthFeatureChatDesc => 'Zeptejte se Omi na své kroky, spánek, tepovou frekvenci a tréninky.';
+  String get appleHealthFeatureChatDesc => 'Zeptejte se Carry na své kroky, spánek, tepovou frekvenci a tréninky.';
 
   @override
   String get appleHealthFeatureReadOnlyTitle => 'Přístup pouze pro čtení';
 
   @override
-  String get appleHealthFeatureReadOnlyDesc => 'Omi nikdy nezapisuje do Apple Health ani neupravuje vaše data.';
+  String get appleHealthFeatureReadOnlyDesc => 'Carry nikdy nezapisuje do Apple Health ani neupravuje vaše data.';
 
   @override
   String get appleHealthFeatureSecureTitle => 'Bezpečná synchronizace';
 
   @override
-  String get appleHealthFeatureSecureDesc => 'Vaše data z Apple Health se soukromě synchronizují s účtem Omi.';
+  String get appleHealthFeatureSecureDesc => 'Vaše data z Apple Health se soukromě synchronizují s účtem Carry.';
 
   @override
   String get appleHealthDeniedTitle => 'Přístup k Apple Health zamítnut';
 
   @override
   String get appleHealthDeniedBody =>
-      'Omi nemá oprávnění číst vaše data z Apple Health. Povolte ho v Nastavení iOS → Soukromí a zabezpečení → Health → Omi.';
+      'Carry nemá oprávnění číst vaše data z Apple Health. Povolte ho v Nastavení iOS → Soukromí a zabezpečení → Health → Carry.';
 
   @override
   String get deleteFlowReasonTitle => 'Proč odcházíte?';
 
   @override
-  String get deleteFlowReasonSubtitle => 'Vaše zpětná vazba nám pomáhá zlepšovat Omi pro všechny.';
+  String get deleteFlowReasonSubtitle => 'Vaše zpětná vazba nám pomáhá zlepšovat Carry pro všechny.';
 
   @override
   String get deleteReasonPrivacy => 'Obavy o soukromí';
@@ -8875,7 +8876,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get deleteFlowFeedbackTitle => 'Řekněte nám více';
 
   @override
-  String get deleteFlowFeedbackSubtitle => 'Co by udělalo Omi pro vás použitelným?';
+  String get deleteFlowFeedbackSubtitle => 'Co by udělalo Carry pro vás použitelným?';
 
   @override
   String get deleteFlowFeedbackHint => 'Nepovinné — vaše myšlenky nám pomáhají vytvořit lepší produkt.';
@@ -9020,14 +9021,14 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get chatQuotaSubtitle => 'AI chat messages used with Omi this month.';
+  String get chatQuotaSubtitle => 'AI chat messages used with Carry this month.';
 
   @override
   String get chatQuotaExceededReply =>
-      'Dosáhli jste svého měsíčního limitu. Upgradujte, abyste mohli pokračovat v chatu s Omi bez omezení.';
+      'Dosáhli jste svého měsíčního limitu. Upgradujte, abyste mohli pokračovat v chatu s Carry bez omezení.';
 
   @override
-  String get voiceResponseAudio => 'Přečíst odpověď Omi nahlas';
+  String get voiceResponseAudio => 'Přečíst odpověď Carry nahlas';
 
   @override
   String get voiceResponseMode => 'Hlasová odpověď';
@@ -9060,7 +9061,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get voiceMode => 'Hlasový režim';
 
   @override
-  String get quickActionAskOmi => 'Zeptejte se Omi na cokoliv';
+  String get quickActionAskOmi => 'Zeptejte se Carry na cokoliv';
 
   @override
   String get record => 'Nahrát';
@@ -9172,14 +9173,14 @@ class AppLocalizationsCs extends AppLocalizations {
   String get syncInProgress => 'Probíhá synchronizace';
 
   @override
-  String get syncStatusUploaded => 'Nahráno · zpracovává se v Omi';
+  String get syncStatusUploaded => 'Nahráno · zpracovává se v Carry';
 
   @override
   String get deleteWhileProcessingTitle => 'Stále se zpracovává';
 
   @override
   String get deleteWhileProcessingMessage =>
-      'Tato nahrávka je nahraná, ale Omi stále vytváří konverzaci. Pokud ji nyní smažete a zpracování selže, nepůjde obnovit. Přesto smazat?';
+      'Tato nahrávka je nahraná, ale Carry stále vytváří konverzaci. Pokud ji nyní smažete a zpracování selže, nepůjde obnovit. Přesto smazat?';
 
   @override
   String get syncCardAllBackedUp => 'Všechny nahrávky synchronizovány';
@@ -9198,7 +9199,7 @@ class AppLocalizationsCs extends AppLocalizations {
   }
 
   @override
-  String get syncCardProcessing => 'Zpracování v Omi…';
+  String get syncCardProcessing => 'Zpracování v Carry…';
 
   @override
   String get syncCardWaitingInternet => 'Čekání na internet';
@@ -9218,19 +9219,19 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get syncFlowIntro =>
-      'Nahrávky se přenášejí z vašeho zařízení do tohoto telefonu a ukládají se místně, poté se nahrávají na server Omi, kde se přepisují a mění v konverzace.';
+      'Nahrávky se přenášejí z vašeho zařízení do tohoto telefonu a ukládají se místně, poté se nahrávají na server Carry, kde se přepisují a mění v konverzace.';
 
   @override
   String get syncStepUpload => 'Synchronizace';
 
   @override
-  String get syncStepUploadDesc => 'Vaše nahrávka se odesílá na server Omi';
+  String get syncStepUploadDesc => 'Vaše nahrávka se odesílá na server Carry';
 
   @override
   String get syncStepProcess => 'Přepis';
 
   @override
-  String get syncStepProcessDesc => 'Omi promění zvuk v konverzaci';
+  String get syncStepProcessDesc => 'Carry promění zvuk v konverzaci';
 
   @override
   String get syncStepBackedUp => 'Konverzace je hotová';
@@ -9246,7 +9247,7 @@ class AppLocalizationsCs extends AppLocalizations {
   String get syncStatusConversationCreated => 'Konverzace vytvořena';
 
   @override
-  String get syncCardUploadingTitle => 'Nahrávání do Omi';
+  String get syncCardUploadingTitle => 'Nahrávání do Carry';
 
   @override
   String get syncCardDownloadingTitle => 'Stahování z vašeho zařízení';
@@ -9279,7 +9280,7 @@ class AppLocalizationsCs extends AppLocalizations {
 
   @override
   String get syncCardBackendBusy =>
-      'Servery Omi jsou vytížené — vaše nahrávky se synchronizují, jakmile bude k dispozici kapacita';
+      'Servery Carry jsou vytížené — vaše nahrávky se synchronizují, jakmile bude k dispozici kapacita';
 
   @override
   String get unableToDetermineFirmwareVersion => 'Nelze určit aktuální verzi firmwaru';
@@ -9297,10 +9298,10 @@ class AppLocalizationsCs extends AppLocalizations {
   String get backgroundModeTitle => 'Režim na pozadí';
 
   @override
-  String get backgroundModeDescription => 'Udržujte nahrávání Omi, i když je aplikace úplně zavřená.';
+  String get backgroundModeDescription => 'Udržujte nahrávání Carry, i když je aplikace úplně zavřená.';
 
   @override
-  String get backgroundModeNote => 'Zatím funguje pouze se zařízeními Omi a průběžně se vylepšuje.';
+  String get backgroundModeNote => 'Zatím funguje pouze se zařízeními Carry a průběžně se vylepšuje.';
 
   @override
   String get regenerateRecap => 'Znovu vygenerovat shrnutí';
@@ -9318,9 +9319,9 @@ class AppLocalizationsCs extends AppLocalizations {
   String get recapRegenerateNoConversations => 'Pro tento den nejsou žádné konverzace k shrnutí.';
 
   @override
-  String get syncCustomSttWarningTitle => 'Synchronizace používá přepis Omi';
+  String get syncCustomSttWarningTitle => 'Synchronizace používá přepis Carry';
 
   @override
   String get syncCustomSttWarningMessage =>
-      'Používáte vlastního poskytovatele přepisu. Synchronizace těchto nahrávek je přepíše na serverech Omi a započítají se do limitu přepisu vašeho tarifu.';
+      'Používáte vlastního poskytovatele přepisu. Synchronizace těchto nahrávek je přepíše na serverech Carry a započítají se do limitu přepisu vašeho tarifu.';
 }

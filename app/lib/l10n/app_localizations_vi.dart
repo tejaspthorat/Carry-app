@@ -9,7 +9,7 @@ class AppLocalizationsVi extends AppLocalizations {
   AppLocalizationsVi([String locale = 'vi']) : super(locale);
 
   @override
-  String get appTitle => 'Omi';
+  String get appTitle => 'Carry';
 
   @override
   String get conversationTab => 'Cuộc trò chuyện';
@@ -129,7 +129,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get editPerson => 'Chỉnh sửa người';
 
   @override
-  String get createPersonHint => 'Tạo một người mới và huấn luyện Omi để nhận biết giọng nói của họ!';
+  String get createPersonHint => 'Tạo một người mới và huấn luyện Carry để nhận biết giọng nói của họ!';
 
   @override
   String get speechProfile => 'Hồ sơ Giọng nói';
@@ -168,7 +168,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get couldNotAccessFile => 'Không thể truy cập tệp đã chọn';
 
   @override
-  String get askOmi => 'Hỏi Omi';
+  String get askOmi => 'Hỏi Carry';
 
   @override
   String get done => 'Hoàn tất';
@@ -269,7 +269,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get noMessagesYet => 'Chưa có tin nhắn nào!\nHãy bắt đầu cuộc trò chuyện nhé?';
 
   @override
-  String get deletingMessages => 'Đang xóa tin nhắn của bạn khỏi bộ nhớ của Omi...';
+  String get deletingMessages => 'Đang xóa tin nhắn của bạn khỏi bộ nhớ của Carry...';
 
   @override
   String get messageCopied => '✨ Tin nhắn đã được sao chép vào clipboard';
@@ -299,7 +299,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get maxFilesLimit => 'Bạn chỉ có thể tải lên tối đa 4 tệp cùng lúc';
 
   @override
-  String get chatWithOmi => 'Trò chuyện với Omi';
+  String get chatWithOmi => 'Trò chuyện với Carry';
 
   @override
   String get apps => 'Ứng dụng';
@@ -329,7 +329,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get unableToFetchApps => 'Không thể tải ứng dụng :(\n\nVui lòng kiểm tra kết nối internet và thử lại.';
 
   @override
-  String get aboutOmi => 'Giới thiệu về Omi';
+  String get aboutOmi => 'Giới thiệu về Carry';
 
   @override
   String get privacyPolicy => 'Chính sách bảo mật';
@@ -450,7 +450,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get developerSettings => 'Cài đặt nhà phát triển';
 
   @override
-  String get getOmiForMac => 'Tải Omi cho Mac';
+  String get getOmiForMac => 'Tải Carry cho Mac';
 
   @override
   String get referralProgram => 'Chương trình giới thiệu';
@@ -469,7 +469,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get privacyIntro =>
-      'Tại Omi, chúng tôi cam kết bảo vệ quyền riêng tư của bạn. Trang này cho phép bạn kiểm soát cách dữ liệu của bạn được lưu trữ và sử dụng.';
+      'Tại Carry, chúng tôi cam kết bảo vệ quyền riêng tư của bạn. Trang này cho phép bạn kiểm soát cách dữ liệu của bạn được lưu trữ và sử dụng.';
 
   @override
   String get learnMore => 'Tìm hiểu thêm...';
@@ -541,7 +541,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get unpairAndForget => 'Hủy ghép nối và xóa thiết bị';
 
   @override
-  String get deviceDisconnectedMessage => 'Omi của bạn đã bị ngắt kết nối 😔';
+  String get deviceDisconnectedMessage => 'Carry của bạn đã bị ngắt kết nối 😔';
 
   @override
   String get deviceUnpairedMessage =>
@@ -558,7 +558,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get deviceNotConnected => 'Thiết bị chưa kết nối';
 
   @override
-  String get connectDeviceMessage => 'Kết nối thiết bị Omi của bạn để truy cập\ncài đặt thiết bị và tùy chỉnh';
+  String get connectDeviceMessage => 'Kết nối thiết bị Carry của bạn để truy cập\ncài đặt thiết bị và tùy chỉnh';
 
   @override
   String get deviceInfoSection => 'Thông tin thiết bị';
@@ -688,7 +688,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get docs => 'Tài liệu';
 
   @override
-  String get yourOmiInsights => 'Thông tin chi tiết Omi của bạn';
+  String get yourOmiInsights => 'Thông tin chi tiết Carry của bạn';
 
   @override
   String get today => 'Hôm nay';
@@ -707,13 +707,13 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get startConversationToSeeInsights =>
-      'Bắt đầu cuộc trò chuyện với Omi\nđể xem thông tin chi tiết về mức sử dụng của bạn tại đây.';
+      'Bắt đầu cuộc trò chuyện với Carry\nđể xem thông tin chi tiết về mức sử dụng của bạn tại đây.';
 
   @override
   String get listening => 'Lắng nghe';
 
   @override
-  String get listeningSubtitle => 'Tổng thời gian Omi đã lắng nghe tích cực.';
+  String get listeningSubtitle => 'Tổng thời gian Carry đã lắng nghe tích cực.';
 
   @override
   String get understanding => 'Hiểu biết';
@@ -769,19 +769,19 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get shareStatsMessage => 'Chia sẻ thống kê Omi của tôi! (omi.me - trợ lý AI luôn bên bạn)';
+  String get shareStatsMessage => 'Chia sẻ thống kê Carry của tôi! (carry.me - trợ lý AI luôn bên bạn)';
 
   @override
-  String get sharePeriodToday => 'Hôm nay, omi đã:';
+  String get sharePeriodToday => 'Hôm nay, carry đã:';
 
   @override
-  String get sharePeriodMonth => 'Tháng này, omi đã:';
+  String get sharePeriodMonth => 'Tháng này, carry đã:';
 
   @override
-  String get sharePeriodYear => 'Năm nay, omi đã:';
+  String get sharePeriodYear => 'Năm nay, carry đã:';
 
   @override
-  String get sharePeriodAllTime => 'Cho đến nay, omi đã:';
+  String get sharePeriodAllTime => 'Cho đến nay, carry đã:';
 
   @override
   String shareStatsListened(String minutes) {
@@ -816,7 +816,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get noLogFilesFound => 'Không tìm thấy tệp nhật ký.';
 
   @override
-  String get omiDebugLog => 'Nhật ký gỡ lỗi Omi';
+  String get omiDebugLog => 'Nhật ký gỡ lỗi Carry';
 
   @override
   String get logShared => 'Đã chia sẻ nhật ký';
@@ -840,7 +840,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get exportDataDesc => 'Xuất cuộc trò chuyện sang tệp JSON';
 
   @override
-  String get exportedConversations => 'Cuộc trò chuyện đã xuất từ Omi';
+  String get exportedConversations => 'Cuộc trò chuyện đã xuất từ Carry';
 
   @override
   String get exportShared => 'Đã chia sẻ bản xuất';
@@ -1016,7 +1016,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get addWordsDesc => 'Tên, thuật ngữ hoặc từ không phổ biến';
 
   @override
-  String get vocabularyHint => 'Omi, Callie, OpenAI';
+  String get vocabularyHint => 'Carry, Callie, OpenAI';
 
   @override
   String get connect => 'Kết nối';
@@ -1061,7 +1061,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String authAccessMessage(String appName) {
-    return 'Bạn cần cho phép Omi truy cập dữ liệu $appName của bạn. Thao tác này sẽ mở trình duyệt để xác thực.';
+    return 'Bạn cần cho phép Carry truy cập dữ liệu $appName của bạn. Thao tác này sẽ mở trình duyệt để xác thực.';
   }
 
   @override
@@ -1157,7 +1157,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get editName => 'Sửa Tên';
 
   @override
-  String get howShouldOmiCallYou => 'Omi nên gọi bạn như thế nào?';
+  String get howShouldOmiCallYou => 'Carry nên gọi bạn như thế nào?';
 
   @override
   String get enterYourName => 'Nhập tên của bạn';
@@ -1431,7 +1431,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String authorizeOmiForTasks(String appName) {
-    return 'Bạn cần cho phép Omi tạo nhiệm vụ trong tài khoản $appName của bạn. Thao tác này sẽ mở trình duyệt để xác thực.';
+    return 'Bạn cần cho phép Carry tạo nhiệm vụ trong tài khoản $appName của bạn. Thao tác này sẽ mở trình duyệt để xác thực.';
   }
 
   @override
@@ -1466,13 +1466,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get bringYourOwn => 'Mang của riêng bạn';
 
   @override
-  String get payYourSttProvider => 'Sử dụng omi tự do. Bạn chỉ trả tiền cho nhà cung cấp STT trực tiếp.';
+  String get payYourSttProvider => 'Sử dụng carry tự do. Bạn chỉ trả tiền cho nhà cung cấp STT trực tiếp.';
 
   @override
   String get freeMinutesMonth => '1.200 phút miễn phí/tháng được bao gồm. Không giới hạn với ';
 
   @override
-  String get omiUnlimited => 'Omi Unlimited';
+  String get omiUnlimited => 'Carry Unlimited';
 
   @override
   String get hostRequired => 'Bắt buộc có host';
@@ -1590,11 +1590,11 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String deviceUsesCodec(String device, String reason) {
-    return '$device sử dụng $reason. Omi sẽ được sử dụng.';
+    return '$device sử dụng $reason. Carry sẽ được sử dụng.';
   }
 
   @override
-  String get omiTranscription => 'Phiên âm Omi';
+  String get omiTranscription => 'Phiên âm Carry';
 
   @override
   String get bestInClassTranscription => 'Phiên âm tốt nhất với cài đặt bằng không';
@@ -1746,7 +1746,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get bluetoothNeeded =>
-      'Omi cần Bluetooth để kết nối với thiết bị đeo của bạn. Vui lòng bật Bluetooth và thử lại.';
+      'Carry cần Bluetooth để kết nối với thiết bị đeo của bạn. Vui lòng bật Bluetooth và thử lại.';
 
   @override
   String get contactSupport => 'Liên hệ hỗ trợ?';
@@ -1761,7 +1761,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get backgroundActivity => 'Hoạt động Nền';
 
   @override
-  String get backgroundActivityDesc => 'Cho phép Omi chạy trong nền để ổn định hơn';
+  String get backgroundActivityDesc => 'Cho phép Carry chạy trong nền để ổn định hơn';
 
   @override
   String get locationAccess => 'Truy cập Vị trí';
@@ -1790,7 +1790,7 @@ class AppLocalizationsVi extends AppLocalizations {
       'Vui lòng vào cài đặt thiết bị và đặt quyền vị trí thành \"Luôn cho phép\"';
 
   @override
-  String get lovingOmi => 'Bạn thích Omi?';
+  String get lovingOmi => 'Bạn thích Carry?';
 
   @override
   String get leaveReviewIos =>
@@ -1810,7 +1810,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get maybeLater => 'Có thể sau';
 
   @override
-  String get speechProfileIntro => 'Omi cần học mục tiêu và giọng nói của bạn. Bạn có thể sửa đổi sau.';
+  String get speechProfileIntro => 'Carry cần học mục tiêu và giọng nói của bạn. Bạn có thể sửa đổi sau.';
 
   @override
   String get getStarted => 'Bắt đầu';
@@ -1863,7 +1863,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get tryAgain => 'Thử lại';
 
   @override
-  String get connectOmiOmiGlass => 'Kết nối Omi / OmiGlass';
+  String get connectOmiOmiGlass => 'Kết nối Carry / Carry Glass';
 
   @override
   String get continueWithoutDevice => 'Tiếp tục không có thiết bị';
@@ -1900,7 +1900,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get termsOfUse => 'Điều khoản sử dụng';
 
   @override
-  String get omiYourAiCompanion => 'Omi – Trợ lý AI của bạn';
+  String get omiYourAiCompanion => 'Carry – Trợ lý AI của bạn';
 
   @override
   String get captureEveryMoment => 'Ghi lại mọi khoảnh khắc. Nhận tóm tắt\nbằng AI. Không bao giờ phải ghi chú lại.';
@@ -1916,7 +1916,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get permissionGrantedNow =>
-      'Đã cấp quyền! Bây giờ:\n\nMở ứng dụng Omi trên đồng hồ của bạn và nhấn \"Tiếp tục\" bên dưới';
+      'Đã cấp quyền! Bây giờ:\n\nMở ứng dụng Carry trên đồng hồ của bạn và nhấn \"Tiếp tục\" bên dưới';
 
   @override
   String get needMicrophonePermission =>
@@ -1930,7 +1930,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get troubleshootingSteps =>
-      'Khắc phục sự cố:\n\n1. Đảm bảo Omi được cài đặt trên đồng hồ của bạn\n2. Mở ứng dụng Omi trên đồng hồ của bạn\n3. Tìm cửa sổ bật lên yêu cầu quyền\n4. Nhấn \"Cho phép\" khi được nhắc\n5. Ứng dụng trên đồng hồ của bạn sẽ đóng - mở lại\n6. Quay lại và nhấn \"Tiếp tục\" trên iPhone của bạn';
+      'Khắc phục sự cố:\n\n1. Đảm bảo Carry được cài đặt trên đồng hồ của bạn\n2. Mở ứng dụng Carry trên đồng hồ của bạn\n3. Tìm cửa sổ bật lên yêu cầu quyền\n4. Nhấn \"Cho phép\" khi được nhắc\n5. Ứng dụng trên đồng hồ của bạn sẽ đóng - mở lại\n6. Quay lại và nhấn \"Tiếp tục\" trên iPhone của bạn';
 
   @override
   String get recordingStartedSuccessfully => 'Đã bắt đầu ghi âm thành công!';
@@ -2082,16 +2082,16 @@ class AppLocalizationsVi extends AppLocalizations {
   String get addFirstMemory => 'Thêm ký ức đầu tiên của bạn';
 
   @override
-  String get clearMemoryTitle => 'Xóa bộ nhớ của Omi';
+  String get clearMemoryTitle => 'Xóa bộ nhớ của Carry';
 
   @override
-  String get clearMemoryMessage => 'Bạn có chắc chắn muốn xóa bộ nhớ của Omi? Hành động này không thể hoàn tác.';
+  String get clearMemoryMessage => 'Bạn có chắc chắn muốn xóa bộ nhớ của Carry? Hành động này không thể hoàn tác.';
 
   @override
   String get clearMemoryButton => 'Xóa bộ nhớ';
 
   @override
-  String get memoryClearedSuccess => 'Đã xóa bộ nhớ của Omi về bạn';
+  String get memoryClearedSuccess => 'Đã xóa bộ nhớ của Carry về bạn';
 
   @override
   String get noMemoriesToDelete => 'Không có ký ức nào để xóa';
@@ -2239,7 +2239,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get translationNoticeMessage =>
-      'Omi dịch các cuộc trò chuyện sang ngôn ngữ chính của bạn. Cập nhật bất cứ lúc nào trong Cài đặt → Hồ sơ.';
+      'Carry dịch các cuộc trò chuyện sang ngôn ngữ chính của bạn. Cập nhật bất cứ lúc nào trong Cài đặt → Hồ sơ.';
 
   @override
   String get pleaseCheckInternetConnection => 'Vui lòng kiểm tra kết nối internet và thử lại';
@@ -2422,7 +2422,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get privacyPolicyTitle => 'Chính sách bảo mật';
 
   @override
-  String get omiSttProvider => 'Omi';
+  String get omiSttProvider => 'Carry';
 
   @override
   String labelCopied(String label) {
@@ -2567,7 +2567,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get checksForAudioFiles => 'Kiểm tra các tệp âm thanh trên thẻ SD';
 
   @override
-  String get omiSyncsAudioFiles => 'Omi sau đó đồng bộ hóa các tệp âm thanh với máy chủ';
+  String get omiSyncsAudioFiles => 'Carry sau đó đồng bộ hóa các tệp âm thanh với máy chủ';
 
   @override
   String get serverProcessesAudio => 'Máy chủ xử lý các tệp âm thanh và tạo ký ức';
@@ -2577,10 +2577,10 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get welcomeToOmiDescription =>
-      'Chào mừng đến với Omi! Người bạn đồng hành AI của bạn đã sẵn sàng hỗ trợ bạn với các cuộc trò chuyện, nhiệm vụ và hơn thế nữa.';
+      'Chào mừng đến với Carry! Người bạn đồng hành AI của bạn đã sẵn sàng hỗ trợ bạn với các cuộc trò chuyện, nhiệm vụ và hơn thế nữa.';
 
   @override
-  String get startUsingOmi => 'Bắt đầu sử dụng Omi';
+  String get startUsingOmi => 'Bắt đầu sử dụng Carry';
 
   @override
   String get back => 'Quay lại';
@@ -2657,7 +2657,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get startCapturingConversations =>
-      'Bắt đầu ghi lại các cuộc trò chuyện bằng thiết bị Omi của bạn để xem chúng ở đây.';
+      'Bắt đầu ghi lại các cuộc trò chuyện bằng thiết bị Carry của bạn để xem chúng ở đây.';
 
   @override
   String get useMobileAppToCapture => 'Sử dụng ứng dụng di động của bạn để ghi âm';
@@ -2672,7 +2672,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get showAll => 'Hiển thị tất cả →';
 
   @override
-  String get noTasksForToday => 'Không có nhiệm vụ cho hôm nay.\nHỏi Omi để có thêm nhiệm vụ hoặc tạo thủ công.';
+  String get noTasksForToday => 'Không có nhiệm vụ cho hôm nay.\nHỏi Carry để có thêm nhiệm vụ hoặc tạo thủ công.';
 
   @override
   String get dailyScore => 'ĐIỂM HÀNG NGÀY';
@@ -2821,7 +2821,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get createNewApp => 'Tạo Ứng dụng Mới';
 
   @override
-  String get buildSubmitCustomOmiApp => 'Xây dựng và gửi ứng dụng Omi tùy chỉnh của bạn';
+  String get buildSubmitCustomOmiApp => 'Xây dựng và gửi ứng dụng Carry tùy chỉnh của bạn';
 
   @override
   String get submittingYourApp => 'Đang gửi ứng dụng của bạn...';
@@ -2869,7 +2869,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get submitAppTermsAgreement =>
-      'Bằng việc gửi ứng dụng này, tôi đồng ý với Điều khoản Dịch vụ và Chính sách Bảo mật của Omi AI';
+      'Bằng việc gửi ứng dụng này, tôi đồng ý với Điều khoản Dịch vụ và Chính sách Bảo mật của Carry AI';
 
   @override
   String get submitApp => 'Gửi Ứng dụng';
@@ -2914,7 +2914,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get dataAccessWarning =>
-      'Ứng dụng này sẽ truy cập dữ liệu của bạn. Omi AI không chịu trách nhiệm về cách dữ liệu của bạn được sử dụng, sửa đổi hoặc xóa bởi ứng dụng này';
+      'Ứng dụng này sẽ truy cập dữ liệu của bạn. Carry AI không chịu trách nhiệm về cách dữ liệu của bạn được sử dụng, sửa đổi hoặc xóa bởi ứng dụng này';
 
   @override
   String get installApp => 'Cài đặt ứng dụng';
@@ -3262,7 +3262,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get upgradeToPro => 'Nâng cấp lên Pro';
 
   @override
-  String get getOmiDevice => 'Nhận Thiết bị Omi';
+  String get getOmiDevice => 'Nhận Thiết bị Carry';
 
   @override
   String get wearableAiCompanion => 'Trợ lý AI đeo được';
@@ -3329,7 +3329,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get setAllMemoriesToPublic => 'Đặt tất cả ký ức thành công khai';
 
   @override
-  String get permanentlyRemoveAllMemories => 'Xóa vĩnh viễn tất cả ký ức khỏi Omi';
+  String get permanentlyRemoveAllMemories => 'Xóa vĩnh viễn tất cả ký ức khỏi Carry';
 
   @override
   String get allMemoriesAreNowPrivate => 'Tất cả ký ức hiện đã ở chế độ riêng tư';
@@ -3338,18 +3338,18 @@ class AppLocalizationsVi extends AppLocalizations {
   String get allMemoriesAreNowPublic => 'Tất cả ký ức hiện đã ở chế độ công khai';
 
   @override
-  String get clearOmisMemory => 'Xóa bộ nhớ của Omi';
+  String get clearOmisMemory => 'Xóa bộ nhớ của Carry';
 
   @override
   String clearMemoryConfirmation(int count) {
-    return 'Bạn có chắc chắn muốn xóa bộ nhớ của Omi không? Hành động này không thể hoàn tác và sẽ xóa vĩnh viễn tất cả $count ký ức.';
+    return 'Bạn có chắc chắn muốn xóa bộ nhớ của Carry không? Hành động này không thể hoàn tác và sẽ xóa vĩnh viễn tất cả $count ký ức.';
   }
 
   @override
-  String get omisMemoryCleared => 'Bộ nhớ của Omi về bạn đã được xóa';
+  String get omisMemoryCleared => 'Bộ nhớ của Carry về bạn đã được xóa';
 
   @override
-  String get welcomeToOmi => 'Chào mừng đến với Omi';
+  String get welcomeToOmi => 'Chào mừng đến với Carry';
 
   @override
   String get continueWithApple => 'Tiếp tục với Apple';
@@ -3395,7 +3395,8 @@ class AppLocalizationsVi extends AppLocalizations {
   String get chooseYourLanguage => 'Chọn ngôn ngữ của bạn';
 
   @override
-  String get selectPreferredLanguageForBestExperience => 'Chọn ngôn ngữ ưu tiên của bạn để có trải nghiệm Omi tốt nhất';
+  String get selectPreferredLanguageForBestExperience =>
+      'Chọn ngôn ngữ ưu tiên của bạn để có trải nghiệm Carry tốt nhất';
 
   @override
   String get searchLanguages => 'Tìm kiếm ngôn ngữ...';
@@ -3414,7 +3415,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get tellUsHowYouWouldLikeToBeAddressed =>
-      'Cho chúng tôi biết bạn muốn được gọi như thế nào. Điều này giúp cá nhân hóa trải nghiệm Omi của bạn.';
+      'Cho chúng tôi biết bạn muốn được gọi như thế nào. Điều này giúp cá nhân hóa trải nghiệm Carry của bạn.';
 
   @override
   String charactersCount(int count) {
@@ -3423,7 +3424,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get enableFeaturesForBestExperience =>
-      'Bật các tính năng để có trải nghiệm Omi tốt nhất trên thiết bị của bạn.';
+      'Bật các tính năng để có trải nghiệm Carry tốt nhất trên thiết bị của bạn.';
 
   @override
   String get microphoneAccess => 'Quyền truy cập micrô';
@@ -3433,7 +3434,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get microphoneAccessDescription =>
-      'Omi cần quyền truy cập micrô để ghi lại các cuộc trò chuyện của bạn và cung cấp bản ghi âm.';
+      'Carry cần quyền truy cập micrô để ghi lại các cuộc trò chuyện của bạn và cung cấp bản ghi âm.';
 
   @override
   String get screenRecording => 'Ghi màn hình';
@@ -3443,7 +3444,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get screenRecordingDescription =>
-      'Omi cần quyền ghi màn hình để ghi âm hệ thống từ các cuộc họp dựa trên trình duyệt của bạn.';
+      'Carry cần quyền ghi màn hình để ghi âm hệ thống từ các cuộc họp dựa trên trình duyệt của bạn.';
 
   @override
   String get accessibility => 'Khả năng truy cập';
@@ -3453,7 +3454,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get accessibilityDescription =>
-      'Omi cần quyền truy cập để phát hiện khi bạn tham gia các cuộc họp Zoom, Meet hoặc Teams trong trình duyệt của bạn.';
+      'Carry cần quyền truy cập để phát hiện khi bạn tham gia các cuộc họp Zoom, Meet hoặc Teams trong trình duyệt của bạn.';
 
   @override
   String get pleaseWait => 'Vui lòng đợi...';
@@ -3486,10 +3487,10 @@ class AppLocalizationsVi extends AppLocalizations {
   String get voiceAndPeople => 'Giọng nói & Con người';
 
   @override
-  String get teachOmiYourVoice => 'Dạy Omi giọng nói của bạn';
+  String get teachOmiYourVoice => 'Dạy Carry giọng nói của bạn';
 
   @override
-  String get tellOmiWhoSaidIt => 'Cho Omi biết ai đã nói điều đó 🗣️';
+  String get tellOmiWhoSaidIt => 'Cho Carry biết ai đã nói điều đó 🗣️';
 
   @override
   String get payment => 'Thanh toán';
@@ -3501,7 +3502,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get preferences => 'Tùy chọn';
 
   @override
-  String get helpImproveOmiBySharing => 'Giúp cải thiện Omi bằng cách chia sẻ dữ liệu phân tích ẩn danh';
+  String get helpImproveOmiBySharing => 'Giúp cải thiện Carry bằng cách chia sẻ dữ liệu phân tích ẩn danh';
 
   @override
   String get deleteAccount => 'Xóa Tài khoản';
@@ -3527,7 +3528,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get mcpDescription =>
-      'Để kết nối Omi với các ứng dụng khác để đọc, tìm kiếm và quản lý ký ức và cuộc trò chuyện của bạn. Tạo khóa để bắt đầu.';
+      'Để kết nối Carry với các ứng dụng khác để đọc, tìm kiếm và quản lý ký ức và cuộc trò chuyện của bạn. Tạo khóa để bắt đầu.';
 
   @override
   String get apiKeys => 'Khóa API';
@@ -3562,7 +3563,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get triggersWhenDaySummaryGenerated => 'Kích hoạt khi tạo tóm tắt ngày.';
 
   @override
-  String get tryLatestExperimentalFeatures => 'Dùng thử các tính năng thử nghiệm mới nhất từ ​​Nhóm Omi.';
+  String get tryLatestExperimentalFeatures => 'Dùng thử các tính năng thử nghiệm mới nhất từ ​​Nhóm Carry.';
 
   @override
   String get transcriptionServiceDiagnosticStatus => 'Trạng thái chẩn đoán dịch vụ phiên âm';
@@ -3632,7 +3633,7 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get letOmiChooseAutomatically => 'Để Omi tự động chọn ứng dụng tốt nhất';
+  String get letOmiChooseAutomatically => 'Để Carry tự động chọn ứng dụng tốt nhất';
 
   @override
   String get deleteConversationConfirmation =>
@@ -3770,7 +3771,7 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get translatedByOmi => 'dịch bởi omi';
+  String get translatedByOmi => 'dịch bởi carry';
 
   @override
   String get backToConversations => 'Quay lại cuộc trò chuyện';
@@ -3831,7 +3832,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get customVocabularyHeader => 'TỪ VỰNG TÙY CHỈNH';
 
   @override
-  String get addWordsDescription => 'Thêm từ mà Omi nên nhận biết trong quá trình phiên âm.';
+  String get addWordsDescription => 'Thêm từ mà Carry nên nhận biết trong quá trình phiên âm.';
 
   @override
   String get enterWordsHint => 'Nhập từ (phân tách bằng dấu phẩy)';
@@ -3917,7 +3918,7 @@ class AppLocalizationsVi extends AppLocalizations {
       'Điều này sẽ xóa tất cả dữ liệu đồ thị tri thức dẫn xuất. Ký ức gốc của bạn vẫn an toàn.';
 
   @override
-  String get connectOmiWithAI => 'Kết nối Omi với trợ lý AI';
+  String get connectOmiWithAI => 'Kết nối Carry với trợ lý AI';
 
   @override
   String get noAPIKeys => 'Không có khóa API. Tạo một khóa để bắt đầu.';
@@ -4112,7 +4113,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get dataAccessNoticeDescription =>
-      'Ứng dụng này sẽ truy cập dữ liệu của bạn. Omi AI không chịu trách nhiệm về cách dữ liệu của bạn được sử dụng bởi các ứng dụng bên thứ ba.';
+      'Ứng dụng này sẽ truy cập dữ liệu của bạn. Carry AI không chịu trách nhiệm về cách dữ liệu của bạn được sử dụng bởi các ứng dụng bên thứ ba.';
 
   @override
   String get copyUrl => 'Sao chép URL';
@@ -4197,14 +4198,14 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get omiApiKeys => 'Khóa API Omi';
+  String get omiApiKeys => 'Khóa API Carry';
 
   @override
   String get apiKeysDescription =>
-      'Khóa API được sử dụng để xác thực khi ứng dụng của bạn giao tiếp với máy chủ OMI. Chúng cho phép ứng dụng của bạn tạo kỷ niệm và truy cập an toàn vào các dịch vụ OMI khác.';
+      'Khóa API được sử dụng để xác thực khi ứng dụng của bạn giao tiếp với máy chủ CARRY. Chúng cho phép ứng dụng của bạn tạo kỷ niệm và truy cập an toàn vào các dịch vụ CARRY khác.';
 
   @override
-  String get aboutOmiApiKeys => 'Về khóa API Omi';
+  String get aboutOmiApiKeys => 'Về khóa API Carry';
 
   @override
   String get yourNewKey => 'Khóa mới của bạn:';
@@ -4336,7 +4337,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get e2eeDescription =>
-      'Mã hóa đầu cuối là tiêu chuẩn vàng cho quyền riêng tư. Khi được bật, dữ liệu của bạn được mã hóa trên thiết bị của bạn trước khi gửi đến máy chủ của chúng tôi. Điều này có nghĩa là không ai, kể cả Omi, có thể truy cập nội dung của bạn.';
+      'Mã hóa đầu cuối là tiêu chuẩn vàng cho quyền riêng tư. Khi được bật, dữ liệu của bạn được mã hóa trên thiết bị của bạn trước khi gửi đến máy chủ của chúng tôi. Điều này có nghĩa là không ai, kể cả Carry, có thể truy cập nội dung của bạn.';
 
   @override
   String get importantTradeoffs => 'Đánh đổi quan trọng:';
@@ -4371,7 +4372,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get secureEncryptionDescription =>
-      'Dữ liệu của bạn được mã hóa bằng một khóa duy nhất cho bạn trên các máy chủ của chúng tôi, được lưu trữ trên Google Cloud. Điều này có nghĩa là nội dung thô của bạn không thể truy cập được bởi bất kỳ ai, bao gồm nhân viên Omi hoặc Google, trực tiếp từ cơ sở dữ liệu.';
+      'Dữ liệu của bạn được mã hóa bằng một khóa duy nhất cho bạn trên các máy chủ của chúng tôi, được lưu trữ trên Google Cloud. Điều này có nghĩa là nội dung thô của bạn không thể truy cập được bởi bất kỳ ai, bao gồm nhân viên Carry hoặc Google, trực tiếp từ cơ sở dữ liệu.';
 
   @override
   String get endToEndEncryption => 'Mã hóa đầu cuối';
@@ -4440,21 +4441,21 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get omiTraining => 'Huấn luyện Omi';
+  String get omiTraining => 'Huấn luyện Carry';
 
   @override
   String get trainingDataProgram => 'Chương trình dữ liệu huấn luyện';
 
   @override
   String get getOmiUnlimitedFree =>
-      'Nhận Omi Unlimited miễn phí bằng cách đóng góp dữ liệu của bạn để huấn luyện các mô hình AI.';
+      'Nhận Carry Unlimited miễn phí bằng cách đóng góp dữ liệu của bạn để huấn luyện các mô hình AI.';
 
   @override
   String get trainingDataBullets =>
       '• Dữ liệu của bạn giúp cải thiện các mô hình AI\n• Chỉ chia sẻ dữ liệu không nhạy cảm\n• Quy trình hoàn toàn minh bạch';
 
   @override
-  String get learnMoreAtOmiTraining => 'Tìm hiểu thêm tại omi.me/training';
+  String get learnMoreAtOmiTraining => 'Tìm hiểu thêm tại carry.me/training';
 
   @override
   String get agreeToContributeData => 'Tôi hiểu và đồng ý đóng góp dữ liệu của mình để huấn luyện AI';
@@ -4534,7 +4535,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get youAreOnUnlimitedPlan => 'Bạn đang sử dụng gói Unlimited.';
 
   @override
-  String get yourOmiUnleashed => 'Omi của bạn, được giải phóng. Trở nên unlimited cho khả năng vô tận.';
+  String get yourOmiUnleashed => 'Carry của bạn, được giải phóng. Trở nên unlimited cho khả năng vô tận.';
 
   @override
   String planEndedOn(String date) {
@@ -4558,10 +4559,10 @@ class AppLocalizationsVi extends AppLocalizations {
   String get unlimitedConversations => 'Cuộc trò chuyện không giới hạn';
 
   @override
-  String get askOmiAnything => 'Hỏi Omi bất cứ điều gì về cuộc sống của bạn';
+  String get askOmiAnything => 'Hỏi Carry bất cứ điều gì về cuộc sống của bạn';
 
   @override
-  String get unlockOmiInfiniteMemory => 'Mở khóa bộ nhớ vô hạn của Omi';
+  String get unlockOmiInfiniteMemory => 'Mở khóa bộ nhớ vô hạn của Carry';
 
   @override
   String get youreOnAnnualPlan => 'Bạn đang sử dụng gói năm';
@@ -4615,7 +4616,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get privacyIntroText =>
-      'Tại Omi, chúng tôi rất coi trọng quyền riêng tư của bạn. Chúng tôi muốn minh bạch về dữ liệu thu thập và cách sử dụng. Đây là những gì bạn cần biết:';
+      'Tại Carry, chúng tôi rất coi trọng quyền riêng tư của bạn. Chúng tôi muốn minh bạch về dữ liệu thu thập và cách sử dụng. Đây là những gì bạn cần biết:';
 
   @override
   String get whatWeTrack => 'Chúng tôi theo dõi gì';
@@ -4631,11 +4632,11 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get commitmentText =>
-      'Chúng tôi cam kết sử dụng dữ liệu thu thập chỉ để làm cho Omi trở thành sản phẩm tốt hơn cho bạn. Quyền riêng tư và sự tin tưởng của bạn là điều quan trọng nhất đối với chúng tôi.';
+      'Chúng tôi cam kết sử dụng dữ liệu thu thập chỉ để làm cho Carry trở thành sản phẩm tốt hơn cho bạn. Quyền riêng tư và sự tin tưởng của bạn là điều quan trọng nhất đối với chúng tôi.';
 
   @override
   String get thankYouText =>
-      'Cảm ơn bạn đã là người dùng quý giá của Omi. Nếu bạn có bất kỳ câu hỏi hoặc lo ngại nào, hãy liên hệ với chúng tôi tại team@basedhardware.com.';
+      'Cảm ơn bạn đã là người dùng quý giá của Carry. Nếu bạn có bất kỳ câu hỏi hoặc lo ngại nào, hãy liên hệ với chúng tôi tại team@basedhardware.com.';
 
   @override
   String get password => 'Mật khẩu';
@@ -4719,7 +4720,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get minutes => 'phút';
 
   @override
-  String get omiHas => 'Omi có:';
+  String get omiHas => 'Carry có:';
 
   @override
   String get premiumMinutesUsed => 'Đã sử dụng phút cao cấp.';
@@ -4812,7 +4813,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get howPeopleWorks =>
-      'Sau khi tạo một người, bạn có thể đi đến bản ghi cuộc trò chuyện và gán các phân đoạn tương ứng cho họ, bằng cách đó Omi cũng sẽ có thể nhận dạng giọng nói của họ!';
+      'Sau khi tạo một người, bạn có thể đi đến bản ghi cuộc trò chuyện và gán các phân đoạn tương ứng cho họ, bằng cách đó Carry cũng sẽ có thể nhận dạng giọng nói của họ!';
 
   @override
   String get tapToDelete => 'Nhấn để xóa';
@@ -5093,7 +5094,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get enableApps => 'Kích hoạt ứng dụng';
 
   @override
-  String get omiAppName => 'Omi';
+  String get omiAppName => 'Carry';
 
   @override
   String get showMore => 'xem thêm ↓';
@@ -5117,18 +5118,18 @@ class AppLocalizationsVi extends AppLocalizations {
   String get checkingAppleWatch => 'Đang kiểm tra Apple Watch...';
 
   @override
-  String get installOmiOnAppleWatch => 'Cài đặt Omi trên\nApple Watch của bạn';
+  String get installOmiOnAppleWatch => 'Cài đặt Carry trên\nApple Watch của bạn';
 
   @override
   String get installOmiOnAppleWatchDescription =>
-      'Để sử dụng Apple Watch với Omi, bạn cần cài đặt ứng dụng Omi trên đồng hồ trước.';
+      'Để sử dụng Apple Watch với Carry, bạn cần cài đặt ứng dụng Carry trên đồng hồ trước.';
 
   @override
-  String get openOmiOnAppleWatch => 'Mở Omi trên\nApple Watch của bạn';
+  String get openOmiOnAppleWatch => 'Mở Carry trên\nApple Watch của bạn';
 
   @override
   String get openOmiOnAppleWatchDescription =>
-      'Ứng dụng Omi đã được cài đặt trên Apple Watch của bạn. Mở ứng dụng và nhấn Bắt đầu.';
+      'Ứng dụng Carry đã được cài đặt trên Apple Watch của bạn. Mở ứng dụng và nhấn Bắt đầu.';
 
   @override
   String get openWatchApp => 'Mở ứng dụng Watch';
@@ -5138,14 +5139,14 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get unableToOpenWatchApp =>
-      'Không thể mở ứng dụng Apple Watch. Vui lòng mở ứng dụng Watch trên Apple Watch và cài đặt Omi từ phần \"Ứng dụng có sẵn\".';
+      'Không thể mở ứng dụng Apple Watch. Vui lòng mở ứng dụng Watch trên Apple Watch và cài đặt Carry từ phần \"Ứng dụng có sẵn\".';
 
   @override
   String get appleWatchConnectedSuccessfully => 'Kết nối Apple Watch thành công!';
 
   @override
   String get appleWatchNotReachable =>
-      'Vẫn không thể kết nối Apple Watch. Vui lòng đảm bảo ứng dụng Omi đang mở trên đồng hồ.';
+      'Vẫn không thể kết nối Apple Watch. Vui lòng đảm bảo ứng dụng Carry đang mở trên đồng hồ.';
 
   @override
   String errorCheckingConnection(String error) {
@@ -5223,7 +5224,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get noSummary => 'Không có tóm tắt';
 
   @override
-  String get updateOmiFirmware => 'Cập nhật phần mềm omi';
+  String get updateOmiFirmware => 'Cập nhật phần mềm carry';
 
   @override
   String get anErrorOccurredTryAgain => 'Đã xảy ra lỗi. Vui lòng thử lại.';
@@ -5232,7 +5233,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get welcomeBackSimple => 'Chào mừng trở lại';
 
   @override
-  String get addVocabularyDescription => 'Thêm các từ mà Omi nên nhận dạng trong khi phiên âm.';
+  String get addVocabularyDescription => 'Thêm các từ mà Carry nên nhận dạng trong khi phiên âm.';
 
   @override
   String get enterWordsCommaSeparated => 'Nhập các từ (phân cách bằng dấu phẩy)';
@@ -5393,13 +5394,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get wrappedNoDataAvailable => 'Không có dữ liệu';
 
   @override
-  String get wrappedOmiLifeRecap => 'Tóm tắt cuộc sống Omi';
+  String get wrappedOmiLifeRecap => 'Tóm tắt cuộc sống Carry';
 
   @override
   String get wrappedSwipeUpToBegin => 'Vuốt lên để bắt đầu';
 
   @override
-  String get wrappedShareText => 'Năm 2025 của tôi, được Omi ghi nhớ ✨ omi.me/wrapped';
+  String get wrappedShareText => 'Năm 2025 của tôi, được Carry ghi nhớ ✨ carry.me/wrapped';
 
   @override
   String get wrappedFailedToShare => 'Chia sẻ thất bại. Vui lòng thử lại.';
@@ -5420,7 +5421,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get wrappedMy2025 => 'Năm 2025 của tôi';
 
   @override
-  String get wrappedRememberedByOmi => 'được Omi ghi nhớ';
+  String get wrappedRememberedByOmi => 'được Carry ghi nhớ';
 
   @override
   String get wrappedMostFunDay => 'Vui nhất';
@@ -5636,7 +5637,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get notificationFrequency => 'Tần suất thông báo';
 
   @override
-  String get controlNotificationFrequency => 'Kiểm soát tần suất Omi gửi thông báo chủ động cho bạn.';
+  String get controlNotificationFrequency => 'Kiểm soát tần suất Carry gửi thông báo chủ động cho bạn.';
 
   @override
   String get yourScore => 'Điểm của bạn';
@@ -5661,7 +5662,7 @@ class AppLocalizationsVi extends AppLocalizations {
       'Điểm hàng ngày dựa trên việc hoàn thành nhiệm vụ. Hoàn thành nhiệm vụ để cải thiện điểm!';
 
   @override
-  String get notificationFrequencyDescription => 'Kiểm soát tần suất Omi gửi thông báo và nhắc nhở chủ động cho bạn.';
+  String get notificationFrequencyDescription => 'Kiểm soát tần suất Carry gửi thông báo và nhắc nhở chủ động cho bạn.';
 
   @override
   String get sliderOff => 'Tắt';
@@ -5861,7 +5862,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get noRecordings => 'Không có Bản ghi';
 
   @override
-  String get audioFromOmiWillAppearHere => 'Âm thanh từ thiết bị Omi của bạn sẽ xuất hiện ở đây';
+  String get audioFromOmiWillAppearHere => 'Âm thanh từ thiết bị Carry của bạn sẽ xuất hiện ở đây';
 
   @override
   String get deleteProcessed => 'Xóa Đã Xử lý';
@@ -5982,7 +5983,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get batteryUsageHigher => 'Mức sử dụng pin sẽ cao hơn phiên âm đám mây.';
 
   @override
-  String get considerOmiCloud => 'Cân nhắc sử dụng Omi Cloud để có hiệu suất tốt hơn.';
+  String get considerOmiCloud => 'Cân nhắc sử dụng Carry Cloud để có hiệu suất tốt hơn.';
 
   @override
   String get highResourceUsage => 'Sử dụng tài nguyên cao';
@@ -6137,7 +6138,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get omiTranscriptionOptimized =>
-      'Phiên âm trực tiếp tích hợp của Omi được tối ưu hóa cho các cuộc hội thoại thời gian thực với phát hiện người nói tự động và phân tách người nói.';
+      'Phiên âm trực tiếp tích hợp của Carry được tối ưu hóa cho các cuộc hội thoại thời gian thực với phát hiện người nói tự động và phân tách người nói.';
 
   @override
   String get reset => 'Đặt lại';
@@ -6225,13 +6226,13 @@ class AppLocalizationsVi extends AppLocalizations {
   String get writeReviewOptional => 'Viết đánh giá (tùy chọn)';
 
   @override
-  String get setupQuestionsIntro => 'Giúp chúng tôi cải thiện Omi bằng cách trả lời vài câu hỏi.  🫶 💜';
+  String get setupQuestionsIntro => 'Giúp chúng tôi cải thiện Carry bằng cách trả lời vài câu hỏi.  🫶 💜';
 
   @override
   String get setupQuestionProfession => '1. Bạn làm nghề gì?';
 
   @override
-  String get setupQuestionUsage => '2. Bạn dự định sử dụng Omi ở đâu?';
+  String get setupQuestionUsage => '2. Bạn dự định sử dụng Carry ở đâu?';
 
   @override
   String get setupQuestionAge => '3. Độ tuổi của bạn?';
@@ -6747,23 +6748,23 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get batteryFullyChargedTitle => 'Omi đã sạc đầy';
+  String get batteryFullyChargedTitle => 'Carry đã sạc đầy';
 
   @override
-  String get batteryFullyChargedBody => 'Thiết bị Omi của bạn đã sạc đầy. Bạn có thể rút cáp ra!';
+  String get batteryFullyChargedBody => 'Thiết bị Carry của bạn đã sạc đầy. Bạn có thể rút cáp ra!';
 
   @override
-  String get deviceDisconnectedNotificationTitle => 'Thiết bị Omi của bạn đã ngắt kết nối';
+  String get deviceDisconnectedNotificationTitle => 'Thiết bị Carry của bạn đã ngắt kết nối';
 
   @override
-  String get deviceDisconnectedNotificationBody => 'Vui lòng kết nối lại để tiếp tục sử dụng Omi.';
+  String get deviceDisconnectedNotificationBody => 'Vui lòng kết nối lại để tiếp tục sử dụng Carry.';
 
   @override
   String get firmwareUpdateAvailable => 'Có bản cập nhật firmware';
 
   @override
   String firmwareUpdateAvailableDescription(String version) {
-    return 'Có bản cập nhật firmware mới ($version) cho thiết bị Omi của bạn. Bạn có muốn cập nhật ngay không?';
+    return 'Có bản cập nhật firmware mới ($version) cho thiết bị Carry của bạn. Bạn có muốn cập nhật ngay không?';
   }
 
   @override
@@ -6801,7 +6802,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get almostDone => 'Gần xong...';
 
   @override
-  String get omiSays => 'Omi nói';
+  String get omiSays => 'Carry nói';
 
   @override
   String get analyzingYourData => 'Đang phân tích dữ liệu của bạn...';
@@ -7041,7 +7042,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get nextButton => 'Tiếp';
 
   @override
-  String get connectOmiDevice => 'Kết nối Thiết bị Omi';
+  String get connectOmiDevice => 'Kết nối Thiết bị Carry';
 
   @override
   String planSwitchingDescriptionWithTitle(String title) {
@@ -7072,7 +7073,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get transcriptionJsonPlaceholder => 'Dán cấu hình JSON của bạn vào đây...';
 
   @override
-  String get transcriptionSourceOmi => 'Omi';
+  String get transcriptionSourceOmi => 'Carry';
 
   @override
   String get pricePlaceholder => '0.00';
@@ -7096,7 +7097,7 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get actionItemReminderTitle => 'Nhắc nhở Omi';
+  String get actionItemReminderTitle => 'Nhắc nhở Carry';
 
   @override
   String deviceDisconnectedTitle(String deviceName) {
@@ -7124,7 +7125,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get onboardingComplete => 'Hoàn tất';
 
   @override
-  String get onboardingWelcomeToOmi => 'Chào mừng đến với Omi';
+  String get onboardingWelcomeToOmi => 'Chào mừng đến với Carry';
 
   @override
   String get onboardingTellUsAboutYourself => 'Hãy cho chúng tôi biết về bạn';
@@ -7237,7 +7238,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get authFailedToLinkApple => 'Không thể liên kết tài khoản Apple';
 
   @override
-  String get onboardingBluetoothRequired => 'Cần có Bluetooth để kết nối thiết bị Omi của bạn';
+  String get onboardingBluetoothRequired => 'Cần có Bluetooth để kết nối thiết bị Carry của bạn';
 
   @override
   String get onboardingBluetoothDeniedSystemPrefs => 'Quyền Bluetooth bị từ chối. Vui lòng bật trong cài đặt hệ thống.';
@@ -7852,20 +7853,20 @@ class AppLocalizationsVi extends AppLocalizations {
   String get reportAnIssue => 'Báo cáo sự cố';
 
   @override
-  String get pairingTitleOmi => 'Bật Omi';
+  String get pairingTitleOmi => 'Bật Carry';
 
   @override
   String get pairingDescOmi => 'Nhấn và giữ thiết bị cho đến khi rung để bật nguồn.';
 
   @override
-  String get pairingTitleOmiDevkit => 'Đặt Omi DevKit vào chế độ ghép nối';
+  String get pairingTitleOmiDevkit => 'Đặt Carry DevKit vào chế độ ghép nối';
 
   @override
   String get pairingDescOmiDevkit =>
       'Nhấn nút một lần để bật nguồn. Đèn LED sẽ nhấp nháy màu tím khi ở chế độ ghép nối.';
 
   @override
-  String get pairingTitleOmiGlass => 'Bật Omi Glass';
+  String get pairingTitleOmiGlass => 'Bật Carry Glass';
 
   @override
   String get pairingDescOmiGlass => 'Nhấn và giữ nút bên cạnh trong 3 giây để bật nguồn.';
@@ -7908,7 +7909,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get pairingDescAppleWatch =>
-      'Cài đặt và mở ứng dụng Omi trên Apple Watch của bạn, sau đó nhấn Kết nối trong ứng dụng.';
+      'Cài đặt và mở ứng dụng Carry trên Apple Watch của bạn, sau đó nhấn Kết nối trong ứng dụng.';
 
   @override
   String get pairingTitleNeoOne => 'Đặt Neo One vào chế độ ghép nối';
@@ -8004,7 +8005,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get onboardingWhatIKnowAboutYouDescription =>
-      'Bản đồ này được cập nhật khi Omi học hỏi từ các cuộc trò chuyện của bạn.';
+      'Bản đồ này được cập nhật khi Carry học hỏi từ các cuộc trò chuyện của bạn.';
 
   @override
   String get apiEnvironment => 'Môi trường API';
@@ -8058,7 +8059,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get tasksOverdue => 'Quá hạn';
 
   @override
-  String get phoneCallsWithOmi => 'Cuộc gọi với Omi';
+  String get phoneCallsWithOmi => 'Cuộc gọi với Carry';
 
   @override
   String get phoneCallsSubtitle => 'Gọi điện với phiên âm thời gian thực';
@@ -8260,11 +8261,11 @@ class AppLocalizationsVi extends AppLocalizations {
   String get showTasksOnHomepage => 'Hiển thị Nhiệm vụ trên trang chủ';
 
   @override
-  String get phoneCallsUnlimitedOnly => 'Cuộc gọi điện thoại qua Omi';
+  String get phoneCallsUnlimitedOnly => 'Cuộc gọi điện thoại qua Carry';
 
   @override
   String get phoneCallsUpsellSubtitle =>
-      'Gọi điện qua Omi và nhận phiên âm thời gian thực, tóm tắt tự động và nhiều hơn nữa.';
+      'Gọi điện qua Carry và nhận phiên âm thời gian thực, tóm tắt tự động và nhiều hơn nữa.';
 
   @override
   String get phoneCallsUpsellFeature1 => 'Phiên âm thời gian thực mọi cuộc gọi';
@@ -8383,7 +8384,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get fairUseAboutBody =>
-      'Omi được thiết kế cho các cuộc trò chuyện cá nhân, cuộc họp và tương tác trực tiếp. Mức sử dụng được đo bằng thời gian nói thực tế được phát hiện, không phải thời gian kết nối. Nếu mức sử dụng vượt quá đáng kể các mẫu bình thường cho nội dung không cá nhân, có thể áp dụng các điều chỉnh.';
+      'Carry được thiết kế cho các cuộc trò chuyện cá nhân, cuộc họp và tương tác trực tiếp. Mức sử dụng được đo bằng thời gian nói thực tế được phát hiện, không phải thời gian kết nối. Nếu mức sử dụng vượt quá đáng kể các mẫu bình thường cho nội dung không cá nhân, có thể áp dụng các điều chỉnh.';
 
   @override
   String fairUseCaseRefCopied(String caseRef) {
@@ -8422,7 +8423,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get improveConnectionContent =>
-      'Chúng tôi đã cải thiện cách Omi duy trì kết nối với thiết bị của bạn. Để kích hoạt, hãy vào trang Thông tin thiết bị, nhấn \"Ngắt kết nối thiết bị\", rồi ghép nối lại thiết bị.';
+      'Chúng tôi đã cải thiện cách Carry duy trì kết nối với thiết bị của bạn. Để kích hoạt, hãy vào trang Thông tin thiết bị, nhấn \"Ngắt kết nối thiết bị\", rồi ghép nối lại thiết bị.';
 
   @override
   String get improveConnectionAction => 'Đã hiểu';
@@ -8433,7 +8434,7 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get omisStorage => 'Bộ nhớ Omi';
+  String get omisStorage => 'Bộ nhớ Carry';
 
   @override
   String get phoneStorage => 'Bộ nhớ điện thoại';
@@ -8478,10 +8479,10 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get omisStorageDesc =>
-      'Khi Omi không kết nối với điện thoại, nó lưu trữ âm thanh cục bộ trong bộ nhớ tích hợp. Bạn sẽ không bao giờ mất bản ghi.';
+      'Khi Carry không kết nối với điện thoại, nó lưu trữ âm thanh cục bộ trong bộ nhớ tích hợp. Bạn sẽ không bao giờ mất bản ghi.';
 
   @override
-  String get phoneStorageDesc => 'Khi Omi kết nối lại, bản ghi tự động chuyển sang điện thoại trước khi tải lên.';
+  String get phoneStorageDesc => 'Khi Carry kết nối lại, bản ghi tự động chuyển sang điện thoại trước khi tải lên.';
 
   @override
   String get cloudStorageDesc =>
@@ -8510,17 +8511,17 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get permissionsPageDescription =>
-      'Các quyền này rất quan trọng đối với hoạt động của Omi. Chúng kích hoạt các tính năng chính như thông báo, trải nghiệm dựa trên vị trí và ghi âm.';
+      'Các quyền này rất quan trọng đối với hoạt động của Carry. Chúng kích hoạt các tính năng chính như thông báo, trải nghiệm dựa trên vị trí và ghi âm.';
 
   @override
   String get permissionsRequiredDescription =>
-      'Omi cần một số quyền để hoạt động bình thường. Vui lòng cấp quyền để tiếp tục.';
+      'Carry cần một số quyền để hoạt động bình thường. Vui lòng cấp quyền để tiếp tục.';
 
   @override
   String get permissionsSetupTitle => 'Trải nghiệm tốt nhất';
 
   @override
-  String get permissionsSetupDescription => 'Bật một vài quyền để Omi có thể phát huy hết khả năng.';
+  String get permissionsSetupDescription => 'Bật một vài quyền để Carry có thể phát huy hết khả năng.';
 
   @override
   String get permissionsChangeAnytime => 'Bạn có thể thay đổi bất cứ lúc nào trong Cài đặt > Quyền';
@@ -8615,7 +8616,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get feedbackTitleFoundAlternative => 'Bạn chuyển sang gì?';
 
   @override
-  String get feedbackTitleNotUsing => 'Điều gì sẽ khiến bạn sử dụng Omi nhiều hơn?';
+  String get feedbackTitleNotUsing => 'Điều gì sẽ khiến bạn sử dụng Carry nhiều hơn?';
 
   @override
   String get feedbackSubtitleTooExpensive => 'Phản hồi của bạn giúp chúng tôi tìm sự cân bằng.';
@@ -8633,7 +8634,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get feedbackSubtitleFoundAlternative => 'Chúng tôi muốn biết điều gì thu hút bạn.';
 
   @override
-  String get feedbackSubtitleNotUsing => 'Chúng tôi muốn làm Omi hữu ích hơn cho bạn.';
+  String get feedbackSubtitleNotUsing => 'Chúng tôi muốn làm Carry hữu ích hơn cho bạn.';
 
   @override
   String get deviceDiagnostics => 'Chẩn đoán thiết bị';
@@ -8813,7 +8814,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get appleHealthManageNote =>
-      'Omi truy cập Apple Health thông qua framework HealthKit của Apple. Bạn có thể thu hồi quyền truy cập bất cứ lúc nào trong Cài đặt iOS.';
+      'Carry truy cập Apple Health thông qua framework HealthKit của Apple. Bạn có thể thu hồi quyền truy cập bất cứ lúc nào trong Cài đặt iOS.';
 
   @override
   String get appleHealthConnectCta => 'Kết nối với Apple Health';
@@ -8828,32 +8829,33 @@ class AppLocalizationsVi extends AppLocalizations {
   String get appleHealthFeatureChatTitle => 'Trò chuyện về sức khỏe của bạn';
 
   @override
-  String get appleHealthFeatureChatDesc => 'Hỏi Omi về số bước, giấc ngủ, nhịp tim và bài tập của bạn.';
+  String get appleHealthFeatureChatDesc => 'Hỏi Carry về số bước, giấc ngủ, nhịp tim và bài tập của bạn.';
 
   @override
   String get appleHealthFeatureReadOnlyTitle => 'Quyền chỉ đọc';
 
   @override
-  String get appleHealthFeatureReadOnlyDesc => 'Omi không bao giờ ghi vào Apple Health hoặc thay đổi dữ liệu của bạn.';
+  String get appleHealthFeatureReadOnlyDesc =>
+      'Carry không bao giờ ghi vào Apple Health hoặc thay đổi dữ liệu của bạn.';
 
   @override
   String get appleHealthFeatureSecureTitle => 'Đồng bộ an toàn';
 
   @override
-  String get appleHealthFeatureSecureDesc => 'Dữ liệu Apple Health của bạn được đồng bộ riêng tư vào tài khoản Omi.';
+  String get appleHealthFeatureSecureDesc => 'Dữ liệu Apple Health của bạn được đồng bộ riêng tư vào tài khoản Carry.';
 
   @override
   String get appleHealthDeniedTitle => 'Truy cập Apple Health bị từ chối';
 
   @override
   String get appleHealthDeniedBody =>
-      'Omi không có quyền đọc dữ liệu Apple Health của bạn. Bật tính năng này trong Cài đặt iOS → Quyền riêng tư & Bảo mật → Sức khỏe → Omi.';
+      'Carry không có quyền đọc dữ liệu Apple Health của bạn. Bật tính năng này trong Cài đặt iOS → Quyền riêng tư & Bảo mật → Sức khỏe → Carry.';
 
   @override
   String get deleteFlowReasonTitle => 'Vì sao bạn rời đi?';
 
   @override
-  String get deleteFlowReasonSubtitle => 'Phản hồi của bạn giúp chúng tôi cải thiện Omi cho mọi người.';
+  String get deleteFlowReasonSubtitle => 'Phản hồi của bạn giúp chúng tôi cải thiện Carry cho mọi người.';
 
   @override
   String get deleteReasonPrivacy => 'Lo ngại về quyền riêng tư';
@@ -8880,7 +8882,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get deleteFlowFeedbackTitle => 'Hãy chia sẻ thêm';
 
   @override
-  String get deleteFlowFeedbackSubtitle => 'Điều gì sẽ khiến Omi phù hợp với bạn?';
+  String get deleteFlowFeedbackSubtitle => 'Điều gì sẽ khiến Carry phù hợp với bạn?';
 
   @override
   String get deleteFlowFeedbackHint => 'Tùy chọn — suy nghĩ của bạn giúp chúng tôi xây dựng sản phẩm tốt hơn.';
@@ -9025,14 +9027,14 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get chatQuotaSubtitle => 'AI chat messages used with Omi this month.';
+  String get chatQuotaSubtitle => 'AI chat messages used with Carry this month.';
 
   @override
   String get chatQuotaExceededReply =>
-      'Bạn đã đạt giới hạn hàng tháng. Nâng cấp để tiếp tục trò chuyện với Omi không giới hạn.';
+      'Bạn đã đạt giới hạn hàng tháng. Nâng cấp để tiếp tục trò chuyện với Carry không giới hạn.';
 
   @override
-  String get voiceResponseAudio => 'Đọc to phản hồi của Omi';
+  String get voiceResponseAudio => 'Đọc to phản hồi của Carry';
 
   @override
   String get voiceResponseMode => 'Phản hồi bằng giọng nói';
@@ -9065,7 +9067,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get voiceMode => 'Chế độ giọng nói';
 
   @override
-  String get quickActionAskOmi => 'Hỏi Omi bất cứ điều gì';
+  String get quickActionAskOmi => 'Hỏi Carry bất cứ điều gì';
 
   @override
   String get record => 'Ghi âm';
@@ -9177,14 +9179,14 @@ class AppLocalizationsVi extends AppLocalizations {
   String get syncInProgress => 'Đang đồng bộ';
 
   @override
-  String get syncStatusUploaded => 'Đã tải lên · đang xử lý trên Omi';
+  String get syncStatusUploaded => 'Đã tải lên · đang xử lý trên Carry';
 
   @override
   String get deleteWhileProcessingTitle => 'Vẫn đang xử lý';
 
   @override
   String get deleteWhileProcessingMessage =>
-      'Bản ghi này đã được tải lên nhưng Omi vẫn đang tạo cuộc trò chuyện. Nếu bạn xóa ngay bây giờ và quá trình xử lý thất bại, sẽ không thể khôi phục. Vẫn xóa?';
+      'Bản ghi này đã được tải lên nhưng Carry vẫn đang tạo cuộc trò chuyện. Nếu bạn xóa ngay bây giờ và quá trình xử lý thất bại, sẽ không thể khôi phục. Vẫn xóa?';
 
   @override
   String get syncCardAllBackedUp => 'Tất cả bản ghi đã đồng bộ';
@@ -9200,7 +9202,7 @@ class AppLocalizationsVi extends AppLocalizations {
   }
 
   @override
-  String get syncCardProcessing => 'Đang xử lý trên Omi…';
+  String get syncCardProcessing => 'Đang xử lý trên Carry…';
 
   @override
   String get syncCardWaitingInternet => 'Đang chờ kết nối Internet';
@@ -9217,19 +9219,19 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get syncFlowIntro =>
-      'Bản ghi được chuyển từ thiết bị của bạn sang điện thoại này và lưu trữ cục bộ, sau đó tải lên máy chủ của Omi, nơi chúng được phiên âm và chuyển thành cuộc trò chuyện.';
+      'Bản ghi được chuyển từ thiết bị của bạn sang điện thoại này và lưu trữ cục bộ, sau đó tải lên máy chủ của Carry, nơi chúng được phiên âm và chuyển thành cuộc trò chuyện.';
 
   @override
   String get syncStepUpload => 'Đồng bộ';
 
   @override
-  String get syncStepUploadDesc => 'Bản ghi của bạn được gửi đến máy chủ của Omi';
+  String get syncStepUploadDesc => 'Bản ghi của bạn được gửi đến máy chủ của Carry';
 
   @override
   String get syncStepProcess => 'Chuyển lời';
 
   @override
-  String get syncStepProcessDesc => 'Omi biến âm thanh thành một cuộc trò chuyện';
+  String get syncStepProcessDesc => 'Carry biến âm thanh thành một cuộc trò chuyện';
 
   @override
   String get syncStepBackedUp => 'Cuộc trò chuyện đã sẵn sàng';
@@ -9244,7 +9246,7 @@ class AppLocalizationsVi extends AppLocalizations {
   String get syncStatusConversationCreated => 'Đã tạo cuộc trò chuyện';
 
   @override
-  String get syncCardUploadingTitle => 'Đang tải lên Omi';
+  String get syncCardUploadingTitle => 'Đang tải lên Carry';
 
   @override
   String get syncCardDownloadingTitle => 'Đang tải xuống từ thiết bị của bạn';
@@ -9277,7 +9279,7 @@ class AppLocalizationsVi extends AppLocalizations {
 
   @override
   String get syncCardBackendBusy =>
-      'Máy chủ Omi đang quá tải — bản ghi của bạn sẽ được đồng bộ khi dung lượng được khôi phục';
+      'Máy chủ Carry đang quá tải — bản ghi của bạn sẽ được đồng bộ khi dung lượng được khôi phục';
 
   @override
   String get unableToDetermineFirmwareVersion => 'Không thể xác định phiên bản firmware hiện tại';
@@ -9295,10 +9297,11 @@ class AppLocalizationsVi extends AppLocalizations {
   String get backgroundModeTitle => 'Chế độ nền';
 
   @override
-  String get backgroundModeDescription => 'Giữ cho Omi của bạn tiếp tục ghi âm ngay cả khi ứng dụng đã đóng hoàn toàn.';
+  String get backgroundModeDescription =>
+      'Giữ cho Carry của bạn tiếp tục ghi âm ngay cả khi ứng dụng đã đóng hoàn toàn.';
 
   @override
-  String get backgroundModeNote => 'Hiện chỉ hoạt động với thiết bị Omi và đang được cải thiện liên tục.';
+  String get backgroundModeNote => 'Hiện chỉ hoạt động với thiết bị Carry và đang được cải thiện liên tục.';
 
   @override
   String get regenerateRecap => 'Tạo lại tóm tắt';
@@ -9316,9 +9319,9 @@ class AppLocalizationsVi extends AppLocalizations {
   String get recapRegenerateNoConversations => 'Không có cuộc trò chuyện nào để tóm tắt cho ngày này.';
 
   @override
-  String get syncCustomSttWarningTitle => 'Đồng bộ sử dụng phiên âm của Omi';
+  String get syncCustomSttWarningTitle => 'Đồng bộ sử dụng phiên âm của Carry';
 
   @override
   String get syncCustomSttWarningMessage =>
-      'Bạn đang dùng nhà cung cấp phiên âm riêng. Đồng bộ các bản ghi này sẽ phiên âm chúng trên máy chủ của Omi và được tính vào giới hạn phiên âm của gói của bạn.';
+      'Bạn đang dùng nhà cung cấp phiên âm riêng. Đồng bộ các bản ghi này sẽ phiên âm chúng trên máy chủ của Carry và được tính vào giới hạn phiên âm của gói của bạn.';
 }

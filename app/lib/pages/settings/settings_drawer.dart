@@ -231,7 +231,8 @@ class _SettingsDrawerState extends State<SettingsDrawer> {
   }
 
   Future<void> _copyVersionInfo() async {
-    final versionPart = buildVersion != null ? 'Omi AI ${version ?? ""} ($buildVersion)' : 'Omi AI ${version ?? ""}';
+    final versionPart =
+        buildVersion != null ? 'Carry AI ${version ?? ""} ($buildVersion)' : 'Carry AI ${version ?? ""}';
     final devicePart = shortDeviceInfo ?? context.l10n.unknownDevice;
     final fullVersionInfo = '$versionPart — $devicePart';
 

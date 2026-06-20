@@ -496,7 +496,7 @@ class _TranscriptWidgetState extends State<TranscriptWidget> {
                                   },
                             child: Text(
                               data.speakerId == omiSpeakerId
-                                  ? 'omi'
+                                  ? 'Carry'
                                   : (person?.name ??
                                       context.l10n.speakerWithId(
                                         '${TranscriptSegment.getDisplaySpeakerId(data.speakerId, widget.segments)}',
@@ -735,7 +735,7 @@ class _TranscriptWidgetState extends State<TranscriptWidget> {
             Icon(Icons.check_circle, size: 12, color: Colors.grey),
             SizedBox(width: 4),
             Text(
-              'translated by omi',
+              'translated by Carry',
               style: TextStyle(fontSize: 12, color: Colors.grey, fontStyle: FontStyle.italic),
             ),
           ],

@@ -399,7 +399,7 @@ class _ActionItemTileWidgetState extends State<ActionItemTileWidget> {
     // Create task in Todoist
     final success = await service.createTask(
       content: widget.actionItem.description,
-      description: 'From Omi',
+      description: 'From Carry',
       dueDate: widget.actionItem.dueAt,
     );
 
@@ -511,7 +511,7 @@ class _ActionItemTileWidgetState extends State<ActionItemTileWidget> {
     // Create task in Asana (workspace/project from settings, assignee is current user)
     final success = await service.createTask(
       name: widget.actionItem.description,
-      notes: 'From Omi',
+      notes: 'From Carry',
       dueDate: widget.actionItem.dueAt,
     );
 
@@ -623,7 +623,7 @@ class _ActionItemTileWidgetState extends State<ActionItemTileWidget> {
     // Create task in Google Tasks
     final success = await service.createTask(
       title: widget.actionItem.description,
-      notes: 'From Omi',
+      notes: 'From Carry',
       dueDate: widget.actionItem.dueAt,
     );
 
@@ -724,7 +724,7 @@ class _ActionItemTileWidgetState extends State<ActionItemTileWidget> {
     // Create task in ClickUp
     final success = await service.createTask(
       name: widget.actionItem.description,
-      description: 'From Omi',
+      description: 'From Carry',
       dueDate: widget.actionItem.dueAt,
     );
 
@@ -845,7 +845,7 @@ class _ActionItemTileWidgetState extends State<ActionItemTileWidget> {
     // Add to Apple Reminders — now returns calendarItemIdentifier
     final calendarItemId = await service.addReminder(
       title: widget.actionItem.description,
-      notes: 'From Omi',
+      notes: 'From Carry',
       dueDate: widget.actionItem.dueAt,
     );
 

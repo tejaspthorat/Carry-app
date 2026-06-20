@@ -9,7 +9,7 @@ class AppLocalizationsKo extends AppLocalizations {
   AppLocalizationsKo([String locale = 'ko']) : super(locale);
 
   @override
-  String get appTitle => 'Omi';
+  String get appTitle => 'Carry';
 
   @override
   String get conversationTab => '대화';
@@ -128,7 +128,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get editPerson => '사람 편집';
 
   @override
-  String get createPersonHint => '새로운 사람을 만들고 Omi가 그들의 음성을 인식하도록 학습시키세요!';
+  String get createPersonHint => '새로운 사람을 만들고 Carry가 그들의 음성을 인식하도록 학습시키세요!';
 
   @override
   String get speechProfile => '음성 프로필';
@@ -166,7 +166,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get couldNotAccessFile => '선택한 파일에 접근할 수 없습니다';
 
   @override
-  String get askOmi => 'Omi에게 질문';
+  String get askOmi => 'Carry에게 질문';
 
   @override
   String get done => '완료';
@@ -266,7 +266,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get noMessagesYet => '아직 메시지가 없습니다!\n대화를 시작해보는 건 어떨까요?';
 
   @override
-  String get deletingMessages => 'Omi의 메모리에서 메시지를 삭제하는 중...';
+  String get deletingMessages => 'Carry의 메모리에서 메시지를 삭제하는 중...';
 
   @override
   String get messageCopied => '✨ 메시지가 클립보드에 복사되었습니다';
@@ -296,7 +296,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get maxFilesLimit => '한 번에 최대 4개의 파일만 업로드할 수 있습니다';
 
   @override
-  String get chatWithOmi => 'Omi와 채팅하기';
+  String get chatWithOmi => 'Carry와 채팅하기';
 
   @override
   String get apps => '앱';
@@ -326,7 +326,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get unableToFetchApps => '앱을 가져올 수 없습니다 :(\n\n인터넷 연결을 확인하고 다시 시도해 주세요.';
 
   @override
-  String get aboutOmi => 'Omi 소개';
+  String get aboutOmi => 'Carry 소개';
 
   @override
   String get privacyPolicy => '개인정보 처리방침';
@@ -443,7 +443,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get developerSettings => '개발자 설정';
 
   @override
-  String get getOmiForMac => 'Mac용 Omi 다운로드';
+  String get getOmiForMac => 'Mac용 Carry 다운로드';
 
   @override
   String get referralProgram => '추천 프로그램';
@@ -461,7 +461,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get yourPrivacyYourControl => '당신의 개인정보, 당신의 제어';
 
   @override
-  String get privacyIntro => 'Omi는 귀하의 개인정보 보호에 최선을 다하고 있습니다. 이 페이지에서 데이터 저장 및 사용 방법을 제어할 수 있습니다.';
+  String get privacyIntro => 'Carry는 귀하의 개인정보 보호에 최선을 다하고 있습니다. 이 페이지에서 데이터 저장 및 사용 방법을 제어할 수 있습니다.';
 
   @override
   String get learnMore => '자세히 알아보기...';
@@ -530,7 +530,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get unpairAndForget => '기기 페어링 해제 및 삭제';
 
   @override
-  String get deviceDisconnectedMessage => 'Omi 기기의 연결이 해제되었습니다 😔';
+  String get deviceDisconnectedMessage => 'Carry 기기의 연결이 해제되었습니다 😔';
 
   @override
   String get deviceUnpairedMessage => '기기 페어링이 해제되었습니다. 설정 > Bluetooth로 이동하여 기기를 삭제하면 페어링 해제가 완료됩니다.';
@@ -545,7 +545,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get deviceNotConnected => '기기가 연결되지 않음';
 
   @override
-  String get connectDeviceMessage => 'Omi 기기를 연결하여\n기기 설정 및 사용자 지정에 접근하세요';
+  String get connectDeviceMessage => 'Carry 기기를 연결하여\n기기 설정 및 사용자 지정에 접근하세요';
 
   @override
   String get deviceInfoSection => '기기 정보';
@@ -674,7 +674,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get docs => '문서';
 
   @override
-  String get yourOmiInsights => 'Omi 인사이트';
+  String get yourOmiInsights => 'Carry 인사이트';
 
   @override
   String get today => '오늘';
@@ -692,13 +692,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get noActivityYet => '아직 활동이 없습니다';
 
   @override
-  String get startConversationToSeeInsights => 'Omi와 대화를 시작하여\n사용량 인사이트를 확인하세요.';
+  String get startConversationToSeeInsights => 'Carry와 대화를 시작하여\n사용량 인사이트를 확인하세요.';
 
   @override
   String get listening => '청취';
 
   @override
-  String get listeningSubtitle => 'Omi가 적극적으로 청취한 총 시간입니다.';
+  String get listeningSubtitle => 'Carry가 적극적으로 청취한 총 시간입니다.';
 
   @override
   String get understanding => '이해';
@@ -754,19 +754,19 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get shareStatsMessage => '내 Omi 통계를 공유합니다! (omi.me - 항상 켜져 있는 AI 어시스턴트)';
+  String get shareStatsMessage => '내 Carry 통계를 공유합니다! (carry.me - 항상 켜져 있는 AI 어시스턴트)';
 
   @override
-  String get sharePeriodToday => '오늘 Omi는:';
+  String get sharePeriodToday => '오늘 Carry는:';
 
   @override
-  String get sharePeriodMonth => '이번 달 Omi는:';
+  String get sharePeriodMonth => '이번 달 Carry는:';
 
   @override
-  String get sharePeriodYear => '올해 Omi는:';
+  String get sharePeriodYear => '올해 Carry는:';
 
   @override
-  String get sharePeriodAllTime => '지금까지 Omi는:';
+  String get sharePeriodAllTime => '지금까지 Carry는:';
 
   @override
   String shareStatsListened(String minutes) {
@@ -801,7 +801,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get noLogFilesFound => '로그 파일을 찾을 수 없습니다.';
 
   @override
-  String get omiDebugLog => 'Omi 디버그 로그';
+  String get omiDebugLog => 'Carry 디버그 로그';
 
   @override
   String get logShared => '로그가 공유되었습니다';
@@ -825,7 +825,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get exportDataDesc => '대화를 JSON 파일로 내보내기';
 
   @override
-  String get exportedConversations => 'Omi에서 내보낸 대화';
+  String get exportedConversations => 'Carry에서 내보낸 대화';
 
   @override
   String get exportShared => '내보내기가 공유되었습니다';
@@ -1001,7 +1001,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get addWordsDesc => '이름, 용어 또는 일반적이지 않은 단어';
 
   @override
-  String get vocabularyHint => 'Omi, Callie, OpenAI';
+  String get vocabularyHint => 'Carry, Callie, OpenAI';
 
   @override
   String get connect => '연결';
@@ -1045,7 +1045,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String authAccessMessage(String appName) {
-    return 'Omi가 $appName 데이터에 접근하도록 권한을 부여해야 합니다. 인증을 위해 브라우저가 열립니다.';
+    return 'Carry가 $appName 데이터에 접근하도록 권한을 부여해야 합니다. 인증을 위해 브라우저가 열립니다.';
   }
 
   @override
@@ -1137,7 +1137,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get editName => '이름 편집';
 
   @override
-  String get howShouldOmiCallYou => 'Omi가 어떻게 불러드릴까요?';
+  String get howShouldOmiCallYou => 'Carry가 어떻게 불러드릴까요?';
 
   @override
   String get enterYourName => '이름을 입력하세요';
@@ -1405,7 +1405,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String authorizeOmiForTasks(String appName) {
-    return '$appName 계정에서 작업을 생성하도록 Omi에 권한을 부여해야 합니다. 인증을 위해 브라우저가 열립니다.';
+    return '$appName 계정에서 작업을 생성하도록 Carry에 권한을 부여해야 합니다. 인증을 위해 브라우저가 열립니다.';
   }
 
   @override
@@ -1440,13 +1440,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get bringYourOwn => '직접 가져오기';
 
   @override
-  String get payYourSttProvider => 'Omi를 자유롭게 사용하세요. STT 제공업체에 직접 비용을 지불하기만 하면 됩니다.';
+  String get payYourSttProvider => 'Carry를 자유롭게 사용하세요. STT 제공업체에 직접 비용을 지불하기만 하면 됩니다.';
 
   @override
   String get freeMinutesMonth => '월 600분 무료 포함. ';
 
   @override
-  String get omiUnlimited => 'Omi Unlimited';
+  String get omiUnlimited => 'Carry Unlimited';
 
   @override
   String get hostRequired => '호스트가 필요합니다';
@@ -1564,11 +1564,11 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String deviceUsesCodec(String device, String reason) {
-    return '$device이(가) $reason을(를) 사용합니다. Omi가 사용됩니다.';
+    return '$device이(가) $reason을(를) 사용합니다. Carry가 사용됩니다.';
   }
 
   @override
-  String get omiTranscription => 'Omi 음성 변환';
+  String get omiTranscription => 'Carry 음성 변환';
 
   @override
   String get bestInClassTranscription => '설정이 필요 없는 최고 수준의 음성 변환';
@@ -1713,7 +1713,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get enableBluetooth => '블루투스 활성화';
 
   @override
-  String get bluetoothNeeded => 'Omi가 웨어러블에 연결하려면 블루투스가 필요합니다. 블루투스를 활성화하고 다시 시도해 주세요.';
+  String get bluetoothNeeded => 'Carry가 웨어러블에 연결하려면 블루투스가 필요합니다. 블루투스를 활성화하고 다시 시도해 주세요.';
 
   @override
   String get contactSupport => '지원팀에 문의하시겠습니까?';
@@ -1728,7 +1728,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get backgroundActivity => '백그라운드 활동';
 
   @override
-  String get backgroundActivityDesc => '더 나은 안정성을 위해 Omi가 백그라운드에서 실행되도록 허용';
+  String get backgroundActivityDesc => '더 나은 안정성을 위해 Carry가 백그라운드에서 실행되도록 허용';
 
   @override
   String get locationAccess => '위치 접근';
@@ -1755,7 +1755,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get backgroundLocationDeniedDesc => '기기 설정으로 이동하여 위치 권한을 \"항상 허용\"으로 설정하세요';
 
   @override
-  String get lovingOmi => 'Omi가 마음에 드시나요?';
+  String get lovingOmi => 'Carry가 마음에 드시나요?';
 
   @override
   String get leaveReviewIos => 'App Store에 리뷰를 남겨 더 많은 사람들에게 다가가도록 도와주세요. 귀하의 피드백은 저희에게 큰 의미가 있습니다!';
@@ -1773,7 +1773,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get maybeLater => '나중에';
 
   @override
-  String get speechProfileIntro => 'Omi가 당신의 목표와 목소리를 배워야 합니다. 나중에 수정할 수 있습니다.';
+  String get speechProfileIntro => 'Carry가 당신의 목표와 목소리를 배워야 합니다. 나중에 수정할 수 있습니다.';
 
   @override
   String get getStarted => '시작하기';
@@ -1824,7 +1824,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get tryAgain => '다시 시도';
 
   @override
-  String get connectOmiOmiGlass => 'Omi / OmiGlass 연결';
+  String get connectOmiOmiGlass => 'Carry / Carry Glass 연결';
 
   @override
   String get continueWithoutDevice => '기기 없이 계속';
@@ -1860,7 +1860,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get termsOfUse => '이용약관';
 
   @override
-  String get omiYourAiCompanion => 'Omi – 당신의 AI 동반자';
+  String get omiYourAiCompanion => 'Carry – 당신의 AI 동반자';
 
   @override
   String get captureEveryMoment => '모든 순간을 기록하세요. AI 기반\n요약을 받으세요. 더 이상 메모할 필요가 없습니다.';
@@ -1875,7 +1875,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get microphonePermission => '마이크 권한';
 
   @override
-  String get permissionGrantedNow => '권한이 부여되었습니다! 이제:\n\n워치에서 Omi 앱을 열고 아래의 \"계속\"을 탭하세요';
+  String get permissionGrantedNow => '권한이 부여되었습니다! 이제:\n\n워치에서 Carry 앱을 열고 아래의 \"계속\"을 탭하세요';
 
   @override
   String get needMicrophonePermission =>
@@ -1889,7 +1889,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get troubleshootingSteps =>
-      '문제 해결:\n\n1. 워치에 Omi가 설치되어 있는지 확인\n2. 워치에서 Omi 앱 열기\n3. 권한 팝업 찾기\n4. 메시지가 나타나면 \"허용\" 탭\n5. 워치의 앱이 닫힙니다 - 다시 열기\n6. 돌아와서 iPhone에서 \"계속\" 탭';
+      '문제 해결:\n\n1. 워치에 Carry가 설치되어 있는지 확인\n2. 워치에서 Carry 앱 열기\n3. 권한 팝업 찾기\n4. 메시지가 나타나면 \"허용\" 탭\n5. 워치의 앱이 닫힙니다 - 다시 열기\n6. 돌아와서 iPhone에서 \"계속\" 탭';
 
   @override
   String get recordingStartedSuccessfully => '녹음이 성공적으로 시작되었습니다!';
@@ -2039,16 +2039,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get addFirstMemory => '첫 번째 기억 추가';
 
   @override
-  String get clearMemoryTitle => 'Omi의 기억 지우기';
+  String get clearMemoryTitle => 'Carry의 기억 지우기';
 
   @override
-  String get clearMemoryMessage => 'Omi의 기억을 지우시겠습니까? 이 작업은 되돌릴 수 없습니다.';
+  String get clearMemoryMessage => 'Carry의 기억을 지우시겠습니까? 이 작업은 되돌릴 수 없습니다.';
 
   @override
   String get clearMemoryButton => '메모리 지우기';
 
   @override
-  String get memoryClearedSuccess => 'Omi의 기억이 지워졌습니다';
+  String get memoryClearedSuccess => 'Carry의 기억이 지워졌습니다';
 
   @override
   String get noMemoriesToDelete => '삭제할 메모리가 없습니다';
@@ -2194,7 +2194,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get translationNotice => '번역 안내';
 
   @override
-  String get translationNoticeMessage => 'Omi는 대화를 기본 언어로 번역합니다. 설정 → 프로필에서 언제든지 업데이트할 수 있습니다.';
+  String get translationNoticeMessage => 'Carry는 대화를 기본 언어로 번역합니다. 설정 → 프로필에서 언제든지 업데이트할 수 있습니다.';
 
   @override
   String get pleaseCheckInternetConnection => '인터넷 연결을 확인하고 다시 시도해주세요';
@@ -2377,7 +2377,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get privacyPolicyTitle => '개인정보 보호정책';
 
   @override
-  String get omiSttProvider => 'Omi';
+  String get omiSttProvider => 'Carry';
 
   @override
   String labelCopied(String label) {
@@ -2522,7 +2522,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get checksForAudioFiles => 'SD 카드에서 오디오 파일 확인';
 
   @override
-  String get omiSyncsAudioFiles => 'Omi는 그런 다음 오디오 파일을 서버와 동기화합니다';
+  String get omiSyncsAudioFiles => 'Carry는 그런 다음 오디오 파일을 서버와 동기화합니다';
 
   @override
   String get serverProcessesAudio => '서버가 오디오 파일을 처리하고 추억을 만듭니다';
@@ -2531,10 +2531,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get youreAllSet => '준비 완료!';
 
   @override
-  String get welcomeToOmiDescription => 'Omi에 오신 것을 환영합니다! AI 동반자가 대화, 작업 등을 도와드릴 준비가 되었습니다.';
+  String get welcomeToOmiDescription => 'Carry에 오신 것을 환영합니다! AI 동반자가 대화, 작업 등을 도와드릴 준비가 되었습니다.';
 
   @override
-  String get startUsingOmi => 'Omi 사용 시작';
+  String get startUsingOmi => 'Carry 사용 시작';
 
   @override
   String get back => '뒤로';
@@ -2610,7 +2610,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get reviewAndManageConversations => '녹음된 대화를 검토하고 관리하세요';
 
   @override
-  String get startCapturingConversations => 'Omi 장치로 대화를 캡처하여 여기에서 보세요.';
+  String get startCapturingConversations => 'Carry 장치로 대화를 캡처하여 여기에서 보세요.';
 
   @override
   String get useMobileAppToCapture => '모바일 앱을 사용하여 오디오를 캡처하세요';
@@ -2625,7 +2625,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get showAll => '모두 표시 →';
 
   @override
-  String get noTasksForToday => '오늘의 작업이 없습니다.\nOmi에게 더 많은 작업을 요청하거나 수동으로 생성하세요.';
+  String get noTasksForToday => '오늘의 작업이 없습니다.\nCarry에게 더 많은 작업을 요청하거나 수동으로 생성하세요.';
 
   @override
   String get dailyScore => '일일 점수';
@@ -2772,7 +2772,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get createNewApp => '새 앱 만들기';
 
   @override
-  String get buildSubmitCustomOmiApp => '사용자 정의 Omi 앱을 빌드하고 제출하세요';
+  String get buildSubmitCustomOmiApp => '사용자 정의 Carry 앱을 빌드하고 제출하세요';
 
   @override
   String get submittingYourApp => '앱을 제출하는 중...';
@@ -2817,7 +2817,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get makeMyAppPublic => '내 앱을 공개로 만들기';
 
   @override
-  String get submitAppTermsAgreement => '이 앱을 제출함으로써 Omi AI의 서비스 약관 및 개인정보 보호정책에 동의합니다';
+  String get submitAppTermsAgreement => '이 앱을 제출함으로써 Carry AI의 서비스 약관 및 개인정보 보호정책에 동의합니다';
 
   @override
   String get submitApp => '앱 제출';
@@ -2859,7 +2859,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get dataAccessNotice => '데이터 접근 알림';
 
   @override
-  String get dataAccessWarning => '이 앱은 귀하의 데이터에 접근합니다. Omi AI는 이 앱이 귀하의 데이터를 사용, 수정 또는 삭제하는 방법에 대해 책임지지 않습니다';
+  String get dataAccessWarning => '이 앱은 귀하의 데이터에 접근합니다. Carry AI는 이 앱이 귀하의 데이터를 사용, 수정 또는 삭제하는 방법에 대해 책임지지 않습니다';
 
   @override
   String get installApp => '앱 설치';
@@ -3202,7 +3202,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get upgradeToPro => 'Pro로 업그레이드';
 
   @override
-  String get getOmiDevice => 'Omi 장치 받기';
+  String get getOmiDevice => 'Carry 장치 받기';
 
   @override
   String get wearableAiCompanion => '웨어러블 AI 컴패니언';
@@ -3268,7 +3268,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get setAllMemoriesToPublic => '모든 메모리를 공개로 설정';
 
   @override
-  String get permanentlyRemoveAllMemories => 'Omi에서 모든 메모리를 영구적으로 제거';
+  String get permanentlyRemoveAllMemories => 'Carry에서 모든 메모리를 영구적으로 제거';
 
   @override
   String get allMemoriesAreNowPrivate => '모든 메모리가 비공개로 설정되었습니다';
@@ -3277,18 +3277,18 @@ class AppLocalizationsKo extends AppLocalizations {
   String get allMemoriesAreNowPublic => '모든 메모리가 공개로 설정되었습니다';
 
   @override
-  String get clearOmisMemory => 'Omi의 메모리 지우기';
+  String get clearOmisMemory => 'Carry의 메모리 지우기';
 
   @override
   String clearMemoryConfirmation(int count) {
-    return 'Omi의 메모리를 지우시겠습니까? 이 작업은 취소할 수 없으며 모든 $count개의 메모리를 영구적으로 삭제합니다.';
+    return 'Carry의 메모리를 지우시겠습니까? 이 작업은 취소할 수 없으며 모든 $count개의 메모리를 영구적으로 삭제합니다.';
   }
 
   @override
-  String get omisMemoryCleared => '당신에 대한 Omi의 메모리가 지워졌습니다';
+  String get omisMemoryCleared => '당신에 대한 Carry의 메모리가 지워졌습니다';
 
   @override
-  String get welcomeToOmi => 'Omi에 오신 것을 환영합니다';
+  String get welcomeToOmi => 'Carry에 오신 것을 환영합니다';
 
   @override
   String get continueWithApple => 'Apple로 계속하기';
@@ -3333,7 +3333,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get chooseYourLanguage => '언어를 선택하세요';
 
   @override
-  String get selectPreferredLanguageForBestExperience => '최고의 Omi 경험을 위해 선호하는 언어를 선택하세요';
+  String get selectPreferredLanguageForBestExperience => '최고의 Carry 경험을 위해 선호하는 언어를 선택하세요';
 
   @override
   String get searchLanguages => '언어 검색...';
@@ -3351,7 +3351,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get nameMustBeAtLeast2Characters => '이름은 최소 2자 이상이어야 합니다';
 
   @override
-  String get tellUsHowYouWouldLikeToBeAddressed => '어떻게 불리기를 원하시는지 알려주세요. 이는 Omi 경험을 개인화하는 데 도움이 됩니다.';
+  String get tellUsHowYouWouldLikeToBeAddressed => '어떻게 불리기를 원하시는지 알려주세요. 이는 Carry 경험을 개인화하는 데 도움이 됩니다.';
 
   @override
   String charactersCount(int count) {
@@ -3359,7 +3359,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get enableFeaturesForBestExperience => '기기에서 최고의 Omi 경험을 위해 기능을 활성화하세요.';
+  String get enableFeaturesForBestExperience => '기기에서 최고의 Carry 경험을 위해 기능을 활성화하세요.';
 
   @override
   String get microphoneAccess => '마이크 액세스';
@@ -3368,7 +3368,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get recordAudioConversations => '오디오 대화 녹음';
 
   @override
-  String get microphoneAccessDescription => 'Omi는 대화를 녹음하고 전사를 제공하기 위해 마이크 액세스가 필요합니다.';
+  String get microphoneAccessDescription => 'Carry는 대화를 녹음하고 전사를 제공하기 위해 마이크 액세스가 필요합니다.';
 
   @override
   String get screenRecording => '화면 녹화';
@@ -3377,7 +3377,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get captureSystemAudioFromMeetings => '회의에서 시스템 오디오 캡처';
 
   @override
-  String get screenRecordingDescription => 'Omi는 브라우저 기반 회의에서 시스템 오디오를 캡처하기 위해 화면 녹화 권한이 필요합니다.';
+  String get screenRecordingDescription => 'Carry는 브라우저 기반 회의에서 시스템 오디오를 캡처하기 위해 화면 녹화 권한이 필요합니다.';
 
   @override
   String get accessibility => '접근성';
@@ -3386,7 +3386,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get detectBrowserBasedMeetings => '브라우저 기반 회의 감지';
 
   @override
-  String get accessibilityDescription => 'Omi는 브라우저에서 Zoom, Meet 또는 Teams 회의에 참여할 때를 감지하기 위해 접근성 권한이 필요합니다.';
+  String get accessibilityDescription => 'Carry는 브라우저에서 Zoom, Meet 또는 Teams 회의에 참여할 때를 감지하기 위해 접근성 권한이 필요합니다.';
 
   @override
   String get pleaseWait => '잠시만 기다려 주세요...';
@@ -3419,10 +3419,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get voiceAndPeople => '음성 및 사람';
 
   @override
-  String get teachOmiYourVoice => 'Omi에게 목소리 가르치기';
+  String get teachOmiYourVoice => 'Carry에게 목소리 가르치기';
 
   @override
-  String get tellOmiWhoSaidIt => '누가 말했는지 Omi에게 알려주기 🗣️';
+  String get tellOmiWhoSaidIt => '누가 말했는지 Carry에게 알려주기 🗣️';
 
   @override
   String get payment => '결제';
@@ -3434,7 +3434,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get preferences => '환경설정';
 
   @override
-  String get helpImproveOmiBySharing => '익명화된 분석 데이터를 공유하여 Omi 개선 돕기';
+  String get helpImproveOmiBySharing => '익명화된 분석 데이터를 공유하여 Carry 개선 돕기';
 
   @override
   String get deleteAccount => '계정 삭제';
@@ -3458,7 +3458,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get conversationsExportStarted => '대화 내보내기가 시작되었습니다. 몇 초 정도 걸릴 수 있으니 기다려 주세요.';
 
   @override
-  String get mcpDescription => 'Omi를 다른 애플리케이션과 연결하여 기억과 대화를 읽고, 검색하고, 관리합니다. 시작하려면 키를 생성하세요.';
+  String get mcpDescription => 'Carry를 다른 애플리케이션과 연결하여 기억과 대화를 읽고, 검색하고, 관리합니다. 시작하려면 키를 생성하세요.';
 
   @override
   String get apiKeys => 'API 키';
@@ -3493,7 +3493,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get triggersWhenDaySummaryGenerated => '일일 요약이 생성되면 트리거됩니다.';
 
   @override
-  String get tryLatestExperimentalFeatures => 'Omi 팀의 최신 실험적 기능을 사용해 보세요.';
+  String get tryLatestExperimentalFeatures => 'Carry 팀의 최신 실험적 기능을 사용해 보세요.';
 
   @override
   String get transcriptionServiceDiagnosticStatus => '녹취 서비스 진단 상태';
@@ -3563,7 +3563,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get letOmiChooseAutomatically => 'Omi가 자동으로 최적의 앱을 선택하도록 허용';
+  String get letOmiChooseAutomatically => 'Carry가 자동으로 최적의 앱을 선택하도록 허용';
 
   @override
   String get deleteConversationConfirmation => '이 대화를 삭제하시겠습니까? 이 작업은 취소할 수 없습니다.';
@@ -3699,7 +3699,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get translatedByOmi => 'omi가 번역함';
+  String get translatedByOmi => 'carry가 번역함';
 
   @override
   String get backToConversations => '대화로 돌아가기';
@@ -3760,7 +3760,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get customVocabularyHeader => '사용자 정의 어휘';
 
   @override
-  String get addWordsDescription => '전사 중에 Omi가 인식해야 하는 단어를 추가하세요.';
+  String get addWordsDescription => '전사 중에 Carry가 인식해야 하는 단어를 추가하세요.';
 
   @override
   String get enterWordsHint => '단어 입력 (쉼표로 구분)';
@@ -3844,7 +3844,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get deleteKnowledgeGraphWarning => '파생된 모든 지식 그래프 데이터가 삭제됩니다. 원래 메모리는 안전하게 유지됩니다.';
 
   @override
-  String get connectOmiWithAI => 'Omi를 AI 어시스턴트와 연결';
+  String get connectOmiWithAI => 'Carry를 AI 어시스턴트와 연결';
 
   @override
   String get noAPIKeys => 'API 키가 없습니다. 시작하려면 하나를 만드세요.';
@@ -3877,7 +3877,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get holdOnPreparingForm => '잠시만요, 양식을 준비하고 있습니다';
 
   @override
-  String get bySubmittingYouAgreeToOmi => '제출하면 Omi ';
+  String get bySubmittingYouAgreeToOmi => '제출하면 Carry ';
 
   @override
   String get termsAndPrivacyPolicy => '이용약관 및 개인정보 처리방침';
@@ -4033,7 +4033,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get issueActivatingApp => '이 앱을 활성화하는 데 문제가 발생했습니다. 다시 시도해 주세요.';
 
   @override
-  String get dataAccessNoticeDescription => '이 앱은 귀하의 데이터에 액세스합니다. Omi AI는 이 앱에 의한 데이터 사용, 수정 또는 삭제에 대해 책임지지 않습니다';
+  String get dataAccessNoticeDescription => '이 앱은 귀하의 데이터에 액세스합니다. Carry AI는 이 앱에 의한 데이터 사용, 수정 또는 삭제에 대해 책임지지 않습니다';
 
   @override
   String get copyUrl => 'URL 복사';
@@ -4118,14 +4118,14 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get omiApiKeys => 'Omi API 키';
+  String get omiApiKeys => 'Carry API 키';
 
   @override
   String get apiKeysDescription =>
-      'API 키는 앱이 OMI 서버와 통신할 때 인증에 사용됩니다. 애플리케이션이 메모리를 생성하고 다른 OMI 서비스에 안전하게 접근할 수 있게 합니다.';
+      'API 키는 앱이 CARRY 서버와 통신할 때 인증에 사용됩니다. 애플리케이션이 메모리를 생성하고 다른 CARRY 서비스에 안전하게 접근할 수 있게 합니다.';
 
   @override
-  String get aboutOmiApiKeys => 'Omi API 키 정보';
+  String get aboutOmiApiKeys => 'Carry API 키 정보';
 
   @override
   String get yourNewKey => '새 키:';
@@ -4254,7 +4254,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get e2eeDescription =>
-      '엔드투엔드 암호화는 개인정보 보호의 최고 기준입니다. 활성화되면 데이터가 서버로 전송되기 전에 기기에서 암호화됩니다. 이는 Omi를 포함한 그 누구도 귀하의 콘텐츠에 접근할 수 없음을 의미합니다.';
+      '엔드투엔드 암호화는 개인정보 보호의 최고 기준입니다. 활성화되면 데이터가 서버로 전송되기 전에 기기에서 암호화됩니다. 이는 Carry를 포함한 그 누구도 귀하의 콘텐츠에 접근할 수 없음을 의미합니다.';
 
   @override
   String get importantTradeoffs => '중요한 절충 사항:';
@@ -4289,7 +4289,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get secureEncryptionDescription =>
-      '귀하의 데이터는 Google Cloud에서 호스팅되는 당사 서버에서 귀하만의 고유한 키로 암호화됩니다. 이는 Omi 직원이나 Google을 포함한 누구도 데이터베이스에서 직접 귀하의 원시 콘텐츠에 접근할 수 없음을 의미합니다.';
+      '귀하의 데이터는 Google Cloud에서 호스팅되는 당사 서버에서 귀하만의 고유한 키로 암호화됩니다. 이는 Carry 직원이나 Google을 포함한 누구도 데이터베이스에서 직접 귀하의 원시 콘텐츠에 접근할 수 없음을 의미합니다.';
 
   @override
   String get endToEndEncryption => '엔드투엔드 암호화';
@@ -4357,19 +4357,19 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get omiTraining => 'Omi 훈련';
+  String get omiTraining => 'Carry 훈련';
 
   @override
   String get trainingDataProgram => '훈련 데이터 프로그램';
 
   @override
-  String get getOmiUnlimitedFree => '데이터를 제공하여 AI 모델 훈련에 기여하면 Omi Unlimited를 무료로 받으세요.';
+  String get getOmiUnlimitedFree => '데이터를 제공하여 AI 모델 훈련에 기여하면 Carry Unlimited를 무료로 받으세요.';
 
   @override
   String get trainingDataBullets => '• 귀하의 데이터가 AI 모델 개선에 도움이 됩니다\n• 민감하지 않은 데이터만 공유됩니다\n• 완전히 투명한 프로세스';
 
   @override
-  String get learnMoreAtOmiTraining => 'omi.me/training에서 자세히 알아보기';
+  String get learnMoreAtOmiTraining => 'carry.me/training에서 자세히 알아보기';
 
   @override
   String get agreeToContributeData => 'AI 훈련을 위해 데이터를 제공하는 것에 대해 이해하고 동의합니다';
@@ -4446,7 +4446,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get youAreOnUnlimitedPlan => '현재 Unlimited 플랜을 사용 중입니다.';
 
   @override
-  String get yourOmiUnleashed => '당신의 Omi, 해방되다. 무한한 가능성을 위해 Unlimited로.';
+  String get yourOmiUnleashed => '당신의 Carry, 해방되다. 무한한 가능성을 위해 Unlimited로.';
 
   @override
   String planEndedOn(String date) {
@@ -4470,10 +4470,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get unlimitedConversations => '무제한 대화';
 
   @override
-  String get askOmiAnything => 'Omi에게 당신의 삶에 대해 무엇이든 물어보세요';
+  String get askOmiAnything => 'Carry에게 당신의 삶에 대해 무엇이든 물어보세요';
 
   @override
-  String get unlockOmiInfiniteMemory => 'Omi의 무한 메모리 잠금 해제';
+  String get unlockOmiInfiniteMemory => 'Carry의 무한 메모리 잠금 해제';
 
   @override
   String get youreOnAnnualPlan => '연간 플랜을 사용 중입니다';
@@ -4527,7 +4527,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get privacyIntroText =>
-      'Omi에서는 귀하의 개인정보를 매우 중요하게 생각합니다. 수집하는 데이터와 사용 방법에 대해 투명하게 알려드리고자 합니다. 알아야 할 사항은 다음과 같습니다:';
+      'Carry에서는 귀하의 개인정보를 매우 중요하게 생각합니다. 수집하는 데이터와 사용 방법에 대해 투명하게 알려드리고자 합니다. 알아야 할 사항은 다음과 같습니다:';
 
   @override
   String get whatWeTrack => '추적 항목';
@@ -4542,10 +4542,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get ourCommitment => '우리의 약속';
 
   @override
-  String get commitmentText => '우리는 수집한 데이터를 Omi를 더 나은 제품으로 만드는 데만 사용할 것을 약속합니다. 귀하의 개인정보와 신뢰는 우리에게 가장 중요합니다.';
+  String get commitmentText => '우리는 수집한 데이터를 Carry를 더 나은 제품으로 만드는 데만 사용할 것을 약속합니다. 귀하의 개인정보와 신뢰는 우리에게 가장 중요합니다.';
 
   @override
-  String get thankYouText => 'Omi의 소중한 사용자가 되어 주셔서 감사합니다. 질문이나 우려 사항이 있으시면 team@basedhardware.com으로 연락해 주세요.';
+  String get thankYouText => 'Carry의 소중한 사용자가 되어 주셔서 감사합니다. 질문이나 우려 사항이 있으시면 team@basedhardware.com으로 연락해 주세요.';
 
   @override
   String get password => '비밀번호';
@@ -4628,7 +4628,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get minutes => '분';
 
   @override
-  String get omiHas => 'Omi:';
+  String get omiHas => 'Carry:';
 
   @override
   String get premiumMinutesUsed => '프리미엄 분 사용됨.';
@@ -4719,7 +4719,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get howItWorksTitle => '어떻게 작동하나요?';
 
   @override
-  String get howPeopleWorks => '사람이 생성되면 대화 기록으로 이동하여 해당 세그먼트를 할당할 수 있습니다. 그러면 Omi가 그들의 음성도 인식할 수 있습니다!';
+  String get howPeopleWorks => '사람이 생성되면 대화 기록으로 이동하여 해당 세그먼트를 할당할 수 있습니다. 그러면 Carry가 그들의 음성도 인식할 수 있습니다!';
 
   @override
   String get tapToDelete => '탭하여 삭제';
@@ -4989,7 +4989,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get enableApps => '앱 활성화';
 
   @override
-  String get omiAppName => 'Omi';
+  String get omiAppName => 'Carry';
 
   @override
   String get showMore => '더 보기 ↓';
@@ -5013,16 +5013,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get checkingAppleWatch => 'Apple Watch 확인 중...';
 
   @override
-  String get installOmiOnAppleWatch => 'Apple Watch에\nOmi 설치';
+  String get installOmiOnAppleWatch => 'Apple Watch에\nCarry 설치';
 
   @override
-  String get installOmiOnAppleWatchDescription => 'Omi와 함께 Apple Watch를 사용하려면 먼저 시계에 Omi 앱을 설치해야 합니다.';
+  String get installOmiOnAppleWatchDescription => 'Carry와 함께 Apple Watch를 사용하려면 먼저 시계에 Carry 앱을 설치해야 합니다.';
 
   @override
-  String get openOmiOnAppleWatch => 'Apple Watch에서\nOmi 열기';
+  String get openOmiOnAppleWatch => 'Apple Watch에서\nCarry 열기';
 
   @override
-  String get openOmiOnAppleWatchDescription => 'Omi 앱이 Apple Watch에 설치되어 있습니다. 앱을 열고 시작을 탭하세요.';
+  String get openOmiOnAppleWatchDescription => 'Carry 앱이 Apple Watch에 설치되어 있습니다. 앱을 열고 시작을 탭하세요.';
 
   @override
   String get openWatchApp => 'Watch 앱 열기';
@@ -5032,13 +5032,13 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get unableToOpenWatchApp =>
-      'Apple Watch 앱을 열 수 없습니다. Apple Watch에서 Watch 앱을 수동으로 열고 \"사용 가능한 앱\" 섹션에서 Omi를 설치하세요.';
+      'Apple Watch 앱을 열 수 없습니다. Apple Watch에서 Watch 앱을 수동으로 열고 \"사용 가능한 앱\" 섹션에서 Carry를 설치하세요.';
 
   @override
   String get appleWatchConnectedSuccessfully => 'Apple Watch가 성공적으로 연결되었습니다!';
 
   @override
-  String get appleWatchNotReachable => 'Apple Watch에 아직 연결할 수 없습니다. 시계에서 Omi 앱이 열려 있는지 확인하세요.';
+  String get appleWatchNotReachable => 'Apple Watch에 아직 연결할 수 없습니다. 시계에서 Carry 앱이 열려 있는지 확인하세요.';
 
   @override
   String errorCheckingConnection(String error) {
@@ -5116,7 +5116,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get noSummary => '요약 없음';
 
   @override
-  String get updateOmiFirmware => 'omi 펌웨어 업데이트';
+  String get updateOmiFirmware => 'carry 펌웨어 업데이트';
 
   @override
   String get anErrorOccurredTryAgain => '오류가 발생했습니다. 다시 시도해 주세요.';
@@ -5125,7 +5125,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get welcomeBackSimple => '다시 오신 것을 환영합니다';
 
   @override
-  String get addVocabularyDescription => '기록 중 Omi가 인식해야 할 단어를 추가하세요.';
+  String get addVocabularyDescription => '기록 중 Carry가 인식해야 할 단어를 추가하세요.';
 
   @override
   String get enterWordsCommaSeparated => '단어 입력 (쉼표로 구분)';
@@ -5286,13 +5286,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get wrappedNoDataAvailable => '데이터가 없습니다';
 
   @override
-  String get wrappedOmiLifeRecap => 'Omi 라이프 요약';
+  String get wrappedOmiLifeRecap => 'Carry 라이프 요약';
 
   @override
   String get wrappedSwipeUpToBegin => '위로 스와이프하여 시작';
 
   @override
-  String get wrappedShareText => '나의 2025, Omi가 기억해요 ✨ omi.me/wrapped';
+  String get wrappedShareText => '나의 2025, Carry가 기억해요 ✨ carry.me/wrapped';
 
   @override
   String get wrappedFailedToShare => '공유에 실패했습니다. 다시 시도해주세요.';
@@ -5313,7 +5313,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get wrappedMy2025 => '나의 2025';
 
   @override
-  String get wrappedRememberedByOmi => 'Omi가 기억해요';
+  String get wrappedRememberedByOmi => 'Carry가 기억해요';
 
   @override
   String get wrappedMostFunDay => '가장 즐거운';
@@ -5527,7 +5527,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get notificationFrequency => '알림 빈도';
 
   @override
-  String get controlNotificationFrequency => 'Omi가 사전 알림을 보내는 빈도를 제어합니다.';
+  String get controlNotificationFrequency => 'Carry가 사전 알림을 보내는 빈도를 제어합니다.';
 
   @override
   String get yourScore => '내 점수';
@@ -5551,7 +5551,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get dailyScoreExplanation => '일일 점수는 작업 완료를 기반으로 합니다. 작업을 완료하여 점수를 높이세요!';
 
   @override
-  String get notificationFrequencyDescription => 'Omi가 사전 알림 및 리마인더를 보내는 빈도를 제어합니다.';
+  String get notificationFrequencyDescription => 'Carry가 사전 알림 및 리마인더를 보내는 빈도를 제어합니다.';
 
   @override
   String get sliderOff => '끄기';
@@ -5751,7 +5751,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get noRecordings => '녹음 없음';
 
   @override
-  String get audioFromOmiWillAppearHere => 'Omi 장치의 오디오가 여기에 표시됩니다';
+  String get audioFromOmiWillAppearHere => 'Carry 장치의 오디오가 여기에 표시됩니다';
 
   @override
   String get deleteProcessed => '처리된 항목 삭제';
@@ -5871,7 +5871,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get batteryUsageHigher => '배터리 사용량이 클라우드 전사보다 높아집니다.';
 
   @override
-  String get considerOmiCloud => '더 나은 성능을 위해 Omi Cloud 사용을 고려하세요.';
+  String get considerOmiCloud => '더 나은 성능을 위해 Carry Cloud 사용을 고려하세요.';
 
   @override
   String get highResourceUsage => '높은 리소스 사용량';
@@ -6021,7 +6021,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get omiTranscriptionOptimized => 'Omi의 내장 라이브 전사는 자동 화자 감지 및 화자 분리로 실시간 대화에 최적화되어 있습니다.';
+  String get omiTranscriptionOptimized => 'Carry의 내장 라이브 전사는 자동 화자 감지 및 화자 분리로 실시간 대화에 최적화되어 있습니다.';
 
   @override
   String get reset => '초기화';
@@ -6109,13 +6109,13 @@ class AppLocalizationsKo extends AppLocalizations {
   String get writeReviewOptional => '리뷰 작성 (선택사항)';
 
   @override
-  String get setupQuestionsIntro => '몇 가지 질문에 답변하여 Omi 개선을 도와주세요. 🫶 💜';
+  String get setupQuestionsIntro => '몇 가지 질문에 답변하여 Carry 개선을 도와주세요. 🫶 💜';
 
   @override
   String get setupQuestionProfession => '1. 직업이 무엇인가요?';
 
   @override
-  String get setupQuestionUsage => '2. Omi를 어디서 사용할 계획인가요?';
+  String get setupQuestionUsage => '2. Carry를 어디서 사용할 계획인가요?';
 
   @override
   String get setupQuestionAge => '3. 나이대가 어떻게 되시나요?';
@@ -6626,23 +6626,23 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get batteryFullyChargedTitle => 'Omi가 완전히 충전되었습니다';
+  String get batteryFullyChargedTitle => 'Carry가 완전히 충전되었습니다';
 
   @override
-  String get batteryFullyChargedBody => 'Omi 기기가 완전히 충전되었습니다. 이제 플러그를 뽑으셔도 됩니다!';
+  String get batteryFullyChargedBody => 'Carry 기기가 완전히 충전되었습니다. 이제 플러그를 뽑으셔도 됩니다!';
 
   @override
-  String get deviceDisconnectedNotificationTitle => 'Omi 기기가 연결 해제되었습니다';
+  String get deviceDisconnectedNotificationTitle => 'Carry 기기가 연결 해제되었습니다';
 
   @override
-  String get deviceDisconnectedNotificationBody => 'Omi를 계속 사용하려면 다시 연결해 주세요.';
+  String get deviceDisconnectedNotificationBody => 'Carry를 계속 사용하려면 다시 연결해 주세요.';
 
   @override
   String get firmwareUpdateAvailable => '펌웨어 업데이트 사용 가능';
 
   @override
   String firmwareUpdateAvailableDescription(String version) {
-    return 'Omi 기기에 새 펌웨어 업데이트($version)를 사용할 수 있습니다. 지금 업데이트하시겠습니까?';
+    return 'Carry 기기에 새 펌웨어 업데이트($version)를 사용할 수 있습니다. 지금 업데이트하시겠습니까?';
   }
 
   @override
@@ -6678,7 +6678,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get almostDone => '거의 완료되었습니다...';
 
   @override
-  String get omiSays => 'omi가 말합니다';
+  String get omiSays => 'carry가 말합니다';
 
   @override
   String get analyzingYourData => '데이터 분석 중...';
@@ -6917,7 +6917,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get nextButton => '다음';
 
   @override
-  String get connectOmiDevice => 'Omi 장치 연결';
+  String get connectOmiDevice => 'Carry 장치 연결';
 
   @override
   String planSwitchingDescriptionWithTitle(String title) {
@@ -6946,7 +6946,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get transcriptionJsonPlaceholder => 'JSON 구성을 여기에 붙여넣으세요...';
 
   @override
-  String get transcriptionSourceOmi => 'Omi';
+  String get transcriptionSourceOmi => 'Carry';
 
   @override
   String get pricePlaceholder => '0.00';
@@ -6970,7 +6970,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get actionItemReminderTitle => 'Omi 알림';
+  String get actionItemReminderTitle => 'Carry 알림';
 
   @override
   String deviceDisconnectedTitle(String deviceName) {
@@ -6998,7 +6998,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get onboardingComplete => '완료';
 
   @override
-  String get onboardingWelcomeToOmi => 'Omi에 오신 것을 환영합니다';
+  String get onboardingWelcomeToOmi => 'Carry에 오신 것을 환영합니다';
 
   @override
   String get onboardingTellUsAboutYourself => '자기소개를 해주세요';
@@ -7725,19 +7725,19 @@ class AppLocalizationsKo extends AppLocalizations {
   String get reportAnIssue => '문제 신고';
 
   @override
-  String get pairingTitleOmi => 'Omi 전원 켜기';
+  String get pairingTitleOmi => 'Carry 전원 켜기';
 
   @override
   String get pairingDescOmi => '기기가 진동할 때까지 길게 눌러 전원을 켜세요.';
 
   @override
-  String get pairingTitleOmiDevkit => 'Omi DevKit를 페어링 모드로 전환';
+  String get pairingTitleOmiDevkit => 'Carry DevKit를 페어링 모드로 전환';
 
   @override
   String get pairingDescOmiDevkit => '버튼을 한 번 눌러 전원을 켜세요. 페어링 모드에서 LED가 보라색으로 깜빡입니다.';
 
   @override
-  String get pairingTitleOmiGlass => 'Omi Glass 전원 켜기';
+  String get pairingTitleOmiGlass => 'Carry Glass 전원 켜기';
 
   @override
   String get pairingDescOmiGlass => '측면 버튼을 3초간 길게 눌러 전원을 켜세요.';
@@ -7776,7 +7776,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get pairingTitleAppleWatch => 'Apple Watch 연결';
 
   @override
-  String get pairingDescAppleWatch => 'Apple Watch에 Omi 앱을 설치하고 열어서 앱에서 연결을 탭하세요.';
+  String get pairingDescAppleWatch => 'Apple Watch에 Carry 앱을 설치하고 열어서 앱에서 연결을 탭하세요.';
 
   @override
   String get pairingTitleNeoOne => 'Neo One를 페어링 모드로 전환';
@@ -7870,7 +7870,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get onboardingWhatIKnowAboutYouTitle => '당신에 대해 알고 있는 것';
 
   @override
-  String get onboardingWhatIKnowAboutYouDescription => '이 지도는 Omi가 대화에서 배우면서 업데이트됩니다.';
+  String get onboardingWhatIKnowAboutYouDescription => '이 지도는 Carry가 대화에서 배우면서 업데이트됩니다.';
 
   @override
   String get apiEnvironment => 'API 환경';
@@ -7923,7 +7923,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get tasksOverdue => '기한 초과';
 
   @override
-  String get phoneCallsWithOmi => 'Omi로 통화';
+  String get phoneCallsWithOmi => 'Carry로 통화';
 
   @override
   String get phoneCallsSubtitle => '실시간 전사와 함께 전화하기';
@@ -8125,10 +8125,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get showTasksOnHomepage => '홈페이지에 작업 표시';
 
   @override
-  String get phoneCallsUnlimitedOnly => 'Omi를 통한 전화 통화';
+  String get phoneCallsUnlimitedOnly => 'Carry를 통한 전화 통화';
 
   @override
-  String get phoneCallsUpsellSubtitle => 'Omi를 통해 전화를 걸고 실시간 텍스트 변환, 자동 요약 등을 받으세요.';
+  String get phoneCallsUpsellSubtitle => 'Carry를 통해 전화를 걸고 실시간 텍스트 변환, 자동 요약 등을 받으세요.';
 
   @override
   String get phoneCallsUpsellFeature1 => '모든 통화의 실시간 텍스트 변환';
@@ -8245,7 +8245,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get fairUseAboutBody =>
-      'Omi는 개인 대화, 회의 및 실시간 상호작용을 위해 설계되었습니다. 사용량은 연결 시간이 아닌 감지된 실제 발화 시간으로 측정됩니다. 비개인적 콘텐츠에 대해 정상 패턴을 크게 초과하는 사용이 있을 경우 조정이 적용될 수 있습니다.';
+      'Carry는 개인 대화, 회의 및 실시간 상호작용을 위해 설계되었습니다. 사용량은 연결 시간이 아닌 감지된 실제 발화 시간으로 측정됩니다. 비개인적 콘텐츠에 대해 정상 패턴을 크게 초과하는 사용이 있을 경우 조정이 적용될 수 있습니다.';
 
   @override
   String fairUseCaseRefCopied(String caseRef) {
@@ -8284,7 +8284,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get improveConnectionContent =>
-      'Omi가 기기와 연결을 유지하는 방식을 개선했습니다. 이를 활성화하려면 기기 정보 페이지로 이동하여 \"기기 연결 해제\"를 탭한 다음 기기를 다시 페어링하세요.';
+      'Carry가 기기와 연결을 유지하는 방식을 개선했습니다. 이를 활성화하려면 기기 정보 페이지로 이동하여 \"기기 연결 해제\"를 탭한 다음 기기를 다시 페어링하세요.';
 
   @override
   String get improveConnectionAction => '알겠습니다';
@@ -8295,7 +8295,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get omisStorage => 'Omi 저장소';
+  String get omisStorage => 'Carry 저장소';
 
   @override
   String get phoneStorage => '휴대폰 저장소';
@@ -8339,10 +8339,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get cancelSyncQuestion => '동기화를 취소하시겠습니까?';
 
   @override
-  String get omisStorageDesc => 'Omi가 휴대폰에 연결되지 않으면 내장 메모리에 오디오를 로컬 저장합니다. 녹음을 잃지 않습니다.';
+  String get omisStorageDesc => 'Carry가 휴대폰에 연결되지 않으면 내장 메모리에 오디오를 로컬 저장합니다. 녹음을 잃지 않습니다.';
 
   @override
-  String get phoneStorageDesc => 'Omi가 다시 연결되면 녹음이 업로드 전에 자동으로 휴대폰으로 전송됩니다.';
+  String get phoneStorageDesc => 'Carry가 다시 연결되면 녹음이 업로드 전에 자동으로 휴대폰으로 전송됩니다.';
 
   @override
   String get cloudStorageDesc => '업로드 후 녹음이 처리되고 텍스트로 변환됩니다. 대화는 1분 이내에 사용할 수 있습니다.';
@@ -8369,16 +8369,16 @@ class AppLocalizationsKo extends AppLocalizations {
   String get permissionEnable => '활성화';
 
   @override
-  String get permissionsPageDescription => '이 권한들은 Omi 작동의 핵심입니다. 알림, 위치 기반 경험, 오디오 캡처와 같은 주요 기능을 활성화합니다.';
+  String get permissionsPageDescription => '이 권한들은 Carry 작동의 핵심입니다. 알림, 위치 기반 경험, 오디오 캡처와 같은 주요 기능을 활성화합니다.';
 
   @override
-  String get permissionsRequiredDescription => 'Omi가 제대로 작동하려면 몇 가지 권한이 필요합니다. 계속하려면 권한을 허용해 주세요.';
+  String get permissionsRequiredDescription => 'Carry가 제대로 작동하려면 몇 가지 권한이 필요합니다. 계속하려면 권한을 허용해 주세요.';
 
   @override
   String get permissionsSetupTitle => '최고의 경험을 누리세요';
 
   @override
-  String get permissionsSetupDescription => 'Omi가 마법을 부릴 수 있도록 몇 가지 권한을 활성화하세요.';
+  String get permissionsSetupDescription => 'Carry가 마법을 부릴 수 있도록 몇 가지 권한을 활성화하세요.';
 
   @override
   String get permissionsChangeAnytime => '설정 > 권한에서 언제든지 변경할 수 있습니다';
@@ -8473,7 +8473,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get feedbackTitleFoundAlternative => '무엇으로 전환하시나요?';
 
   @override
-  String get feedbackTitleNotUsing => 'Omi를 더 사용하게 만들 것은 무엇인가요?';
+  String get feedbackTitleNotUsing => 'Carry를 더 사용하게 만들 것은 무엇인가요?';
 
   @override
   String get feedbackSubtitleTooExpensive => '피드백이 적절한 균형을 찾는 데 도움이 됩니다.';
@@ -8491,7 +8491,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get feedbackSubtitleFoundAlternative => '무엇이 눈길을 끌었는지 알고 싶습니다.';
 
   @override
-  String get feedbackSubtitleNotUsing => 'Omi를 더 유용하게 만들고 싶습니다.';
+  String get feedbackSubtitleNotUsing => 'Carry를 더 유용하게 만들고 싶습니다.';
 
   @override
   String get deviceDiagnostics => '기기 진단';
@@ -8671,7 +8671,7 @@ class AppLocalizationsKo extends AppLocalizations {
 
   @override
   String get appleHealthManageNote =>
-      'Omi는 Apple의 HealthKit 프레임워크를 통해 Apple Health에 접근합니다. iOS 설정에서 언제든지 접근 권한을 철회할 수 있습니다.';
+      'Carry는 Apple의 HealthKit 프레임워크를 통해 Apple Health에 접근합니다. iOS 설정에서 언제든지 접근 권한을 철회할 수 있습니다.';
 
   @override
   String get appleHealthConnectCta => 'Apple Health에 연결';
@@ -8686,31 +8686,32 @@ class AppLocalizationsKo extends AppLocalizations {
   String get appleHealthFeatureChatTitle => '건강에 대해 대화하기';
 
   @override
-  String get appleHealthFeatureChatDesc => '걸음 수, 수면, 심박수, 운동에 대해 Omi에게 물어보세요.';
+  String get appleHealthFeatureChatDesc => '걸음 수, 수면, 심박수, 운동에 대해 Carry에게 물어보세요.';
 
   @override
   String get appleHealthFeatureReadOnlyTitle => '읽기 전용 접근';
 
   @override
-  String get appleHealthFeatureReadOnlyDesc => 'Omi는 Apple Health에 쓰거나 데이터를 수정하지 않습니다.';
+  String get appleHealthFeatureReadOnlyDesc => 'Carry는 Apple Health에 쓰거나 데이터를 수정하지 않습니다.';
 
   @override
   String get appleHealthFeatureSecureTitle => '보안 동기화';
 
   @override
-  String get appleHealthFeatureSecureDesc => 'Apple Health 데이터는 비공개로 Omi 계정과 동기화됩니다.';
+  String get appleHealthFeatureSecureDesc => 'Apple Health 데이터는 비공개로 Carry 계정과 동기화됩니다.';
 
   @override
   String get appleHealthDeniedTitle => 'Apple Health 접근이 거부됨';
 
   @override
-  String get appleHealthDeniedBody => 'Omi에 Apple Health 데이터를 읽을 권한이 없습니다. iOS 설정 → 개인정보 보호 및 보안 → 건강 → Omi에서 활성화하세요.';
+  String get appleHealthDeniedBody =>
+      'Carry에 Apple Health 데이터를 읽을 권한이 없습니다. iOS 설정 → 개인정보 보호 및 보안 → 건강 → Carry에서 활성화하세요.';
 
   @override
   String get deleteFlowReasonTitle => '왜 떠나시나요?';
 
   @override
-  String get deleteFlowReasonSubtitle => '여러분의 의견은 모두를 위한 Omi를 개선하는 데 도움이 됩니다.';
+  String get deleteFlowReasonSubtitle => '여러분의 의견은 모두를 위한 Carry를 개선하는 데 도움이 됩니다.';
 
   @override
   String get deleteReasonPrivacy => '개인정보 보호에 대한 우려';
@@ -8737,7 +8738,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get deleteFlowFeedbackTitle => '더 자세히 알려주세요';
 
   @override
-  String get deleteFlowFeedbackSubtitle => '무엇이 있었다면 Omi가 여러분께 도움이 되었을까요?';
+  String get deleteFlowFeedbackSubtitle => '무엇이 있었다면 Carry가 여러분께 도움이 되었을까요?';
 
   @override
   String get deleteFlowFeedbackHint => '선택 사항 — 여러분의 의견은 더 나은 제품을 만드는 데 도움이 됩니다.';
@@ -8882,13 +8883,13 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get chatQuotaSubtitle => 'AI chat messages used with Omi this month.';
+  String get chatQuotaSubtitle => 'AI chat messages used with Carry this month.';
 
   @override
-  String get chatQuotaExceededReply => '월간 한도에 도달했습니다. 제한 없이 Omi와 계속 채팅하려면 업그레이드하세요.';
+  String get chatQuotaExceededReply => '월간 한도에 도달했습니다. 제한 없이 Carry와 계속 채팅하려면 업그레이드하세요.';
 
   @override
-  String get voiceResponseAudio => 'Omi의 응답 소리 내어 읽기';
+  String get voiceResponseAudio => 'Carry의 응답 소리 내어 읽기';
 
   @override
   String get voiceResponseMode => '음성 응답';
@@ -8921,7 +8922,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get voiceMode => '음성 모드';
 
   @override
-  String get quickActionAskOmi => 'Omi에게 무엇이든 물어보세요';
+  String get quickActionAskOmi => 'Carry에게 무엇이든 물어보세요';
 
   @override
   String get record => '녹음';
@@ -9032,14 +9033,14 @@ class AppLocalizationsKo extends AppLocalizations {
   String get syncInProgress => '동기화 진행 중';
 
   @override
-  String get syncStatusUploaded => '업로드됨 · Omi에서 처리 중';
+  String get syncStatusUploaded => '업로드됨 · Carry에서 처리 중';
 
   @override
   String get deleteWhileProcessingTitle => '아직 처리 중';
 
   @override
   String get deleteWhileProcessingMessage =>
-      '이 녹음은 업로드되었지만 Omi가 아직 대화를 만들고 있습니다. 지금 삭제하고 처리가 실패하면 복구할 수 없습니다. 그래도 삭제하시겠습니까?';
+      '이 녹음은 업로드되었지만 Carry가 아직 대화를 만들고 있습니다. 지금 삭제하고 처리가 실패하면 복구할 수 없습니다. 그래도 삭제하시겠습니까?';
 
   @override
   String get syncCardAllBackedUp => '모든 녹음이 동기화됨';
@@ -9055,7 +9056,7 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get syncCardProcessing => 'Omi에서 처리 중…';
+  String get syncCardProcessing => 'Carry에서 처리 중…';
 
   @override
   String get syncCardWaitingInternet => '인터넷 연결 대기 중';
@@ -9071,19 +9072,19 @@ class AppLocalizationsKo extends AppLocalizations {
   }
 
   @override
-  String get syncFlowIntro => '녹음은 기기에서 이 휴대폰으로 전송되어 로컬에 저장된 다음 Omi의 서버에 업로드되어 텍스트로 변환되고 대화로 만들어집니다.';
+  String get syncFlowIntro => '녹음은 기기에서 이 휴대폰으로 전송되어 로컬에 저장된 다음 Carry의 서버에 업로드되어 텍스트로 변환되고 대화로 만들어집니다.';
 
   @override
   String get syncStepUpload => '동기화';
 
   @override
-  String get syncStepUploadDesc => '녹음이 Omi 서버로 전송됩니다';
+  String get syncStepUploadDesc => '녹음이 Carry 서버로 전송됩니다';
 
   @override
   String get syncStepProcess => '전사';
 
   @override
-  String get syncStepProcessDesc => 'Omi가 오디오를 대화로 만듭니다';
+  String get syncStepProcessDesc => 'Carry가 오디오를 대화로 만듭니다';
 
   @override
   String get syncStepBackedUp => '대화 준비 완료';
@@ -9098,7 +9099,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get syncStatusConversationCreated => '대화가 생성되었습니다';
 
   @override
-  String get syncCardUploadingTitle => 'Omi에 업로드 중';
+  String get syncCardUploadingTitle => 'Carry에 업로드 중';
 
   @override
   String get syncCardDownloadingTitle => '기기에서 다운로드 중';
@@ -9130,7 +9131,7 @@ class AppLocalizationsKo extends AppLocalizations {
   String get syncCardRateLimited => '공정 사용 한도에 도달했습니다 — 동기화가 자동으로 다시 시작됩니다';
 
   @override
-  String get syncCardBackendBusy => 'Omi 서버가 혼잡합니다 — 용량이 확보되는 대로 녹음이 동기화됩니다';
+  String get syncCardBackendBusy => 'Carry 서버가 혼잡합니다 — 용량이 확보되는 대로 녹음이 동기화됩니다';
 
   @override
   String get unableToDetermineFirmwareVersion => '현재 펌웨어 버전을 확인할 수 없습니다';
@@ -9148,10 +9149,10 @@ class AppLocalizationsKo extends AppLocalizations {
   String get backgroundModeTitle => '백그라운드 모드';
 
   @override
-  String get backgroundModeDescription => '앱을 완전히 닫아도 Omi 녹음을 계속 유지합니다.';
+  String get backgroundModeDescription => '앱을 완전히 닫아도 Carry 녹음을 계속 유지합니다.';
 
   @override
-  String get backgroundModeNote => '현재는 Omi 기기에서만 작동하며 지속적으로 개선되고 있습니다.';
+  String get backgroundModeNote => '현재는 Carry 기기에서만 작동하며 지속적으로 개선되고 있습니다.';
 
   @override
   String get regenerateRecap => '요약 재생성';
@@ -9169,8 +9170,8 @@ class AppLocalizationsKo extends AppLocalizations {
   String get recapRegenerateNoConversations => '이 날짜에 요약할 대화가 없습니다.';
 
   @override
-  String get syncCustomSttWarningTitle => '동기화는 Omi 전사를 사용합니다';
+  String get syncCustomSttWarningTitle => '동기화는 Carry 전사를 사용합니다';
 
   @override
-  String get syncCustomSttWarningMessage => '직접 설정한 전사 제공자를 사용 중입니다. 이 녹음을 동기화하면 Omi 서버에서 전사되며 요금제의 전사 한도에 포함됩니다.';
+  String get syncCustomSttWarningMessage => '직접 설정한 전사 제공자를 사용 중입니다. 이 녹음을 동기화하면 Carry 서버에서 전사되며 요금제의 전사 한도에 포함됩니다.';
 }

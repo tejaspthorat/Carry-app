@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-/// Premium responsive utility class with sophisticated dark theme
-/// Inspired by modern productivity apps with purple accent system
+/// Premium responsive utility class with the Carry visual system.
+/// Inspired by calm clinical productivity surfaces with blue/navy accents.
 class ResponsiveHelper {
   final BuildContext context;
   late final Size _screenSize;
@@ -26,17 +26,17 @@ class ResponsiveHelper {
     _isLargeScreen = _screenWidth >= 1400;
   }
 
-  // Premium color system inspired by sophisticated dark interfaces
-  static const Color backgroundPrimary = Color(0xFF0F0F0F); // Deep black
-  static const Color backgroundSecondary = Color(0xFF1A1A1A); // Elevated surface
-  static const Color backgroundTertiary = Color(0xFF252525); // Cards and components
-  static const Color backgroundQuaternary = Color(0xFF2A2A2A); // Hover states
+  // Carry color system: dark-mode equivalents of the web app's soft clinical cards.
+  static const Color backgroundPrimary = Color(0xFF0F1720); // Deep navy
+  static const Color backgroundSecondary = Color(0xFF17232D); // Elevated surface
+  static const Color backgroundTertiary = Color(0xFF21313C); // Cards and components
+  static const Color backgroundQuaternary = Color(0xFF2A3D4B); // Hover states
 
-  // Premium purple gradient system
-  static const Color purplePrimary = Color(0xFF8B5CF6); // Main purple
-  static const Color purpleSecondary = Color(0xFFA855F7); // Lighter purple
-  static const Color purpleAccent = Color(0xFF7C3AED); // Darker purple
-  static const Color purpleLight = Color(0xFFD946EF); // Pink-purple
+  // Carry accent system
+  static const Color purplePrimary = Color(0xFF2E7DA7); // Clinical blue
+  static const Color purpleSecondary = Color(0xFF4EA3C9); // Lighter blue
+  static const Color purpleAccent = Color(0xFF1F5D7D); // Deep blue
+  static const Color purpleLight = Color(0xFF8AC7DB); // Soft cyan
 
   // Sophisticated text colors
   static const Color textPrimary = Color(0xFFFFFFFF); // Pure white for headers
@@ -45,8 +45,8 @@ class ResponsiveHelper {
   static const Color textQuaternary = Color(0xFF888888); // Dark gray for disabled
 
   // Accent colors
-  static const Color successColor = Color(0xFF10B981); // Green
-  static const Color warningColor = Color(0xFFF59E0B); // Amber
+  static const Color successColor = Color(0xFF2F9E72); // Clinical green
+  static const Color warningColor = Color(0xFFF2C66D); // Soft amber
   static const Color errorColor = Color(0xFFEF4444); // Red
   static const Color infoColor = Color(0xFF3B82F6); // Blue
 

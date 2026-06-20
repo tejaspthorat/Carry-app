@@ -205,16 +205,16 @@ class SttProviderConfig {
   static final _configs = <SttProvider, SttProviderConfig>{
     SttProvider.omi: SttProviderConfig(
       provider: SttProvider.omi,
-      displayName: 'Omi',
-      description: 'Omi\'s optimized transcription service',
+      displayName: 'Carry',
+      description: 'Carry\'s optimized transcription service',
       icon: FontAwesomeIcons.robot,
       requestType: SttRequestType.streaming,
       responseSchema: const SttResponseSchema(),
     ),
     SttProvider.omiParakeet: SttProviderConfig(
       provider: SttProvider.omiParakeet,
-      displayName: 'Omi Parakeet',
-      description: 'Omi-hosted NVIDIA Parakeet — high-accuracy cloud transcription, no API key',
+      displayName: 'Carry Parakeet',
+      description: 'Carry-hosted NVIDIA Parakeet — high-accuracy cloud transcription, no API key',
       icon: FontAwesomeIcons.feather,
       requiresApiKey: false,
       requestType: SttRequestType.multipartForm,

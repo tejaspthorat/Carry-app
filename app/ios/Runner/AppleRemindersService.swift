@@ -73,7 +73,7 @@ class AppleRemindersService {
 
             let reminder = EKReminder(eventStore: eventStore)
             reminder.title = reminderTitle
-            reminder.notes = "From Omi"
+            reminder.notes = "From Carry"
             reminder.calendar = calendar
 
             if let due = dueDate {

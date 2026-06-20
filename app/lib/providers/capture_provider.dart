@@ -541,7 +541,7 @@ class CaptureProvider extends ChangeNotifier
     // Check codec compatibility for custom STT - fallback to default if incompatible
     CustomSttConfig? effectiveConfig = customSttConfig.isEnabled ? customSttConfig : null;
     if (effectiveConfig != null && !TranscriptSocketServiceFactory.isCodecSupportedForCustomStt(codec)) {
-      Logger.debug('[CustomSTT] Codec $codec not supported, falling back to Omi');
+      Logger.debug('[CustomSTT] Codec $codec not supported, falling back to Carry');
       effectiveConfig = null;
     }
 
@@ -910,7 +910,7 @@ class CaptureProvider extends ChangeNotifier
 
     // Create audio source for BLE device
     final pd = await device.getDeviceInfo(connection);
-    final deviceModel = pd.modelNumber.isNotEmpty ? pd.modelNumber : "Omi";
+    final deviceModel = pd.modelNumber.isNotEmpty ? pd.modelNumber : "Carry";
     if (device.type == DeviceType.omi || device.type == DeviceType.openglass) {
       _activeSource = BleDeviceSource(codec: codec, deviceId: deviceId, deviceModel: deviceModel);
     }

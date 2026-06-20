@@ -24,11 +24,11 @@ class F {
   static String get title {
     switch (env) {
       case Environment.prod:
-        return 'Omi';
+        return 'Carry';
       case Environment.dev:
-        return 'Omi Dev';
+        return 'Carry Dev';
       default:
-        return 'Omi Dev';
+        return 'Carry Dev';
     }
   }
 }

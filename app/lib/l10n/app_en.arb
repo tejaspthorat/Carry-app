@@ -1,7 +1,7 @@
 {
     "@@locale": "en",
     "@@last_modified": "2024-12-26",
-    "appTitle": "Omi",
+    "appTitle": "Carry",
     "@appTitle": {
         "description": "The app title displayed in various places"
     },
@@ -163,7 +163,7 @@
     "@editPerson": {
         "description": "Title for edit person dialog"
     },
-    "createPersonHint": "Create a new person and train Omi to recognize their speech too!",
+    "createPersonHint": "Create a new person and train Carry to recognize their speech too!",
     "@createPersonHint": {
         "description": "Hint text for creating a person"
     },
@@ -217,9 +217,9 @@
     "@couldNotAccessFile": {
         "description": "Error when file access fails"
     },
-    "askOmi": "Ask Omi",
+    "askOmi": "Ask Carry",
     "@askOmi": {
-        "description": "Shortcut to ask Omi a question"
+        "description": "Shortcut to ask Carry a question"
     },
     "done": "Done",
     "@done": {
@@ -355,7 +355,7 @@
     "@noMessagesYet": {
         "description": "Empty chat state message"
     },
-    "deletingMessages": "Deleting your messages from Omi's memory...",
+    "deletingMessages": "Deleting your messages from Carry's memory...",
     "@deletingMessages": {
         "description": "Loading text when clearing chat"
     },
@@ -395,7 +395,7 @@
     "@maxFilesLimit": {
         "description": "Max files upload warning"
     },
-    "chatWithOmi": "Chat with Omi",
+    "chatWithOmi": "Chat with Carry",
     "@chatWithOmi": {
         "description": "Chat share subject"
     },
@@ -435,7 +435,7 @@
     "@unableToFetchApps": {
         "description": "Error when apps fail to load"
     },
-    "aboutOmi": "About Omi",
+    "aboutOmi": "About Carry",
     "@aboutOmi": {
         "description": "About page title"
     },
@@ -591,7 +591,7 @@
     "@developerSettings": {
         "description": "Title for developer settings page"
     },
-    "getOmiForMac": "Get Omi for Mac",
+    "getOmiForMac": "Get Carry for Mac",
     "@getOmiForMac": {
         "description": "Mac app download link"
     },
@@ -615,7 +615,7 @@
     "@yourPrivacyYourControl": {
         "description": "Data privacy page heading"
     },
-    "privacyIntro": "At Omi, we are committed to protecting your privacy. This page allows you to control how your data is stored and used.",
+    "privacyIntro": "At Carry, we are committed to protecting your privacy. This page allows you to control how your data is stored and used.",
     "@privacyIntro": {
         "description": "Data privacy page introduction"
     },
@@ -707,7 +707,7 @@
     "@unpairAndForget": {
         "description": "Unpair and forget device button"
     },
-    "deviceDisconnectedMessage": "Your Omi has been disconnected 😔",
+    "deviceDisconnectedMessage": "Your Carry has been disconnected 😔",
     "@deviceDisconnectedMessage": {
         "description": "Message shown when device is disconnected"
     },
@@ -727,7 +727,7 @@
     "@deviceNotConnected": {
         "description": "Device not connected header"
     },
-    "connectDeviceMessage": "Connect your Omi device to access\ndevice settings and customization",
+    "connectDeviceMessage": "Connect your Carry device to access\ndevice settings and customization",
     "@connectDeviceMessage": {
         "description": "Message encouraging user to connect device"
     },
@@ -899,7 +899,7 @@
     "@docs": {
         "description": "Documentation button text"
     },
-    "yourOmiInsights": "Your Omi Insights",
+    "yourOmiInsights": "Your Carry Insights",
     "@yourOmiInsights": {
         "description": "Usage page title"
     },
@@ -923,7 +923,7 @@
     "@noActivityYet": {
         "description": "Empty state title"
     },
-    "startConversationToSeeInsights": "Start a conversation with Omi\nto see your usage insights here.",
+    "startConversationToSeeInsights": "Start a conversation with Carry\nto see your usage insights here.",
     "@startConversationToSeeInsights": {
         "description": "Empty state description"
     },
@@ -931,7 +931,7 @@
     "@listening": {
         "description": "Listening stat title"
     },
-    "listeningSubtitle": "Total time Omi has actively listened.",
+    "listeningSubtitle": "Total time Carry has actively listened.",
     "@listeningSubtitle": {
         "description": "Listening stat subtitle"
     },
@@ -1023,23 +1023,23 @@
             }
         }
     },
-    "shareStatsMessage": "Sharing my Omi stats! (omi.me - your always-on AI assistant)",
+    "shareStatsMessage": "Sharing my Carry stats! (carry.me - your always-on AI assistant)",
     "@shareStatsMessage": {
         "description": "Share stats base message"
     },
-    "sharePeriodToday": "Today, omi has:",
+    "sharePeriodToday": "Today, carry has:",
     "@sharePeriodToday": {
         "description": "Share stats period: Today"
     },
-    "sharePeriodMonth": "This month, omi has:",
+    "sharePeriodMonth": "This month, carry has:",
     "@sharePeriodMonth": {
         "description": "Share stats period: Month"
     },
-    "sharePeriodYear": "This year, omi has:",
+    "sharePeriodYear": "This year, carry has:",
     "@sharePeriodYear": {
         "description": "Share stats period: Year"
     },
-    "sharePeriodAllTime": "So far, omi has:",
+    "sharePeriodAllTime": "So far, carry has:",
     "@sharePeriodAllTime": {
         "description": "Share stats period: All Time"
     },
@@ -1087,7 +1087,7 @@
     "debugLogsAutoDelete": "Auto-deletes after 3 days.",
     "debugLogsDesc": "Helps diagnose issues",
     "noLogFilesFound": "No log files found.",
-    "omiDebugLog": "Omi debug log",
+    "omiDebugLog": "Carry debug log",
     "logShared": "Log shared",
     "selectLogFile": "Select Log File",
     "shareLogs": "Share Logs",
@@ -1095,7 +1095,7 @@
     "exportStarted": "Export started. This may take a few seconds...",
     "exportAllData": "Export All Data",
     "exportDataDesc": "Export conversations to a JSON file",
-    "exportedConversations": "Exported Conversations from Omi",
+    "exportedConversations": "Exported Conversations from Carry",
     "exportShared": "Export shared",
     "deleteKnowledgeGraphTitle": "Delete Knowledge Graph?",
     "deleteKnowledgeGraphMessage": "This will delete all derived knowledge graph data (nodes and connections). Your original memories will remain safe. The graph will be rebuilt over time or upon next request.",
@@ -1195,7 +1195,7 @@
     "customVocabularyTitle": "Custom Vocabulary",
     "addWords": "Add Words",
     "addWordsDesc": "Names, terms, or uncommon words",
-    "vocabularyHint": "Omi, Callie, OpenAI",
+    "vocabularyHint": "Carry, Callie, OpenAI",
     "connect": "Connect",
     "comingSoon": "Coming Soon",
     "integrationsFooter": "Connect your apps to view data and metrics in chat.",
@@ -1241,7 +1241,7 @@
             }
         }
     },
-    "authAccessMessage": "You'll need to authorize Omi to access your {appName} data. This will open your browser for authentication.",
+    "authAccessMessage": "You'll need to authorize Carry to access your {appName} data. This will open your browser for authentication.",
     "@authAccessMessage": {
         "placeholders": {
             "appName": {
@@ -1278,7 +1278,7 @@
     "permissionRevokedMessage": "Do you want us to remove all your existing recordings too?",
     "yes": "Yes",
     "editName": "Edit Name",
-    "howShouldOmiCallYou": "How should Omi call you?",
+    "howShouldOmiCallYou": "How should Carry call you?",
     "enterYourName": "Enter your name",
     "nameCannotBeEmpty": "Name cannot be empty",
     "nameUpdatedSuccessfully": "Name updated successfully!",
@@ -1462,7 +1462,7 @@
             }
         }
     },
-    "authorizeOmiForTasks": "You'll need to authorize Omi to create tasks in your {appName} account. This will open your browser for authentication.",
+    "authorizeOmiForTasks": "You'll need to authorize Carry to create tasks in your {appName} account. This will open your browser for authentication.",
     "@authorizeOmiForTasks": {
         "placeholders": {
             "appName": {
@@ -1493,9 +1493,9 @@
     "importConfiguration": "Import Configuration",
     "exportConfiguration": "Export configuration",
     "bringYourOwn": "Bring your own",
-    "payYourSttProvider": "Freely use omi. You only pay your STT provider directly.",
+    "payYourSttProvider": "Freely use carry. You only pay your STT provider directly.",
     "freeMinutesMonth": "600 free minutes/month included. Unlimited with ",
-    "omiUnlimited": "Omi Unlimited",
+    "omiUnlimited": "Carry Unlimited",
     "hostRequired": "Host is required",
     "validPortRequired": "Valid port is required",
     "validWebsocketUrlRequired": "Valid WebSocket URL is required (wss://)",
@@ -1553,7 +1553,7 @@
     "logs": "Logs",
     "logsCopied": "Logs copied",
     "noLogsYet": "No logs yet. Start recording to see custom STT activity.",
-    "deviceUsesCodec": "{device} uses {reason}. Omi will be used.",
+    "deviceUsesCodec": "{device} uses {reason}. Carry will be used.",
     "@deviceUsesCodec": {
         "description": "Warning about device codec compatibility",
         "placeholders": {
@@ -1565,7 +1565,7 @@
             }
         }
     },
-    "omiTranscription": "Omi Transcription",
+    "omiTranscription": "Carry Transcription",
     "bestInClassTranscription": "Best in class transcription with zero setup",
     "instantSpeakerLabels": "Instant speaker labels",
     "languageTranslation": "100+ language translation",
@@ -1647,7 +1647,7 @@
     "@enableBluetooth": {
         "description": "Title for dialog prompting user to enable Bluetooth"
     },
-    "bluetoothNeeded": "Omi needs Bluetooth to connect to your wearable. Please enable Bluetooth and try again.",
+    "bluetoothNeeded": "Carry needs Bluetooth to connect to your wearable. Please enable Bluetooth and try again.",
     "@bluetoothNeeded": {
         "description": "Explanation text for why Bluetooth is required"
     },
@@ -1667,7 +1667,7 @@
     "@backgroundActivity": {
         "description": "Title for background activity permission"
     },
-    "backgroundActivityDesc": "Let Omi run in the background for better stability",
+    "backgroundActivityDesc": "Let Carry run in the background for better stability",
     "@backgroundActivityDesc": {
         "description": "Description for background activity permission"
     },
@@ -1706,7 +1706,7 @@
     "@backgroundLocationDeniedDesc": {
         "description": "Instructions to grant background location permission"
     },
-    "lovingOmi": "Loving Omi?",
+    "lovingOmi": "Loving Carry?",
     "@lovingOmi": {
         "description": "Title for the app review prompt"
     },
@@ -1730,7 +1730,7 @@
     "@maybeLater": {
         "description": "Button text to defer action"
     },
-    "speechProfileIntro": "Omi needs to learn your goals and your voice. You'll be able to modify it later.",
+    "speechProfileIntro": "Carry needs to learn your goals and your voice. You'll be able to modify it later.",
     "@speechProfileIntro": {
         "description": "Introduction text for speech profile setup"
     },
@@ -1798,7 +1798,7 @@
     "@tryAgain": {
         "description": "Button text to retry an action"
     },
-    "connectOmiOmiGlass": "Connect Omi / OmiGlass",
+    "connectOmiOmiGlass": "Connect Carry / Carry Glass",
     "@connectOmiOmiGlass": {
         "description": "Button text to connect specific device models"
     },
@@ -1849,7 +1849,7 @@
     "@termsOfUse": {
         "description": "Link text for Terms of Use"
     },
-    "omiYourAiCompanion": "Omi – Your AI Companion",
+    "omiYourAiCompanion": "Carry – Your AI Companion",
     "@omiYourAiCompanion": {
         "description": "App title or branding on onboarding screen"
     },
@@ -1869,7 +1869,7 @@
     "@microphonePermission": {
         "description": "Title for microphone permission section"
     },
-    "permissionGrantedNow": "Permission granted! Now:\n\nOpen the Omi app on your watch and tap \"Continue\" below",
+    "permissionGrantedNow": "Permission granted! Now:\n\nOpen the Carry app on your watch and tap \"Continue\" below",
     "@permissionGrantedNow": {
         "description": "Instructions after permission is granted"
     },
@@ -1885,7 +1885,7 @@
     "@needHelp": {
         "description": "Link to help dialog"
     },
-    "troubleshootingSteps": "Troubleshooting:\n\n1. Ensure Omi is installed on your watch\n2. Open the Omi app on your watch\n3. Look for the permission popup\n4. Tap \"Allow\" when prompted\n5. App on your watch will close - reopen it\n6. Come back and tap \"Continue\" on your iPhone",
+    "troubleshootingSteps": "Troubleshooting:\n\n1. Ensure Carry is installed on your watch\n2. Open the Carry app on your watch\n3. Look for the permission popup\n4. Tap \"Allow\" when prompted\n5. App on your watch will close - reopen it\n6. Come back and tap \"Continue\" on your iPhone",
     "@troubleshootingSteps": {
         "description": "Troubleshooting instructions for watch setup"
     },
@@ -1942,7 +1942,7 @@
     },
     "personalGrowthJourney": "Your personal growth journey with AI that listens to your every word.",
     "@personalGrowthJourney": {
-        "description": "Subtitle describing Omi on auth screen"
+        "description": "Subtitle describing Carry on auth screen"
     },
     "actionItemsTitle": "To-Do's",
     "@actionItemsTitle": {
@@ -2115,11 +2115,11 @@
     "@addFirstMemory": {
         "description": "Button to add first memory"
     },
-    "clearMemoryTitle": "Clear Omi's Memory",
+    "clearMemoryTitle": "Clear Carry's Memory",
     "@clearMemoryTitle": {
         "description": "Dialog title for clearing memory"
     },
-    "clearMemoryMessage": "Are you sure you want to clear Omi's memory? This action cannot be undone.",
+    "clearMemoryMessage": "Are you sure you want to clear Carry's memory? This action cannot be undone.",
     "@clearMemoryMessage": {
         "description": "Dialog content for clearing memory"
     },
@@ -2127,7 +2127,7 @@
     "@clearMemoryButton": {
         "description": "Button text to confirm clearing all memories"
     },
-    "memoryClearedSuccess": "Omi's memory about you has been cleared",
+    "memoryClearedSuccess": "Carry's memory about you has been cleared",
     "@memoryClearedSuccess": {
         "description": "Snackbar success message"
     },
@@ -2324,7 +2324,7 @@
     "@translationNotice": {
         "description": "Title for dialog explaining that conversations are translated"
     },
-    "translationNoticeMessage": "Omi translates conversations into your primary language. Update it anytime in Settings → Profiles.",
+    "translationNoticeMessage": "Carry translates conversations into your primary language. Update it anytime in Settings → Profiles.",
     "@translationNoticeMessage": {
         "description": "Message explaining how translation works and where to change language settings"
     },
@@ -2573,9 +2573,9 @@
     "@privacyPolicyTitle": {
         "description": "Title for privacy policy page"
     },
-    "omiSttProvider": "Omi",
+    "omiSttProvider": "Carry",
     "@omiSttProvider": {
-        "description": "Label for default Omi STT provider"
+        "description": "Label for default Carry STT provider"
     },
     "labelCopied": "{label} copied",
     "@labelCopied": {
@@ -2867,7 +2867,7 @@
     "@checksForAudioFiles": {
         "description": "Step 1: Checking for audio files"
     },
-    "omiSyncsAudioFiles": "Omi then syncs the audio files with the server",
+    "omiSyncsAudioFiles": "Carry then syncs the audio files with the server",
     "@omiSyncsAudioFiles": {
         "description": "Step 2: Syncing audio files"
     },
@@ -2879,11 +2879,11 @@
     "@youreAllSet": {
         "description": "Completion message when onboarding is finished"
     },
-    "welcomeToOmiDescription": "Welcome to Omi! Your AI companion is ready to assist you with conversations, tasks, and more.",
+    "welcomeToOmiDescription": "Welcome to Carry! Your AI companion is ready to assist you with conversations, tasks, and more.",
     "@welcomeToOmiDescription": {
         "description": "Welcome message on completion screen"
     },
-    "startUsingOmi": "Start Using Omi",
+    "startUsingOmi": "Start Using Carry",
     "@startUsingOmi": {
         "description": "Button to complete onboarding and start using the app"
     },
@@ -2992,7 +2992,7 @@
     "@reviewAndManageConversations": {
         "description": "Subtitle explaining what users can do on conversations page"
     },
-    "startCapturingConversations": "Start capturing conversations with your Omi device to see them here.",
+    "startCapturingConversations": "Start capturing conversations with your Carry device to see them here.",
     "@startCapturingConversations": {
         "description": "Message explaining how to get started with conversations"
     },
@@ -3012,7 +3012,7 @@
     "@showAll": {
         "description": "Button text to show all items"
     },
-    "noTasksForToday": "No tasks for today.\nAsk Omi for more tasks or create manually.",
+    "noTasksForToday": "No tasks for today.\nAsk Carry for more tasks or create manually.",
     "@noTasksForToday": {
         "description": "Message shown when there are no tasks due today"
     },
@@ -3211,7 +3211,7 @@
     "@createNewApp": {
         "description": "Title for the create new app page"
     },
-    "buildSubmitCustomOmiApp": "Build and submit your custom Omi app",
+    "buildSubmitCustomOmiApp": "Build and submit your custom Carry app",
     "@buildSubmitCustomOmiApp": {
         "description": "Subtitle describing the purpose of the create app page"
     },
@@ -3271,7 +3271,7 @@
     "@makeMyAppPublic": {
         "description": "Checkbox label for making app publicly available"
     },
-    "submitAppTermsAgreement": "By submitting this app, I agree to the Omi AI Terms of Service and Privacy Policy",
+    "submitAppTermsAgreement": "By submitting this app, I agree to the Carry AI Terms of Service and Privacy Policy",
     "@submitAppTermsAgreement": {
         "description": "Terms and conditions agreement checkbox text"
     },
@@ -3327,7 +3327,7 @@
     "@dataAccessNotice": {
         "description": "Dialog title warning about app data access"
     },
-    "dataAccessWarning": "This app will access your data. Omi AI is not responsible for how your data is used, modified, or deleted by this app",
+    "dataAccessWarning": "This app will access your data. Carry AI is not responsible for how your data is used, modified, or deleted by this app",
     "@dataAccessWarning": {
         "description": "Warning message about app data access in confirmation dialog"
     },
@@ -3799,7 +3799,7 @@
     "@upgradeToPro": {
         "description": "Subscription banner button text"
     },
-    "getOmiDevice": "Get Omi Device",
+    "getOmiDevice": "Get Carry Device",
     "@getOmiDevice": {
         "description": "Widget title for device promotion"
     },
@@ -3902,7 +3902,7 @@
     "@setAllMemoriesToPublic": {
         "description": "Description for making all memories public"
     },
-    "permanentlyRemoveAllMemories": "Permanently remove all memories from Omi",
+    "permanentlyRemoveAllMemories": "Permanently remove all memories from Carry",
     "@permanentlyRemoveAllMemories": {
         "description": "Description for deleting all memories"
     },
@@ -3914,11 +3914,11 @@
     "@allMemoriesAreNowPublic": {
         "description": "Success message after making all memories public"
     },
-    "clearOmisMemory": "Clear Omi's Memory",
+    "clearOmisMemory": "Clear Carry's Memory",
     "@clearOmisMemory": {
         "description": "Confirmation dialog title for clearing all memories"
     },
-    "clearMemoryConfirmation": "Are you sure you want to clear Omi's memory? This action cannot be undone and will permanently delete all {count} memories.",
+    "clearMemoryConfirmation": "Are you sure you want to clear Carry's memory? This action cannot be undone and will permanently delete all {count} memories.",
     "@clearMemoryConfirmation": {
         "description": "Confirmation message for clearing all memories",
         "placeholders": {
@@ -3927,11 +3927,11 @@
             }
         }
     },
-    "omisMemoryCleared": "Omi's memory about you has been cleared",
+    "omisMemoryCleared": "Carry's memory about you has been cleared",
     "@omisMemoryCleared": {
         "description": "Success message after clearing all memories"
     },
-    "welcomeToOmi": "Welcome to Omi",
+    "welcomeToOmi": "Welcome to Carry",
     "@welcomeToOmi": {
         "description": "Welcome message on auth screen"
     },
@@ -3985,13 +3985,13 @@
     },
     "pleaseSelectYourPrimaryLanguage": "Please select your primary language",
     "chooseYourLanguage": "Choose your language",
-    "selectPreferredLanguageForBestExperience": "Select your preferred language for the best Omi experience",
+    "selectPreferredLanguageForBestExperience": "Select your preferred language for the best Carry experience",
     "searchLanguages": "Search languages...",
     "selectALanguage": "Select a language",
     "tryDifferentSearchTerm": "Try a different search term",
     "pleaseEnterYourName": "Please enter your name",
     "nameMustBeAtLeast2Characters": "Name must be at least 2 characters",
-    "tellUsHowYouWouldLikeToBeAddressed": "Tell us how you'd like to be addressed. This helps personalize your Omi experience.",
+    "tellUsHowYouWouldLikeToBeAddressed": "Tell us how you'd like to be addressed. This helps personalize your Carry experience.",
     "charactersCount": "{count} characters",
     "@charactersCount": {
         "placeholders": {
@@ -4000,16 +4000,16 @@
             }
         }
     },
-    "enableFeaturesForBestExperience": "Enable features for the best Omi experience on your device.",
+    "enableFeaturesForBestExperience": "Enable features for the best Carry experience on your device.",
     "microphoneAccess": "Microphone Access",
     "recordAudioConversations": "Record audio conversations",
-    "microphoneAccessDescription": "Omi needs microphone access to record your conversations and provide transcriptions.",
+    "microphoneAccessDescription": "Carry needs microphone access to record your conversations and provide transcriptions.",
     "screenRecording": "Screen Recording",
     "captureSystemAudioFromMeetings": "Capture system audio from meetings",
-    "screenRecordingDescription": "Omi needs screen recording permission to capture system audio from your browser-based meetings.",
+    "screenRecordingDescription": "Carry needs screen recording permission to capture system audio from your browser-based meetings.",
     "accessibility": "Accessibility",
     "detectBrowserBasedMeetings": "Detect browser-based meetings",
-    "accessibilityDescription": "Omi needs accessibility permission to detect when you join Zoom, Meet, or Teams meetings in your browser.",
+    "accessibilityDescription": "Carry needs accessibility permission to detect when you join Zoom, Meet, or Teams meetings in your browser.",
     "pleaseWait": "Please wait...",
     "joinTheCommunity": "Join the community!",
     "loadingProfile": "Loading profile...",
@@ -4020,12 +4020,12 @@
     "setYourName": "Set Your Name",
     "changeYourName": "Change Your Name",
     "voiceAndPeople": "Voice & People",
-    "teachOmiYourVoice": "Teach Omi your voice",
-    "tellOmiWhoSaidIt": "Tell Omi who said it 🗣️",
+    "teachOmiYourVoice": "Teach Carry your voice",
+    "tellOmiWhoSaidIt": "Tell Carry who said it 🗣️",
     "payment": "Payment",
     "addOrChangeYourPaymentMethod": "Add or change your payment method",
     "preferences": "Preferences",
-    "helpImproveOmiBySharing": "Help improve Omi by sharing anonymized analytics data",
+    "helpImproveOmiBySharing": "Help improve Carry by sharing anonymized analytics data",
     "deleteAccount": "Delete Account",
     "deleteYourAccountAndAllData": "Delete your account and all data",
     "clearLogs": "Clear logs",
@@ -4033,7 +4033,7 @@
     "exportConversations": "Export Conversations",
     "exportAllConversationsToJson": "Export all your conversations to a JSON file.",
     "conversationsExportStarted": "Conversations Export Started. This may take a few seconds, please wait.",
-    "mcpDescription": "To connect Omi with other applications to read, search, and manage your memories and conversations. Create a key to get started.",
+    "mcpDescription": "To connect Carry with other applications to read, search, and manage your memories and conversations. Create a key to get started.",
     "apiKeys": "API Keys",
     "errorLabel": "Error: {error}",
     "@errorLabel": {
@@ -4051,7 +4051,7 @@
     "triggersWhenAudioBytesReceived": "Triggers when audio bytes are received.",
     "everyXSeconds": "Every x seconds",
     "triggersWhenDaySummaryGenerated": "Triggers when day summary is generated.",
-    "tryLatestExperimentalFeatures": "Try the latest experimental features from Omi Team.",
+    "tryLatestExperimentalFeatures": "Try the latest experimental features from Carry Team.",
     "transcriptionServiceDiagnosticStatus": "Transcription service diagnostic status",
     "enableDetailedDiagnosticMessages": "Enable detailed diagnostic messages from the transcription service",
     "autoCreateAndTagNewSpeakers": "Auto-create and tag new speakers",
@@ -4087,7 +4087,7 @@
             }
         }
     },
-    "letOmiChooseAutomatically": "Let Omi choose the best app automatically",
+    "letOmiChooseAutomatically": "Let Carry choose the best app automatically",
     "deleteConversationConfirmation": "Are you sure you want to delete this conversation? This action cannot be undone.",
     "conversationDeleted": "Conversation deleted",
     "generatingLink": "Generating link...",
@@ -4238,7 +4238,7 @@
             }
         }
     },
-    "translatedByOmi": "translated by omi",
+    "translatedByOmi": "translated by Carry",
     "@translatedByOmi": {
         "description": "Credit line for translations"
     },
@@ -4354,7 +4354,7 @@
     "@customVocabularyHeader": {
         "description": "Custom vocabulary section header"
     },
-    "addWordsDescription": "Add words that Omi should recognize during transcription.",
+    "addWordsDescription": "Add words that Carry should recognize during transcription.",
     "@addWordsDescription": {
         "description": "Custom vocabulary description"
     },
@@ -4415,7 +4415,7 @@
     "clearNodesDescription": "Clear all nodes and connections",
     "deleteKnowledgeGraphQuestion": "Delete Knowledge Graph?",
     "deleteKnowledgeGraphWarning": "This will delete all derived knowledge graph data. Your original memories remain safe.",
-    "connectOmiWithAI": "Connect Omi with AI assistants",
+    "connectOmiWithAI": "Connect Carry with AI assistants",
     "noAPIKeys": "No API keys. Create one to get started.",
     "autoCreateWhenDetected": "Auto-create when name detected",
     "trackPersonalGoals": "Track personal goals on homepage",
@@ -4435,7 +4435,7 @@
     "@holdOnPreparingForm": {
         "description": "Loading message while preparing form"
     },
-    "bySubmittingYouAgreeToOmi": "By submitting, you agree to Omi ",
+    "bySubmittingYouAgreeToOmi": "By submitting, you agree to Carry ",
     "@bySubmittingYouAgreeToOmi": {
         "description": "Text before Terms & Privacy Policy link"
     },
@@ -4647,7 +4647,7 @@
     "@issueActivatingApp": {
         "description": "Dialog description for activation error"
     },
-    "dataAccessNoticeDescription": "This app will access your data. Omi AI is not responsible for how your data is used, modified, or deleted by this app",
+    "dataAccessNoticeDescription": "This app will access your data. Carry AI is not responsible for how your data is used, modified, or deleted by this app",
     "@dataAccessNoticeDescription": {
         "description": "Description for data access notice dialog"
     },
@@ -4779,15 +4779,15 @@
             }
         }
     },
-    "omiApiKeys": "Omi API Keys",
+    "omiApiKeys": "Carry API Keys",
     "@omiApiKeys": {
         "description": "Dialog title for API keys info"
     },
-    "apiKeysDescription": "API Keys are used for authentication when your app communicates with the OMI server. They allow your application to create memories and access other OMI services securely.",
+    "apiKeysDescription": "API Keys are used for authentication when your app communicates with the CARRY server. They allow your application to create memories and access other CARRY services securely.",
     "@apiKeysDescription": {
         "description": "Description of what API keys are used for"
     },
-    "aboutOmiApiKeys": "About Omi API Keys",
+    "aboutOmiApiKeys": "About Carry API Keys",
     "@aboutOmiApiKeys": {
         "description": "Tooltip for API keys info button"
     },
@@ -4981,7 +4981,7 @@
     "@maximumSecurityE2ee": {
         "description": "Title for End-to-End Encryption dialog"
     },
-    "e2eeDescription": "End-to-end encryption is the gold standard for privacy. When enabled, your data is encrypted on your device before it's sent to our servers. This means no one, not even Omi, can access your content.",
+    "e2eeDescription": "End-to-end encryption is the gold standard for privacy. When enabled, your data is encrypted on your device before it's sent to our servers. This means no one, not even Carry, can access your content.",
     "@e2eeDescription": {
         "description": "Description of E2EE encryption explaining its benefits"
     },
@@ -5037,7 +5037,7 @@
     "@secureEncryption": {
         "description": "Title for secure encryption card"
     },
-    "secureEncryptionDescription": "Your data is encrypted with a key unique to you on our servers, hosted on Google Cloud. This means your raw content is inaccessible to anyone, including Omi staff or Google, directly from the database.",
+    "secureEncryptionDescription": "Your data is encrypted with a key unique to you on our servers, hosted on Google Cloud. This means your raw content is inaccessible to anyone, including Carry staff or Google, directly from the database.",
     "@secureEncryptionDescription": {
         "description": "Description of secure encryption explaining how data is protected"
     },
@@ -5134,23 +5134,23 @@
             }
         }
     },
-    "omiTraining": "Omi Training",
+    "omiTraining": "Carry Training",
     "@omiTraining": {
-        "description": "Title for the Omi Training page/section"
+        "description": "Title for the Carry Training page/section"
     },
     "trainingDataProgram": "Training Data Program",
     "@trainingDataProgram": {
         "description": "Label for training data program"
     },
-    "getOmiUnlimitedFree": "Get Omi Unlimited for free by contributing your data to train AI models.",
+    "getOmiUnlimitedFree": "Get Carry Unlimited for free by contributing your data to train AI models.",
     "@getOmiUnlimitedFree": {
-        "description": "Description for getting Omi Unlimited free by contributing data"
+        "description": "Description for getting Carry Unlimited free by contributing data"
     },
     "trainingDataBullets": "• Your data helps improve AI models\n• Only non-sensitive data is shared\n• Fully transparent process",
     "@trainingDataBullets": {
         "description": "Bullet points explaining training data program benefits"
     },
-    "learnMoreAtOmiTraining": "Learn more at omi.me/training",
+    "learnMoreAtOmiTraining": "Learn more at carry.me/training",
     "@learnMoreAtOmiTraining": {
         "description": "Link text to learn more about training"
     },
@@ -5256,7 +5256,7 @@
     "@youAreOnUnlimitedPlan": {
         "description": "Message showing user is on unlimited plan"
     },
-    "yourOmiUnleashed": "Your Omi, unleashed. Go unlimited for endless possibilities.",
+    "yourOmiUnleashed": "Your Carry, unleashed. Go unlimited for endless possibilities.",
     "@yourOmiUnleashed": {
         "description": "Marketing text for unlimited plan"
     },
@@ -5298,11 +5298,11 @@
     "@unlimitedConversations": {
         "description": "Feature: unlimited conversations"
     },
-    "askOmiAnything": "Ask Omi anything about your life",
+    "askOmiAnything": "Ask Carry anything about your life",
     "@askOmiAnything": {
-        "description": "Feature: ask Omi anything"
+        "description": "Feature: ask Carry anything"
     },
-    "unlockOmiInfiniteMemory": "Unlock Omi's infinite memory",
+    "unlockOmiInfiniteMemory": "Unlock Carry's infinite memory",
     "@unlockOmiInfiniteMemory": {
         "description": "Feature: unlock infinite memory"
     },
@@ -5374,7 +5374,7 @@
     "@yourPrivacyMattersToUs": {
         "description": "Privacy page - yourPrivacyMattersToUs"
     },
-    "privacyIntroText": "At Omi, we take your privacy very seriously. We want to be transparent about the data we collect and how we use it to improve our product for you. Here's what you need to know:",
+    "privacyIntroText": "At Carry, we take your privacy very seriously. We want to be transparent about the data we collect and how we use it to improve our product for you. Here's what you need to know:",
     "@privacyIntroText": {
         "description": "Privacy page - privacyIntroText"
     },
@@ -5394,11 +5394,11 @@
     "@ourCommitment": {
         "description": "Privacy page - ourCommitment"
     },
-    "commitmentText": "We are committed to using the data we collect only to make Omi a better product for you. Your privacy and trust are paramount to us.",
+    "commitmentText": "We are committed to using the data we collect only to make Carry a better product for you. Your privacy and trust are paramount to us.",
     "@commitmentText": {
         "description": "Privacy page - commitmentText"
     },
-    "thankYouText": "Thank you for being a valued user of Omi. If you have any questions or concerns, feel free to reach out to us to team@basedhardware.com.",
+    "thankYouText": "Thank you for being a valued user of Carry. If you have any questions or concerns, feel free to reach out to us to team@basedhardware.com.",
     "@thankYouText": {
         "description": "Privacy page - thankYouText"
     },
@@ -5523,7 +5523,7 @@
     "@minutes": {
         "description": "Unit label for minutes"
     },
-    "omiHas": "Omi has:",
+    "omiHas": "Carry has:",
     "@omiHas": {
         "description": "Fallback text for share stats when period is unknown"
     },
@@ -5656,7 +5656,7 @@
     "@howItWorksTitle": {
         "description": "Help dialog title"
     },
-    "howPeopleWorks": "Once a person is created, you can go to a conversation transcript, and assign them their corresponding segments, that way Omi will be able to recognize their speech too!",
+    "howPeopleWorks": "Once a person is created, you can go to a conversation transcript, and assign them their corresponding segments, that way Carry will be able to recognize their speech too!",
     "@howPeopleWorks": {
         "description": "Explanation of how people/speech recognition works"
     },
@@ -6017,9 +6017,9 @@
     "@enableApps": {
         "description": "Menu item text to navigate to apps page and enable more chat apps"
     },
-    "omiAppName": "Omi",
+    "omiAppName": "Carry",
     "@omiAppName": {
-        "description": "The Omi app/assistant name shown in chat app selection"
+        "description": "The Carry app/assistant name shown in chat app selection"
     },
     "showMore": "show more ↓",
     "@showMore": {
@@ -6049,21 +6049,21 @@
     "@checkingAppleWatch": {
         "description": "Loading text while checking Apple Watch status"
     },
-    "installOmiOnAppleWatch": "Install Omi on your\nApple Watch",
+    "installOmiOnAppleWatch": "Install Carry on your\nApple Watch",
     "@installOmiOnAppleWatch": {
-        "description": "Title prompting user to install Omi on Apple Watch"
+        "description": "Title prompting user to install Carry on Apple Watch"
     },
-    "installOmiOnAppleWatchDescription": "To use your Apple Watch with Omi, you need to install the Omi app on your watch first.",
+    "installOmiOnAppleWatchDescription": "To use your Apple Watch with Carry, you need to install the Carry app on your watch first.",
     "@installOmiOnAppleWatchDescription": {
-        "description": "Description explaining need to install Omi app on watch"
+        "description": "Description explaining need to install Carry app on watch"
     },
-    "openOmiOnAppleWatch": "Open Omi on your\nApple Watch",
+    "openOmiOnAppleWatch": "Open Carry on your\nApple Watch",
     "@openOmiOnAppleWatch": {
-        "description": "Title prompting user to open Omi on Apple Watch"
+        "description": "Title prompting user to open Carry on Apple Watch"
     },
-    "openOmiOnAppleWatchDescription": "The Omi app is installed on your Apple Watch. Open it and tap Start to begin.",
+    "openOmiOnAppleWatchDescription": "The Carry app is installed on your Apple Watch. Open it and tap Start to begin.",
     "@openOmiOnAppleWatchDescription": {
-        "description": "Description explaining Omi is installed and user should open it"
+        "description": "Description explaining Carry is installed and user should open it"
     },
     "openWatchApp": "Open Watch App",
     "@openWatchApp": {
@@ -6073,7 +6073,7 @@
     "@iveInstalledAndOpenedTheApp": {
         "description": "Button text confirming user has installed and opened the app"
     },
-    "unableToOpenWatchApp": "Unable to open Apple Watch app. Please manually open the Watch app on your Apple Watch and install Omi from the \"Available Apps\" section.",
+    "unableToOpenWatchApp": "Unable to open Apple Watch app. Please manually open the Watch app on your Apple Watch and install Carry from the \"Available Apps\" section.",
     "@unableToOpenWatchApp": {
         "description": "Error message when Watch app cannot be opened automatically"
     },
@@ -6081,7 +6081,7 @@
     "@appleWatchConnectedSuccessfully": {
         "description": "Success message when Apple Watch connects"
     },
-    "appleWatchNotReachable": "Apple Watch still not reachable. Please make sure the Omi app is open on your watch.",
+    "appleWatchNotReachable": "Apple Watch still not reachable. Please make sure the Carry app is open on your watch.",
     "@appleWatchNotReachable": {
         "description": "Error message when Apple Watch is not reachable"
     },
@@ -6199,9 +6199,9 @@
     "@noSummary": {
         "description": "Message when no summary is available"
     },
-    "updateOmiFirmware": "Update omi firmware",
+    "updateOmiFirmware": "Update Carry firmware",
     "@updateOmiFirmware": {
-        "description": "Button text to update Omi device firmware"
+        "description": "Button text to update Carry device firmware"
     },
     "anErrorOccurredTryAgain": "An error occurred. Please try again.",
     "@anErrorOccurredTryAgain": {
@@ -6211,7 +6211,7 @@
     "@welcomeBackSimple": {
         "description": "Simple welcome message without user name"
     },
-    "addVocabularyDescription": "Add words that Omi should recognize during transcription.",
+    "addVocabularyDescription": "Add words that Carry should recognize during transcription.",
     "@addVocabularyDescription": {
         "description": "Description for custom vocabulary section"
     },
@@ -6444,7 +6444,7 @@
     "@wrappedNoDataAvailable": {
         "description": "Shown when wrapped result is null"
     },
-    "wrappedOmiLifeRecap": "Omi Life Recap",
+    "wrappedOmiLifeRecap": "Carry Life Recap",
     "@wrappedOmiLifeRecap": {
         "description": "Subtitle on the intro card"
     },
@@ -6452,7 +6452,7 @@
     "@wrappedSwipeUpToBegin": {
         "description": "Instruction text on intro card"
     },
-    "wrappedShareText": "My 2025, remembered by Omi ✨ omi.me/wrapped",
+    "wrappedShareText": "My 2025, remembered by Carry ✨ carry.me/wrapped",
     "@wrappedShareText": {
         "description": "Text shared when sharing wrapped images"
     },
@@ -6480,7 +6480,7 @@
     "@wrappedMy2025": {
         "description": "Title text for shareable image"
     },
-    "wrappedRememberedByOmi": "remembered by Omi",
+    "wrappedRememberedByOmi": "remembered by Carry",
     "@wrappedRememberedByOmi": {
         "description": "Subtitle text for shareable image"
     },
@@ -6764,7 +6764,7 @@
     "@notificationFrequency": {
         "description": "Section header for notification frequency settings"
     },
-    "controlNotificationFrequency": "Control how often Omi sends you proactive notifications.",
+    "controlNotificationFrequency": "Control how often Carry sends you proactive notifications.",
     "@controlNotificationFrequency": {
         "description": "Description for notification frequency control"
     },
@@ -6796,7 +6796,7 @@
     "@dailyScoreExplanation": {
         "description": "Explanation of how daily score is calculated"
     },
-    "notificationFrequencyDescription": "Control how often Omi sends you proactive notifications and reminders.",
+    "notificationFrequencyDescription": "Control how often Carry sends you proactive notifications and reminders.",
     "@notificationFrequencyDescription": {
         "description": "Description text for notification frequency section"
     },
@@ -7082,7 +7082,7 @@
     "@noRecordings": {
         "description": "Empty state title when there are no recordings"
     },
-    "audioFromOmiWillAppearHere": "Audio from your Omi device will appear here",
+    "audioFromOmiWillAppearHere": "Audio from your Carry device will appear here",
     "@audioFromOmiWillAppearHere": {
         "description": "Empty state description for recordings"
     },
@@ -7262,7 +7262,7 @@
     "@batteryUsageHigher": {
         "description": "Warning about battery usage"
     },
-    "considerOmiCloud": "Consider using Omi Cloud for better performance.",
+    "considerOmiCloud": "Consider using Carry Cloud for better performance.",
     "@considerOmiCloud": {
         "description": "Suggestion to use cloud transcription"
     },
@@ -7489,9 +7489,9 @@
             }
         }
     },
-    "omiTranscriptionOptimized": "Omis built-in live transcription is optimized for real-time conversations with automatic speaker detection and diarization.",
+    "omiTranscriptionOptimized": "Carry's built-in live transcription is optimized for real-time conversations with automatic speaker detection and diarization.",
     "@omiTranscriptionOptimized": {
-        "description": "Description of Omi transcription features"
+        "description": "Description of Carry transcription features"
     },
     "reset": "Reset",
     "@reset": {
@@ -7611,7 +7611,7 @@
     "@writeReviewOptional": {
         "description": "Hint text for review input field"
     },
-    "setupQuestionsIntro": "Help us improve Omi by answering a few questions.  🫶 💜",
+    "setupQuestionsIntro": "Help us improve Carry by answering a few questions.  🫶 💜",
     "@setupQuestionsIntro": {
         "description": "Intro text for setup questions page"
     },
@@ -7619,9 +7619,9 @@
     "@setupQuestionProfession": {
         "description": "Question about profession"
     },
-    "setupQuestionUsage": "2. Where do you plan to use your Omi?",
+    "setupQuestionUsage": "2. Where do you plan to use your Carry?",
     "@setupQuestionUsage": {
-        "description": "Question about Omi usage location"
+        "description": "Question about Carry usage location"
     },
     "setupQuestionAge": "3. What's your age range?",
     "@setupQuestionAge": {
@@ -8088,7 +8088,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8098,7 +8098,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8265,8 +8265,8 @@
         "description": "Title for low battery notification"
     },
     "lowBatteryAlertBody": "Your battery is at {level}%. Time for a recharge! 🔋",
-    "batteryFullyChargedTitle": "Omi is fully charged",
-    "batteryFullyChargedBody": "Your Omi device is fully charged. Feel free to unplug!",
+    "batteryFullyChargedTitle": "Carry is fully charged",
+    "batteryFullyChargedBody": "Your Carry device is fully charged. Feel free to unplug!",
     "@lowBatteryAlertBody": {
         "description": "Body text for low battery notification",
         "placeholders": {
@@ -8275,11 +8275,11 @@
             }
         }
     },
-    "deviceDisconnectedNotificationTitle": "Your Omi Device Disconnected",
+    "deviceDisconnectedNotificationTitle": "Your Carry Device Disconnected",
     "@deviceDisconnectedNotificationTitle": {
         "description": "Title for device disconnected notification"
     },
-    "deviceDisconnectedNotificationBody": "Please reconnect to continue using your Omi.",
+    "deviceDisconnectedNotificationBody": "Please reconnect to continue using your Carry.",
     "@deviceDisconnectedNotificationBody": {
         "description": "Body text for device disconnected notification"
     },
@@ -8287,7 +8287,7 @@
     "@firmwareUpdateAvailable": {
         "description": "Title for firmware update available dialog"
     },
-    "firmwareUpdateAvailableDescription": "A new firmware update ({version}) is available for your Omi device. Would you like to update now?",
+    "firmwareUpdateAvailableDescription": "A new firmware update ({version}) is available for your Carry device. Would you like to update now?",
     "@firmwareUpdateAvailableDescription": {
         "description": "Description for firmware update dialog with version parameter",
         "placeholders": {
@@ -8342,9 +8342,9 @@
     "@almostDone": {
         "description": "Migration is almost complete"
     },
-    "omiSays": "omi says",
+    "omiSays": "Carry says",
     "@omiSays": {
-        "description": "Notification title for omi app messages"
+        "description": "Notification title for carry app messages"
     },
     "analyzingYourData": "Analyzing your data...",
     "@analyzingYourData": {
@@ -8681,9 +8681,9 @@
     "@nextButton": {
         "description": "Button text to proceed to next step"
     },
-    "connectOmiDevice": "Connect Omi Device",
+    "connectOmiDevice": "Connect Carry Device",
     "@connectOmiDevice": {
-        "description": "Button text to connect Omi device"
+        "description": "Button text to connect Carry device"
     },
     "planSwitchingDescriptionWithTitle": "You're switching your Unlimited Plan to the {title}. Are you sure you want to proceed?",
     "@planSwitchingDescriptionWithTitle": {
@@ -8722,9 +8722,9 @@
     "@transcriptionJsonPlaceholder": {
         "description": "JSON configuration placeholder hint text in transcription settings"
     },
-    "transcriptionSourceOmi": "Omi",
+    "transcriptionSourceOmi": "Carry",
     "@transcriptionSourceOmi": {
-        "description": "Tab title for Omi transcription source option"
+        "description": "Tab title for Carry transcription source option"
     },
     "pricePlaceholder": "0.00",
     "@pricePlaceholder": {
@@ -8764,7 +8764,7 @@
             }
         }
     },
-    "actionItemReminderTitle": "Omi Reminder",
+    "actionItemReminderTitle": "Carry Reminder",
     "@actionItemReminderTitle": {
         "description": "Title for action item reminder notifications"
     },
@@ -8774,7 +8774,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8784,7 +8784,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8808,7 +8808,7 @@
     "@onboardingComplete": {
         "description": "Onboarding step title for completion"
     },
-    "onboardingWelcomeToOmi": "Welcome to Omi",
+    "onboardingWelcomeToOmi": "Welcome to Carry",
     "@onboardingWelcomeToOmi": {
         "description": "Onboarding step description for sign in"
     },
@@ -9588,29 +9588,29 @@
     "pairNewDevice": "Pair new device",
     "dontSeeYourDevice": "Don't see your device?",
     "reportAnIssue": "Report an issue",
-    "pairingTitleOmi": "Turn On Omi",
+    "pairingTitleOmi": "Turn On Carry",
     "@pairingTitleOmi": {
-        "description": "Pairing title for Omi device"
+        "description": "Pairing title for Carry device"
     },
     "pairingDescOmi": "Press and hold the device until it vibrates to turn it on.",
     "@pairingDescOmi": {
-        "description": "Pairing description for Omi device"
+        "description": "Pairing description for Carry device"
     },
-    "pairingTitleOmiDevkit": "Put Omi DevKit in Pairing Mode",
+    "pairingTitleOmiDevkit": "Put Carry DevKit in Pairing Mode",
     "@pairingTitleOmiDevkit": {
-        "description": "Pairing title for Omi DevKit"
+        "description": "Pairing title for Carry DevKit"
     },
     "pairingDescOmiDevkit": "Press the button once to turn on. The LED will blink purple when in pairing mode.",
     "@pairingDescOmiDevkit": {
-        "description": "Pairing description for Omi DevKit"
+        "description": "Pairing description for Carry DevKit"
     },
-    "pairingTitleOmiGlass": "Turn On Omi Glass",
+    "pairingTitleOmiGlass": "Turn On Carry Glass",
     "@pairingTitleOmiGlass": {
-        "description": "Pairing title for Omi Glass"
+        "description": "Pairing title for Carry Glass"
     },
     "pairingDescOmiGlass": "Power on by pressing the side button for 3 seconds.",
     "@pairingDescOmiGlass": {
-        "description": "Pairing description for Omi Glass"
+        "description": "Pairing description for Carry Glass"
     },
     "pairingTitlePlaudNote": "Put Plaud Note in Pairing Mode",
     "@pairingTitlePlaudNote": {
@@ -9656,7 +9656,7 @@
     "@pairingTitleAppleWatch": {
         "description": "Pairing title for Apple Watch"
     },
-    "pairingDescAppleWatch": "Install and open the Omi app on your Apple Watch, then tap Connect in the app.",
+    "pairingDescAppleWatch": "Install and open the Carry app on your Apple Watch, then tap Connect in the app.",
     "@pairingDescAppleWatch": {
         "description": "Pairing description for Apple Watch"
     },
@@ -9750,7 +9750,7 @@
     "@onboardingWhatIKnowAboutYouTitle": {
         "description": "Title for onboarding step that previews the memory graph"
     },
-    "onboardingWhatIKnowAboutYouDescription": "This map updates as Omi learns from your conversations.",
+    "onboardingWhatIKnowAboutYouDescription": "This map updates as Carry learns from your conversations.",
     "@onboardingWhatIKnowAboutYouDescription": {
         "description": "Description for onboarding memory graph preview step"
     },
@@ -9808,7 +9808,7 @@
         "description": "Confirmation dialog message for cleaning today task deadlines"
     },
     "tasksOverdue": "Overdue",
-    "phoneCallsWithOmi": "Phone Calls with Omi",
+    "phoneCallsWithOmi": "Phone Calls with Carry",
     "phoneCallsSubtitle": "Make calls with real-time transcription",
     "phoneSetupStep1Title": "Verify your phone number",
     "phoneSetupStep1Subtitle": "We'll call you to confirm it's yours",
@@ -9913,11 +9913,11 @@
     "@showTasksOnHomepage": {
         "description": "Description for show tasks toggle in developer settings"
     },
-    "phoneCallsUnlimitedOnly": "Phone Calls via Omi",
+    "phoneCallsUnlimitedOnly": "Phone Calls via Carry",
     "@phoneCallsUnlimitedOnly": {
         "description": "Title for the phone calls upsell sheet shown to non-unlimited users"
     },
-    "phoneCallsUpsellSubtitle": "Make calls through Omi and get real-time transcription, automatic summaries, and more. Available exclusively for Unlimited plan subscribers.",
+    "phoneCallsUpsellSubtitle": "Make calls through Carry and get real-time transcription, automatic summaries, and more. Available exclusively for Unlimited plan subscribers.",
     "@phoneCallsUpsellSubtitle": {
         "description": "Subtitle explaining phone calls feature on upsell sheet"
     },
@@ -10038,7 +10038,7 @@
     "fairUse3Day": "3-Day Rolling",
     "fairUseWeekly": "Weekly Rolling",
     "fairUseAboutTitle": "About Fair Use",
-    "fairUseAboutBody": "Omi is designed for personal conversations, meetings, and live interactions. Usage is measured by real speech time detected, not connection time. If usage significantly exceeds normal patterns for non-personal content, adjustments may apply.",
+    "fairUseAboutBody": "Carry is designed for personal conversations, meetings, and live interactions. Usage is measured by real speech time detected, not connection time. If usage significantly exceeds normal patterns for non-personal content, adjustments may apply.",
     "fairUseCaseRefCopied": "{caseRef} copied",
     "@fairUseCaseRefCopied": {
         "description": "Snackbar message when case reference is copied to clipboard",
@@ -10080,7 +10080,7 @@
         }
     },
     "improveConnectionTitle": "Improve Connection",
-    "improveConnectionContent": "We've improved how Omi stays connected to your device. To activate this, please go to the Device Info page, tap \"Disconnect Device\", and then pair your device again.",
+    "improveConnectionContent": "We've improved how Carry stays connected to your device. To activate this, please go to the Device Info page, tap \"Disconnect Device\", and then pair your device again.",
     "improveConnectionAction": "Got it",
     "clockSkewWarning": "Your device clock is off by ~{minutes} min. Check your date & time settings.",
     "@clockSkewWarning": {
@@ -10090,7 +10090,7 @@
             }
         }
     },
-    "omisStorage": "Omi's Storage",
+    "omisStorage": "Carry's Storage",
     "@omisStorage": {
         "description": "Label for device storage tier in sync pipeline"
     },
@@ -10143,11 +10143,11 @@
     "@cancelSyncQuestion": {
         "description": "Title for cancel sync confirmation dialog"
     },
-    "omisStorageDesc": "When your Omi is not connected to your phone, it stores audio locally on its built-in memory. You never lose a recording.",
+    "omisStorageDesc": "When your Carry is not connected to your phone, it stores audio locally on its built-in memory. You never lose a recording.",
     "@omisStorageDesc": {
         "description": "Description of device storage in sync info sheet"
     },
-    "phoneStorageDesc": "When Omi reconnects, recordings are automatically transferred to your phone as a temporary holding area before uploading.",
+    "phoneStorageDesc": "When Carry reconnects, recordings are automatically transferred to your phone as a temporary holding area before uploading.",
     "@phoneStorageDesc": {
         "description": "Description of phone storage in sync info sheet"
     },
@@ -10183,11 +10183,11 @@
     "@permissionEnable": {
         "description": "Action text to enable a permission"
     },
-    "permissionsPageDescription": "These permissions are core to how Omi works. They enable key features like notifications, location-based experiences, and audio capture.",
+    "permissionsPageDescription": "These permissions are core to how Carry works. They enable key features like notifications, location-based experiences, and audio capture.",
     "@permissionsPageDescription": {
         "description": "Description text shown at the bottom of the permissions page"
     },
-    "permissionsRequiredDescription": "Omi needs a few permissions to work properly. Please grant them to continue.",
+    "permissionsRequiredDescription": "Carry needs a few permissions to work properly. Please grant them to continue.",
     "@permissionsRequiredDescription": {
         "description": "Description for the permissions interstitial screen"
     },
@@ -10195,7 +10195,7 @@
     "@permissionsSetupTitle": {
         "description": "Title for the permissions interstitial screen"
     },
-    "permissionsSetupDescription": "Enable a few permissions so Omi can work its magic.",
+    "permissionsSetupDescription": "Enable a few permissions so Carry can work its magic.",
     "@permissionsSetupDescription": {
         "description": "Subtitle for the permissions interstitial screen"
     },
@@ -10324,7 +10324,7 @@
     "@feedbackTitleFoundAlternative": {
         "description": "Feedback title when cancel reason is found alternative"
     },
-    "feedbackTitleNotUsing": "What would make you use Omi more?",
+    "feedbackTitleNotUsing": "What would make you use Carry more?",
     "@feedbackTitleNotUsing": {
         "description": "Feedback title when cancel reason is not using enough"
     },
@@ -10348,7 +10348,7 @@
     "@feedbackSubtitleFoundAlternative": {
         "description": "Feedback subtitle for found alternative"
     },
-    "feedbackSubtitleNotUsing": "We want to make Omi more useful for you.",
+    "feedbackSubtitleNotUsing": "We want to make Carry more useful for you.",
     "@feedbackSubtitleNotUsing": {
         "description": "Feedback subtitle for not using enough"
     },
@@ -10476,23 +10476,23 @@
         }
     },
     "tasksMarkComplete": "Marked as complete",
-    "appleHealthManageNote": "Omi accesses Apple Health through Apple's HealthKit framework. You can revoke access anytime in iOS Settings.",
+    "appleHealthManageNote": "Carry accesses Apple Health through Apple's HealthKit framework. You can revoke access anytime in iOS Settings.",
     "appleHealthConnectCta": "Connect to Apple Health",
     "appleHealthDisconnectCta": "Disconnect Apple Health",
     "appleHealthConnectedBadge": "Connected",
     "appleHealthFeatureChatTitle": "Chat about your health",
-    "appleHealthFeatureChatDesc": "Ask Omi about your steps, sleep, heart rate, and workouts.",
+    "appleHealthFeatureChatDesc": "Ask Carry about your steps, sleep, heart rate, and workouts.",
     "appleHealthFeatureReadOnlyTitle": "Read-only access",
-    "appleHealthFeatureReadOnlyDesc": "Omi never writes to Apple Health or modifies your data.",
+    "appleHealthFeatureReadOnlyDesc": "Carry never writes to Apple Health or modifies your data.",
     "appleHealthFeatureSecureTitle": "Secure sync",
-    "appleHealthFeatureSecureDesc": "Your Apple Health data syncs privately to your Omi account.",
+    "appleHealthFeatureSecureDesc": "Your Apple Health data syncs privately to your Carry account.",
     "appleHealthDeniedTitle": "Apple Health access denied",
-    "appleHealthDeniedBody": "Omi doesn't have permission to read your Apple Health data. Enable it in iOS Settings → Privacy & Security → Health → Omi.",
+    "appleHealthDeniedBody": "Carry doesn't have permission to read your Apple Health data. Enable it in iOS Settings → Privacy & Security → Health → Carry.",
     "deleteFlowReasonTitle": "Why are you leaving?",
     "@deleteFlowReasonTitle": {
         "description": "Title on delete-account flow reason step"
     },
-    "deleteFlowReasonSubtitle": "Your feedback helps us improve Omi for everyone.",
+    "deleteFlowReasonSubtitle": "Your feedback helps us improve Carry for everyone.",
     "@deleteFlowReasonSubtitle": {
         "description": "Subtitle on delete-account flow reason step"
     },
@@ -10528,7 +10528,7 @@
     "@deleteFlowFeedbackTitle": {
         "description": "Title on delete-account flow feedback step"
     },
-    "deleteFlowFeedbackSubtitle": "What would have made Omi work for you?",
+    "deleteFlowFeedbackSubtitle": "What would have made Carry work for you?",
     "@deleteFlowFeedbackSubtitle": {
         "description": "Subtitle on delete-account flow feedback step"
     },
@@ -10718,12 +10718,12 @@
             }
         }
     },
-    "chatQuotaSubtitle": "AI chat messages used with Omi this month.",
-    "chatQuotaExceededReply": "You've hit your monthly limit. Upgrade to keep chatting with Omi without restrictions.",
+    "chatQuotaSubtitle": "AI chat messages used with Carry this month.",
+    "chatQuotaExceededReply": "You've hit your monthly limit. Upgrade to keep chatting with Carry without restrictions.",
     "@chatQuotaExceededReply": {
         "description": "AI reply message shown when user exceeds chat quota"
     },
-    "voiceResponseAudio": "Speak Omi responses aloud",
+    "voiceResponseAudio": "Speak Carry responses aloud",
     "@voiceResponseAudio": {
         "description": "Voice response audio feature title"
     },
@@ -10763,7 +10763,7 @@
     "@voiceMode": {
         "description": "iOS home screen quick action: opens chat in voice mode"
     },
-    "quickActionAskOmi": "Ask Omi Anything",
+    "quickActionAskOmi": "Ask Carry Anything",
     "@quickActionAskOmi": {
         "description": "iOS home screen quick action: opens chat page"
     },
@@ -10903,9 +10903,9 @@
     "syncStatusFileUnavailable": "File unavailable",
     "noRecordingsYet": "No recordings yet",
     "syncInProgress": "Sync in progress",
-    "syncStatusUploaded": "Uploaded · processing on Omi",
+    "syncStatusUploaded": "Uploaded · processing on Carry",
     "deleteWhileProcessingTitle": "Still processing",
-    "deleteWhileProcessingMessage": "This recording is uploaded but Omi is still creating the conversation. If you delete it now and processing fails, it can't be recovered. Delete anyway?",
+    "deleteWhileProcessingMessage": "This recording is uploaded but Carry is still creating the conversation. If you delete it now and processing fails, it can't be recovered. Delete anyway?",
     "syncCardAllBackedUp": "All recordings synced",
     "syncCardReadyCount": "{count, plural, =1{1 recording ready to sync} other{{count} recordings ready to sync}}",
     "@syncCardReadyCount": {
@@ -10916,7 +10916,7 @@
             }
         }
     },
-    "syncCardProcessing": "Processing on Omi…",
+    "syncCardProcessing": "Processing on Carry…",
     "syncCardWaitingInternet": "Waiting for internet",
     "syncCardNeedsAttention": "{count} recording{count, plural, =1{} other{s}} need attention",
     "@syncCardNeedsAttention": {
@@ -10927,11 +10927,11 @@
             }
         }
     },
-    "syncFlowIntro": "Recordings are transferred from your device to this phone and stored locally, then uploaded to Omi's server where they're transcribed and turned into conversations.",
+    "syncFlowIntro": "Recordings are transferred from your device to this phone and stored locally, then uploaded to Carry's server where they're transcribed and turned into conversations.",
     "syncStepUpload": "Sync",
-    "syncStepUploadDesc": "Your recording is sent to Omi's server",
+    "syncStepUploadDesc": "Your recording is sent to Carry's server",
     "syncStepProcess": "Transcribe",
-    "syncStepProcessDesc": "Omi turns the audio into a conversation",
+    "syncStepProcessDesc": "Carry turns the audio into a conversation",
     "syncStepBackedUp": "Conversation ready",
     "syncStepBackedUpDesc": "Find it under Conversations",
     "syncFailureFootnote": "If processing fails, your recording is retried automatically on the next sync.",
@@ -10939,13 +10939,13 @@
     "@syncStatusConversationCreated": {
         "description": "Row subtitle on the sync page for a fully synced recording: emphasises that processing succeeded and a conversation now exists."
     },
-    "syncCardUploadingTitle": "Uploading to Omi",
+    "syncCardUploadingTitle": "Uploading to Carry",
     "@syncCardUploadingTitle": {
-        "description": "Top status card: phase title when uploading audio batches to Omi (sub-line shows X of Y)"
+        "description": "Top status card: phase title when uploading audio batches to Carry (sub-line shows X of Y)"
     },
     "syncCardDownloadingTitle": "Downloading from your device",
     "@syncCardDownloadingTitle": {
-        "description": "Top status card: phase title when downloading recordings from the Omi device over BLE/Wi-Fi"
+        "description": "Top status card: phase title when downloading recordings from the Carry device over BLE/Wi-Fi"
     },
     "syncCardProgressOf": "{current} of {total}",
     "@syncCardProgressOf": {
@@ -10961,11 +10961,11 @@
     },
     "syncStatusOnDevice": "On your device",
     "@syncStatusOnDevice": {
-        "description": "Row subtitle for a recording still on the Omi device (SD-card or flash page) that has not been downloaded to the phone yet."
+        "description": "Row subtitle for a recording still on the Carry device (SD-card or flash page) that has not been downloaded to the phone yet."
     },
     "syncStatusDownloadingFromDevice": "Downloading from your device",
     "@syncStatusDownloadingFromDevice": {
-        "description": "Row subtitle for a recording currently being transferred from the Omi device to the phone."
+        "description": "Row subtitle for a recording currently being transferred from the Carry device to the phone."
     },
     "newestFirst": "Newest first",
     "@newestFirst": {
@@ -10987,7 +10987,7 @@
     "@syncCardRateLimited": {
         "description": "Status card line when uploads are paused due to a fair-use/rate-limit (HTTP 429) cooldown. Reassures the user this is not an error and will resume on its own."
     },
-    "syncCardBackendBusy": "Omi servers are busy — your recordings will sync once capacity returns",
+    "syncCardBackendBusy": "Carry servers are busy — your recordings will sync once capacity returns",
     "@syncCardBackendBusy": {
         "description": "Status card line when the backend stale-guard has flagged queued jobs (i.e. workers are saturated, not the user being rate-limited). Distinct from the 429 fair-use case."
     },
@@ -11002,11 +11002,11 @@
     "@backgroundModeTitle": {
         "description": "Title for the background connection mode toggle in device settings (Android only)"
     },
-    "backgroundModeDescription": "Keep your Omi recording even when the app is fully closed.",
+    "backgroundModeDescription": "Keep your Carry recording even when the app is fully closed.",
     "@backgroundModeDescription": {
         "description": "Subtitle explaining the background mode toggle"
     },
-    "backgroundModeNote": "Works with Omi devices only for now, and is being improved continuously.",
+    "backgroundModeNote": "Works with Carry devices only for now, and is being improved continuously.",
     "@backgroundModeNote": {
         "description": "Caveat note shown in the Background Mode sheet"
     },
@@ -11015,12 +11015,12 @@
     "recapRegenerateFailed": "Couldn't regenerate the recap. Try again later.",
     "recapRegenerateCooldown": "Please wait a few seconds before regenerating again.",
     "recapRegenerateNoConversations": "No conversations to summarize for this day.",
-    "syncCustomSttWarningTitle": "Sync uses Omi transcription",
+    "syncCustomSttWarningTitle": "Sync uses Carry transcription",
     "@syncCustomSttWarningTitle": {
         "description": "Title of the dialog shown when a third-party (custom) STT user manually syncs offline recordings"
     },
-    "syncCustomSttWarningMessage": "You use your own transcription provider. Syncing these recordings transcribes them on Omi's servers instead, and they count toward your plan's transcription limit.",
+    "syncCustomSttWarningMessage": "You use your own transcription provider. Syncing these recordings transcribes them on Carry's servers instead, and they count toward your plan's transcription limit.",
     "@syncCustomSttWarningMessage": {
-        "description": "Body warning that syncing transcribes on Omi servers and counts toward the plan limit"
+        "description": "Body warning that syncing transcribes on Carry servers and counts toward the plan limit"
     }
 }

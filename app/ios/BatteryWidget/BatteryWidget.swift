@@ -53,8 +53,8 @@ struct OmiBatteryWidget: Widget {
                 BatteryWidgetEntryView(entry: entry)
             }
         }
-        .configurationDisplayName("Omi Battery")
-        .description("Shows your Omi device battery level and mic state.")
+        .configurationDisplayName("Carry Battery")
+        .description("Shows your Carry device battery level and mic state.")
         .supportedFamilies([.accessoryRectangular, .accessoryCircular])
     }
 }
@@ -156,7 +156,7 @@ struct OmiBatteryWidget_Previews: PreviewProvider {
         let connected = BatteryEntry(
             date: Date(),
             info: DeviceBatteryInfo(
-                deviceName: "Omi DevKit",
+                deviceName: "Carry DevKit",
                 batteryLevel: 98,
                 deviceType: "omi",
                 isConnected: true,

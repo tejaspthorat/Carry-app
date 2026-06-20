@@ -9,7 +9,7 @@ class AppLocalizationsZh extends AppLocalizations {
   AppLocalizationsZh([String locale = 'zh']) : super(locale);
 
   @override
-  String get appTitle => 'Omi';
+  String get appTitle => 'Carry';
 
   @override
   String get conversationTab => '对话';
@@ -128,7 +128,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get editPerson => '编辑人员';
 
   @override
-  String get createPersonHint => '创建一个新人员并训练 Omi 识别他们的声音！';
+  String get createPersonHint => '创建一个新人员并训练 Carry 识别他们的声音！';
 
   @override
   String get speechProfile => '语音配置文件';
@@ -166,7 +166,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get couldNotAccessFile => '无法打开所选文件';
 
   @override
-  String get askOmi => '询问Omi';
+  String get askOmi => '询问Carry';
 
   @override
   String get done => '完成';
@@ -266,7 +266,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noMessagesYet => '还没有消息！\n为什么不开始一段对话呢？';
 
   @override
-  String get deletingMessages => '正在从 Omi 的内存中删除您的消息...';
+  String get deletingMessages => '正在从 Carry 的内存中删除您的消息...';
 
   @override
   String get messageCopied => '✨ 消息已复制到剪贴板';
@@ -296,7 +296,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get maxFilesLimit => '您一次只能上传 4 个文件';
 
   @override
-  String get chatWithOmi => '与 Omi 聊天';
+  String get chatWithOmi => '与 Carry 聊天';
 
   @override
   String get apps => '应用';
@@ -326,7 +326,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get unableToFetchApps => '无法加载应用 :(\n\n请检查您的网络连接。';
 
   @override
-  String get aboutOmi => '关于 Omi';
+  String get aboutOmi => '关于 Carry';
 
   @override
   String get privacyPolicy => '隐私政策';
@@ -443,7 +443,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get developerSettings => '开发者设置';
 
   @override
-  String get getOmiForMac => '获取 Omi Mac 版';
+  String get getOmiForMac => '获取 Carry Mac 版';
 
   @override
   String get referralProgram => '推荐计划';
@@ -461,7 +461,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get yourPrivacyYourControl => '您的隐私，由您掌控';
 
   @override
-  String get privacyIntro => '在 Omi，我们致力于保护您的隐私。此页面允许您控制数据的保存和使用方式。';
+  String get privacyIntro => '在 Carry，我们致力于保护您的隐私。此页面允许您控制数据的保存和使用方式。';
 
   @override
   String get learnMore => '了解更多...';
@@ -530,7 +530,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get unpairAndForget => '取消配对并遗忘设备';
 
   @override
-  String get deviceDisconnectedMessage => '您的 Omi 已断开连接 😔';
+  String get deviceDisconnectedMessage => '您的 Carry 已断开连接 😔';
 
   @override
   String get deviceUnpairedMessage => '设备已取消配对。转到设置 > 蓝牙并忘记设备以完成取消配对。';
@@ -545,7 +545,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get deviceNotConnected => '设备未连接';
 
   @override
-  String get connectDeviceMessage => '连接您的 Omi 设备以访问设置和自定义。';
+  String get connectDeviceMessage => '连接您的 Carry 设备以访问设置和自定义。';
 
   @override
   String get deviceInfoSection => '设备信息';
@@ -674,7 +674,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get docs => '文档';
 
   @override
-  String get yourOmiInsights => '您的 Omi 见解';
+  String get yourOmiInsights => '您的 Carry 见解';
 
   @override
   String get today => '今天';
@@ -692,13 +692,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noActivityYet => '暂无活动';
 
   @override
-  String get startConversationToSeeInsights => '与 Omi 开始一段对话\n以在此查看您的见解。';
+  String get startConversationToSeeInsights => '与 Carry 开始一段对话\n以在此查看您的见解。';
 
   @override
   String get listening => '聆听';
 
   @override
-  String get listeningSubtitle => 'Omi 主动聆听的总时长。';
+  String get listeningSubtitle => 'Carry 主动聆听的总时长。';
 
   @override
   String get understanding => '理解';
@@ -754,19 +754,19 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get shareStatsMessage => '分享我的 Omi 统计数据！(omi.me - 我的全天候 AI 助手)';
+  String get shareStatsMessage => '分享我的 Carry 统计数据！(carry.me - 我的全天候 AI 助手)';
 
   @override
-  String get sharePeriodToday => '今天 Omi：';
+  String get sharePeriodToday => '今天 Carry：';
 
   @override
-  String get sharePeriodMonth => '本月 Omi：';
+  String get sharePeriodMonth => '本月 Carry：';
 
   @override
-  String get sharePeriodYear => '今年 Omi：';
+  String get sharePeriodYear => '今年 Carry：';
 
   @override
-  String get sharePeriodAllTime => '迄今为止 Omi：';
+  String get sharePeriodAllTime => '迄今为止 Carry：';
 
   @override
   String shareStatsListened(String minutes) {
@@ -801,7 +801,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noLogFilesFound => '未找到日志文件。';
 
   @override
-  String get omiDebugLog => 'Omi 调试日志';
+  String get omiDebugLog => 'Carry 调试日志';
 
   @override
   String get logShared => '日志已分享';
@@ -825,7 +825,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get exportDataDesc => '将对话导出为 JSON 文件';
 
   @override
-  String get exportedConversations => 'Omi 导出的对话';
+  String get exportedConversations => 'Carry 导出的对话';
 
   @override
   String get exportShared => '导出已分享';
@@ -1000,7 +1000,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addWordsDesc => '姓名、术语或不常见的词';
 
   @override
-  String get vocabularyHint => 'Omi, Callie, OpenAI';
+  String get vocabularyHint => 'Carry, Callie, OpenAI';
 
   @override
   String get connect => '连接';
@@ -1044,7 +1044,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String authAccessMessage(String appName) {
-    return '您需要授权 Omi 访问您的 $appName 数据。';
+    return '您需要授权 Carry 访问您的 $appName 数据。';
   }
 
   @override
@@ -1135,7 +1135,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get editName => '编辑姓名';
 
   @override
-  String get howShouldOmiCallYou => 'Omi 应该怎么称呼您？';
+  String get howShouldOmiCallYou => 'Carry 应该怎么称呼您？';
 
   @override
   String get enterYourName => '输入您的姓名';
@@ -1403,7 +1403,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String authorizeOmiForTasks(String appName) {
-    return '您需要授权 Omi 在您的 $appName 帐户中创建任务。这将打开您的浏览器进行身份验证。';
+    return '您需要授权 Carry 在您的 $appName 帐户中创建任务。这将打开您的浏览器进行身份验证。';
   }
 
   @override
@@ -1438,13 +1438,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get bringYourOwn => '自带';
 
   @override
-  String get payYourSttProvider => '免费使用 Omi。您只需直接向 STT 提供商付费。';
+  String get payYourSttProvider => '免费使用 Carry。您只需直接向 STT 提供商付费。';
 
   @override
   String get freeMinutesMonth => '包含 600 免费分钟/月。';
 
   @override
-  String get omiUnlimited => 'Omi 无限版';
+  String get omiUnlimited => 'Carry 无限版';
 
   @override
   String get hostRequired => '需要主机';
@@ -1562,11 +1562,11 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String deviceUsesCodec(String device, String reason) {
-    return '$device 使用 $reason。将使用 Omi。';
+    return '$device 使用 $reason。将使用 Carry。';
   }
 
   @override
-  String get omiTranscription => 'Omi 转录';
+  String get omiTranscription => 'Carry 转录';
 
   @override
   String get bestInClassTranscription => '一流的转录';
@@ -1711,7 +1711,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get enableBluetooth => '启用蓝牙';
 
   @override
-  String get bluetoothNeeded => 'Omi 需要蓝牙来连接您的穿戴设备。';
+  String get bluetoothNeeded => 'Carry 需要蓝牙来连接您的穿戴设备。';
 
   @override
   String get contactSupport => '联系支持？';
@@ -1726,7 +1726,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get backgroundActivity => '后台活动';
 
   @override
-  String get backgroundActivityDesc => '允许 Omi 在后台运行以获得更好的稳定性';
+  String get backgroundActivityDesc => '允许 Carry 在后台运行以获得更好的稳定性';
 
   @override
   String get locationAccess => '位置权限';
@@ -1753,7 +1753,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get backgroundLocationDeniedDesc => '请在设置中允许“始终”';
 
   @override
-  String get lovingOmi => '喜欢 Omi 吗？';
+  String get lovingOmi => '喜欢 Carry 吗？';
 
   @override
   String get leaveReviewIos => '在 App Store 留下评论，帮助我们。';
@@ -1771,7 +1771,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get maybeLater => '以后再说';
 
   @override
-  String get speechProfileIntro => 'Omi需要学习您的目标和声音。您稍后可以修改它。';
+  String get speechProfileIntro => 'Carry需要学习您的目标和声音。您稍后可以修改它。';
 
   @override
   String get getStarted => '开始';
@@ -1822,7 +1822,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tryAgain => '重试';
 
   @override
-  String get connectOmiOmiGlass => '连接 Omi / OmiGlass';
+  String get connectOmiOmiGlass => '连接 Carry / Carry Glass';
 
   @override
   String get continueWithoutDevice => '无设备继续';
@@ -1858,7 +1858,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get termsOfUse => '使用条款';
 
   @override
-  String get omiYourAiCompanion => 'Omi – 您的 AI 伴侣';
+  String get omiYourAiCompanion => 'Carry – 您的 AI 伴侣';
 
   @override
   String get captureEveryMoment => '捕捉每一个瞬间。获得 AI 摘要。';
@@ -2035,10 +2035,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get addFirstMemory => '添加您的第一条记忆';
 
   @override
-  String get clearMemoryTitle => '清除 Omi 记忆？';
+  String get clearMemoryTitle => '清除 Carry 记忆？';
 
   @override
-  String get clearMemoryMessage => '您确定要清除 Omi 的记忆吗？此操作无法撤消。';
+  String get clearMemoryMessage => '您确定要清除 Carry 的记忆吗？此操作无法撤消。';
 
   @override
   String get clearMemoryButton => '清除记忆';
@@ -2190,7 +2190,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get translationNotice => '翻译通知';
 
   @override
-  String get translationNoticeMessage => 'Omi 将对话翻译成您的主要语言。您可以随时在设置→个人资料中更新。';
+  String get translationNoticeMessage => 'Carry 将对话翻译成您的主要语言。您可以随时在设置→个人资料中更新。';
 
   @override
   String get pleaseCheckInternetConnection => '请检查您的互联网连接并重试';
@@ -2372,7 +2372,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get privacyPolicyTitle => '隐私政策';
 
   @override
-  String get omiSttProvider => 'Omi';
+  String get omiSttProvider => 'Carry';
 
   @override
   String labelCopied(String label) {
@@ -2517,7 +2517,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get checksForAudioFiles => '检查SD卡上的音频文件';
 
   @override
-  String get omiSyncsAudioFiles => 'Omi然后将音频文件与服务器同步';
+  String get omiSyncsAudioFiles => 'Carry然后将音频文件与服务器同步';
 
   @override
   String get serverProcessesAudio => '服务器处理音频文件并创建回忆';
@@ -2526,10 +2526,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get youreAllSet => '一切就绪！';
 
   @override
-  String get welcomeToOmiDescription => '欢迎来到Omi！您的AI伴侣已准备好帮助您进行对话、任务等。';
+  String get welcomeToOmiDescription => '欢迎来到Carry！您的AI伴侣已准备好帮助您进行对话、任务等。';
 
   @override
-  String get startUsingOmi => '开始使用Omi';
+  String get startUsingOmi => '开始使用Carry';
 
   @override
   String get back => '返回';
@@ -2605,7 +2605,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get reviewAndManageConversations => '查看和管理已录制的对话';
 
   @override
-  String get startCapturingConversations => '开始使用您的Omi设备捕获对话以在此处查看。';
+  String get startCapturingConversations => '开始使用您的Carry设备捕获对话以在此处查看。';
 
   @override
   String get useMobileAppToCapture => '使用您的移动应用程序捕获音频';
@@ -2620,7 +2620,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get showAll => '显示全部 →';
 
   @override
-  String get noTasksForToday => '今天没有任务。\n向Omi询问更多任务或手动创建。';
+  String get noTasksForToday => '今天没有任务。\n向Carry询问更多任务或手动创建。';
 
   @override
   String get dailyScore => '每日评分';
@@ -2767,7 +2767,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get createNewApp => '创建新应用';
 
   @override
-  String get buildSubmitCustomOmiApp => '构建并提交您的自定义 Omi 应用';
+  String get buildSubmitCustomOmiApp => '构建并提交您的自定义 Carry 应用';
 
   @override
   String get submittingYourApp => '正在提交您的应用...';
@@ -2812,7 +2812,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get makeMyAppPublic => '公开我的应用';
 
   @override
-  String get submitAppTermsAgreement => '提交此应用即表示我同意 Omi AI 的服务条款和隐私政策';
+  String get submitAppTermsAgreement => '提交此应用即表示我同意 Carry AI 的服务条款和隐私政策';
 
   @override
   String get submitApp => '提交应用';
@@ -2854,7 +2854,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get dataAccessNotice => '数据访问通知';
 
   @override
-  String get dataAccessWarning => '此应用将访问您的数据。Omi AI 不对此应用如何使用、修改或删除您的数据负责';
+  String get dataAccessWarning => '此应用将访问您的数据。Carry AI 不对此应用如何使用、修改或删除您的数据负责';
 
   @override
   String get installApp => '安装应用';
@@ -3197,7 +3197,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get upgradeToPro => '升级至Pro';
 
   @override
-  String get getOmiDevice => '获取 Omi 设备';
+  String get getOmiDevice => '获取 Carry 设备';
 
   @override
   String get wearableAiCompanion => '可穿戴AI伴侣';
@@ -3263,7 +3263,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get setAllMemoriesToPublic => '将所有记忆设置为公开可见性';
 
   @override
-  String get permanentlyRemoveAllMemories => '从 Omi 永久删除所有记忆';
+  String get permanentlyRemoveAllMemories => '从 Carry 永久删除所有记忆';
 
   @override
   String get allMemoriesAreNowPrivate => '所有记忆现已私密';
@@ -3272,18 +3272,18 @@ class AppLocalizationsZh extends AppLocalizations {
   String get allMemoriesAreNowPublic => '所有记忆现已公开';
 
   @override
-  String get clearOmisMemory => '清除 Omi 的记忆';
+  String get clearOmisMemory => '清除 Carry 的记忆';
 
   @override
   String clearMemoryConfirmation(int count) {
-    return '您确定要清除 Omi 的记忆吗？此操作无法撤消，将永久删除所有 $count 条记忆。';
+    return '您确定要清除 Carry 的记忆吗？此操作无法撤消，将永久删除所有 $count 条记忆。';
   }
 
   @override
-  String get omisMemoryCleared => 'Omi 关于您的记忆已被清除';
+  String get omisMemoryCleared => 'Carry 关于您的记忆已被清除';
 
   @override
-  String get welcomeToOmi => '欢迎来到 Omi';
+  String get welcomeToOmi => '欢迎来到 Carry';
 
   @override
   String get continueWithApple => '使用 Apple 继续';
@@ -3328,7 +3328,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get chooseYourLanguage => '选择您的语言';
 
   @override
-  String get selectPreferredLanguageForBestExperience => '选择您的首选语言以获得最佳 Omi 体验';
+  String get selectPreferredLanguageForBestExperience => '选择您的首选语言以获得最佳 Carry 体验';
 
   @override
   String get searchLanguages => '搜索语言...';
@@ -3346,7 +3346,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get nameMustBeAtLeast2Characters => '姓名必须至少包含2个字符';
 
   @override
-  String get tellUsHowYouWouldLikeToBeAddressed => '告诉我们您希望如何称呼您。这有助于个性化您的 Omi 体验。';
+  String get tellUsHowYouWouldLikeToBeAddressed => '告诉我们您希望如何称呼您。这有助于个性化您的 Carry 体验。';
 
   @override
   String charactersCount(int count) {
@@ -3354,7 +3354,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get enableFeaturesForBestExperience => '启用功能以在您的设备上获得最佳 Omi 体验。';
+  String get enableFeaturesForBestExperience => '启用功能以在您的设备上获得最佳 Carry 体验。';
 
   @override
   String get microphoneAccess => '麦克风访问';
@@ -3363,7 +3363,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get recordAudioConversations => '录制音频对话';
 
   @override
-  String get microphoneAccessDescription => 'Omi 需要麦克风访问权限来录制您的对话并提供转录。';
+  String get microphoneAccessDescription => 'Carry 需要麦克风访问权限来录制您的对话并提供转录。';
 
   @override
   String get screenRecording => '屏幕录制';
@@ -3372,7 +3372,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get captureSystemAudioFromMeetings => '从会议中捕获系统音频';
 
   @override
-  String get screenRecordingDescription => 'Omi 需要屏幕录制权限来从基于浏览器的会议中捕获系统音频。';
+  String get screenRecordingDescription => 'Carry 需要屏幕录制权限来从基于浏览器的会议中捕获系统音频。';
 
   @override
   String get accessibility => '辅助功能';
@@ -3381,7 +3381,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get detectBrowserBasedMeetings => '检测基于浏览器的会议';
 
   @override
-  String get accessibilityDescription => 'Omi 需要辅助功能权限来检测您何时在浏览器中加入 Zoom、Meet 或 Teams 会议。';
+  String get accessibilityDescription => 'Carry 需要辅助功能权限来检测您何时在浏览器中加入 Zoom、Meet 或 Teams 会议。';
 
   @override
   String get pleaseWait => '请稍候...';
@@ -3414,10 +3414,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get voiceAndPeople => '语音与人物';
 
   @override
-  String get teachOmiYourVoice => '教 Omi 您的声音';
+  String get teachOmiYourVoice => '教 Carry 您的声音';
 
   @override
-  String get tellOmiWhoSaidIt => '告诉 Omi 谁说的 🗣️';
+  String get tellOmiWhoSaidIt => '告诉 Carry 谁说的 🗣️';
 
   @override
   String get payment => '付款';
@@ -3429,7 +3429,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get preferences => '偏好设置';
 
   @override
-  String get helpImproveOmiBySharing => '通过分享匿名分析数据帮助改进 Omi';
+  String get helpImproveOmiBySharing => '通过分享匿名分析数据帮助改进 Carry';
 
   @override
   String get deleteAccount => '删除账户';
@@ -3453,7 +3453,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get conversationsExportStarted => '对话导出已开始。这可能需要几秒钟，请稍候。';
 
   @override
-  String get mcpDescription => '将Omi与其他应用程序连接以读取、搜索和管理您的记忆和对话。创建密钥以开始。';
+  String get mcpDescription => '将Carry与其他应用程序连接以读取、搜索和管理您的记忆和对话。创建密钥以开始。';
 
   @override
   String get apiKeys => 'API密钥';
@@ -3488,7 +3488,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get triggersWhenDaySummaryGenerated => '生成每日摘要时触发。';
 
   @override
-  String get tryLatestExperimentalFeatures => '尝试Omi团队的最新实验性功能。';
+  String get tryLatestExperimentalFeatures => '尝试Carry团队的最新实验性功能。';
 
   @override
   String get transcriptionServiceDiagnosticStatus => '转录服务诊断状态';
@@ -3558,7 +3558,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get letOmiChooseAutomatically => '让 Omi 自动选择最佳应用';
+  String get letOmiChooseAutomatically => '让 Carry 自动选择最佳应用';
 
   @override
   String get deleteConversationConfirmation => '您确定要删除此对话吗？此操作无法撤销。';
@@ -3694,7 +3694,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get translatedByOmi => '由 omi 翻译';
+  String get translatedByOmi => '由 carry 翻译';
 
   @override
   String get backToConversations => '返回对话';
@@ -3755,7 +3755,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get customVocabularyHeader => '自定义词汇';
 
   @override
-  String get addWordsDescription => '添加 Omi 在转录期间应识别的词汇。';
+  String get addWordsDescription => '添加 Carry 在转录期间应识别的词汇。';
 
   @override
   String get enterWordsHint => '输入词汇（逗号分隔）';
@@ -3839,7 +3839,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get deleteKnowledgeGraphWarning => '这将删除所有派生的知识图谱数据。您的原始记忆仍然安全。';
 
   @override
-  String get connectOmiWithAI => '将 Omi 连接到 AI 助手';
+  String get connectOmiWithAI => '将 Carry 连接到 AI 助手';
 
   @override
   String get noAPIKeys => '没有 API 密钥。创建一个以开始使用。';
@@ -3872,7 +3872,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get holdOnPreparingForm => '请稍候，我们正在为您准备表单';
 
   @override
-  String get bySubmittingYouAgreeToOmi => '提交即表示您同意Omi ';
+  String get bySubmittingYouAgreeToOmi => '提交即表示您同意Carry ';
 
   @override
   String get termsAndPrivacyPolicy => '条款与隐私政策';
@@ -4028,7 +4028,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get issueActivatingApp => '激活此应用时出现问题。请重试。';
 
   @override
-  String get dataAccessNoticeDescription => '此应用将访问您的数据。Omi AI不对此应用如何使用、修改或删除您的数据负责';
+  String get dataAccessNoticeDescription => '此应用将访问您的数据。Carry AI不对此应用如何使用、修改或删除您的数据负责';
 
   @override
   String get copyUrl => '复制链接';
@@ -4113,13 +4113,13 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get omiApiKeys => 'Omi API密钥';
+  String get omiApiKeys => 'Carry API密钥';
 
   @override
-  String get apiKeysDescription => 'API密钥用于在您的应用程序与OMI服务器通信时进行身份验证。它们允许您的应用程序创建记忆并安全地访问其他OMI服务。';
+  String get apiKeysDescription => 'API密钥用于在您的应用程序与CARRY服务器通信时进行身份验证。它们允许您的应用程序创建记忆并安全地访问其他CARRY服务。';
 
   @override
-  String get aboutOmiApiKeys => '关于Omi API密钥';
+  String get aboutOmiApiKeys => '关于Carry API密钥';
 
   @override
   String get yourNewKey => '您的新密钥:';
@@ -4247,7 +4247,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get maximumSecurityE2ee => '最高安全级别（E2EE）';
 
   @override
-  String get e2eeDescription => '端到端加密是隐私保护的黄金标准。启用后，您的数据在发送到我们的服务器之前会在您的设备上加密。这意味着没有人，包括Omi，可以访问您的内容。';
+  String get e2eeDescription => '端到端加密是隐私保护的黄金标准。启用后，您的数据在发送到我们的服务器之前会在您的设备上加密。这意味着没有人，包括Carry，可以访问您的内容。';
 
   @override
   String get importantTradeoffs => '重要权衡：';
@@ -4282,7 +4282,7 @@ class AppLocalizationsZh extends AppLocalizations {
 
   @override
   String get secureEncryptionDescription =>
-      '您的数据使用您独有的密钥在我们托管于Google Cloud的服务器上加密。这意味着包括Omi员工或Google在内的任何人都无法直接从数据库访问您的原始内容。';
+      '您的数据使用您独有的密钥在我们托管于Google Cloud的服务器上加密。这意味着包括Carry员工或Google在内的任何人都无法直接从数据库访问您的原始内容。';
 
   @override
   String get endToEndEncryption => '端到端加密';
@@ -4350,19 +4350,19 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get omiTraining => 'Omi 培训';
+  String get omiTraining => 'Carry 培训';
 
   @override
   String get trainingDataProgram => '训练数据计划';
 
   @override
-  String get getOmiUnlimitedFree => '通过贡献数据来训练AI模型，免费获得Omi无限版。';
+  String get getOmiUnlimitedFree => '通过贡献数据来训练AI模型，免费获得Carry无限版。';
 
   @override
   String get trainingDataBullets => '• 您的数据有助于改进AI模型\n• 仅共享非敏感数据\n• 完全透明的流程';
 
   @override
-  String get learnMoreAtOmiTraining => '在omi.me/training了解更多';
+  String get learnMoreAtOmiTraining => '在carry.me/training了解更多';
 
   @override
   String get agreeToContributeData => '我理解并同意为AI训练贡献我的数据';
@@ -4439,7 +4439,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get youAreOnUnlimitedPlan => '您正在使用无限版计划。';
 
   @override
-  String get yourOmiUnleashed => '您的Omi，解放了。选择无限版，开启无限可能。';
+  String get yourOmiUnleashed => '您的Carry，解放了。选择无限版，开启无限可能。';
 
   @override
   String planEndedOn(String date) {
@@ -4463,10 +4463,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get unlimitedConversations => '无限对话';
 
   @override
-  String get askOmiAnything => '向Omi询问关于您生活的任何事情';
+  String get askOmiAnything => '向Carry询问关于您生活的任何事情';
 
   @override
-  String get unlockOmiInfiniteMemory => '解锁Omi的无限记忆';
+  String get unlockOmiInfiniteMemory => '解锁Carry的无限记忆';
 
   @override
   String get youreOnAnnualPlan => '您正在使用年度计划';
@@ -4519,7 +4519,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get yourPrivacyMattersToUs => '您的隐私对我们很重要';
 
   @override
-  String get privacyIntroText => '在Omi，我们非常重视您的隐私。我们希望透明地说明我们收集的数据以及如何使用它们来改进产品。以下是您需要了解的内容：';
+  String get privacyIntroText => '在Carry，我们非常重视您的隐私。我们希望透明地说明我们收集的数据以及如何使用它们来改进产品。以下是您需要了解的内容：';
 
   @override
   String get whatWeTrack => '我们追踪什么';
@@ -4534,10 +4534,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get ourCommitment => '我们的承诺';
 
   @override
-  String get commitmentText => '我们承诺仅使用收集的数据来为您改进Omi产品。您的隐私和信任对我们至关重要。';
+  String get commitmentText => '我们承诺仅使用收集的数据来为您改进Carry产品。您的隐私和信任对我们至关重要。';
 
   @override
-  String get thankYouText => '感谢您成为Omi的尊贵用户。如果您有任何问题或疑虑，请随时通过team@basedhardware.com与我们联系。';
+  String get thankYouText => '感谢您成为Carry的尊贵用户。如果您有任何问题或疑虑，请随时通过team@basedhardware.com与我们联系。';
 
   @override
   String get password => '密码';
@@ -4619,7 +4619,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get minutes => '分钟';
 
   @override
-  String get omiHas => 'Omi 拥有：';
+  String get omiHas => 'Carry 拥有：';
 
   @override
   String get premiumMinutesUsed => '高级分钟已用完。';
@@ -4710,7 +4710,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get howItWorksTitle => '它是如何工作的？';
 
   @override
-  String get howPeopleWorks => '创建人员后，您可以转到对话记录并为他们分配相应的片段，这样 Omi 也能识别他们的语音！';
+  String get howPeopleWorks => '创建人员后，您可以转到对话记录并为他们分配相应的片段，这样 Carry 也能识别他们的语音！';
 
   @override
   String get tapToDelete => '点击删除';
@@ -4980,7 +4980,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get enableApps => '启用应用';
 
   @override
-  String get omiAppName => 'Omi';
+  String get omiAppName => 'Carry';
 
   @override
   String get showMore => '显示更多 ↓';
@@ -5004,16 +5004,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get checkingAppleWatch => '正在检查 Apple Watch...';
 
   @override
-  String get installOmiOnAppleWatch => '在您的 Apple Watch 上\n安装 Omi';
+  String get installOmiOnAppleWatch => '在您的 Apple Watch 上\n安装 Carry';
 
   @override
-  String get installOmiOnAppleWatchDescription => '要将 Apple Watch 与 Omi 配合使用，您需要先在手表上安装 Omi 应用。';
+  String get installOmiOnAppleWatchDescription => '要将 Apple Watch 与 Carry 配合使用，您需要先在手表上安装 Carry 应用。';
 
   @override
-  String get openOmiOnAppleWatch => '在您的 Apple Watch 上\n打开 Omi';
+  String get openOmiOnAppleWatch => '在您的 Apple Watch 上\n打开 Carry';
 
   @override
-  String get openOmiOnAppleWatchDescription => 'Omi 应用已安装在您的 Apple Watch 上。打开它并点击开始。';
+  String get openOmiOnAppleWatchDescription => 'Carry 应用已安装在您的 Apple Watch 上。打开它并点击开始。';
 
   @override
   String get openWatchApp => '打开 Watch 应用';
@@ -5022,13 +5022,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get iveInstalledAndOpenedTheApp => '我已安装并打开应用';
 
   @override
-  String get unableToOpenWatchApp => '无法打开 Apple Watch 应用。请在 Apple Watch 上手动打开 Watch 应用，并从「可用应用」部分安装 Omi。';
+  String get unableToOpenWatchApp => '无法打开 Apple Watch 应用。请在 Apple Watch 上手动打开 Watch 应用，并从「可用应用」部分安装 Carry。';
 
   @override
   String get appleWatchConnectedSuccessfully => 'Apple Watch 连接成功！';
 
   @override
-  String get appleWatchNotReachable => '仍无法连接 Apple Watch。请确保 Omi 应用在手表上处于打开状态。';
+  String get appleWatchNotReachable => '仍无法连接 Apple Watch。请确保 Carry 应用在手表上处于打开状态。';
 
   @override
   String errorCheckingConnection(String error) {
@@ -5106,7 +5106,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noSummary => '无摘要';
 
   @override
-  String get updateOmiFirmware => '更新omi固件';
+  String get updateOmiFirmware => '更新carry固件';
 
   @override
   String get anErrorOccurredTryAgain => '发生错误，请重试。';
@@ -5115,7 +5115,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get welcomeBackSimple => '欢迎回来';
 
   @override
-  String get addVocabularyDescription => '添加Omi在转录时应识别的词语。';
+  String get addVocabularyDescription => '添加Carry在转录时应识别的词语。';
 
   @override
   String get enterWordsCommaSeparated => '输入词语（逗号分隔）';
@@ -5276,13 +5276,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get wrappedNoDataAvailable => '暂无数据';
 
   @override
-  String get wrappedOmiLifeRecap => 'Omi 生活回顾';
+  String get wrappedOmiLifeRecap => 'Carry 生活回顾';
 
   @override
   String get wrappedSwipeUpToBegin => '向上滑动开始';
 
   @override
-  String get wrappedShareText => '我的2025，由Omi记录 ✨ omi.me/wrapped';
+  String get wrappedShareText => '我的2025，由Carry记录 ✨ carry.me/wrapped';
 
   @override
   String get wrappedFailedToShare => '分享失败，请重试。';
@@ -5303,7 +5303,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get wrappedMy2025 => '我的2025';
 
   @override
-  String get wrappedRememberedByOmi => '由Omi记录';
+  String get wrappedRememberedByOmi => '由Carry记录';
 
   @override
   String get wrappedMostFunDay => '最开心';
@@ -5516,7 +5516,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get notificationFrequency => '通知频率';
 
   @override
-  String get controlNotificationFrequency => '控制Omi向您发送主动通知的频率。';
+  String get controlNotificationFrequency => '控制Carry向您发送主动通知的频率。';
 
   @override
   String get yourScore => '您的评分';
@@ -5540,7 +5540,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get dailyScoreExplanation => '您的每日评分基于任务完成情况。完成任务以提高评分！';
 
   @override
-  String get notificationFrequencyDescription => '控制 Omi 向您发送主动通知和提醒的频率。';
+  String get notificationFrequencyDescription => '控制 Carry 向您发送主动通知和提醒的频率。';
 
   @override
   String get sliderOff => '关闭';
@@ -5740,7 +5740,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get noRecordings => '没有录音';
 
   @override
-  String get audioFromOmiWillAppearHere => '来自 Omi 设备的音频将显示在这里';
+  String get audioFromOmiWillAppearHere => '来自 Carry 设备的音频将显示在这里';
 
   @override
   String get deleteProcessed => '删除已处理的';
@@ -5860,7 +5860,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get batteryUsageHigher => '电池使用量将高于云端转录。';
 
   @override
-  String get considerOmiCloud => '考虑使用 Omi Cloud 以获得更好的性能。';
+  String get considerOmiCloud => '考虑使用 Carry Cloud 以获得更好的性能。';
 
   @override
   String get highResourceUsage => '高资源使用';
@@ -6010,7 +6010,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get omiTranscriptionOptimized => 'Omi 的内置实时转录针对实时对话进行了优化，具有自动说话人检测和说话人分离功能。';
+  String get omiTranscriptionOptimized => 'Carry 的内置实时转录针对实时对话进行了优化，具有自动说话人检测和说话人分离功能。';
 
   @override
   String get reset => '重置';
@@ -6098,13 +6098,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get writeReviewOptional => '撰写评论（可选）';
 
   @override
-  String get setupQuestionsIntro => '告诉我们关于您自己的信息。这将帮助 Omi 更好地支持您。';
+  String get setupQuestionsIntro => '告诉我们关于您自己的信息。这将帮助 Carry 更好地支持您。';
 
   @override
   String get setupQuestionProfession => '1. 你的职业是什么？';
 
   @override
-  String get setupQuestionUsage => '2. 你计划在哪里使用 Omi？';
+  String get setupQuestionUsage => '2. 你计划在哪里使用 Carry？';
 
   @override
   String get setupQuestionAge => '3. 你的年龄段是？';
@@ -6615,23 +6615,23 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get batteryFullyChargedTitle => 'Omi已充满电';
+  String get batteryFullyChargedTitle => 'Carry已充满电';
 
   @override
-  String get batteryFullyChargedBody => '您的Omi设备已充满电，可以拔掉充电线了！';
+  String get batteryFullyChargedBody => '您的Carry设备已充满电，可以拔掉充电线了！';
 
   @override
-  String get deviceDisconnectedNotificationTitle => '您的 Omi 设备已断开连接';
+  String get deviceDisconnectedNotificationTitle => '您的 Carry 设备已断开连接';
 
   @override
-  String get deviceDisconnectedNotificationBody => '请重新连接以继续使用 Omi。';
+  String get deviceDisconnectedNotificationBody => '请重新连接以继续使用 Carry。';
 
   @override
   String get firmwareUpdateAvailable => '固件更新可用';
 
   @override
   String firmwareUpdateAvailableDescription(String version) {
-    return '您的 Omi 设备有新的固件更新（$version）可用。您想现在更新吗？';
+    return '您的 Carry 设备有新的固件更新（$version）可用。您想现在更新吗？';
   }
 
   @override
@@ -6667,7 +6667,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get almostDone => '即将完成...';
 
   @override
-  String get omiSays => 'omi 说';
+  String get omiSays => 'carry 说';
 
   @override
   String get analyzingYourData => '正在分析您的数据...';
@@ -6906,7 +6906,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get nextButton => '下一步';
 
   @override
-  String get connectOmiDevice => '连接 Omi 设备';
+  String get connectOmiDevice => '连接 Carry 设备';
 
   @override
   String planSwitchingDescriptionWithTitle(String title) {
@@ -6935,7 +6935,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get transcriptionJsonPlaceholder => '在此粘贴您的 JSON 配置...';
 
   @override
-  String get transcriptionSourceOmi => 'Omi';
+  String get transcriptionSourceOmi => 'Carry';
 
   @override
   String get pricePlaceholder => '0.00';
@@ -6959,7 +6959,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get actionItemReminderTitle => 'Omi 提醒';
+  String get actionItemReminderTitle => 'Carry 提醒';
 
   @override
   String deviceDisconnectedTitle(String deviceName) {
@@ -6987,7 +6987,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get onboardingComplete => '完成';
 
   @override
-  String get onboardingWelcomeToOmi => '欢迎使用 Omi';
+  String get onboardingWelcomeToOmi => '欢迎使用 Carry';
 
   @override
   String get onboardingTellUsAboutYourself => '介绍一下您自己';
@@ -7714,19 +7714,19 @@ class AppLocalizationsZh extends AppLocalizations {
   String get reportAnIssue => '报告问题';
 
   @override
-  String get pairingTitleOmi => '开启Omi';
+  String get pairingTitleOmi => '开启Carry';
 
   @override
   String get pairingDescOmi => '按住设备直到振动以开机。';
 
   @override
-  String get pairingTitleOmiDevkit => '将Omi DevKit设置为配对模式';
+  String get pairingTitleOmiDevkit => '将Carry DevKit设置为配对模式';
 
   @override
   String get pairingDescOmiDevkit => '按一次按钮开机。配对模式下LED将闪烁紫色。';
 
   @override
-  String get pairingTitleOmiGlass => '开启Omi Glass';
+  String get pairingTitleOmiGlass => '开启Carry Glass';
 
   @override
   String get pairingDescOmiGlass => '按住侧面按钮3秒以开机。';
@@ -7765,7 +7765,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get pairingTitleAppleWatch => '连接Apple Watch';
 
   @override
-  String get pairingDescAppleWatch => '在Apple Watch上安装并打开Omi应用，然后在应用中点击连接。';
+  String get pairingDescAppleWatch => '在Apple Watch上安装并打开Carry应用，然后在应用中点击连接。';
 
   @override
   String get pairingTitleNeoOne => '将Neo One设置为配对模式';
@@ -7859,7 +7859,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get onboardingWhatIKnowAboutYouTitle => '这是我了解到的关于你的信息';
 
   @override
-  String get onboardingWhatIKnowAboutYouDescription => '这张地图会随着 Omi 从你的对话中学习而更新。';
+  String get onboardingWhatIKnowAboutYouDescription => '这张地图会随着 Carry 从你的对话中学习而更新。';
 
   @override
   String get apiEnvironment => 'API 环境';
@@ -7912,7 +7912,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tasksOverdue => '逾期';
 
   @override
-  String get phoneCallsWithOmi => '使用 Omi 通话';
+  String get phoneCallsWithOmi => '使用 Carry 通话';
 
   @override
   String get phoneCallsSubtitle => '实时转录通话';
@@ -8114,10 +8114,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get showTasksOnHomepage => '在首页显示任务';
 
   @override
-  String get phoneCallsUnlimitedOnly => '通过 Omi 拨打电话';
+  String get phoneCallsUnlimitedOnly => '通过 Carry 拨打电话';
 
   @override
-  String get phoneCallsUpsellSubtitle => '通过 Omi 拨打电话，获取实时转录、自动摘要等功能。';
+  String get phoneCallsUpsellSubtitle => '通过 Carry 拨打电话，获取实时转录、自动摘要等功能。';
 
   @override
   String get phoneCallsUpsellFeature1 => '每次通话的实时转录';
@@ -8233,7 +8233,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get fairUseAboutTitle => '关于公平使用';
 
   @override
-  String get fairUseAboutBody => 'Omi 专为个人对话、会议和实时互动而设计。使用量按检测到的实际语音时间衡量，而非连接时间。如果使用量明显超出非个人内容的正常模式，可能会进行调整。';
+  String get fairUseAboutBody => 'Carry 专为个人对话、会议和实时互动而设计。使用量按检测到的实际语音时间衡量，而非连接时间。如果使用量明显超出非个人内容的正常模式，可能会进行调整。';
 
   @override
   String fairUseCaseRefCopied(String caseRef) {
@@ -8271,7 +8271,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get improveConnectionTitle => '改善连接';
 
   @override
-  String get improveConnectionContent => '我们改进了 Omi 与您设备保持连接的方式。要激活此功能，请前往设备信息页面，点击\"断开设备\"，然后重新配对您的设备。';
+  String get improveConnectionContent => '我们改进了 Carry 与您设备保持连接的方式。要激活此功能，请前往设备信息页面，点击\"断开设备\"，然后重新配对您的设备。';
 
   @override
   String get improveConnectionAction => '知道了';
@@ -8282,7 +8282,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get omisStorage => 'Omi 存储';
+  String get omisStorage => 'Carry 存储';
 
   @override
   String get phoneStorage => '手机存储';
@@ -8326,10 +8326,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get cancelSyncQuestion => '取消同步？';
 
   @override
-  String get omisStorageDesc => '当 Omi 未连接到手机时，它会将音频存储在内置存储器中。您永远不会丢失任何录音。';
+  String get omisStorageDesc => '当 Carry 未连接到手机时，它会将音频存储在内置存储器中。您永远不会丢失任何录音。';
 
   @override
-  String get phoneStorageDesc => '当 Omi 重新连接时，录音会自动传输到手机，然后再上传。';
+  String get phoneStorageDesc => '当 Carry 重新连接时，录音会自动传输到手机，然后再上传。';
 
   @override
   String get cloudStorageDesc => '上传后，您的录音将被处理和转录。对话将在一分钟内可用。';
@@ -8356,16 +8356,16 @@ class AppLocalizationsZh extends AppLocalizations {
   String get permissionEnable => '启用';
 
   @override
-  String get permissionsPageDescription => '这些权限是Omi运作的核心。它们启用通知、基于位置的体验和音频捕获等关键功能。';
+  String get permissionsPageDescription => '这些权限是Carry运作的核心。它们启用通知、基于位置的体验和音频捕获等关键功能。';
 
   @override
-  String get permissionsRequiredDescription => 'Omi 需要一些权限才能正常工作。请授予权限以继续。';
+  String get permissionsRequiredDescription => 'Carry 需要一些权限才能正常工作。请授予权限以继续。';
 
   @override
   String get permissionsSetupTitle => '获得最佳体验';
 
   @override
-  String get permissionsSetupDescription => '启用一些权限，让 Omi 发挥它的魔力。';
+  String get permissionsSetupDescription => '启用一些权限，让 Carry 发挥它的魔力。';
 
   @override
   String get permissionsChangeAnytime => '您可以随时在设置 > 权限中更改';
@@ -8460,7 +8460,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get feedbackTitleFoundAlternative => '您要换成什么？';
 
   @override
-  String get feedbackTitleNotUsing => '什么会让您更多地使用 Omi？';
+  String get feedbackTitleNotUsing => '什么会让您更多地使用 Carry？';
 
   @override
   String get feedbackSubtitleTooExpensive => '您的反馈帮助我们找到正确的平衡。';
@@ -8478,7 +8478,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get feedbackSubtitleFoundAlternative => '我们想了解什么吸引了您。';
 
   @override
-  String get feedbackSubtitleNotUsing => '我们想让 Omi 对您更有用。';
+  String get feedbackSubtitleNotUsing => '我们想让 Carry 对您更有用。';
 
   @override
   String get deviceDiagnostics => '设备诊断';
@@ -8657,7 +8657,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get tasksMarkComplete => '已标记为完成';
 
   @override
-  String get appleHealthManageNote => 'Omi 通过 Apple 的 HealthKit 框架访问 Apple Health。您可以随时在 iOS 设置中撤销访问权限。';
+  String get appleHealthManageNote => 'Carry 通过 Apple 的 HealthKit 框架访问 Apple Health。您可以随时在 iOS 设置中撤销访问权限。';
 
   @override
   String get appleHealthConnectCta => '连接 Apple Health';
@@ -8672,31 +8672,31 @@ class AppLocalizationsZh extends AppLocalizations {
   String get appleHealthFeatureChatTitle => '聊聊你的健康';
 
   @override
-  String get appleHealthFeatureChatDesc => '向 Omi 询问你的步数、睡眠、心率和锻炼。';
+  String get appleHealthFeatureChatDesc => '向 Carry 询问你的步数、睡眠、心率和锻炼。';
 
   @override
   String get appleHealthFeatureReadOnlyTitle => '仅限读取访问';
 
   @override
-  String get appleHealthFeatureReadOnlyDesc => 'Omi 永远不会写入 Apple Health 或修改您的数据。';
+  String get appleHealthFeatureReadOnlyDesc => 'Carry 永远不会写入 Apple Health 或修改您的数据。';
 
   @override
   String get appleHealthFeatureSecureTitle => '安全同步';
 
   @override
-  String get appleHealthFeatureSecureDesc => '您的 Apple Health 数据私密同步到您的 Omi 账户。';
+  String get appleHealthFeatureSecureDesc => '您的 Apple Health 数据私密同步到您的 Carry 账户。';
 
   @override
   String get appleHealthDeniedTitle => 'Apple Health 访问被拒绝';
 
   @override
-  String get appleHealthDeniedBody => 'Omi 没有读取您的 Apple Health 数据的权限。请在 iOS 设置 → 隐私与安全性 → 健康 → Omi 中启用。';
+  String get appleHealthDeniedBody => 'Carry 没有读取您的 Apple Health 数据的权限。请在 iOS 设置 → 隐私与安全性 → 健康 → Carry 中启用。';
 
   @override
   String get deleteFlowReasonTitle => '您为何离开?';
 
   @override
-  String get deleteFlowReasonSubtitle => '您的反馈有助于我们为所有人改进 Omi。';
+  String get deleteFlowReasonSubtitle => '您的反馈有助于我们为所有人改进 Carry。';
 
   @override
   String get deleteReasonPrivacy => '隐私方面的顾虑';
@@ -8723,7 +8723,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get deleteFlowFeedbackTitle => '告诉我们更多';
 
   @override
-  String get deleteFlowFeedbackSubtitle => '怎样才能让 Omi 对您有用?';
+  String get deleteFlowFeedbackSubtitle => '怎样才能让 Carry 对您有用?';
 
   @override
   String get deleteFlowFeedbackHint => '可选 — 您的想法有助于我们打造更好的产品。';
@@ -8867,13 +8867,13 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get chatQuotaSubtitle => 'AI chat messages used with Omi this month.';
+  String get chatQuotaSubtitle => 'AI chat messages used with Carry this month.';
 
   @override
-  String get chatQuotaExceededReply => '您已达到每月限额。升级以无限制地继续与Omi聊天。';
+  String get chatQuotaExceededReply => '您已达到每月限额。升级以无限制地继续与Carry聊天。';
 
   @override
-  String get voiceResponseAudio => '朗读 Omi 的回复';
+  String get voiceResponseAudio => '朗读 Carry 的回复';
 
   @override
   String get voiceResponseMode => '语音回复';
@@ -8906,7 +8906,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get voiceMode => '语音模式';
 
   @override
-  String get quickActionAskOmi => '向Omi询问任何事';
+  String get quickActionAskOmi => '向Carry询问任何事';
 
   @override
   String get record => '录音';
@@ -9017,13 +9017,13 @@ class AppLocalizationsZh extends AppLocalizations {
   String get syncInProgress => '正在同步';
 
   @override
-  String get syncStatusUploaded => '已上传 · 正在 Omi 上处理';
+  String get syncStatusUploaded => '已上传 · 正在 Carry 上处理';
 
   @override
   String get deleteWhileProcessingTitle => '仍在处理';
 
   @override
-  String get deleteWhileProcessingMessage => '此录音已上传，但 Omi 仍在创建对话。如果现在删除且处理失败，将无法恢复。仍要删除吗？';
+  String get deleteWhileProcessingMessage => '此录音已上传，但 Carry 仍在创建对话。如果现在删除且处理失败，将无法恢复。仍要删除吗？';
 
   @override
   String get syncCardAllBackedUp => '所有录音已同步';
@@ -9039,7 +9039,7 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get syncCardProcessing => 'Omi 处理中…';
+  String get syncCardProcessing => 'Carry 处理中…';
 
   @override
   String get syncCardWaitingInternet => '等待网络连接';
@@ -9055,19 +9055,19 @@ class AppLocalizationsZh extends AppLocalizations {
   }
 
   @override
-  String get syncFlowIntro => '录音从你的设备传输到这部手机并存储在本地，然后上传到 Omi 的服务器，在那里被转录并转化为对话。';
+  String get syncFlowIntro => '录音从你的设备传输到这部手机并存储在本地，然后上传到 Carry 的服务器，在那里被转录并转化为对话。';
 
   @override
   String get syncStepUpload => '同步';
 
   @override
-  String get syncStepUploadDesc => '你的录音会发送到 Omi 的服务器';
+  String get syncStepUploadDesc => '你的录音会发送到 Carry 的服务器';
 
   @override
   String get syncStepProcess => '转写';
 
   @override
-  String get syncStepProcessDesc => 'Omi 将音频转为对话';
+  String get syncStepProcessDesc => 'Carry 将音频转为对话';
 
   @override
   String get syncStepBackedUp => '对话已就绪';
@@ -9082,7 +9082,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get syncStatusConversationCreated => '对话已创建';
 
   @override
-  String get syncCardUploadingTitle => '正在上传到 Omi';
+  String get syncCardUploadingTitle => '正在上传到 Carry';
 
   @override
   String get syncCardDownloadingTitle => '正在从你的设备下载';
@@ -9114,7 +9114,7 @@ class AppLocalizationsZh extends AppLocalizations {
   String get syncCardRateLimited => '已达到合理使用上限 — 同步将自动恢复';
 
   @override
-  String get syncCardBackendBusy => 'Omi 服务器繁忙 — 容量恢复后将自动同步你的录音';
+  String get syncCardBackendBusy => 'Carry 服务器繁忙 — 容量恢复后将自动同步你的录音';
 
   @override
   String get unableToDetermineFirmwareVersion => '无法确定当前固件版本';
@@ -9132,10 +9132,10 @@ class AppLocalizationsZh extends AppLocalizations {
   String get backgroundModeTitle => '后台模式';
 
   @override
-  String get backgroundModeDescription => '即使完全关闭应用，也能让你的 Omi 继续录音。';
+  String get backgroundModeDescription => '即使完全关闭应用，也能让你的 Carry 继续录音。';
 
   @override
-  String get backgroundModeNote => '目前仅支持 Omi 设备，并在持续改进中。';
+  String get backgroundModeNote => '目前仅支持 Carry 设备，并在持续改进中。';
 
   @override
   String get regenerateRecap => '重新生成回顾';
@@ -9153,8 +9153,8 @@ class AppLocalizationsZh extends AppLocalizations {
   String get recapRegenerateNoConversations => '这一天没有可以总结的对话。';
 
   @override
-  String get syncCustomSttWarningTitle => '同步会使用 Omi 转录';
+  String get syncCustomSttWarningTitle => '同步会使用 Carry 转录';
 
   @override
-  String get syncCustomSttWarningMessage => '您使用的是自己的转录服务。同步这些录音会改为在 Omi 的服务器上转录，并计入您套餐的转录额度。';
+  String get syncCustomSttWarningMessage => '您使用的是自己的转录服务。同步这些录音会改为在 Carry 的服务器上转录，并计入您套餐的转录额度。';
 }

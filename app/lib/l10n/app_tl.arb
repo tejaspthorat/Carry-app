@@ -1,7 +1,7 @@
 {
     "@@locale": "tl",
     "@@last_modified": "2024-12-26",
-    "appTitle": "Omi",
+    "appTitle": "Carry",
     "@appTitle": {
         "description": "The app title displayed in various places"
     },
@@ -157,7 +157,7 @@
     "@editPerson": {
         "description": "Title for edit person dialog"
     },
-    "createPersonHint": "Lumikha ng bagong tao at turuan ang Omi na kilalanin ang kanilang pagsasalita!",
+    "createPersonHint": "Lumikha ng bagong tao at turuan ang Carry na kilalanin ang kanilang pagsasalita!",
     "@createPersonHint": {
         "description": "Hint text for creating a person"
     },
@@ -211,9 +211,9 @@
     "@couldNotAccessFile": {
         "description": "Error when file access fails"
     },
-    "askOmi": "Tanungin ang Omi",
+    "askOmi": "Tanungin ang Carry",
     "@askOmi": {
-        "description": "Shortcut to ask Omi a question"
+        "description": "Shortcut to ask Carry a question"
     },
     "done": "Tapos na",
     "@done": {
@@ -349,7 +349,7 @@
     "@noMessagesYet": {
         "description": "Empty chat state message"
     },
-    "deletingMessages": "Inaalis ang iyong mga mensahe mula sa memorya ni Omi...",
+    "deletingMessages": "Inaalis ang iyong mga mensahe mula sa memorya ni Carry...",
     "@deletingMessages": {
         "description": "Loading text when clearing chat"
     },
@@ -389,7 +389,7 @@
     "@maxFilesLimit": {
         "description": "Max files upload warning"
     },
-    "chatWithOmi": "Makipag-chat sa Omi",
+    "chatWithOmi": "Makipag-chat sa Carry",
     "@chatWithOmi": {
         "description": "Chat share subject"
     },
@@ -429,7 +429,7 @@
     "@unableToFetchApps": {
         "description": "Error when apps fail to load"
     },
-    "aboutOmi": "Tungkol sa Omi",
+    "aboutOmi": "Tungkol sa Carry",
     "@aboutOmi": {
         "description": "About page title"
     },
@@ -579,7 +579,7 @@
     "@developerSettings": {
         "description": "Title for developer settings page"
     },
-    "getOmiForMac": "Kunin ang Omi para sa Mac",
+    "getOmiForMac": "Kunin ang Carry para sa Mac",
     "@getOmiForMac": {
         "description": "Mac app download link"
     },
@@ -603,7 +603,7 @@
     "@yourPrivacyYourControl": {
         "description": "Data privacy page heading"
     },
-    "privacyIntro": "Sa Omi, kami ay nakatuon sa pagprotekta ng iyong privacy. Ang pahina na ito ay nagbibigay-daan sa iyo na kontrolin kung paano ginagamit at iniimbak ang iyong data.",
+    "privacyIntro": "Sa Carry, kami ay nakatuon sa pagprotekta ng iyong privacy. Ang pahina na ito ay nagbibigay-daan sa iyo na kontrolin kung paano ginagamit at iniimbak ang iyong data.",
     "@privacyIntro": {
         "description": "Data privacy page introduction"
     },
@@ -695,7 +695,7 @@
     "@unpairAndForget": {
         "description": "Unpair and forget device button"
     },
-    "deviceDisconnectedMessage": "Ang iyong Omi ay nawawalan ng koneksyon 😔",
+    "deviceDisconnectedMessage": "Ang iyong Carry ay nawawalan ng koneksyon 😔",
     "@deviceDisconnectedMessage": {
         "description": "Message shown when device is disconnected"
     },
@@ -715,7 +715,7 @@
     "@deviceNotConnected": {
         "description": "Device not connected header"
     },
-    "connectDeviceMessage": "Ikonekta ang iyong Omi device upang ma-access\nang device settings at pag-customize",
+    "connectDeviceMessage": "Ikonekta ang iyong Carry device upang ma-access\nang device settings at pag-customize",
     "@connectDeviceMessage": {
         "description": "Message encouraging user to connect device"
     },
@@ -887,7 +887,7 @@
     "@docs": {
         "description": "Documentation button text"
     },
-    "yourOmiInsights": "Ang Iyong Omi Insights",
+    "yourOmiInsights": "Ang Iyong Carry Insights",
     "@yourOmiInsights": {
         "description": "Usage page title"
     },
@@ -911,7 +911,7 @@
     "@noActivityYet": {
         "description": "Empty state title"
     },
-    "startConversationToSeeInsights": "Magsimula ng pag-uusap sa Omi\nupang makita ang iyong usage insights dito.",
+    "startConversationToSeeInsights": "Magsimula ng pag-uusap sa Carry\nupang makita ang iyong usage insights dito.",
     "@startConversationToSeeInsights": {
         "description": "Empty state description"
     },
@@ -919,7 +919,7 @@
     "@listening": {
         "description": "Listening stat title"
     },
-    "listeningSubtitle": "Kabuuang oras na aktibong nakinig ang Omi.",
+    "listeningSubtitle": "Kabuuang oras na aktibong nakinig ang Carry.",
     "@listeningSubtitle": {
         "description": "Listening stat subtitle"
     },
@@ -1011,23 +1011,23 @@
             }
         }
     },
-    "shareStatsMessage": "Nagbabahagi ng aking Omi stats! (omi.me - ang iyong palaging-bukas na AI assistant)",
+    "shareStatsMessage": "Nagbabahagi ng aking Carry stats! (carry.me - ang iyong palaging-bukas na AI assistant)",
     "@shareStatsMessage": {
         "description": "Share stats base message"
     },
-    "sharePeriodToday": "Ngayon, omi ay:",
+    "sharePeriodToday": "Ngayon, carry ay:",
     "@sharePeriodToday": {
         "description": "Share stats period: Today"
     },
-    "sharePeriodMonth": "Sa buwan na ito, omi ay:",
+    "sharePeriodMonth": "Sa buwan na ito, carry ay:",
     "@sharePeriodMonth": {
         "description": "Share stats period: Month"
     },
-    "sharePeriodYear": "Sa taon na ito, omi ay:",
+    "sharePeriodYear": "Sa taon na ito, carry ay:",
     "@sharePeriodYear": {
         "description": "Share stats period: Year"
     },
-    "sharePeriodAllTime": "Sa ngayon, omi ay:",
+    "sharePeriodAllTime": "Sa ngayon, carry ay:",
     "@sharePeriodAllTime": {
         "description": "Share stats period: All Time"
     },
@@ -1075,7 +1075,7 @@
     "debugLogsAutoDelete": "Awtomatikong buburahin pagkatapos ng 3 araw.",
     "debugLogsDesc": "Tumutulong sa pag-diagnose ng mga isyu",
     "noLogFilesFound": "Walang log files na nahanap.",
-    "omiDebugLog": "Omi debug log",
+    "omiDebugLog": "Carry debug log",
     "logShared": "Log ay na-share",
     "selectLogFile": "Piliin ang Log File",
     "shareLogs": "Ibahagi ang Logs",
@@ -1083,7 +1083,7 @@
     "exportStarted": "Nagsimula ang pag-export. Maaaring tumagal ng ilang segundo...",
     "exportAllData": "I-export ang Lahat ng Data",
     "exportDataDesc": "I-export ang mga pag-uusap sa isang JSON file",
-    "exportedConversations": "Mga Exported Conversations mula sa Omi",
+    "exportedConversations": "Mga Exported Conversations mula sa Carry",
     "exportShared": "Export ay na-share",
     "deleteKnowledgeGraphTitle": "Tanggalin ang Knowledge Graph?",
     "deleteKnowledgeGraphMessage": "Ito ay tatanggal ang lahat ng derived knowledge graph data (nodes at connections). Ang iyong orihinal na mga alaala ay manatiling ligtas. Ang graph ay muling bubuo sa paglipas ng panahon o sa susunod na request.",
@@ -1183,7 +1183,7 @@
     "customVocabularyTitle": "Custom na Bokabularyo",
     "addWords": "Magdagdag ng Mga Salita",
     "addWordsDesc": "Mga pangalan, termino, o hindi karaniwang mga salita",
-    "vocabularyHint": "Omi, Callie, OpenAI",
+    "vocabularyHint": "Carry, Callie, OpenAI",
     "connect": "Ikonekta",
     "comingSoon": "Paparating Na",
     "integrationsFooter": "Ikonekta ang iyong mga app upang makita ang data at metrics sa chat.",
@@ -1229,7 +1229,7 @@
             }
         }
     },
-    "authAccessMessage": "Kailangan mong i-authorize ang Omi upang ma-access ang iyong {appName} data. Ito ay magbubukas ng iyong browser para sa pag-authenticate.",
+    "authAccessMessage": "Kailangan mong i-authorize ang Carry upang ma-access ang iyong {appName} data. Ito ay magbubukas ng iyong browser para sa pag-authenticate.",
     "@authAccessMessage": {
         "placeholders": {
             "appName": {
@@ -1266,7 +1266,7 @@
     "permissionRevokedMessage": "Gusto mo ba na i-remove namin ang lahat ng iyong mga recordings?",
     "yes": "Oo",
     "editName": "I-edit ang Pangalan",
-    "howShouldOmiCallYou": "Paano ka dapat tawagan ng Omi?",
+    "howShouldOmiCallYou": "Paano ka dapat tawagan ng Carry?",
     "enterYourName": "Ilagay ang iyong pangalan",
     "nameCannotBeEmpty": "Ang pangalan ay hindi maaaring walang laman",
     "nameUpdatedSuccessfully": "Ang pangalan ay na-update na!",
@@ -1450,7 +1450,7 @@
             }
         }
     },
-    "authorizeOmiForTasks": "Kakailanganin mong pahintulutan ang Omi na lumikha ng mga task sa iyong {appName} account. Ito ay magbubukas ng iyong browser para sa authentication.",
+    "authorizeOmiForTasks": "Kakailanganin mong pahintulutan ang Carry na lumikha ng mga task sa iyong {appName} account. Ito ay magbubukas ng iyong browser para sa authentication.",
     "@authorizeOmiForTasks": {
         "placeholders": {
             "appName": {
@@ -1481,9 +1481,9 @@
     "importConfiguration": "I-import ang Configuration",
     "exportConfiguration": "I-export ang configuration",
     "bringYourOwn": "Dalhin ang iyong sarili",
-    "payYourSttProvider": "Gamitin ang omi nang libre. Direkta lang sa iyong STT provider ang babayaran mo.",
+    "payYourSttProvider": "Gamitin ang carry nang libre. Direkta lang sa iyong STT provider ang babayaran mo.",
     "freeMinutesMonth": "600 libreng minuto/buwan kasama. Unlimited sa ",
-    "omiUnlimited": "Omi Unlimited",
+    "omiUnlimited": "Carry Unlimited",
     "hostRequired": "Ang Host ay kinakailangan",
     "validPortRequired": "Ang Valid port ay kinakailangan",
     "validWebsocketUrlRequired": "Ang Valid WebSocket URL ay kinakailangan (wss://)",
@@ -1541,7 +1541,7 @@
     "logs": "Mga Log",
     "logsCopied": "Ang mga log ay nakopya",
     "noLogsYet": "Walang mga log pa. Magsimula ng recording para makita ang custom STT activity.",
-    "deviceUsesCodec": "Ang {device} ay gumagamit ng {reason}. Ang Omi ay gagamitin.",
+    "deviceUsesCodec": "Ang {device} ay gumagamit ng {reason}. Ang Carry ay gagamitin.",
     "@deviceUsesCodec": {
         "description": "Warning about device codec compatibility",
         "placeholders": {
@@ -1553,7 +1553,7 @@
             }
         }
     },
-    "omiTranscription": "Omi Transcription",
+    "omiTranscription": "Carry Transcription",
     "bestInClassTranscription": "Best in class transcription na walang setup",
     "instantSpeakerLabels": "Instant speaker labels",
     "languageTranslation": "100+ language translation",
@@ -1635,7 +1635,7 @@
     "@enableBluetooth": {
         "description": "Title for dialog prompting user to enable Bluetooth"
     },
-    "bluetoothNeeded": "Ang Omi ay kailangan ng Bluetooth upang kumonekta sa iyong wearable. Mangyaring paganahin ang Bluetooth at subukan muli.",
+    "bluetoothNeeded": "Ang Carry ay kailangan ng Bluetooth upang kumonekta sa iyong wearable. Mangyaring paganahin ang Bluetooth at subukan muli.",
     "@bluetoothNeeded": {
         "description": "Explanation text for why Bluetooth is required"
     },
@@ -1655,7 +1655,7 @@
     "@backgroundActivity": {
         "description": "Title for background activity permission"
     },
-    "backgroundActivityDesc": "Hayaang tumakbo ang Omi sa background para sa mas magandang stability",
+    "backgroundActivityDesc": "Hayaang tumakbo ang Carry sa background para sa mas magandang stability",
     "@backgroundActivityDesc": {
         "description": "Description for background activity permission"
     },
@@ -1694,7 +1694,7 @@
     "@backgroundLocationDeniedDesc": {
         "description": "Instructions to grant background location permission"
     },
-    "lovingOmi": "Gusto mo ba ang Omi?",
+    "lovingOmi": "Gusto mo ba ang Carry?",
     "@lovingOmi": {
         "description": "Title for the app review prompt"
     },
@@ -1718,7 +1718,7 @@
     "@maybeLater": {
         "description": "Button text to defer action"
     },
-    "speechProfileIntro": "Ang Omi ay kailangan matuto ng iyong mga layunin at iyong boses. Makakabago ka nito mamaya.",
+    "speechProfileIntro": "Ang Carry ay kailangan matuto ng iyong mga layunin at iyong boses. Makakabago ka nito mamaya.",
     "@speechProfileIntro": {
         "description": "Introduction text for speech profile setup"
     },
@@ -1786,7 +1786,7 @@
     "@tryAgain": {
         "description": "Button text to retry an action"
     },
-    "connectOmiOmiGlass": "Kumonekta sa Omi / OmiGlass",
+    "connectOmiOmiGlass": "Kumonekta sa Carry / Carry Glass",
     "@connectOmiOmiGlass": {
         "description": "Button text to connect specific device models"
     },
@@ -1837,7 +1837,7 @@
     "@termsOfUse": {
         "description": "Link text for Terms of Use"
     },
-    "omiYourAiCompanion": "Omi – Ang Iyong AI Companion",
+    "omiYourAiCompanion": "Carry – Ang Iyong AI Companion",
     "@omiYourAiCompanion": {
         "description": "App title or branding on onboarding screen"
     },
@@ -1857,7 +1857,7 @@
     "@microphonePermission": {
         "description": "Title for microphone permission section"
     },
-    "permissionGrantedNow": "Ang pahintulot ay nabigyan na! Ngayon:\n\nBuksan ang Omi app sa iyong watch at tapin ang \"Continue\" sa ibaba",
+    "permissionGrantedNow": "Ang pahintulot ay nabigyan na! Ngayon:\n\nBuksan ang Carry app sa iyong watch at tapin ang \"Continue\" sa ibaba",
     "@permissionGrantedNow": {
         "description": "Instructions after permission is granted"
     },
@@ -1873,7 +1873,7 @@
     "@needHelp": {
         "description": "Link to help dialog"
     },
-    "troubleshootingSteps": "Troubleshooting:\n\n1. Masiguro na ang Omi ay naka-install sa iyong watch\n2. Buksan ang Omi app sa iyong watch\n3. Hanapin ang permission popup\n4. Tapin ang \"Allow\" kapag hiniling\n5. Ang app sa iyong watch ay magsasara - buksan ito muli\n6. Bumalik at tapin ang \"Continue\" sa iyong iPhone",
+    "troubleshootingSteps": "Troubleshooting:\n\n1. Masiguro na ang Carry ay naka-install sa iyong watch\n2. Buksan ang Carry app sa iyong watch\n3. Hanapin ang permission popup\n4. Tapin ang \"Allow\" kapag hiniling\n5. Ang app sa iyong watch ay magsasara - buksan ito muli\n6. Bumalik at tapin ang \"Continue\" sa iyong iPhone",
     "@troubleshootingSteps": {
         "description": "Troubleshooting instructions for watch setup"
     },
@@ -1930,7 +1930,7 @@
     },
     "personalGrowthJourney": "Ang iyong personal growth journey gamit ang AI na nakikinig sa bawat salita mo.",
     "@personalGrowthJourney": {
-        "description": "Subtitle describing Omi on auth screen"
+        "description": "Subtitle describing Carry on auth screen"
     },
     "actionItemsTitle": "Mga To-Do",
     "@actionItemsTitle": {
@@ -2103,11 +2103,11 @@
     "@addFirstMemory": {
         "description": "Button to add first memory"
     },
-    "clearMemoryTitle": "I-clear ang Alaala ng Omi",
+    "clearMemoryTitle": "I-clear ang Alaala ng Carry",
     "@clearMemoryTitle": {
         "description": "Dialog title for clearing memory"
     },
-    "clearMemoryMessage": "Sigurado ka ba na gusto mong i-clear ang alaala ng Omi? Ang aksyon na ito ay hindi mababawi.",
+    "clearMemoryMessage": "Sigurado ka ba na gusto mong i-clear ang alaala ng Carry? Ang aksyon na ito ay hindi mababawi.",
     "@clearMemoryMessage": {
         "description": "Dialog content for clearing memory"
     },
@@ -2115,7 +2115,7 @@
     "@clearMemoryButton": {
         "description": "Button text to confirm clearing all memories"
     },
-    "memoryClearedSuccess": "Ang alaala ng Omi tungkol sa iyo ay na-clear na",
+    "memoryClearedSuccess": "Ang alaala ng Carry tungkol sa iyo ay na-clear na",
     "@memoryClearedSuccess": {
         "description": "Snackbar success message"
     },
@@ -2312,7 +2312,7 @@
     "@translationNotice": {
         "description": "Title for dialog explaining that conversations are translated"
     },
-    "translationNoticeMessage": "Ang Omi ay nagsasalin ng mga pag-usap sa iyong pangunahing wika. I-update ito anumang oras sa Settings → Profiles.",
+    "translationNoticeMessage": "Ang Carry ay nagsasalin ng mga pag-usap sa iyong pangunahing wika. I-update ito anumang oras sa Settings → Profiles.",
     "@translationNoticeMessage": {
         "description": "Message explaining how translation works and where to change language settings"
     },
@@ -2561,9 +2561,9 @@
     "@privacyPolicyTitle": {
         "description": "Title for privacy policy page"
     },
-    "omiSttProvider": "Omi",
+    "omiSttProvider": "Carry",
     "@omiSttProvider": {
-        "description": "Label for default Omi STT provider"
+        "description": "Label for default Carry STT provider"
     },
     "labelCopied": "{label} ay nai-copy",
     "@labelCopied": {
@@ -2855,7 +2855,7 @@
     "@checksForAudioFiles": {
         "description": "Step 1: Checking for audio files"
     },
-    "omiSyncsAudioFiles": "Ang Omi ay nag-sync pagkatapos ng mga audio file sa server",
+    "omiSyncsAudioFiles": "Ang Carry ay nag-sync pagkatapos ng mga audio file sa server",
     "@omiSyncsAudioFiles": {
         "description": "Step 2: Syncing audio files"
     },
@@ -2867,11 +2867,11 @@
     "@youreAllSet": {
         "description": "Completion message when onboarding is finished"
     },
-    "welcomeToOmiDescription": "Maligayang pagdating sa Omi! Ang iyong AI companion ay handa nang tulungan ka sa mga conversation, gawain, at marami pa.",
+    "welcomeToOmiDescription": "Maligayang pagdating sa Carry! Ang iyong AI companion ay handa nang tulungan ka sa mga conversation, gawain, at marami pa.",
     "@welcomeToOmiDescription": {
         "description": "Welcome message on completion screen"
     },
-    "startUsingOmi": "Magsimulang Gumamit ng Omi",
+    "startUsingOmi": "Magsimulang Gumamit ng Carry",
     "@startUsingOmi": {
         "description": "Button to complete onboarding and start using the app"
     },
@@ -2980,7 +2980,7 @@
     "@reviewAndManageConversations": {
         "description": "Subtitle explaining what users can do on conversations page"
     },
-    "startCapturingConversations": "Magsimulang kumuha ng mga conversation gamit ang iyong Omi device upang makita ang mga ito dito.",
+    "startCapturingConversations": "Magsimulang kumuha ng mga conversation gamit ang iyong Carry device upang makita ang mga ito dito.",
     "@startCapturingConversations": {
         "description": "Message explaining how to get started with conversations"
     },
@@ -3000,7 +3000,7 @@
     "@showAll": {
         "description": "Button text to show all items"
     },
-    "noTasksForToday": "Walang mga gawain para sa araw na ito.\nTanungin ang Omi para sa higit pang mga gawain o lumikha nang manu-mano.",
+    "noTasksForToday": "Walang mga gawain para sa araw na ito.\nTanungin ang Carry para sa higit pang mga gawain o lumikha nang manu-mano.",
     "@noTasksForToday": {
         "description": "Message shown when there are no tasks due today"
     },
@@ -3199,7 +3199,7 @@
     "@createNewApp": {
         "description": "Title for the create new app page"
     },
-    "buildSubmitCustomOmiApp": "Bumuo at magpadala ng iyong custom na Omi app",
+    "buildSubmitCustomOmiApp": "Bumuo at magpadala ng iyong custom na Carry app",
     "@buildSubmitCustomOmiApp": {
         "description": "Subtitle describing the purpose of the create app page"
     },
@@ -3259,7 +3259,7 @@
     "@makeMyAppPublic": {
         "description": "Checkbox label for making app publicly available"
     },
-    "submitAppTermsAgreement": "Sa pag-submit ng app na ito, sumasang-ayon ako sa Omi AI Terms of Service at Privacy Policy",
+    "submitAppTermsAgreement": "Sa pag-submit ng app na ito, sumasang-ayon ako sa Carry AI Terms of Service at Privacy Policy",
     "@submitAppTermsAgreement": {
         "description": "Terms and conditions agreement checkbox text"
     },
@@ -3315,7 +3315,7 @@
     "@dataAccessNotice": {
         "description": "Dialog title warning about app data access"
     },
-    "dataAccessWarning": "Ang app na ito ay makakapag-access sa iyong data. Ang Omi AI ay hindi responsable sa kung paano ang iyong data ay ginagamit, binabago, o bina-delete ng app na ito",
+    "dataAccessWarning": "Ang app na ito ay makakapag-access sa iyong data. Ang Carry AI ay hindi responsable sa kung paano ang iyong data ay ginagamit, binabago, o bina-delete ng app na ito",
     "@dataAccessWarning": {
         "description": "Warning message about app data access in confirmation dialog"
     },
@@ -3787,7 +3787,7 @@
     "@upgradeToPro": {
         "description": "Subscription banner button text"
     },
-    "getOmiDevice": "Kumuha ng Omi Device",
+    "getOmiDevice": "Kumuha ng Carry Device",
     "@getOmiDevice": {
         "description": "Widget title for device promotion"
     },
@@ -3890,7 +3890,7 @@
     "@setAllMemoriesToPublic": {
         "description": "Description for making all memories public"
     },
-    "permanentlyRemoveAllMemories": "Permanenteng alisin ang lahat ng memories mula sa Omi",
+    "permanentlyRemoveAllMemories": "Permanenteng alisin ang lahat ng memories mula sa Carry",
     "@permanentlyRemoveAllMemories": {
         "description": "Description for deleting all memories"
     },
@@ -3902,11 +3902,11 @@
     "@allMemoriesAreNowPublic": {
         "description": "Success message after making all memories public"
     },
-    "clearOmisMemory": "Burahin ang Memory ng Omi",
+    "clearOmisMemory": "Burahin ang Memory ng Carry",
     "@clearOmisMemory": {
         "description": "Confirmation dialog title for clearing all memories"
     },
-    "clearMemoryConfirmation": "Sigurado ka na ba na nais mong burahin ang memory ng Omi? Ang aksyong ito ay hindi maaaring bawiin at permanenteng magsasabing lahat ng {count} memories.",
+    "clearMemoryConfirmation": "Sigurado ka na ba na nais mong burahin ang memory ng Carry? Ang aksyong ito ay hindi maaaring bawiin at permanenteng magsasabing lahat ng {count} memories.",
     "@clearMemoryConfirmation": {
         "description": "Confirmation message for clearing all memories",
         "placeholders": {
@@ -3915,11 +3915,11 @@
             }
         }
     },
-    "omisMemoryCleared": "Ang memory ng Omi tungkol sa iyo ay nabura na",
+    "omisMemoryCleared": "Ang memory ng Carry tungkol sa iyo ay nabura na",
     "@omisMemoryCleared": {
         "description": "Success message after clearing all memories"
     },
-    "welcomeToOmi": "Maligayang pagdating sa Omi",
+    "welcomeToOmi": "Maligayang pagdating sa Carry",
     "@welcomeToOmi": {
         "description": "Welcome message on auth screen"
     },
@@ -3973,13 +3973,13 @@
     },
     "pleaseSelectYourPrimaryLanguage": "Piliin ang iyong pangunahing wika",
     "chooseYourLanguage": "Piliin ang iyong wika",
-    "selectPreferredLanguageForBestExperience": "Piliin ang iyong preferred na wika para sa pinakamahusay na Omi experience",
+    "selectPreferredLanguageForBestExperience": "Piliin ang iyong preferred na wika para sa pinakamahusay na Carry experience",
     "searchLanguages": "Maghanap ng mga wika...",
     "selectALanguage": "Pumili ng isang wika",
     "tryDifferentSearchTerm": "Subukan ang ibang search term",
     "pleaseEnterYourName": "Mangyaring ilagay ang iyong pangalan",
     "nameMustBeAtLeast2Characters": "Ang pangalan ay dapat na hindi bababa sa 2 characters",
-    "tellUsHowYouWouldLikeToBeAddressed": "Sabihin sa amin kung paano ka nais tawagan. Ito ay tumutulong na i-personalize ang iyong Omi experience.",
+    "tellUsHowYouWouldLikeToBeAddressed": "Sabihin sa amin kung paano ka nais tawagan. Ito ay tumutulong na i-personalize ang iyong Carry experience.",
     "charactersCount": "{count} characters",
     "@charactersCount": {
         "placeholders": {
@@ -3988,16 +3988,16 @@
             }
         }
     },
-    "enableFeaturesForBestExperience": "Paganahin ang mga features para sa pinakamahusay na Omi experience sa iyong device.",
+    "enableFeaturesForBestExperience": "Paganahin ang mga features para sa pinakamahusay na Carry experience sa iyong device.",
     "microphoneAccess": "Microphone Access",
     "recordAudioConversations": "I-record ang audio conversations",
-    "microphoneAccessDescription": "Kailangan ng Omi ang microphone access upang i-record ang iyong mga conversation at magbigay ng mga transcription.",
+    "microphoneAccessDescription": "Kailangan ng Carry ang microphone access upang i-record ang iyong mga conversation at magbigay ng mga transcription.",
     "screenRecording": "Screen Recording",
     "captureSystemAudioFromMeetings": "Kunin ang system audio mula sa mga meeting",
-    "screenRecordingDescription": "Kailangan ng Omi ng screen recording permission upang kunin ang system audio mula sa iyong browser-based na mga meeting.",
+    "screenRecordingDescription": "Kailangan ng Carry ng screen recording permission upang kunin ang system audio mula sa iyong browser-based na mga meeting.",
     "accessibility": "Accessibility",
     "detectBrowserBasedMeetings": "Tukuyin ang browser-based na mga meeting",
-    "accessibilityDescription": "Kailangan ng Omi ng accessibility permission upang matukoy kung kailan ka sumali sa Zoom, Meet, o Teams meetings sa iyong browser.",
+    "accessibilityDescription": "Kailangan ng Carry ng accessibility permission upang matukoy kung kailan ka sumali sa Zoom, Meet, o Teams meetings sa iyong browser.",
     "pleaseWait": "Mangyaring maghintay...",
     "joinTheCommunity": "Sumali sa komunidad!",
     "loadingProfile": "Nag-load ng profile...",
@@ -4008,12 +4008,12 @@
     "setYourName": "Itakda ang Iyong Pangalan",
     "changeYourName": "Baguhin ang Iyong Pangalan",
     "voiceAndPeople": "Boses & Tao",
-    "teachOmiYourVoice": "Turuan ang Omi ng iyong boses",
-    "tellOmiWhoSaidIt": "Sabihin sa Omi kung sino ang nagsabi nito 🗣️",
+    "teachOmiYourVoice": "Turuan ang Carry ng iyong boses",
+    "tellOmiWhoSaidIt": "Sabihin sa Carry kung sino ang nagsabi nito 🗣️",
     "payment": "Pagbabayad",
     "addOrChangeYourPaymentMethod": "Magdagdag o baguhin ang iyong payment method",
     "preferences": "Mga Kagustuhan",
-    "helpImproveOmiBySharing": "Tumulong na mapabuti ang Omi sa pamamagitan ng pagbabahagi ng anonymized analytics data",
+    "helpImproveOmiBySharing": "Tumulong na mapabuti ang Carry sa pamamagitan ng pagbabahagi ng anonymized analytics data",
     "deleteAccount": "Burahin ang Account",
     "deleteYourAccountAndAllData": "Burahin ang iyong account at lahat ng data",
     "clearLogs": "I-clear ang logs",
@@ -4021,7 +4021,7 @@
     "exportConversations": "I-export ang Mga Conversation",
     "exportAllConversationsToJson": "I-export ang lahat ng iyong mga conversation sa isang JSON file.",
     "conversationsExportStarted": "Nagsimula na ang Conversations Export. Ito ay maaaring tumagal ng ilang segundo, mangyaring maghintay.",
-    "mcpDescription": "Upang ikonekta ang Omi sa ibang mga aplikasyon upang basahin, maghanap, at pamahalaan ang iyong mga memory at conversation. Lumikha ng isang key upang magsimula.",
+    "mcpDescription": "Upang ikonekta ang Carry sa ibang mga aplikasyon upang basahin, maghanap, at pamahalaan ang iyong mga memory at conversation. Lumikha ng isang key upang magsimula.",
     "apiKeys": "API Keys",
     "errorLabel": "Error: {error}",
     "@errorLabel": {
@@ -4039,7 +4039,7 @@
     "triggersWhenAudioBytesReceived": "Nag-trigger kapag ang audio bytes ay natanggap.",
     "everyXSeconds": "Bawat x segundo",
     "triggersWhenDaySummaryGenerated": "Nag-trigger kapag ang day summary ay nabuo.",
-    "tryLatestExperimentalFeatures": "Subukan ang pinakabagong experimental features mula sa Omi Team.",
+    "tryLatestExperimentalFeatures": "Subukan ang pinakabagong experimental features mula sa Carry Team.",
     "transcriptionServiceDiagnosticStatus": "Transcription service diagnostic status",
     "enableDetailedDiagnosticMessages": "Paganahin ang detailed diagnostic messages mula sa transcription service",
     "autoCreateAndTagNewSpeakers": "Auto-create at mag-tag ng bagong mga speaker",
@@ -4075,7 +4075,7 @@
             }
         }
     },
-    "letOmiChooseAutomatically": "Hayaan ang Omi na pumili ng pinakamahusay na app nang awtomatiko",
+    "letOmiChooseAutomatically": "Hayaan ang Carry na pumili ng pinakamahusay na app nang awtomatiko",
     "deleteConversationConfirmation": "Sigurado ka na ba na gusto mong burahin ang conversation na ito? Ang aksyong ito ay hindi mababawi.",
     "conversationDeleted": "Conversation na nabura",
     "generatingLink": "Gumagawa ng link...",
@@ -4226,7 +4226,7 @@
             }
         }
     },
-    "translatedByOmi": "isinalin ng omi",
+    "translatedByOmi": "isinalin ng carry",
     "@translatedByOmi": {
         "description": "Credit line for translations"
     },
@@ -4342,7 +4342,7 @@
     "@customVocabularyHeader": {
         "description": "Custom vocabulary section header"
     },
-    "addWordsDescription": "Magdagdag ng mga salita na dapat kilalanin ng Omi sa panahon ng transcription.",
+    "addWordsDescription": "Magdagdag ng mga salita na dapat kilalanin ng Carry sa panahon ng transcription.",
     "@addWordsDescription": {
         "description": "Custom vocabulary description"
     },
@@ -4403,7 +4403,7 @@
     "clearNodesDescription": "I-clear ang lahat ng nodes at connections",
     "deleteKnowledgeGraphQuestion": "Burahin ang Knowledge Graph?",
     "deleteKnowledgeGraphWarning": "Ito ay buburahin ang lahat ng derived knowledge graph data. Ang iyong original na mga memory ay manatiling ligtas.",
-    "connectOmiWithAI": "Ikonekta ang Omi sa AI assistants",
+    "connectOmiWithAI": "Ikonekta ang Carry sa AI assistants",
     "noAPIKeys": "Walang API keys. Lumikha ng isa upang magsimula.",
     "autoCreateWhenDetected": "Auto-create kapag na-detect ang pangalan",
     "trackPersonalGoals": "Subaybayan ang personal na mga layunin sa homepage",
@@ -4423,7 +4423,7 @@
     "@holdOnPreparingForm": {
         "description": "Loading message while preparing form"
     },
-    "bySubmittingYouAgreeToOmi": "Sa pamamagitan ng pagpapadala, sumasang-ayon ka sa Omi ",
+    "bySubmittingYouAgreeToOmi": "Sa pamamagitan ng pagpapadala, sumasang-ayon ka sa Carry ",
     "@bySubmittingYouAgreeToOmi": {
         "description": "Text before Terms & Privacy Policy link"
     },
@@ -4635,7 +4635,7 @@
     "@issueActivatingApp": {
         "description": "Dialog description for activation error"
     },
-    "dataAccessNoticeDescription": "Ang app na ito ay mag-access sa iyong data. Ang Omi AI ay hindi responsable kung paano ginagamit, binabago, o binubura ang iyong data ng app na ito",
+    "dataAccessNoticeDescription": "Ang app na ito ay mag-access sa iyong data. Ang Carry AI ay hindi responsable kung paano ginagamit, binabago, o binubura ang iyong data ng app na ito",
     "@dataAccessNoticeDescription": {
         "description": "Description for data access notice dialog"
     },
@@ -4767,15 +4767,15 @@
             }
         }
     },
-    "omiApiKeys": "Omi API Keys",
+    "omiApiKeys": "Carry API Keys",
     "@omiApiKeys": {
         "description": "Dialog title for API keys info"
     },
-    "apiKeysDescription": "Ang API Keys ay ginagamit para sa authentication kapag ang iyong app ay nakikipag-ugnayan sa OMI server. Pinapayagan nila ang iyong application na lumikha ng mga memory at mag-access ng ibang OMI services nang secure.",
+    "apiKeysDescription": "Ang API Keys ay ginagamit para sa authentication kapag ang iyong app ay nakikipag-ugnayan sa CARRY server. Pinapayagan nila ang iyong application na lumikha ng mga memory at mag-access ng ibang CARRY services nang secure.",
     "@apiKeysDescription": {
         "description": "Description of what API keys are used for"
     },
-    "aboutOmiApiKeys": "Tungkol sa Omi API Keys",
+    "aboutOmiApiKeys": "Tungkol sa Carry API Keys",
     "@aboutOmiApiKeys": {
         "description": "Tooltip for API keys info button"
     },
@@ -4969,7 +4969,7 @@
     "@maximumSecurityE2ee": {
         "description": "Title for End-to-End Encryption dialog"
     },
-    "e2eeDescription": "Ang end-to-end encryption ay ang gold standard para sa privacy. Kapag na-enable ito, ang iyong data ay naka-encrypt sa iyong device bago ipadala sa aming mga server. Ito ay nangangahulugang walang isa, hindi pa naman ang Omi, ay makaka-access sa iyong content.",
+    "e2eeDescription": "Ang end-to-end encryption ay ang gold standard para sa privacy. Kapag na-enable ito, ang iyong data ay naka-encrypt sa iyong device bago ipadala sa aming mga server. Ito ay nangangahulugang walang isa, hindi pa naman ang Carry, ay makaka-access sa iyong content.",
     "@e2eeDescription": {
         "description": "Description of E2EE encryption explaining its benefits"
     },
@@ -5025,7 +5025,7 @@
     "@secureEncryption": {
         "description": "Title for secure encryption card"
     },
-    "secureEncryptionDescription": "Ang iyong data ay naka-encrypt gamit ang isang key na natatangi sa iyo sa aming mga server, hosted sa Google Cloud. Ito ay nangangahulugang ang iyong raw na content ay hindi accessible sa sinuman, kabilang ang Omi staff o Google, direkta mula sa database.",
+    "secureEncryptionDescription": "Ang iyong data ay naka-encrypt gamit ang isang key na natatangi sa iyo sa aming mga server, hosted sa Google Cloud. Ito ay nangangahulugang ang iyong raw na content ay hindi accessible sa sinuman, kabilang ang Carry staff o Google, direkta mula sa database.",
     "@secureEncryptionDescription": {
         "description": "Description of secure encryption explaining how data is protected"
     },
@@ -5122,23 +5122,23 @@
             }
         }
     },
-    "omiTraining": "Omi Training",
+    "omiTraining": "Carry Training",
     "@omiTraining": {
-        "description": "Title for the Omi Training page/section"
+        "description": "Title for the Carry Training page/section"
     },
     "trainingDataProgram": "Training Data Program",
     "@trainingDataProgram": {
         "description": "Label for training data program"
     },
-    "getOmiUnlimitedFree": "Makakuha ng Omi Unlimited nang libre sa pamamagitan ng pagbibigay ng iyong data upang magsanay sa AI models.",
+    "getOmiUnlimitedFree": "Makakuha ng Carry Unlimited nang libre sa pamamagitan ng pagbibigay ng iyong data upang magsanay sa AI models.",
     "@getOmiUnlimitedFree": {
-        "description": "Description for getting Omi Unlimited free by contributing data"
+        "description": "Description for getting Carry Unlimited free by contributing data"
     },
     "trainingDataBullets": "• Ang iyong data ay tumutulong na mapabuti ang AI models\n• Lamang ang non-sensitive data ang ibabahagi\n• Fully transparent na proseso",
     "@trainingDataBullets": {
         "description": "Bullet points explaining training data program benefits"
     },
-    "learnMoreAtOmiTraining": "Matuto pa sa omi.me/training",
+    "learnMoreAtOmiTraining": "Matuto pa sa carry.me/training",
     "@learnMoreAtOmiTraining": {
         "description": "Link text to learn more about training"
     },
@@ -5244,7 +5244,7 @@
     "@youAreOnUnlimitedPlan": {
         "description": "Message showing user is on unlimited plan"
     },
-    "yourOmiUnleashed": "Ang iyong Omi, na walang hanggan. Maging unlimited para sa walang hanggang posibilidad.",
+    "yourOmiUnleashed": "Ang iyong Carry, na walang hanggan. Maging unlimited para sa walang hanggang posibilidad.",
     "@yourOmiUnleashed": {
         "description": "Marketing text for unlimited plan"
     },
@@ -5286,11 +5286,11 @@
     "@unlimitedConversations": {
         "description": "Feature: unlimited conversations"
     },
-    "askOmiAnything": "Tanungin ang Omi tungkol sa kahit ano sa iyong buhay",
+    "askOmiAnything": "Tanungin ang Carry tungkol sa kahit ano sa iyong buhay",
     "@askOmiAnything": {
-        "description": "Feature: ask Omi anything"
+        "description": "Feature: ask Carry anything"
     },
-    "unlockOmiInfiniteMemory": "I-unlock ang walang hanggang memorya ng Omi",
+    "unlockOmiInfiniteMemory": "I-unlock ang walang hanggang memorya ng Carry",
     "@unlockOmiInfiniteMemory": {
         "description": "Feature: unlock infinite memory"
     },
@@ -5364,7 +5364,7 @@
     "@yourPrivacyMattersToUs": {
         "description": "Privacy page - yourPrivacyMattersToUs"
     },
-    "privacyIntroText": "Sa Omi, seryoso kami ang kinuha ang iyong privacy. Nais naming maging transparent tungkol sa data na aming kinukuha at kung paano namin ito ginagamit upang mapabuti ang aming produkto para sa iyo. Narito kung ano ang kailangan mong malaman:",
+    "privacyIntroText": "Sa Carry, seryoso kami ang kinuha ang iyong privacy. Nais naming maging transparent tungkol sa data na aming kinukuha at kung paano namin ito ginagamit upang mapabuti ang aming produkto para sa iyo. Narito kung ano ang kailangan mong malaman:",
     "@privacyIntroText": {
         "description": "Privacy page - privacyIntroText"
     },
@@ -5384,11 +5384,11 @@
     "@ourCommitment": {
         "description": "Privacy page - ourCommitment"
     },
-    "commitmentText": "Kami ay nakatuon sa paggamit ng data na aming kinukuha lamang upang gawing mas mahusay na produkto ang Omi para sa iyo. Ang iyong privacy at tiwala ay pangunahin para sa amin.",
+    "commitmentText": "Kami ay nakatuon sa paggamit ng data na aming kinukuha lamang upang gawing mas mahusay na produkto ang Carry para sa iyo. Ang iyong privacy at tiwala ay pangunahin para sa amin.",
     "@commitmentText": {
         "description": "Privacy page - commitmentText"
     },
-    "thankYouText": "Salamat sa pagiging valued user ng Omi. Kung mayroon kang anumang mga katanungan o alalahanin, huwag mag-atubiling makipag-ugnayan sa amin sa team@basedhardware.com.",
+    "thankYouText": "Salamat sa pagiging valued user ng Carry. Kung mayroon kang anumang mga katanungan o alalahanin, huwag mag-atubiling makipag-ugnayan sa amin sa team@basedhardware.com.",
     "@thankYouText": {
         "description": "Privacy page - thankYouText"
     },
@@ -5513,7 +5513,7 @@
     "@minutes": {
         "description": "Unit label for minutes"
     },
-    "omiHas": "Mayroon ang Omi:",
+    "omiHas": "Mayroon ang Carry:",
     "@omiHas": {
         "description": "Fallback text for share stats when period is unknown"
     },
@@ -5646,7 +5646,7 @@
     "@howItWorksTitle": {
         "description": "Help dialog title"
     },
-    "howPeopleWorks": "Kapag lumikha ng isang tao, maaari kang pumunta sa isang conversation transcript, at italaan sa kanila ang kanilang corresponding segments, sa ganitong paraan ang Omi ay makakapag-recognize ng kanilang speech din!",
+    "howPeopleWorks": "Kapag lumikha ng isang tao, maaari kang pumunta sa isang conversation transcript, at italaan sa kanila ang kanilang corresponding segments, sa ganitong paraan ang Carry ay makakapag-recognize ng kanilang speech din!",
     "@howPeopleWorks": {
         "description": "Explanation of how people/speech recognition works"
     },
@@ -6007,9 +6007,9 @@
     "@enableApps": {
         "description": "Menu item text to navigate to apps page and enable more chat apps"
     },
-    "omiAppName": "Omi",
+    "omiAppName": "Carry",
     "@omiAppName": {
-        "description": "The Omi app/assistant name shown in chat app selection"
+        "description": "The Carry app/assistant name shown in chat app selection"
     },
     "showMore": "magpakita ng higit pa ↓",
     "@showMore": {
@@ -6039,21 +6039,21 @@
     "@checkingAppleWatch": {
         "description": "Loading text while checking Apple Watch status"
     },
-    "installOmiOnAppleWatch": "I-install ang Omi sa iyong\nApple Watch",
+    "installOmiOnAppleWatch": "I-install ang Carry sa iyong\nApple Watch",
     "@installOmiOnAppleWatch": {
-        "description": "Title prompting user to install Omi on Apple Watch"
+        "description": "Title prompting user to install Carry on Apple Watch"
     },
-    "installOmiOnAppleWatchDescription": "Upang gamitin ang iyong Apple Watch kasama ang Omi, kailangan mo munang i-install ang Omi app sa iyong watch.",
+    "installOmiOnAppleWatchDescription": "Upang gamitin ang iyong Apple Watch kasama ang Carry, kailangan mo munang i-install ang Carry app sa iyong watch.",
     "@installOmiOnAppleWatchDescription": {
-        "description": "Description explaining need to install Omi app on watch"
+        "description": "Description explaining need to install Carry app on watch"
     },
-    "openOmiOnAppleWatch": "Buksan ang Omi sa iyong\nApple Watch",
+    "openOmiOnAppleWatch": "Buksan ang Carry sa iyong\nApple Watch",
     "@openOmiOnAppleWatch": {
-        "description": "Title prompting user to open Omi on Apple Watch"
+        "description": "Title prompting user to open Carry on Apple Watch"
     },
-    "openOmiOnAppleWatchDescription": "Ang Omi app ay naka-install na sa iyong Apple Watch. Buksan ito at i-tap ang Start upang magsimula.",
+    "openOmiOnAppleWatchDescription": "Ang Carry app ay naka-install na sa iyong Apple Watch. Buksan ito at i-tap ang Start upang magsimula.",
     "@openOmiOnAppleWatchDescription": {
-        "description": "Description explaining Omi is installed and user should open it"
+        "description": "Description explaining Carry is installed and user should open it"
     },
     "openWatchApp": "Buksan ang Watch App",
     "@openWatchApp": {
@@ -6063,7 +6063,7 @@
     "@iveInstalledAndOpenedTheApp": {
         "description": "Button text confirming user has installed and opened the app"
     },
-    "unableToOpenWatchApp": "Hindi maaaring buksan ang Apple Watch app. Mangyaring manu-manong buksan ang Watch app sa iyong Apple Watch at i-install ang Omi mula sa \"Available Apps\" section.",
+    "unableToOpenWatchApp": "Hindi maaaring buksan ang Apple Watch app. Mangyaring manu-manong buksan ang Watch app sa iyong Apple Watch at i-install ang Carry mula sa \"Available Apps\" section.",
     "@unableToOpenWatchApp": {
         "description": "Error message when Watch app cannot be opened automatically"
     },
@@ -6071,7 +6071,7 @@
     "@appleWatchConnectedSuccessfully": {
         "description": "Success message when Apple Watch connects"
     },
-    "appleWatchNotReachable": "Apple Watch ay hindi pa rin reachable. Mangyaring tiyakin na ang Omi app ay bukas sa iyong watch.",
+    "appleWatchNotReachable": "Apple Watch ay hindi pa rin reachable. Mangyaring tiyakin na ang Carry app ay bukas sa iyong watch.",
     "@appleWatchNotReachable": {
         "description": "Error message when Apple Watch is not reachable"
     },
@@ -6189,9 +6189,9 @@
     "@noSummary": {
         "description": "Message when no summary is available"
     },
-    "updateOmiFirmware": "I-update ang omi firmware",
+    "updateOmiFirmware": "I-update ang carry firmware",
     "@updateOmiFirmware": {
-        "description": "Button text to update Omi device firmware"
+        "description": "Button text to update Carry device firmware"
     },
     "anErrorOccurredTryAgain": "Isang error ang nangyari. Mangyaring subukan ulit.",
     "@anErrorOccurredTryAgain": {
@@ -6201,7 +6201,7 @@
     "@welcomeBackSimple": {
         "description": "Simple welcome message without user name"
     },
-    "addVocabularyDescription": "Magdagdag ng mga salita na dapat tanggapin ng Omi sa panahon ng transcription.",
+    "addVocabularyDescription": "Magdagdag ng mga salita na dapat tanggapin ng Carry sa panahon ng transcription.",
     "@addVocabularyDescription": {
         "description": "Description for custom vocabulary section"
     },
@@ -6434,7 +6434,7 @@
     "@wrappedNoDataAvailable": {
         "description": "Shown when wrapped result is null"
     },
-    "wrappedOmiLifeRecap": "Omi Life Recap",
+    "wrappedOmiLifeRecap": "Carry Life Recap",
     "@wrappedOmiLifeRecap": {
         "description": "Subtitle on the intro card"
     },
@@ -6442,7 +6442,7 @@
     "@wrappedSwipeUpToBegin": {
         "description": "Instruction text on intro card"
     },
-    "wrappedShareText": "Ang aking 2025, naalaala ng Omi ✨ omi.me/wrapped",
+    "wrappedShareText": "Ang aking 2025, naalaala ng Carry ✨ carry.me/wrapped",
     "@wrappedShareText": {
         "description": "Text shared when sharing wrapped images"
     },
@@ -6470,7 +6470,7 @@
     "@wrappedMy2025": {
         "description": "Title text for shareable image"
     },
-    "wrappedRememberedByOmi": "naalaala ng Omi",
+    "wrappedRememberedByOmi": "naalaala ng Carry",
     "@wrappedRememberedByOmi": {
         "description": "Subtitle text for shareable image"
     },
@@ -6754,7 +6754,7 @@
     "@notificationFrequency": {
         "description": "Section header for notification frequency settings"
     },
-    "controlNotificationFrequency": "Kontrolin kung gaano kadalas ang Omi na magpadala sa iyo ng proactive na mga notipikasyon.",
+    "controlNotificationFrequency": "Kontrolin kung gaano kadalas ang Carry na magpadala sa iyo ng proactive na mga notipikasyon.",
     "@controlNotificationFrequency": {
         "description": "Description for notification frequency control"
     },
@@ -6786,7 +6786,7 @@
     "@dailyScoreExplanation": {
         "description": "Explanation of how daily score is calculated"
     },
-    "notificationFrequencyDescription": "Kontrolin kung gaano kadalas ang Omi na magpadala sa iyo ng proactive na mga notipikasyon at mga reminder.",
+    "notificationFrequencyDescription": "Kontrolin kung gaano kadalas ang Carry na magpadala sa iyo ng proactive na mga notipikasyon at mga reminder.",
     "@notificationFrequencyDescription": {
         "description": "Description text for notification frequency section"
     },
@@ -7072,7 +7072,7 @@
     "@noRecordings": {
         "description": "Empty state title when there are no recordings"
     },
-    "audioFromOmiWillAppearHere": "Ang tunog mula sa iyong Omi device ay lilitaw dito",
+    "audioFromOmiWillAppearHere": "Ang tunog mula sa iyong Carry device ay lilitaw dito",
     "@audioFromOmiWillAppearHere": {
         "description": "Empty state description for recordings"
     },
@@ -7252,7 +7252,7 @@
     "@batteryUsageHigher": {
         "description": "Warning about battery usage"
     },
-    "considerOmiCloud": "Isaalang-alang ang paggamit ng Omi Cloud para sa mas magandang performance.",
+    "considerOmiCloud": "Isaalang-alang ang paggamit ng Carry Cloud para sa mas magandang performance.",
     "@considerOmiCloud": {
         "description": "Suggestion to use cloud transcription"
     },
@@ -7479,9 +7479,9 @@
             }
         }
     },
-    "omiTranscriptionOptimized": "Ang built-in live transcription ng Omi ay na-optimize para sa real-time na pag-usap na may automatic speaker detection at diarization.",
+    "omiTranscriptionOptimized": "Ang built-in live transcription ng Carry ay na-optimize para sa real-time na pag-usap na may automatic speaker detection at diarization.",
     "@omiTranscriptionOptimized": {
-        "description": "Description of Omi transcription features"
+        "description": "Description of Carry transcription features"
     },
     "reset": "I-reset",
     "@reset": {
@@ -7601,7 +7601,7 @@
     "@writeReviewOptional": {
         "description": "Hint text for review input field"
     },
-    "setupQuestionsIntro": "Tulungan kaming mapabuti ang Omi sa pamamagitan ng pagsagot sa ilang mga tanong.  🫶 💜",
+    "setupQuestionsIntro": "Tulungan kaming mapabuti ang Carry sa pamamagitan ng pagsagot sa ilang mga tanong.  🫶 💜",
     "@setupQuestionsIntro": {
         "description": "Intro text for setup questions page"
     },
@@ -7609,9 +7609,9 @@
     "@setupQuestionProfession": {
         "description": "Question about profession"
     },
-    "setupQuestionUsage": "2. Saan mo plano na gamitin ang iyong Omi?",
+    "setupQuestionUsage": "2. Saan mo plano na gamitin ang iyong Carry?",
     "@setupQuestionUsage": {
-        "description": "Question about Omi usage location"
+        "description": "Question about Carry usage location"
     },
     "setupQuestionAge": "3. Ano ang iyong age range?",
     "@setupQuestionAge": {
@@ -8078,7 +8078,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8088,7 +8088,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8255,8 +8255,8 @@
         "description": "Title for low battery notification"
     },
     "lowBatteryAlertBody": "Ang iyong baterya ay nasa {level}%. Panahon na para mag-recharge! 🔋",
-    "batteryFullyChargedTitle": "Naka-charge na ang Omi",
-    "batteryFullyChargedBody": "Ang iyong Omi device ay ganap nang na-charge. Maaari mo na itong i-unplug!",
+    "batteryFullyChargedTitle": "Naka-charge na ang Carry",
+    "batteryFullyChargedBody": "Ang iyong Carry device ay ganap nang na-charge. Maaari mo na itong i-unplug!",
     "@lowBatteryAlertBody": {
         "description": "Body text for low battery notification",
         "placeholders": {
@@ -8265,11 +8265,11 @@
             }
         }
     },
-    "deviceDisconnectedNotificationTitle": "Ang Iyong Omi Device ay Nadiskonekta",
+    "deviceDisconnectedNotificationTitle": "Ang Iyong Carry Device ay Nadiskonekta",
     "@deviceDisconnectedNotificationTitle": {
         "description": "Title for device disconnected notification"
     },
-    "deviceDisconnectedNotificationBody": "Mangyaring mag-reconnect upang magpatuloy ng paggamit ng iyong Omi.",
+    "deviceDisconnectedNotificationBody": "Mangyaring mag-reconnect upang magpatuloy ng paggamit ng iyong Carry.",
     "@deviceDisconnectedNotificationBody": {
         "description": "Body text for device disconnected notification"
     },
@@ -8277,7 +8277,7 @@
     "@firmwareUpdateAvailable": {
         "description": "Title for firmware update available dialog"
     },
-    "firmwareUpdateAvailableDescription": "Ang bagong firmware update ({version}) ay available para sa iyong Omi device. Gusto mo na bang mag-update ngayon?",
+    "firmwareUpdateAvailableDescription": "Ang bagong firmware update ({version}) ay available para sa iyong Carry device. Gusto mo na bang mag-update ngayon?",
     "@firmwareUpdateAvailableDescription": {
         "description": "Description for firmware update dialog with version parameter",
         "placeholders": {
@@ -8332,9 +8332,9 @@
     "@almostDone": {
         "description": "Migration is almost complete"
     },
-    "omiSays": "sinabi ni omi",
+    "omiSays": "sinabi ni carry",
     "@omiSays": {
-        "description": "Notification title for omi app messages"
+        "description": "Notification title for carry app messages"
     },
     "analyzingYourData": "Sinusuri ang iyong data...",
     "@analyzingYourData": {
@@ -8671,9 +8671,9 @@
     "@nextButton": {
         "description": "Button text to proceed to next step"
     },
-    "connectOmiDevice": "I-connect ang Omi Device",
+    "connectOmiDevice": "I-connect ang Carry Device",
     "@connectOmiDevice": {
-        "description": "Button text to connect Omi device"
+        "description": "Button text to connect Carry device"
     },
     "planSwitchingDescriptionWithTitle": "Ikaw ay gumagalit ng iyong Unlimited Plan sa {title}. Sigurado ka na bang gusto mong magpatuloy?",
     "@planSwitchingDescriptionWithTitle": {
@@ -8712,9 +8712,9 @@
     "@transcriptionJsonPlaceholder": {
         "description": "JSON configuration placeholder hint text in transcription settings"
     },
-    "transcriptionSourceOmi": "Omi",
+    "transcriptionSourceOmi": "Carry",
     "@transcriptionSourceOmi": {
-        "description": "Tab title for Omi transcription source option"
+        "description": "Tab title for Carry transcription source option"
     },
     "pricePlaceholder": "0.00",
     "@pricePlaceholder": {
@@ -8754,7 +8754,7 @@
             }
         }
     },
-    "actionItemReminderTitle": "Omi Reminder",
+    "actionItemReminderTitle": "Carry Reminder",
     "@actionItemReminderTitle": {
         "description": "Title for action item reminder notifications"
     },
@@ -8764,7 +8764,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8774,7 +8774,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8798,7 +8798,7 @@
     "@onboardingComplete": {
         "description": "Onboarding step title for completion"
     },
-    "onboardingWelcomeToOmi": "Maligayang Pagdating sa Omi",
+    "onboardingWelcomeToOmi": "Maligayang Pagdating sa Carry",
     "@onboardingWelcomeToOmi": {
         "description": "Onboarding step description for sign in"
     },
@@ -9578,29 +9578,29 @@
     "pairNewDevice": "I-pair ang bagong device",
     "dontSeeYourDevice": "Hindi mo makikita ang iyong device?",
     "reportAnIssue": "Mag-ulat ng isang isyu",
-    "pairingTitleOmi": "I-on ang Omi",
+    "pairingTitleOmi": "I-on ang Carry",
     "@pairingTitleOmi": {
-        "description": "Pairing title for Omi device"
+        "description": "Pairing title for Carry device"
     },
     "pairingDescOmi": "Pindutin at panatilihin ang device hanggang sa mag-vibrate upang i-on ito.",
     "@pairingDescOmi": {
-        "description": "Pairing description for Omi device"
+        "description": "Pairing description for Carry device"
     },
-    "pairingTitleOmiDevkit": "Ilagay ang Omi DevKit sa Pairing Mode",
+    "pairingTitleOmiDevkit": "Ilagay ang Carry DevKit sa Pairing Mode",
     "@pairingTitleOmiDevkit": {
-        "description": "Pairing title for Omi DevKit"
+        "description": "Pairing title for Carry DevKit"
     },
     "pairingDescOmiDevkit": "Pindutin ang button nang isang beses upang i-on. Ang LED ay mag-blink ng purple kapag nasa pairing mode.",
     "@pairingDescOmiDevkit": {
-        "description": "Pairing description for Omi DevKit"
+        "description": "Pairing description for Carry DevKit"
     },
-    "pairingTitleOmiGlass": "I-on ang Omi Glass",
+    "pairingTitleOmiGlass": "I-on ang Carry Glass",
     "@pairingTitleOmiGlass": {
-        "description": "Pairing title for Omi Glass"
+        "description": "Pairing title for Carry Glass"
     },
     "pairingDescOmiGlass": "I-power on sa pamamagitan ng pagpipigil sa side button sa loob ng 3 segundo.",
     "@pairingDescOmiGlass": {
-        "description": "Pairing description for Omi Glass"
+        "description": "Pairing description for Carry Glass"
     },
     "pairingTitlePlaudNote": "Ilagay ang Plaud Note sa Pairing Mode",
     "@pairingTitlePlaudNote": {
@@ -9646,7 +9646,7 @@
     "@pairingTitleAppleWatch": {
         "description": "Pairing title for Apple Watch"
     },
-    "pairingDescAppleWatch": "I-install at buksan ang Omi app sa iyong Apple Watch, pagkatapos ay i-tap ang Connect sa app.",
+    "pairingDescAppleWatch": "I-install at buksan ang Carry app sa iyong Apple Watch, pagkatapos ay i-tap ang Connect sa app.",
     "@pairingDescAppleWatch": {
         "description": "Pairing description for Apple Watch"
     },
@@ -9740,7 +9740,7 @@
     "@onboardingWhatIKnowAboutYouTitle": {
         "description": "Title for onboarding step that previews the memory graph"
     },
-    "onboardingWhatIKnowAboutYouDescription": "Ang map na ito ay nag-update habang natututo ang Omi mula sa iyong mga conversation.",
+    "onboardingWhatIKnowAboutYouDescription": "Ang map na ito ay nag-update habang natututo ang Carry mula sa iyong mga conversation.",
     "@onboardingWhatIKnowAboutYouDescription": {
         "description": "Description for onboarding memory graph preview step"
     },
@@ -9798,7 +9798,7 @@
         "description": "Confirmation dialog message for cleaning today task deadlines"
     },
     "tasksOverdue": "Overdue",
-    "phoneCallsWithOmi": "Phone Calls with Omi",
+    "phoneCallsWithOmi": "Phone Calls with Carry",
     "phoneCallsSubtitle": "Gumawa ng mga call na may real-time transcription",
     "phoneSetupStep1Title": "I-verify ang iyong phone number",
     "phoneSetupStep1Subtitle": "Tatawagin ka namin upang kumpirmahin na iyo ito",
@@ -9903,11 +9903,11 @@
     "@showTasksOnHomepage": {
         "description": "Description for show tasks toggle in developer settings"
     },
-    "phoneCallsUnlimitedOnly": "Phone Calls via Omi",
+    "phoneCallsUnlimitedOnly": "Phone Calls via Carry",
     "@phoneCallsUnlimitedOnly": {
         "description": "Title for the phone calls upsell sheet shown to non-unlimited users"
     },
-    "phoneCallsUpsellSubtitle": "Gumawa ng mga call sa pamamagitan ng Omi at makakuha ng real-time transcription, automatic summaries, at marami pang iba. Available exclusively para sa Unlimited plan subscribers.",
+    "phoneCallsUpsellSubtitle": "Gumawa ng mga call sa pamamagitan ng Carry at makakuha ng real-time transcription, automatic summaries, at marami pang iba. Available exclusively para sa Unlimited plan subscribers.",
     "@phoneCallsUpsellSubtitle": {
         "description": "Subtitle explaining phone calls feature on upsell sheet"
     },
@@ -10028,7 +10028,7 @@
     "fairUse3Day": "3-Day Rolling",
     "fairUseWeekly": "Weekly Rolling",
     "fairUseAboutTitle": "Tungkol sa Fair Use",
-    "fairUseAboutBody": "Ang Omi ay dinisenyo para sa personal conversations, meetings, at live interactions. Ang usage ay sinusukat ng real speech time detected, hindi ang connection time. Kung ang usage ay significantly lumalampas sa normal patterns para sa non-personal content, ang mga adjustments ay maaaring mag-apply.",
+    "fairUseAboutBody": "Ang Carry ay dinisenyo para sa personal conversations, meetings, at live interactions. Ang usage ay sinusukat ng real speech time detected, hindi ang connection time. Kung ang usage ay significantly lumalampas sa normal patterns para sa non-personal content, ang mga adjustments ay maaaring mag-apply.",
     "fairUseCaseRefCopied": "{caseRef} copied",
     "@fairUseCaseRefCopied": {
         "description": "Snackbar message when case reference is copied to clipboard",
@@ -10070,7 +10070,7 @@
         }
     },
     "improveConnectionTitle": "Pagbutihin ang Connection",
-    "improveConnectionContent": "Nag-improve kami ng kung paano ang Omi ay manatiling connected sa iyong device. Upang i-activate ito, mangyaring magpunta sa Device Info page, i-tap ang \"Disconnect Device\", at pagkatapos ay i-pair ang iyong device ulit.",
+    "improveConnectionContent": "Nag-improve kami ng kung paano ang Carry ay manatiling connected sa iyong device. Upang i-activate ito, mangyaring magpunta sa Device Info page, i-tap ang \"Disconnect Device\", at pagkatapos ay i-pair ang iyong device ulit.",
     "improveConnectionAction": "Nakaintindi",
     "clockSkewWarning": "Ang iyong device clock ay off ng ~{minutes} min. Tingnan ang iyong date & time settings.",
     "@clockSkewWarning": {
@@ -10080,7 +10080,7 @@
             }
         }
     },
-    "omisStorage": "Omi's Storage",
+    "omisStorage": "Carry's Storage",
     "@omisStorage": {
         "description": "Label for device storage tier in sync pipeline"
     },
@@ -10133,11 +10133,11 @@
     "@cancelSyncQuestion": {
         "description": "Title for cancel sync confirmation dialog"
     },
-    "omisStorageDesc": "Kapag ang iyong Omi ay hindi konektado sa iyong phone, ito ay nag-store ng audio locally sa built-in memory nito. Hindi mo kailanman mawawalan ng recording.",
+    "omisStorageDesc": "Kapag ang iyong Carry ay hindi konektado sa iyong phone, ito ay nag-store ng audio locally sa built-in memory nito. Hindi mo kailanman mawawalan ng recording.",
     "@omisStorageDesc": {
         "description": "Description of device storage in sync info sheet"
     },
-    "phoneStorageDesc": "Kapag muling kumokonekta ang Omi, ang mga recording ay automatic na inilipat sa iyong phone bilang isang temporary holding area bago i-upload.",
+    "phoneStorageDesc": "Kapag muling kumokonekta ang Carry, ang mga recording ay automatic na inilipat sa iyong phone bilang isang temporary holding area bago i-upload.",
     "@phoneStorageDesc": {
         "description": "Description of phone storage in sync info sheet"
     },
@@ -10173,11 +10173,11 @@
     "@permissionEnable": {
         "description": "Action text to enable a permission"
     },
-    "permissionsPageDescription": "Ang mga permissions na ito ay core sa kung paano gumagana ang Omi. Pinapahintulutan nila ang mga key features tulad ng notifications, location-based experiences, at audio capture.",
+    "permissionsPageDescription": "Ang mga permissions na ito ay core sa kung paano gumagana ang Carry. Pinapahintulutan nila ang mga key features tulad ng notifications, location-based experiences, at audio capture.",
     "@permissionsPageDescription": {
         "description": "Description text shown at the bottom of the permissions page"
     },
-    "permissionsRequiredDescription": "Ang Omi ay nangangailangan ng ilang permissions upang gumana nang maayos. Mangyaring bigyan ang mga ito upang magpatuloy.",
+    "permissionsRequiredDescription": "Ang Carry ay nangangailangan ng ilang permissions upang gumana nang maayos. Mangyaring bigyan ang mga ito upang magpatuloy.",
     "@permissionsRequiredDescription": {
         "description": "Description for the permissions interstitial screen"
     },
@@ -10185,7 +10185,7 @@
     "@permissionsSetupTitle": {
         "description": "Title for the permissions interstitial screen"
     },
-    "permissionsSetupDescription": "I-enable ang ilang permissions upang ang Omi ay gumawa ng mahika.",
+    "permissionsSetupDescription": "I-enable ang ilang permissions upang ang Carry ay gumawa ng mahika.",
     "@permissionsSetupDescription": {
         "description": "Subtitle for the permissions interstitial screen"
     },
@@ -10314,7 +10314,7 @@
     "@feedbackTitleFoundAlternative": {
         "description": "Feedback title when cancel reason is found alternative"
     },
-    "feedbackTitleNotUsing": "Ano ang gagawing mas maraming gamit ang Omi?",
+    "feedbackTitleNotUsing": "Ano ang gagawing mas maraming gamit ang Carry?",
     "@feedbackTitleNotUsing": {
         "description": "Feedback title when cancel reason is not using enough"
     },
@@ -10338,7 +10338,7 @@
     "@feedbackSubtitleFoundAlternative": {
         "description": "Feedback subtitle for found alternative"
     },
-    "feedbackSubtitleNotUsing": "Gusto naming gawing mas kapaki-pakinabang ang Omi para sa iyo.",
+    "feedbackSubtitleNotUsing": "Gusto naming gawing mas kapaki-pakinabang ang Carry para sa iyo.",
     "@feedbackSubtitleNotUsing": {
         "description": "Feedback subtitle for not using enough"
     },
@@ -10455,20 +10455,20 @@
     "tasksSelectAll": "Piliin lahat",
     "tasksDeleteSelected": "Burahin ang {count} gawain",
     "tasksMarkComplete": "Minarkahan bilang kumpleto",
-    "appleHealthManageNote": "Ina-access ng Omi ang Apple Health sa pamamagitan ng HealthKit framework ng Apple. Maaari mong bawiin ang access anumang oras sa iOS Settings.",
+    "appleHealthManageNote": "Ina-access ng Carry ang Apple Health sa pamamagitan ng HealthKit framework ng Apple. Maaari mong bawiin ang access anumang oras sa iOS Settings.",
     "appleHealthConnectCta": "Ikonekta sa Apple Health",
     "appleHealthDisconnectCta": "Idiskonekta ang Apple Health",
     "appleHealthConnectedBadge": "Nakakonekta",
     "appleHealthFeatureChatTitle": "Kumustahin ang iyong kalusugan",
-    "appleHealthFeatureChatDesc": "Tanungin ang Omi tungkol sa iyong hakbang, tulog, tibok ng puso, at mga ehersisyo.",
+    "appleHealthFeatureChatDesc": "Tanungin ang Carry tungkol sa iyong hakbang, tulog, tibok ng puso, at mga ehersisyo.",
     "appleHealthFeatureReadOnlyTitle": "Access na pambasa lamang",
-    "appleHealthFeatureReadOnlyDesc": "Hindi kailanman nagsusulat ang Omi sa Apple Health o nagbabago ng iyong datos.",
+    "appleHealthFeatureReadOnlyDesc": "Hindi kailanman nagsusulat ang Carry sa Apple Health o nagbabago ng iyong datos.",
     "appleHealthFeatureSecureTitle": "Ligtas na sync",
-    "appleHealthFeatureSecureDesc": "Ang iyong datos sa Apple Health ay pribadong sinisync sa iyong Omi account.",
+    "appleHealthFeatureSecureDesc": "Ang iyong datos sa Apple Health ay pribadong sinisync sa iyong Carry account.",
     "appleHealthDeniedTitle": "Tinanggihan ang access sa Apple Health",
-    "appleHealthDeniedBody": "Walang pahintulot ang Omi na basahin ang iyong Apple Health data. I-enable ito sa iOS Settings → Privacy & Security → Health → Omi.",
+    "appleHealthDeniedBody": "Walang pahintulot ang Carry na basahin ang iyong Apple Health data. I-enable ito sa iOS Settings → Privacy & Security → Health → Carry.",
     "deleteFlowReasonTitle": "Bakit ka aalis?",
-    "deleteFlowReasonSubtitle": "Ang iyong feedback ay tumutulong sa amin na pagbutihin ang Omi para sa lahat.",
+    "deleteFlowReasonSubtitle": "Ang iyong feedback ay tumutulong sa amin na pagbutihin ang Carry para sa lahat.",
     "deleteReasonPrivacy": "Mga alalahanin sa privacy",
     "deleteReasonNotUsing": "Hindi sapat ang paggamit",
     "deleteReasonMissingFeatures": "Kulang sa mga feature na kailangan ko",
@@ -10477,7 +10477,7 @@
     "deleteReasonTakingBreak": "Nagpapahinga lang",
     "deleteReasonOther": "Iba pa",
     "deleteFlowFeedbackTitle": "Sabihin mo sa amin ang higit pa",
-    "deleteFlowFeedbackSubtitle": "Ano ang magiging dahilan para gumana ang Omi para sa iyo?",
+    "deleteFlowFeedbackSubtitle": "Ano ang magiging dahilan para gumana ang Carry para sa iyo?",
     "deleteFlowFeedbackHint": "Opsyonal — ang mga isip mo ay tumutulong sa amin na makabuo ng mas mahusay na produkto.",
     "deleteFlowConfirmTitle": "Ito ay permanente",
     "deleteFlowConfirmSubtitle": "Kapag na-delete mo na ang account mo, wala nang paraan para mabawi ito.",
@@ -10529,13 +10529,13 @@
     "chatUsageCostNoLimit": "Chat: ${used} nagamit ngayong buwan",
     "chatUsageMessages": "Chat: {used} / {limit} mensahe ngayong buwan",
     "chatUsageMessagesNoLimit": "Chat: {used} mensahe ngayong buwan",
-    "chatQuotaSubtitle": "AI chat messages used with Omi this month.",
-    "chatQuotaExceededReply": "Naabot mo na ang iyong buwanang limitasyon. Mag-upgrade para magpatuloy ng chat sa Omi nang walang limitasyon.",
+    "chatQuotaSubtitle": "AI chat messages used with Carry this month.",
+    "chatQuotaExceededReply": "Naabot mo na ang iyong buwanang limitasyon. Mag-upgrade para magpatuloy ng chat sa Carry nang walang limitasyon.",
     "batteryHistory": "Baterya",
     "day": "Araw",
     "noBatteryDataYet": "Wala pang datos ng baterya",
     "week": "Linggo",
-    "voiceResponseAudio": "Basahin nang malakas ang sagot ng Omi",
+    "voiceResponseAudio": "Basahin nang malakas ang sagot ng Carry",
     "voiceResponseMode": "Tugon sa boses",
     "voiceResponseModeTitle": "Kailan bibigkasin ang tugon",
     "voiceResponseOff": "Naka-off",
@@ -10547,7 +10547,7 @@
         "description": "Section header for memory knowledge graph on home page"
     },
     "voiceMode": "Voice Mode",
-    "quickActionAskOmi": "Tanungin si Omi ng kahit ano",
+    "quickActionAskOmi": "Tanungin si Carry ng kahit ano",
     "record": "Mag-record",
     "stop": "Itigil",
     "recordWithPhoneMic": "Mag-record gamit ang mikropono ng telepono",
@@ -10582,26 +10582,26 @@
     "syncStatusRetrying": "Hindi naproseso — sinusubukang muli",
     "syncStatusFailed": "Nabigo — i-tap ang Subukan Muli",
     "syncStatusFileUnavailable": "Hindi available ang file",
-    "syncStatusUploaded": "Na-upload · pinoproseso sa Omi",
+    "syncStatusUploaded": "Na-upload · pinoproseso sa Carry",
     "noRecordingsYet": "Wala pang mga recording",
     "syncInProgress": "Kasalukuyang nagsi-sync",
     "deleteWhileProcessingTitle": "Pinoproseso pa rin",
-    "deleteWhileProcessingMessage": "Na-upload na ang recording na ito ngunit ginagawa pa ng Omi ang usapan. Kung buburahin mo ito ngayon at mabigo ang pagproseso, hindi na ito mababawi. Burahin pa rin?",
+    "deleteWhileProcessingMessage": "Na-upload na ang recording na ito ngunit ginagawa pa ng Carry ang usapan. Kung buburahin mo ito ngayon at mabigo ang pagproseso, hindi na ito mababawi. Burahin pa rin?",
     "syncCardAllBackedUp": "Lahat ng recording ay na-sync na",
     "syncCardReadyCount": "{count, plural, one{1 recording ang handa nang i-sync} other{{count} na recording ang handa nang i-sync}}",
-    "syncCardProcessing": "Pinoproseso sa Omi…",
+    "syncCardProcessing": "Pinoproseso sa Carry…",
     "syncCardWaitingInternet": "Naghihintay ng internet",
     "syncCardNeedsAttention": "{count, plural, one{1 recording ang kailangang asikasuhin} other{{count} recording ang kailangang asikasuhin}}",
-    "syncFlowIntro": "Ang mga recording ay inililipat mula sa iyong device patungo sa telepono na ito at iniimbak nang lokal, pagkatapos ay ina-upload sa server ng Omi kung saan tina-transcribe ang mga ito at ginagawang mga pag-uusap.",
+    "syncFlowIntro": "Ang mga recording ay inililipat mula sa iyong device patungo sa telepono na ito at iniimbak nang lokal, pagkatapos ay ina-upload sa server ng Carry kung saan tina-transcribe ang mga ito at ginagawang mga pag-uusap.",
     "syncStepUpload": "I-sync",
-    "syncStepUploadDesc": "Ipinapadala ang iyong recording sa server ng Omi",
+    "syncStepUploadDesc": "Ipinapadala ang iyong recording sa server ng Carry",
     "syncStepProcess": "I-transcribe",
-    "syncStepProcessDesc": "Ginagawang conversation ng Omi ang audio",
+    "syncStepProcessDesc": "Ginagawang conversation ng Carry ang audio",
     "syncStepBackedUp": "Handa na ang conversation",
     "syncStepBackedUpDesc": "Hanapin sa ilalim ng Mga Conversation",
     "syncFailureFootnote": "Kung mabigo ang pagproseso, awtomatikong susubukan muli ang recording sa susunod na sync.",
     "syncStatusConversationCreated": "Nagawa ang usapan",
-    "syncCardUploadingTitle": "Ina-upload sa Omi",
+    "syncCardUploadingTitle": "Ina-upload sa Carry",
     "syncCardDownloadingTitle": "Dina-download mula sa iyong device",
     "syncCardProgressOf": "{current} ng {total}",
     "syncStatusOnDevice": "Nasa iyong device",
@@ -10614,19 +10614,19 @@
     },
     "syncProcessingBackgroundHint": "Magpapatuloy ito sa background — puwede mong iwan ang screen na ito.",
     "syncCardRateLimited": "Naabot na ang limitasyon ng patas na paggamit — awtomatikong magpapatuloy ang pag-sync",
-    "syncCardBackendBusy": "Abala ang mga server ng Omi — masi-sync ang iyong mga recording kapag may bakanteng kapasidad na muli",
+    "syncCardBackendBusy": "Abala ang mga server ng Carry — masi-sync ang iyong mga recording kapag may bakanteng kapasidad na muli",
     "unableToDetermineFirmwareVersion": "Hindi matukoy ang kasalukuyang bersyon ng firmware",
     "promoCode": "Promo code",
     "enterPromoCode": "Ilagay ang promo code",
     "invalidPromotionCode": "Hindi valid na promo code.",
     "backgroundModeTitle": "Background Mode",
-    "backgroundModeDescription": "Panatilihing nagre-record ang iyong Omi kahit na ganap nang sarado ang app.",
-    "backgroundModeNote": "Sa ngayon ay gumagana lang sa mga Omi device at patuloy na pinapabuti.",
+    "backgroundModeDescription": "Panatilihing nagre-record ang iyong Carry kahit na ganap nang sarado ang app.",
+    "backgroundModeNote": "Sa ngayon ay gumagana lang sa mga Carry device at patuloy na pinapabuti.",
     "regenerateRecap": "Buuin muli ang buod",
     "recapRegeneratedSnackbar": "Nabuo muli ang buod",
     "recapRegenerateFailed": "Hindi nagawang muling buuin ang buod. Subukang muli mamaya.",
     "recapRegenerateCooldown": "Mangyaring maghintay ng ilang segundo bago bumuo muli.",
     "recapRegenerateNoConversations": "Walang mga pag-uusap na ibubuod para sa araw na ito.",
-    "syncCustomSttWarningTitle": "Gumagamit ang pag-sync ng transcription ng Omi",
-    "syncCustomSttWarningMessage": "Gumagamit ka ng sarili mong transcription provider. Kapag in-sync ang mga recording na ito, ita-transcribe ang mga ito sa mga server ng Omi at mabibilang sa limitasyon ng transcription ng iyong plan."
+    "syncCustomSttWarningTitle": "Gumagamit ang pag-sync ng transcription ng Carry",
+    "syncCustomSttWarningMessage": "Gumagamit ka ng sarili mong transcription provider. Kapag in-sync ang mga recording na ito, ita-transcribe ang mga ito sa mga server ng Carry at mabibilang sa limitasyon ng transcription ng iyong plan."
 }

@@ -118,9 +118,9 @@ class _DeviceDiagnosticsState extends State<DeviceDiagnostics> {
 
     final json = const JsonEncoder.withIndent('  ').convert(data);
     final dir = await getTemporaryDirectory();
-    final file = File('${dir.path}/omi_diagnostics_${DateTime.now().millisecondsSinceEpoch}.json');
+    final file = File('${dir.path}/carry_diagnostics_${DateTime.now().millisecondsSinceEpoch}.json');
     await file.writeAsString(json);
-    await SharePlus.instance.share(ShareParams(files: [XFile(file.path)], subject: 'Omi Device Diagnostics'));
+    await SharePlus.instance.share(ShareParams(files: [XFile(file.path)], subject: 'Carry Device Diagnostics'));
     PlatformManager.instance.analytics.track(
       'Diagnostics Exported',
       properties: {

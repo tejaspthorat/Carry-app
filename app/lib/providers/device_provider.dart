@@ -178,8 +178,8 @@ class DeviceProvider extends ChangeNotifier implements IDeviceServiceSubsciption
           _hasFullyChargedAlerted = true;
           final ctx = globalNavigatorKey.currentContext;
           NotificationService.instance.createNotification(
-            title: ctx?.l10n.batteryFullyChargedTitle ?? "Omi is fully charged",
-            body: ctx?.l10n.batteryFullyChargedBody ?? "Your Omi device is fully charged. Feel free to unplug!",
+            title: ctx?.l10n.batteryFullyChargedTitle ?? "Carry is fully charged",
+            body: ctx?.l10n.batteryFullyChargedBody ?? "Your Carry device is fully charged. Feel free to unplug!",
           );
         } else if (!isCharging || batteryLevel < 100) {
           _hasFullyChargedAlerted = false;
@@ -228,8 +228,8 @@ class DeviceProvider extends ChangeNotifier implements IDeviceServiceSubsciption
             _hasFullyChargedAlerted = true;
             final ctx = globalNavigatorKey.currentContext;
             NotificationService.instance.createNotification(
-              title: ctx?.l10n.batteryFullyChargedTitle ?? "Omi is fully charged",
-              body: ctx?.l10n.batteryFullyChargedBody ?? "Your Omi device is fully charged. Feel free to unplug!",
+              title: ctx?.l10n.batteryFullyChargedTitle ?? "Carry is fully charged",
+              body: ctx?.l10n.batteryFullyChargedBody ?? "Your Carry device is fully charged. Feel free to unplug!",
             );
           }
           notifyListeners();

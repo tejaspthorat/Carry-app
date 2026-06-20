@@ -302,7 +302,7 @@ class DeveloperModeProvider extends BaseProvider {
         agentLog('getAgentVmStatus() returned: hasVm=${vmInfo?.hasVm}, status=${vmInfo?.status}');
         if (vmInfo == null || !vmInfo.hasVm) {
           agentLog('No VM found, aborting enable');
-          AppSnackbar.showSnackbarError('Requires OMI Desktop with agent enabled');
+          AppSnackbar.showSnackbarError('Requires Carry Desktop with agent enabled');
           claudeAgentLoading = false;
           notifyListeners();
           return;

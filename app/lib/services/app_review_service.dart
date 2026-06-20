@@ -128,15 +128,15 @@ class AppReviewService {
             width: double.infinity,
             padding: const EdgeInsets.all(24),
             decoration: BoxDecoration(
-              color: Colors.black,
+              color: const Color(0xFF17232D),
               borderRadius: BorderRadius.circular(24),
-              border: Border.all(color: Colors.grey.shade800, width: 1),
+              border: Border.all(color: const Color(0xFF2E7DA7).withOpacity(0.28), width: 1),
             ),
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
                 const Text(
-                  'Loving Omi?',
+                  'Loving Carry?',
                   style: TextStyle(color: Colors.white, fontSize: 24, fontWeight: FontWeight.bold, height: 1.2),
                   textAlign: TextAlign.center,
                 ),

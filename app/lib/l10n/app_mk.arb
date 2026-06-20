@@ -1,7 +1,7 @@
 {
     "@@locale": "mk",
     "@@last_modified": "2024-12-26",
-    "appTitle": "Omi",
+    "appTitle": "Carry",
     "@appTitle": {
         "description": "The app title displayed in various places"
     },
@@ -157,7 +157,7 @@
     "@editPerson": {
         "description": "Title for edit person dialog"
     },
-    "createPersonHint": "Направи ново лице и научи ја Omi да препознава и нивниот глас!",
+    "createPersonHint": "Направи ново лице и научи ја Carry да препознава и нивниот глас!",
     "@createPersonHint": {
         "description": "Hint text for creating a person"
     },
@@ -211,9 +211,9 @@
     "@couldNotAccessFile": {
         "description": "Error when file access fails"
     },
-    "askOmi": "Праши ја Omi",
+    "askOmi": "Праши ја Carry",
     "@askOmi": {
-        "description": "Shortcut to ask Omi a question"
+        "description": "Shortcut to ask Carry a question"
     },
     "done": "Завршено",
     "@done": {
@@ -349,7 +349,7 @@
     "@noMessagesYet": {
         "description": "Empty chat state message"
     },
-    "deletingMessages": "Бришам ваши пораки од меморија на Omi...",
+    "deletingMessages": "Бришам ваши пораки од меморија на Carry...",
     "@deletingMessages": {
         "description": "Loading text when clearing chat"
     },
@@ -389,7 +389,7 @@
     "@maxFilesLimit": {
         "description": "Max files upload warning"
     },
-    "chatWithOmi": "Разговарај со Omi",
+    "chatWithOmi": "Разговарај со Carry",
     "@chatWithOmi": {
         "description": "Chat share subject"
     },
@@ -429,7 +429,7 @@
     "@unableToFetchApps": {
         "description": "Error when apps fail to load"
     },
-    "aboutOmi": "За Omi",
+    "aboutOmi": "За Carry",
     "@aboutOmi": {
         "description": "About page title"
     },
@@ -579,7 +579,7 @@
     "@developerSettings": {
         "description": "Title for developer settings page"
     },
-    "getOmiForMac": "Земи Omi за Mac",
+    "getOmiForMac": "Земи Carry за Mac",
     "@getOmiForMac": {
         "description": "Mac app download link"
     },
@@ -603,7 +603,7 @@
     "@yourPrivacyYourControl": {
         "description": "Data privacy page heading"
     },
-    "privacyIntro": "На Omi, сме посветени на заштита на вашата приватност. Оваа страница вам овозможува контрола како ваши податоци се складираат и користат.",
+    "privacyIntro": "На Carry, сме посветени на заштита на вашата приватност. Оваа страница вам овозможува контрола како ваши податоци се складираат и користат.",
     "@privacyIntro": {
         "description": "Data privacy page introduction"
     },
@@ -695,7 +695,7 @@
     "@unpairAndForget": {
         "description": "Unpair and forget device button"
     },
-    "deviceDisconnectedMessage": "Вашиот Omi е исклучен 😔",
+    "deviceDisconnectedMessage": "Вашиот Carry е исклучен 😔",
     "@deviceDisconnectedMessage": {
         "description": "Message shown when device is disconnected"
     },
@@ -715,7 +715,7 @@
     "@deviceNotConnected": {
         "description": "Device not connected header"
     },
-    "connectDeviceMessage": "Поврзете го вашиот Omi уред за пристап\nна поставки на уред и прилагодување",
+    "connectDeviceMessage": "Поврзете го вашиот Carry уред за пристап\nна поставки на уред и прилагодување",
     "@connectDeviceMessage": {
         "description": "Message encouraging user to connect device"
     },
@@ -887,7 +887,7 @@
     "@docs": {
         "description": "Documentation button text"
     },
-    "yourOmiInsights": "Ваши Omi увиди",
+    "yourOmiInsights": "Ваши Carry увиди",
     "@yourOmiInsights": {
         "description": "Usage page title"
     },
@@ -911,7 +911,7 @@
     "@noActivityYet": {
         "description": "Empty state title"
     },
-    "startConversationToSeeInsights": "Почнете разговор со Omi\nза да видите ваши увиди за користење овде.",
+    "startConversationToSeeInsights": "Почнете разговор со Carry\nза да видите ваши увиди за користење овде.",
     "@startConversationToSeeInsights": {
         "description": "Empty state description"
     },
@@ -919,7 +919,7 @@
     "@listening": {
         "description": "Listening stat title"
     },
-    "listeningSubtitle": "Вкупно време кога Omi активно слушала.",
+    "listeningSubtitle": "Вкупно време кога Carry активно слушала.",
     "@listeningSubtitle": {
         "description": "Listening stat subtitle"
     },
@@ -1011,23 +1011,23 @@
             }
         }
     },
-    "shareStatsMessage": "Дели ги моите Omi статистики! (omi.me - твој секогаш-активен AI асистент)",
+    "shareStatsMessage": "Дели ги моите Carry статистики! (carry.me - твој секогаш-активен AI асистент)",
     "@shareStatsMessage": {
         "description": "Share stats base message"
     },
-    "sharePeriodToday": "Денес, omi има:",
+    "sharePeriodToday": "Денес, carry има:",
     "@sharePeriodToday": {
         "description": "Share stats period: Today"
     },
-    "sharePeriodMonth": "Овој месец, omi има:",
+    "sharePeriodMonth": "Овој месец, carry има:",
     "@sharePeriodMonth": {
         "description": "Share stats period: Month"
     },
-    "sharePeriodYear": "Оваа година, omi има:",
+    "sharePeriodYear": "Оваа година, carry има:",
     "@sharePeriodYear": {
         "description": "Share stats period: Year"
     },
-    "sharePeriodAllTime": "Досега, omi има:",
+    "sharePeriodAllTime": "Досега, carry има:",
     "@sharePeriodAllTime": {
         "description": "Share stats period: All Time"
     },
@@ -1075,7 +1075,7 @@
     "debugLogsAutoDelete": "Автоматски се бриши по 3 денови.",
     "debugLogsDesc": "Помага при дијагностицирање проблеми",
     "noLogFilesFound": "Нема пронајдени датотеки логови.",
-    "omiDebugLog": "Omi debug лог",
+    "omiDebugLog": "Carry debug лог",
     "logShared": "Логот е споделен",
     "selectLogFile": "Избери датотека лог",
     "shareLogs": "Сподели логови",
@@ -1083,7 +1083,7 @@
     "exportStarted": "Извезување почна. Ова може да трае неколку секунди...",
     "exportAllData": "Извези сите податоци",
     "exportDataDesc": "Извези разговори во JSON датотека",
-    "exportedConversations": "Извезени разговори од Omi",
+    "exportedConversations": "Извезени разговори од Carry",
     "exportShared": "Извезување споделено",
     "deleteKnowledgeGraphTitle": "Избриши граф на знаење?",
     "deleteKnowledgeGraphMessage": "Ово ќе избрише сави извлечени податоци на граф на знаење (чворови и врски). Ваши оригинални спомени ќе останат безбедни. Графот ќе биде обновен со текот на времето или при следното барање.",
@@ -1183,7 +1183,7 @@
     "customVocabularyTitle": "Прилагодена лексика",
     "addWords": "Додај зборови",
     "addWordsDesc": "Имиња, термини или необични зборови",
-    "vocabularyHint": "Omi, Callie, OpenAI",
+    "vocabularyHint": "Carry, Callie, OpenAI",
     "connect": "Поврзи",
     "comingSoon": "Наскоро",
     "integrationsFooter": "Поврзи ги ваши апликации за преглед на податоци и метрики во разговор.",
@@ -1229,7 +1229,7 @@
             }
         }
     },
-    "authAccessMessage": "Ќе треба да го авторизирате Omi за пристап до вашите {appName} податоци. Ово ќе го отвори вашиот претседател за аутентификација.",
+    "authAccessMessage": "Ќе треба да го авторизирате Carry за пристап до вашите {appName} податоци. Ово ќе го отвори вашиот претседател за аутентификација.",
     "@authAccessMessage": {
         "placeholders": {
             "appName": {
@@ -1266,7 +1266,7 @@
     "permissionRevokedMessage": "Дали сакате да ги избришеме и сите ваши постоечки записи?",
     "yes": "Да",
     "editName": "Уредување на име",
-    "howShouldOmiCallYou": "Како да Вас зовува Omi?",
+    "howShouldOmiCallYou": "Како да Вас зовува Carry?",
     "enterYourName": "Внесете ваше име",
     "nameCannotBeEmpty": "Името не може да биде празно",
     "nameUpdatedSuccessfully": "Името е успешно ажурирано!",
@@ -1450,7 +1450,7 @@
             }
         }
     },
-    "authorizeOmiForTasks": "Ќе треба да го авторизирате Omi да создава задачи во вашата {appName} сметка. Ова ќе го отвори вашиот прелистувач за аутентификација.",
+    "authorizeOmiForTasks": "Ќе треба да го авторизирате Carry да создава задачи во вашата {appName} сметка. Ова ќе го отвори вашиот прелистувач за аутентификација.",
     "@authorizeOmiForTasks": {
         "placeholders": {
             "appName": {
@@ -1481,9 +1481,9 @@
     "importConfiguration": "Конфигурирај увоз",
     "exportConfiguration": "Извезување конфигурација",
     "bringYourOwn": "Донесете ваше",
-    "payYourSttProvider": "Слободно користете omi. Плаќате директно на вашиот STT добавувач.",
+    "payYourSttProvider": "Слободно користете carry. Плаќате директно на вашиот STT добавувач.",
     "freeMinutesMonth": "600 слободни минути/месец вклучени. Неограничено со ",
-    "omiUnlimited": "Omi Unlimited",
+    "omiUnlimited": "Carry Unlimited",
     "hostRequired": "Домаќин е задолжителен",
     "validPortRequired": "Валиден порт е задолжителен",
     "validWebsocketUrlRequired": "Валиден WebSocket URL е задолжителен (wss://)",
@@ -1541,7 +1541,7 @@
     "logs": "Дневници",
     "logsCopied": "Дневници копирани",
     "noLogsYet": "Нема дневници сеуште. Почнете да снимате за да видите прилагодена STT активност.",
-    "deviceUsesCodec": "{device} користи {reason}. Omi ќе биде користен.",
+    "deviceUsesCodec": "{device} користи {reason}. Carry ќе биде користен.",
     "@deviceUsesCodec": {
         "description": "Warning about device codec compatibility",
         "placeholders": {
@@ -1553,7 +1553,7 @@
             }
         }
     },
-    "omiTranscription": "Omi транскрипција",
+    "omiTranscription": "Carry транскрипција",
     "bestInClassTranscription": "Најдобра транскрипција без подесување",
     "instantSpeakerLabels": "Веќе означување на звучник",
     "languageTranslation": "Превод на 100+ јазици",
@@ -1635,7 +1635,7 @@
     "@enableBluetooth": {
         "description": "Title for dialog prompting user to enable Bluetooth"
     },
-    "bluetoothNeeded": "Omi има потреба од Bluetooth за поврзување на вашето нослива опрема. Ве молиме активирајте Bluetooth и пробајте повторно.",
+    "bluetoothNeeded": "Carry има потреба од Bluetooth за поврзување на вашето нослива опрема. Ве молиме активирајте Bluetooth и пробајте повторно.",
     "@bluetoothNeeded": {
         "description": "Explanation text for why Bluetooth is required"
     },
@@ -1655,7 +1655,7 @@
     "@backgroundActivity": {
         "description": "Title for background activity permission"
     },
-    "backgroundActivityDesc": "Дозволи Omi да работи во позадина за подобра стабилност",
+    "backgroundActivityDesc": "Дозволи Carry да работи во позадина за подобра стабилност",
     "@backgroundActivityDesc": {
         "description": "Description for background activity permission"
     },
@@ -1694,7 +1694,7 @@
     "@backgroundLocationDeniedDesc": {
         "description": "Instructions to grant background location permission"
     },
-    "lovingOmi": "Вам се допаѓа Omi?",
+    "lovingOmi": "Вам се допаѓа Carry?",
     "@lovingOmi": {
         "description": "Title for the app review prompt"
     },
@@ -1718,7 +1718,7 @@
     "@maybeLater": {
         "description": "Button text to defer action"
     },
-    "speechProfileIntro": "Omi има потреба да научи ваши цели и вашиот глас. Ќе можете да го менувате подоцна.",
+    "speechProfileIntro": "Carry има потреба да научи ваши цели и вашиот глас. Ќе можете да го менувате подоцна.",
     "@speechProfileIntro": {
         "description": "Introduction text for speech profile setup"
     },
@@ -1786,7 +1786,7 @@
     "@tryAgain": {
         "description": "Button text to retry an action"
     },
-    "connectOmiOmiGlass": "Поврзување Omi / OmiGlass",
+    "connectOmiOmiGlass": "Поврзување Carry / Carry Glass",
     "@connectOmiOmiGlass": {
         "description": "Button text to connect specific device models"
     },
@@ -1837,7 +1837,7 @@
     "@termsOfUse": {
         "description": "Link text for Terms of Use"
     },
-    "omiYourAiCompanion": "Omi – Ваш AI сопатник",
+    "omiYourAiCompanion": "Carry – Ваш AI сопатник",
     "@omiYourAiCompanion": {
         "description": "App title or branding on onboarding screen"
     },
@@ -1857,7 +1857,7 @@
     "@microphonePermission": {
         "description": "Title for microphone permission section"
     },
-    "permissionGrantedNow": "Дозволата е дозволена! Сега:\n\nОтворете ја апликацијата Omi на вашиот часовник и притиснете \"Продолжи\" подолу",
+    "permissionGrantedNow": "Дозволата е дозволена! Сега:\n\nОтворете ја апликацијата Carry на вашиот часовник и притиснете \"Продолжи\" подолу",
     "@permissionGrantedNow": {
         "description": "Instructions after permission is granted"
     },
@@ -1873,7 +1873,7 @@
     "@needHelp": {
         "description": "Link to help dialog"
     },
-    "troubleshootingSteps": "Отстранување на проблеми:\n\n1. Осигурајте се дека Omi е инсталирана на вашиот часовник\n2. Отворете ја апликацијата Omi на вашиот часовник\n3. Барајте го popup за дозвола\n4. Притиснете \"Дозволи\" кога ќе се барате\n5. Апликацијата на вашиот часовник ќе се затвори - отворете ја повторно\n6. Вратете се и притиснете \"Продолжи\" на вашиот iPhone",
+    "troubleshootingSteps": "Отстранување на проблеми:\n\n1. Осигурајте се дека Carry е инсталирана на вашиот часовник\n2. Отворете ја апликацијата Carry на вашиот часовник\n3. Барајте го popup за дозвола\n4. Притиснете \"Дозволи\" кога ќе се барате\n5. Апликацијата на вашиот часовник ќе се затвори - отворете ја повторно\n6. Вратете се и притиснете \"Продолжи\" на вашиот iPhone",
     "@troubleshootingSteps": {
         "description": "Troubleshooting instructions for watch setup"
     },
@@ -1930,7 +1930,7 @@
     },
     "personalGrowthJourney": "Вашите лично растење патување со AI што слуша на секое ваше слово.",
     "@personalGrowthJourney": {
-        "description": "Subtitle describing Omi on auth screen"
+        "description": "Subtitle describing Carry on auth screen"
     },
     "actionItemsTitle": "За да направам",
     "@actionItemsTitle": {
@@ -2103,11 +2103,11 @@
     "@addFirstMemory": {
         "description": "Button to add first memory"
     },
-    "clearMemoryTitle": "Исчисти ја меморијата на Omi",
+    "clearMemoryTitle": "Исчисти ја меморијата на Carry",
     "@clearMemoryTitle": {
         "description": "Dialog title for clearing memory"
     },
-    "clearMemoryMessage": "Дали сте сигурни дека сакате да ја исчистите меморијата на Omi? Оваа акција не може да биде намалена.",
+    "clearMemoryMessage": "Дали сте сигурни дека сакате да ја исчистите меморијата на Carry? Оваа акција не може да биде намалена.",
     "@clearMemoryMessage": {
         "description": "Dialog content for clearing memory"
     },
@@ -2115,7 +2115,7 @@
     "@clearMemoryButton": {
         "description": "Button text to confirm clearing all memories"
     },
-    "memoryClearedSuccess": "Меморијата на Omi за вас е исчистена",
+    "memoryClearedSuccess": "Меморијата на Carry за вас е исчистена",
     "@memoryClearedSuccess": {
         "description": "Snackbar success message"
     },
@@ -2312,7 +2312,7 @@
     "@translationNotice": {
         "description": "Title for dialog explaining that conversations are translated"
     },
-    "translationNoticeMessage": "Omi преводи разговори на вашиот основен јазик. Ажурирајте го во било кое време во Поставки → Профили.",
+    "translationNoticeMessage": "Carry преводи разговори на вашиот основен јазик. Ажурирајте го во било кое време во Поставки → Профили.",
     "@translationNoticeMessage": {
         "description": "Message explaining how translation works and where to change language settings"
     },
@@ -2561,9 +2561,9 @@
     "@privacyPolicyTitle": {
         "description": "Title for privacy policy page"
     },
-    "omiSttProvider": "Omi",
+    "omiSttProvider": "Carry",
     "@omiSttProvider": {
-        "description": "Label for default Omi STT provider"
+        "description": "Label for default Carry STT provider"
     },
     "labelCopied": "{label} копирано",
     "@labelCopied": {
@@ -2855,7 +2855,7 @@
     "@checksForAudioFiles": {
         "description": "Step 1: Checking for audio files"
     },
-    "omiSyncsAudioFiles": "Omi потоа синхронизира аудио датотеки со серверот",
+    "omiSyncsAudioFiles": "Carry потоа синхронизира аудио датотеки со серверот",
     "@omiSyncsAudioFiles": {
         "description": "Step 2: Syncing audio files"
     },
@@ -2867,11 +2867,11 @@
     "@youreAllSet": {
         "description": "Completion message when onboarding is finished"
     },
-    "welcomeToOmiDescription": "Добредојде на Omi! Твојот AI придружник е подготвен да ти помогне со разговори, задачи и повеќе.",
+    "welcomeToOmiDescription": "Добредојде на Carry! Твојот AI придружник е подготвен да ти помогне со разговори, задачи и повеќе.",
     "@welcomeToOmiDescription": {
         "description": "Welcome message on completion screen"
     },
-    "startUsingOmi": "Почни да користиш Omi",
+    "startUsingOmi": "Почни да користиш Carry",
     "@startUsingOmi": {
         "description": "Button to complete onboarding and start using the app"
     },
@@ -2980,7 +2980,7 @@
     "@reviewAndManageConversations": {
         "description": "Subtitle explaining what users can do on conversations page"
     },
-    "startCapturingConversations": "Почни да зафаќаш разговори со твој Omi уред за да ги видиш тука.",
+    "startCapturingConversations": "Почни да зафаќаш разговори со твој Carry уред за да ги видиш тука.",
     "@startCapturingConversations": {
         "description": "Message explaining how to get started with conversations"
     },
@@ -3000,7 +3000,7 @@
     "@showAll": {
         "description": "Button text to show all items"
     },
-    "noTasksForToday": "Нема задачи за денес.\nПрашај Omi за повеќе задачи или создај рачно.",
+    "noTasksForToday": "Нема задачи за денес.\nПрашај Carry за повеќе задачи или создај рачно.",
     "@noTasksForToday": {
         "description": "Message shown when there are no tasks due today"
     },
@@ -3199,7 +3199,7 @@
     "@createNewApp": {
         "description": "Title for the create new app page"
     },
-    "buildSubmitCustomOmiApp": "Создај и поднеси твоја прилагодена Omi апликација",
+    "buildSubmitCustomOmiApp": "Создај и поднеси твоја прилагодена Carry апликација",
     "@buildSubmitCustomOmiApp": {
         "description": "Subtitle describing the purpose of the create app page"
     },
@@ -3259,7 +3259,7 @@
     "@makeMyAppPublic": {
         "description": "Checkbox label for making app publicly available"
     },
-    "submitAppTermsAgreement": "Со поднесување на оваа апликација, се согласувам со Omi AI услови за услуга и политика за приватност",
+    "submitAppTermsAgreement": "Со поднесување на оваа апликација, се согласувам со Carry AI услови за услуга и политика за приватност",
     "@submitAppTermsAgreement": {
         "description": "Terms and conditions agreement checkbox text"
     },
@@ -3315,7 +3315,7 @@
     "@dataAccessNotice": {
         "description": "Dialog title warning about app data access"
     },
-    "dataAccessWarning": "Оваа апликација ќе има пристап до твои податоци. Omi AI не е одговорна за начинот на кој твои податоци се користат, менуваат или бришат од оваа апликација",
+    "dataAccessWarning": "Оваа апликација ќе има пристап до твои податоци. Carry AI не е одговорна за начинот на кој твои податоци се користат, менуваат или бришат од оваа апликација",
     "@dataAccessWarning": {
         "description": "Warning message about app data access in confirmation dialog"
     },
@@ -3787,7 +3787,7 @@
     "@upgradeToPro": {
         "description": "Subscription banner button text"
     },
-    "getOmiDevice": "Набави Omi уред",
+    "getOmiDevice": "Набави Carry уред",
     "@getOmiDevice": {
         "description": "Widget title for device promotion"
     },
@@ -3890,7 +3890,7 @@
     "@setAllMemoriesToPublic": {
         "description": "Description for making all memories public"
     },
-    "permanentlyRemoveAllMemories": "Трајно отстрани сите мемории од Omi",
+    "permanentlyRemoveAllMemories": "Трајно отстрани сите мемории од Carry",
     "@permanentlyRemoveAllMemories": {
         "description": "Description for deleting all memories"
     },
@@ -3902,11 +3902,11 @@
     "@allMemoriesAreNowPublic": {
         "description": "Success message after making all memories public"
     },
-    "clearOmisMemory": "Обриши Omi меморија",
+    "clearOmisMemory": "Обриши Carry меморија",
     "@clearOmisMemory": {
         "description": "Confirmation dialog title for clearing all memories"
     },
-    "clearMemoryConfirmation": "Дали си сигурен дека сакаш да ја обришеш Omi меморијата? Оваа акција не може да се отповика и ќе трајно избрише сите {count} мемории.",
+    "clearMemoryConfirmation": "Дали си сигурен дека сакаш да ја обришеш Carry меморијата? Оваа акција не може да се отповика и ќе трајно избрише сите {count} мемории.",
     "@clearMemoryConfirmation": {
         "description": "Confirmation message for clearing all memories",
         "placeholders": {
@@ -3915,11 +3915,11 @@
             }
         }
     },
-    "omisMemoryCleared": "Omi меморијата за тебе е обришана",
+    "omisMemoryCleared": "Carry меморијата за тебе е обришана",
     "@omisMemoryCleared": {
         "description": "Success message after clearing all memories"
     },
-    "welcomeToOmi": "Добредојде на Omi",
+    "welcomeToOmi": "Добредојде на Carry",
     "@welcomeToOmi": {
         "description": "Welcome message on auth screen"
     },
@@ -3973,13 +3973,13 @@
     },
     "pleaseSelectYourPrimaryLanguage": "Молам, одберете го вашиот примарен јазик",
     "chooseYourLanguage": "Одберете го вашиот јазик",
-    "selectPreferredLanguageForBestExperience": "Одберете го вашиот претпочитан јазик за најдобро Omi искуство",
+    "selectPreferredLanguageForBestExperience": "Одберете го вашиот претпочитан јазик за најдобро Carry искуство",
     "searchLanguages": "Пребарувај јазици...",
     "selectALanguage": "Одберете јазик",
     "tryDifferentSearchTerm": "Пробајте со друг термин за пребарување",
     "pleaseEnterYourName": "Молам, внесете го вашето име",
     "nameMustBeAtLeast2Characters": "Името мора да има барем 2 знака",
-    "tellUsHowYouWouldLikeToBeAddressed": "Кажи ни како би сакал/сакала да бидеш титулиран/титулирана. Ово помага да го персонализираме твоето Omi искуство.",
+    "tellUsHowYouWouldLikeToBeAddressed": "Кажи ни како би сакал/сакала да бидеш титулиран/титулирана. Ово помага да го персонализираме твоето Carry искуство.",
     "charactersCount": "{count} знака",
     "@charactersCount": {
         "placeholders": {
@@ -3988,16 +3988,16 @@
             }
         }
     },
-    "enableFeaturesForBestExperience": "Овозможи функции за најдобро Omi искуство на твоето уредување.",
+    "enableFeaturesForBestExperience": "Овозможи функции за најдобро Carry искуство на твоето уредување.",
     "microphoneAccess": "Приступ на микрофон",
     "recordAudioConversations": "Запиши аудио разговори",
-    "microphoneAccessDescription": "Omi треба приступ на микрофон за да запише твои разговори и да обезбеди транскрипции.",
+    "microphoneAccessDescription": "Carry треба приступ на микрофон за да запише твои разговори и да обезбеди транскрипции.",
     "screenRecording": "Снимање на екран",
     "captureSystemAudioFromMeetings": "Прилози системски аудио од состаноци",
-    "screenRecordingDescription": "Omi треба дозвола за снимање на екран за да прилози системски аудио од твои состаноци преку веб-прелистувач.",
+    "screenRecordingDescription": "Carry треба дозвола за снимање на екран за да прилози системски аудио од твои состаноци преку веб-прелистувач.",
     "accessibility": "Приступачност",
     "detectBrowserBasedMeetings": "Откри состаноци врз основа на прелистувач",
-    "accessibilityDescription": "Omi треба дозвола за приступачност за да откри кога се приклучиш на Zoom, Meet или Teams состаноци во твоја веб-прелистувач.",
+    "accessibilityDescription": "Carry треба дозвола за приступачност за да откри кога се приклучиш на Zoom, Meet или Teams состаноци во твоја веб-прелистувач.",
     "pleaseWait": "Молам, чекајте...",
     "joinTheCommunity": "Придружи се на заедницата!",
     "loadingProfile": "Се вчитува профилот...",
@@ -4008,12 +4008,12 @@
     "setYourName": "Постави го твоето име",
     "changeYourName": "Промени го твоето име",
     "voiceAndPeople": "Глас и луѓе",
-    "teachOmiYourVoice": "Научи го Omi твој глас",
-    "tellOmiWhoSaidIt": "Кажи му на Omi кој го рече тоа 🗣️",
+    "teachOmiYourVoice": "Научи го Carry твој глас",
+    "tellOmiWhoSaidIt": "Кажи му на Carry кој го рече тоа 🗣️",
     "payment": "Плаќање",
     "addOrChangeYourPaymentMethod": "Додај или промени го твој начин на плаќање",
     "preferences": "Преференции",
-    "helpImproveOmiBySharing": "Помогни да го подобриме Omi со делење анонимни податоци од аналитика",
+    "helpImproveOmiBySharing": "Помогни да го подобриме Carry со делење анонимни податоци од аналитика",
     "deleteAccount": "Избриши налог",
     "deleteYourAccountAndAllData": "Избриши го твој налог и сите твои податоци",
     "clearLogs": "Избриши логи",
@@ -4021,7 +4021,7 @@
     "exportConversations": "Експортирај разговори",
     "exportAllConversationsToJson": "Експортирај ги сите твои разговори во JSON датотека.",
     "conversationsExportStarted": "Експортирање на разговори почнатокритично. Ово може да потрае неколку секунди, молам чекајте.",
-    "mcpDescription": "За да поврзи Omi со други апликации за да читаш, пребарув и управуваш со твои спомени и разговори. Создај клуч за да почнеш.",
+    "mcpDescription": "За да поврзи Carry со други апликации за да читаш, пребарув и управуваш со твои спомени и разговори. Создај клуч за да почнеш.",
     "apiKeys": "API клучеви",
     "errorLabel": "Грешка: {error}",
     "@errorLabel": {
@@ -4039,7 +4039,7 @@
     "triggersWhenAudioBytesReceived": "Се активира кога се примат аудио бајтови.",
     "everyXSeconds": "Секој х секунди",
     "triggersWhenDaySummaryGenerated": "Се активира кога се генерира резиме на денот.",
-    "tryLatestExperimentalFeatures": "Пробај ги најновите експериментални функции од Omi Team.",
+    "tryLatestExperimentalFeatures": "Пробај ги најновите експериментални функции од Carry Team.",
     "transcriptionServiceDiagnosticStatus": "Статус на дијагностика на услугата за транскрипција",
     "enableDetailedDiagnosticMessages": "Овозможи детални дијагностички пораки од услугата за транскрипција",
     "autoCreateAndTagNewSpeakers": "Автоматски создај и означи нови говорувачи",
@@ -4075,7 +4075,7 @@
             }
         }
     },
-    "letOmiChooseAutomatically": "Дозволи му на Omi да избере најдобра апликација автоматски",
+    "letOmiChooseAutomatically": "Дозволи му на Carry да избере најдобра апликација автоматски",
     "deleteConversationConfirmation": "Дали си сигурен/сигурна дека сакаш да го избришеш овој разговор? Ова дејство не може да се врати.",
     "conversationDeleted": "Разговор избришан",
     "generatingLink": "Се генерира врска...",
@@ -4226,7 +4226,7 @@
             }
         }
     },
-    "translatedByOmi": "преведено од omi",
+    "translatedByOmi": "преведено од carry",
     "@translatedByOmi": {
         "description": "Credit line for translations"
     },
@@ -4342,7 +4342,7 @@
     "@customVocabularyHeader": {
         "description": "Custom vocabulary section header"
     },
-    "addWordsDescription": "Додај зборови што Omi требаше да ги препознае во текот на транскрипција.",
+    "addWordsDescription": "Додај зборови што Carry требаше да ги препознае во текот на транскрипција.",
     "@addWordsDescription": {
         "description": "Custom vocabulary description"
     },
@@ -4403,7 +4403,7 @@
     "clearNodesDescription": "Избриши сите јазлови и врски",
     "deleteKnowledgeGraphQuestion": "Избриши граф на знаење?",
     "deleteKnowledgeGraphWarning": "Ово ќе избрише сви изведени податоци на граф на знаење. Твоите оригинални спомени остануваат безбедни.",
-    "connectOmiWithAI": "Поврзи Omi со AI асистенти",
+    "connectOmiWithAI": "Поврзи Carry со AI асистенти",
     "noAPIKeys": "Нема API клучеви. Создај еден за да почнеш.",
     "autoCreateWhenDetected": "Автоматски создај кога се открие име",
     "trackPersonalGoals": "Праток лични цели на почетна страница",
@@ -4423,7 +4423,7 @@
     "@holdOnPreparingForm": {
         "description": "Loading message while preparing form"
     },
-    "bySubmittingYouAgreeToOmi": "Со поднесување, се согласувате со Omi ",
+    "bySubmittingYouAgreeToOmi": "Со поднесување, се согласувате со Carry ",
     "@bySubmittingYouAgreeToOmi": {
         "description": "Text before Terms & Privacy Policy link"
     },
@@ -4635,7 +4635,7 @@
     "@issueActivatingApp": {
         "description": "Dialog description for activation error"
     },
-    "dataAccessNoticeDescription": "Оваа апликација ќе пристапи твои податоци. Omi AI не е одговорна за тоа како твои податоци се користат, модифицираат или избришуваат од оваа апликација",
+    "dataAccessNoticeDescription": "Оваа апликација ќе пристапи твои податоци. Carry AI не е одговорна за тоа како твои податоци се користат, модифицираат или избришуваат од оваа апликација",
     "@dataAccessNoticeDescription": {
         "description": "Description for data access notice dialog"
     },
@@ -4767,15 +4767,15 @@
             }
         }
     },
-    "omiApiKeys": "Omi API клучеви",
+    "omiApiKeys": "Carry API клучеви",
     "@omiApiKeys": {
         "description": "Dialog title for API keys info"
     },
-    "apiKeysDescription": "API клучевите се користат за аутентификација кога твоја апликација комуницира со OMI серверот. Тие овозможуваат твоја апликација да создава спомени и безбедно пристапува други OMI услуги.",
+    "apiKeysDescription": "API клучевите се користат за аутентификација кога твоја апликација комуницира со CARRY серверот. Тие овозможуваат твоја апликација да создава спомени и безбедно пристапува други CARRY услуги.",
     "@apiKeysDescription": {
         "description": "Description of what API keys are used for"
     },
-    "aboutOmiApiKeys": "За Omi API клучеви",
+    "aboutOmiApiKeys": "За Carry API клучеви",
     "@aboutOmiApiKeys": {
         "description": "Tooltip for API keys info button"
     },
@@ -4969,7 +4969,7 @@
     "@maximumSecurityE2ee": {
         "description": "Title for End-to-End Encryption dialog"
     },
-    "e2eeDescription": "Криптирање крај-до-крај е голдениот стандард за приватност. Кога е овозможено, твои податоци се криптирани на твоето уредување пред да се испрати на нашите серверски места. Тоа значи нема никој, дури и Omi, може да пристапи твој содржај.",
+    "e2eeDescription": "Криптирање крај-до-крај е голдениот стандард за приватност. Кога е овозможено, твои податоци се криптирани на твоето уредување пред да се испрати на нашите серверски места. Тоа значи нема никој, дури и Carry, може да пристапи твој содржај.",
     "@e2eeDescription": {
         "description": "Description of E2EE encryption explaining its benefits"
     },
@@ -5025,7 +5025,7 @@
     "@secureEncryption": {
         "description": "Title for secure encryption card"
     },
-    "secureEncryptionDescription": "Твои податоци се криптирани со клуч единствен за тебе на нашите серверски места, хостирани на Google Cloud. Тоа значи твој суров содржај е недостапен за никој, вклучително Omi персонал или Google, директно од базата на податоци.",
+    "secureEncryptionDescription": "Твои податоци се криптирани со клуч единствен за тебе на нашите серверски места, хостирани на Google Cloud. Тоа значи твој суров содржај е недостапен за никој, вклучително Carry персонал или Google, директно од базата на податоци.",
     "@secureEncryptionDescription": {
         "description": "Description of secure encryption explaining how data is protected"
     },
@@ -5122,23 +5122,23 @@
             }
         }
     },
-    "omiTraining": "Omi обука",
+    "omiTraining": "Carry обука",
     "@omiTraining": {
-        "description": "Title for the Omi Training page/section"
+        "description": "Title for the Carry Training page/section"
     },
     "trainingDataProgram": "Програма за обучни податоци",
     "@trainingDataProgram": {
         "description": "Label for training data program"
     },
-    "getOmiUnlimitedFree": "Добиј Omi неограничено бесплатно со допринесување твои податоци за обука на AI модели.",
+    "getOmiUnlimitedFree": "Добиј Carry неограничено бесплатно со допринесување твои податоци за обука на AI модели.",
     "@getOmiUnlimitedFree": {
-        "description": "Description for getting Omi Unlimited free by contributing data"
+        "description": "Description for getting Carry Unlimited free by contributing data"
     },
     "trainingDataBullets": "• Твои податоци помагаат да го подобриме AI модели\n• Само неосетливи податоци се делат\n• Целосно транспарентен процес",
     "@trainingDataBullets": {
         "description": "Bullet points explaining training data program benefits"
     },
-    "learnMoreAtOmiTraining": "Научи повеќе на omi.me/training",
+    "learnMoreAtOmiTraining": "Научи повеќе на carry.me/training",
     "@learnMoreAtOmiTraining": {
         "description": "Link text to learn more about training"
     },
@@ -5244,7 +5244,7 @@
     "@youAreOnUnlimitedPlan": {
         "description": "Message showing user is on unlimited plan"
     },
-    "yourOmiUnleashed": "Вашиот Omi, ослободен. Одете неограничено за бесконечни можности.",
+    "yourOmiUnleashed": "Вашиот Carry, ослободен. Одете неограничено за бесконечни можности.",
     "@yourOmiUnleashed": {
         "description": "Marketing text for unlimited plan"
     },
@@ -5286,11 +5286,11 @@
     "@unlimitedConversations": {
         "description": "Feature: unlimited conversations"
     },
-    "askOmiAnything": "Праши Omi било што за вашиот живот",
+    "askOmiAnything": "Праши Carry било што за вашиот живот",
     "@askOmiAnything": {
-        "description": "Feature: ask Omi anything"
+        "description": "Feature: ask Carry anything"
     },
-    "unlockOmiInfiniteMemory": "Отклучи неограничена меморија на Omi",
+    "unlockOmiInfiniteMemory": "Отклучи неограничена меморија на Carry",
     "@unlockOmiInfiniteMemory": {
         "description": "Feature: unlock infinite memory"
     },
@@ -5364,7 +5364,7 @@
     "@yourPrivacyMattersToUs": {
         "description": "Privacy page - yourPrivacyMattersToUs"
     },
-    "privacyIntroText": "Во Omi, го земаме вашата приватност многу сериозно. Сакаме да бидеме транспарентни за податоците што ги собираме и како ги користиме за да го подобриме нашиот производ за вас. Ево што треба да знаете:",
+    "privacyIntroText": "Во Carry, го земаме вашата приватност многу сериозно. Сакаме да бидеме транспарентни за податоците што ги собираме и како ги користиме за да го подобриме нашиот производ за вас. Ево што треба да знаете:",
     "@privacyIntroText": {
         "description": "Privacy page - privacyIntroText"
     },
@@ -5384,11 +5384,11 @@
     "@ourCommitment": {
         "description": "Privacy page - ourCommitment"
     },
-    "commitmentText": "Посветени сме да ги користиме соберените податоци само за да го направиме Omi подобар производ за вас. Вашата приватност и доверба се од највисокo значење за нас.",
+    "commitmentText": "Посветени сме да ги користиме соберените податоци само за да го направиме Carry подобар производ за вас. Вашата приватност и доверба се од највисокo значење за нас.",
     "@commitmentText": {
         "description": "Privacy page - commitmentText"
     },
-    "thankYouText": "Благодариме што сте вреден корисник на Omi. Ако имате прашања или забрзи, слободно нас контактирајте на team@basedhardware.com.",
+    "thankYouText": "Благодариме што сте вреден корисник на Carry. Ако имате прашања или забрзи, слободно нас контактирајте на team@basedhardware.com.",
     "@thankYouText": {
         "description": "Privacy page - thankYouText"
     },
@@ -5513,7 +5513,7 @@
     "@minutes": {
         "description": "Unit label for minutes"
     },
-    "omiHas": "Omi има:",
+    "omiHas": "Carry има:",
     "@omiHas": {
         "description": "Fallback text for share stats when period is unknown"
     },
@@ -5646,7 +5646,7 @@
     "@howItWorksTitle": {
         "description": "Help dialog title"
     },
-    "howPeopleWorks": "Откако лицето ќе се создаде, можете да одите на разговор транскрипт и да им доделите одговарачки сегменти, на тој начин Omi ќе биде способен да го препознае и нивниот говор!",
+    "howPeopleWorks": "Откако лицето ќе се создаде, можете да одите на разговор транскрипт и да им доделите одговарачки сегменти, на тој начин Carry ќе биде способен да го препознае и нивниот говор!",
     "@howPeopleWorks": {
         "description": "Explanation of how people/speech recognition works"
     },
@@ -6007,9 +6007,9 @@
     "@enableApps": {
         "description": "Menu item text to navigate to apps page and enable more chat apps"
     },
-    "omiAppName": "Omi",
+    "omiAppName": "Carry",
     "@omiAppName": {
-        "description": "The Omi app/assistant name shown in chat app selection"
+        "description": "The Carry app/assistant name shown in chat app selection"
     },
     "showMore": "покажи повеќе ↓",
     "@showMore": {
@@ -6039,21 +6039,21 @@
     "@checkingAppleWatch": {
         "description": "Loading text while checking Apple Watch status"
     },
-    "installOmiOnAppleWatch": "Инсталирај Omi на вашиот\nApple Watch",
+    "installOmiOnAppleWatch": "Инсталирај Carry на вашиот\nApple Watch",
     "@installOmiOnAppleWatch": {
-        "description": "Title prompting user to install Omi on Apple Watch"
+        "description": "Title prompting user to install Carry on Apple Watch"
     },
-    "installOmiOnAppleWatchDescription": "За да го користите вашиот Apple Watch со Omi, прво мораш да ја инсталираш апликацијата Omi на твој часовник.",
+    "installOmiOnAppleWatchDescription": "За да го користите вашиот Apple Watch со Carry, прво мораш да ја инсталираш апликацијата Carry на твој часовник.",
     "@installOmiOnAppleWatchDescription": {
-        "description": "Description explaining need to install Omi app on watch"
+        "description": "Description explaining need to install Carry app on watch"
     },
-    "openOmiOnAppleWatch": "Отвори Omi на вашиот\nApple Watch",
+    "openOmiOnAppleWatch": "Отвори Carry на вашиот\nApple Watch",
     "@openOmiOnAppleWatch": {
-        "description": "Title prompting user to open Omi on Apple Watch"
+        "description": "Title prompting user to open Carry on Apple Watch"
     },
-    "openOmiOnAppleWatchDescription": "Апликацијата Omi е инсталирана на вашиот Apple Watch. Отвори ја и отвори го Start за да почнеш.",
+    "openOmiOnAppleWatchDescription": "Апликацијата Carry е инсталирана на вашиот Apple Watch. Отвори ја и отвори го Start за да почнеш.",
     "@openOmiOnAppleWatchDescription": {
-        "description": "Description explaining Omi is installed and user should open it"
+        "description": "Description explaining Carry is installed and user should open it"
     },
     "openWatchApp": "Отвори апликацијата на часовникот",
     "@openWatchApp": {
@@ -6063,7 +6063,7 @@
     "@iveInstalledAndOpenedTheApp": {
         "description": "Button text confirming user has installed and opened the app"
     },
-    "unableToOpenWatchApp": "Не можеше да се отвори апликацијата на Apple Watch. Ве молиме ручно отворете ја апликацијата на часовникот на вашиот Apple Watch и инсталирајте Omi од секцијата \"Достапни апликации\".",
+    "unableToOpenWatchApp": "Не можеше да се отвори апликацијата на Apple Watch. Ве молиме ручно отворете ја апликацијата на часовникот на вашиот Apple Watch и инсталирајте Carry од секцијата \"Достапни апликации\".",
     "@unableToOpenWatchApp": {
         "description": "Error message when Watch app cannot be opened automatically"
     },
@@ -6071,7 +6071,7 @@
     "@appleWatchConnectedSuccessfully": {
         "description": "Success message when Apple Watch connects"
     },
-    "appleWatchNotReachable": "Apple Watch сè уште не е достапен. Ве молиме проверете дали апликацијата Omi е отворена на вашиот часовник.",
+    "appleWatchNotReachable": "Apple Watch сè уште не е достапен. Ве молиме проверете дали апликацијата Carry е отворена на вашиот часовник.",
     "@appleWatchNotReachable": {
         "description": "Error message when Apple Watch is not reachable"
     },
@@ -6189,9 +6189,9 @@
     "@noSummary": {
         "description": "Message when no summary is available"
     },
-    "updateOmiFirmware": "Ажурирај omi фирмвер",
+    "updateOmiFirmware": "Ажурирај carry фирмвер",
     "@updateOmiFirmware": {
-        "description": "Button text to update Omi device firmware"
+        "description": "Button text to update Carry device firmware"
     },
     "anErrorOccurredTryAgain": "Се појави грешка. Обидете се повторно.",
     "@anErrorOccurredTryAgain": {
@@ -6201,7 +6201,7 @@
     "@welcomeBackSimple": {
         "description": "Simple welcome message without user name"
     },
-    "addVocabularyDescription": "Додајте зборови што Omi треба да ги препознае за време на транскрипција.",
+    "addVocabularyDescription": "Додајте зборови што Carry треба да ги препознае за време на транскрипција.",
     "@addVocabularyDescription": {
         "description": "Description for custom vocabulary section"
     },
@@ -6434,7 +6434,7 @@
     "@wrappedNoDataAvailable": {
         "description": "Shown when wrapped result is null"
     },
-    "wrappedOmiLifeRecap": "Omi животен преглед",
+    "wrappedOmiLifeRecap": "Carry животен преглед",
     "@wrappedOmiLifeRecap": {
         "description": "Subtitle on the intro card"
     },
@@ -6442,7 +6442,7 @@
     "@wrappedSwipeUpToBegin": {
         "description": "Instruction text on intro card"
     },
-    "wrappedShareText": "Мој 2025, запомнет од Omi ✨ omi.me/wrapped",
+    "wrappedShareText": "Мој 2025, запомнет од Carry ✨ carry.me/wrapped",
     "@wrappedShareText": {
         "description": "Text shared when sharing wrapped images"
     },
@@ -6470,7 +6470,7 @@
     "@wrappedMy2025": {
         "description": "Title text for shareable image"
     },
-    "wrappedRememberedByOmi": "запомнет од Omi",
+    "wrappedRememberedByOmi": "запомнет од Carry",
     "@wrappedRememberedByOmi": {
         "description": "Subtitle text for shareable image"
     },
@@ -6754,7 +6754,7 @@
     "@notificationFrequency": {
         "description": "Section header for notification frequency settings"
     },
-    "controlNotificationFrequency": "Контролирајте колку често Omi ви испраќа проактивни известувања.",
+    "controlNotificationFrequency": "Контролирајте колку често Carry ви испраќа проактивни известувања.",
     "@controlNotificationFrequency": {
         "description": "Description for notification frequency control"
     },
@@ -6786,7 +6786,7 @@
     "@dailyScoreExplanation": {
         "description": "Explanation of how daily score is calculated"
     },
-    "notificationFrequencyDescription": "Контролирајте колку често Omi ви испраќа проактивни известувања и потсетници.",
+    "notificationFrequencyDescription": "Контролирајте колку често Carry ви испраќа проактивни известувања и потсетници.",
     "@notificationFrequencyDescription": {
         "description": "Description text for notification frequency section"
     },
@@ -7072,7 +7072,7 @@
     "@noRecordings": {
         "description": "Empty state title when there are no recordings"
     },
-    "audioFromOmiWillAppearHere": "Аудио од твојот Omi уред ќе се појави овде",
+    "audioFromOmiWillAppearHere": "Аудио од твојот Carry уред ќе се појави овде",
     "@audioFromOmiWillAppearHere": {
         "description": "Empty state description for recordings"
     },
@@ -7252,7 +7252,7 @@
     "@batteryUsageHigher": {
         "description": "Warning about battery usage"
     },
-    "considerOmiCloud": "Разметни да користиш Omi Cloud за подобрени перформанси.",
+    "considerOmiCloud": "Разметни да користиш Carry Cloud за подобрени перформанси.",
     "@considerOmiCloud": {
         "description": "Suggestion to use cloud transcription"
     },
@@ -7479,9 +7479,9 @@
             }
         }
     },
-    "omiTranscriptionOptimized": "Вградената живо транскрипција на Omi е оптимизирана за разговори во реално време со автоматско препознавање и диаризирање на говорник.",
+    "omiTranscriptionOptimized": "Вградената живо транскрипција на Carry е оптимизирана за разговори во реално време со автоматско препознавање и диаризирање на говорник.",
     "@omiTranscriptionOptimized": {
-        "description": "Description of Omi transcription features"
+        "description": "Description of Carry transcription features"
     },
     "reset": "Ресетирај",
     "@reset": {
@@ -7601,7 +7601,7 @@
     "@writeReviewOptional": {
         "description": "Hint text for review input field"
     },
-    "setupQuestionsIntro": "Помозни нам да го подобриме Omi со одговорање на неколку прашања. 🫶 💜",
+    "setupQuestionsIntro": "Помозни нам да го подобриме Carry со одговорање на неколку прашања. 🫶 💜",
     "@setupQuestionsIntro": {
         "description": "Intro text for setup questions page"
     },
@@ -7609,9 +7609,9 @@
     "@setupQuestionProfession": {
         "description": "Question about profession"
     },
-    "setupQuestionUsage": "2. Каде планираш да ја користиш твојата Omi?",
+    "setupQuestionUsage": "2. Каде планираш да ја користиш твојата Carry?",
     "@setupQuestionUsage": {
-        "description": "Question about Omi usage location"
+        "description": "Question about Carry usage location"
     },
     "setupQuestionAge": "3. Која е твоја возрасна група?",
     "@setupQuestionAge": {
@@ -8078,7 +8078,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8088,7 +8088,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8255,8 +8255,8 @@
         "description": "Title for low battery notification"
     },
     "lowBatteryAlertBody": "Вашата батерија е на {level}%. Време е за полнење! 🔋",
-    "batteryFullyChargedTitle": "Omi е целосно наполнет",
-    "batteryFullyChargedBody": "Вашиот Omi уред е целосно наполнет. Можете да го исклучите!",
+    "batteryFullyChargedTitle": "Carry е целосно наполнет",
+    "batteryFullyChargedBody": "Вашиот Carry уред е целосно наполнет. Можете да го исклучите!",
     "@lowBatteryAlertBody": {
         "description": "Body text for low battery notification",
         "placeholders": {
@@ -8265,11 +8265,11 @@
             }
         }
     },
-    "deviceDisconnectedNotificationTitle": "Вашиот Omi Уред се Откачи",
+    "deviceDisconnectedNotificationTitle": "Вашиот Carry Уред се Откачи",
     "@deviceDisconnectedNotificationTitle": {
         "description": "Title for device disconnected notification"
     },
-    "deviceDisconnectedNotificationBody": "Ве молиме се поврзете повторно за да продолжите да го користите вашиот Omi.",
+    "deviceDisconnectedNotificationBody": "Ве молиме се поврзете повторно за да продолжите да го користите вашиот Carry.",
     "@deviceDisconnectedNotificationBody": {
         "description": "Body text for device disconnected notification"
     },
@@ -8277,7 +8277,7 @@
     "@firmwareUpdateAvailable": {
         "description": "Title for firmware update available dialog"
     },
-    "firmwareUpdateAvailableDescription": "Ново ажурирање на firmware ({version}) е достапно за вашиот Omi уред. Дали сакате да ажурирате сега?",
+    "firmwareUpdateAvailableDescription": "Ново ажурирање на firmware ({version}) е достапно за вашиот Carry уред. Дали сакате да ажурирате сега?",
     "@firmwareUpdateAvailableDescription": {
         "description": "Description for firmware update dialog with version parameter",
         "placeholders": {
@@ -8332,9 +8332,9 @@
     "@almostDone": {
         "description": "Migration is almost complete"
     },
-    "omiSays": "omi вели",
+    "omiSays": "carry вели",
     "@omiSays": {
-        "description": "Notification title for omi app messages"
+        "description": "Notification title for carry app messages"
     },
     "analyzingYourData": "Анализа на вашите податоци...",
     "@analyzingYourData": {
@@ -8671,9 +8671,9 @@
     "@nextButton": {
         "description": "Button text to proceed to next step"
     },
-    "connectOmiDevice": "Поврзи Omi Уред",
+    "connectOmiDevice": "Поврзи Carry Уред",
     "@connectOmiDevice": {
-        "description": "Button text to connect Omi device"
+        "description": "Button text to connect Carry device"
     },
     "planSwitchingDescriptionWithTitle": "Го сменувате вашиот Unlimited План на {title}. Сигурни ли сте дека сакате да продолжите?",
     "@planSwitchingDescriptionWithTitle": {
@@ -8712,9 +8712,9 @@
     "@transcriptionJsonPlaceholder": {
         "description": "JSON configuration placeholder hint text in transcription settings"
     },
-    "transcriptionSourceOmi": "Omi",
+    "transcriptionSourceOmi": "Carry",
     "@transcriptionSourceOmi": {
-        "description": "Tab title for Omi transcription source option"
+        "description": "Tab title for Carry transcription source option"
     },
     "pricePlaceholder": "0.00",
     "@pricePlaceholder": {
@@ -8754,7 +8754,7 @@
             }
         }
     },
-    "actionItemReminderTitle": "Omi Потсетник",
+    "actionItemReminderTitle": "Carry Потсетник",
     "@actionItemReminderTitle": {
         "description": "Title for action item reminder notifications"
     },
@@ -8764,7 +8764,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8774,7 +8774,7 @@
         "placeholders": {
             "deviceName": {
                 "type": "String",
-                "example": "Omi"
+                "example": "Carry"
             }
         }
     },
@@ -8798,7 +8798,7 @@
     "@onboardingComplete": {
         "description": "Onboarding step title for completion"
     },
-    "onboardingWelcomeToOmi": "Добредојде на Omi",
+    "onboardingWelcomeToOmi": "Добредојде на Carry",
     "@onboardingWelcomeToOmi": {
         "description": "Onboarding step description for sign in"
     },
@@ -9557,7 +9557,7 @@
     },
     "mcpConnectionFailed": "Неуспешна врска со MCP сервер",
     "authorizingMcpServer": "Овластување...",
-    "whereDidYouHearAboutOmi": "Како ви се натипа Omi?",
+    "whereDidYouHearAboutOmi": "Како ви се натипа Carry?",
     "tiktok": "TikTok",
     "youtube": "YouTube",
     "instagram": "Instagram",
@@ -9578,29 +9578,29 @@
     "pairNewDevice": "Спарај ново уред",
     "dontSeeYourDevice": "Не видиш го твојот уред?",
     "reportAnIssue": "Пријави проблем",
-    "pairingTitleOmi": "Вклучи го Omi",
+    "pairingTitleOmi": "Вклучи го Carry",
     "@pairingTitleOmi": {
-        "description": "Pairing title for Omi device"
+        "description": "Pairing title for Carry device"
     },
     "pairingDescOmi": "Притисни и држи го уредот додека не трепери за да го вклучиш.",
     "@pairingDescOmi": {
-        "description": "Pairing description for Omi device"
+        "description": "Pairing description for Carry device"
     },
-    "pairingTitleOmiDevkit": "Стави го Omi DevKit во режим на спарување",
+    "pairingTitleOmiDevkit": "Стави го Carry DevKit во режим на спарување",
     "@pairingTitleOmiDevkit": {
-        "description": "Pairing title for Omi DevKit"
+        "description": "Pairing title for Carry DevKit"
     },
     "pairingDescOmiDevkit": "Притисни го копчето еднаш за вклучување. LED ќе блика виолетово кога е во режим на спарување.",
     "@pairingDescOmiDevkit": {
-        "description": "Pairing description for Omi DevKit"
+        "description": "Pairing description for Carry DevKit"
     },
-    "pairingTitleOmiGlass": "Вклучи го Omi Glass",
+    "pairingTitleOmiGlass": "Вклучи го Carry Glass",
     "@pairingTitleOmiGlass": {
-        "description": "Pairing title for Omi Glass"
+        "description": "Pairing title for Carry Glass"
     },
     "pairingDescOmiGlass": "Вклучи го притиснувајќи го страничното копче 3 секунди.",
     "@pairingDescOmiGlass": {
-        "description": "Pairing description for Omi Glass"
+        "description": "Pairing description for Carry Glass"
     },
     "pairingTitlePlaudNote": "Стави го Plaud Note во режим на спарување",
     "@pairingTitlePlaudNote": {
@@ -9646,7 +9646,7 @@
     "@pairingTitleAppleWatch": {
         "description": "Pairing title for Apple Watch"
     },
-    "pairingDescAppleWatch": "Инсталирај и отвори ја апликацијата Omi на твојот Apple Watch, потоа допри Поврзи во апликацијата.",
+    "pairingDescAppleWatch": "Инсталирај и отвори ја апликацијата Carry на твојот Apple Watch, потоа допри Поврзи во апликацијата.",
     "@pairingDescAppleWatch": {
         "description": "Pairing description for Apple Watch"
     },
@@ -9740,7 +9740,7 @@
     "@onboardingWhatIKnowAboutYouTitle": {
         "description": "Title for onboarding step that previews the memory graph"
     },
-    "onboardingWhatIKnowAboutYouDescription": "Оваа карта се ажурира додека Omi учи од твоите разговори.",
+    "onboardingWhatIKnowAboutYouDescription": "Оваа карта се ажурира додека Carry учи од твоите разговори.",
     "@onboardingWhatIKnowAboutYouDescription": {
         "description": "Description for onboarding memory graph preview step"
     },
@@ -9798,7 +9798,7 @@
         "description": "Confirmation dialog message for cleaning today task deadlines"
     },
     "tasksOverdue": "Закаснело",
-    "phoneCallsWithOmi": "Телефонски разговори со Omi",
+    "phoneCallsWithOmi": "Телефонски разговори со Carry",
     "phoneCallsSubtitle": "Направи повици со транскрипција во реално време",
     "phoneSetupStep1Title": "Потврди го твојот телефонски број",
     "phoneSetupStep1Subtitle": "Ќе те повикаме за да потврдиме дека е твој",
@@ -9903,11 +9903,11 @@
     "@showTasksOnHomepage": {
         "description": "Description for show tasks toggle in developer settings"
     },
-    "phoneCallsUnlimitedOnly": "Телефонски разговори преку Omi",
+    "phoneCallsUnlimitedOnly": "Телефонски разговори преку Carry",
     "@phoneCallsUnlimitedOnly": {
         "description": "Title for the phone calls upsell sheet shown to non-unlimited users"
     },
-    "phoneCallsUpsellSubtitle": "Направи повици преку Omi и добиј транскрипција во реално време, автоматски резимеја и многу повеќе. Достапно исклучиво за претплатници на Unlimited план.",
+    "phoneCallsUpsellSubtitle": "Направи повици преку Carry и добиј транскрипција во реално време, автоматски резимеја и многу повеќе. Достапно исклучиво за претплатници на Unlimited план.",
     "@phoneCallsUpsellSubtitle": {
         "description": "Subtitle explaining phone calls feature on upsell sheet"
     },
@@ -10028,7 +10028,7 @@
     "fairUse3Day": "3-дневен намотување",
     "fairUseWeekly": "Неделна намотување",
     "fairUseAboutTitle": "За правично користење",
-    "fairUseAboutBody": "Omi е дизајнирана за лични разговори, состаноци и живи интеракции. Употребата се мери по вистински детектиран говор време, а не по време на поврзување. Доколку употребата значајно надминува нормални обрасци за не-лично содржување, прилагодување може да се примени.",
+    "fairUseAboutBody": "Carry е дизајнирана за лични разговори, состаноци и живи интеракции. Употребата се мери по вистински детектиран говор време, а не по време на поврзување. Доколку употребата значајно надминува нормални обрасци за не-лично содржување, прилагодување може да се примени.",
     "fairUseCaseRefCopied": "{caseRef} копирано",
     "@fairUseCaseRefCopied": {
         "description": "Snackbar message when case reference is copied to clipboard",
@@ -10070,7 +10070,7 @@
         }
     },
     "improveConnectionTitle": "Подобри врска",
-    "improveConnectionContent": "Подобривме како Omi останува поврзана со твојот уред. За да го активираш ова, молиме оди на страницата Device Info, допри \"Откачи уред\" и потоа спарај го твојот уред повторно.",
+    "improveConnectionContent": "Подобривме како Carry останува поврзана со твојот уред. За да го активираш ова, молиме оди на страницата Device Info, допри \"Откачи уред\" и потоа спарај го твојот уред повторно.",
     "improveConnectionAction": "Разбирам",
     "clockSkewWarning": "Часовникот на твојот уред е оделен за ~{minutes} мин. Проверка на твоите поставки за датум и време.",
     "@clockSkewWarning": {
@@ -10080,7 +10080,7 @@
             }
         }
     },
-    "omisStorage": "Складирање на Omi",
+    "omisStorage": "Складирање на Carry",
     "@omisStorage": {
         "description": "Label for device storage tier in sync pipeline"
     },
@@ -10133,11 +10133,11 @@
     "@cancelSyncQuestion": {
         "description": "Title for cancel sync confirmation dialog"
     },
-    "omisStorageDesc": "Кога твојот Omi не е поврзан на твојот телефон, тој складира звук локално на неговата вградена меморија. Никогаш не теглиш запис.",
+    "omisStorageDesc": "Кога твојот Carry не е поврзан на твојот телефон, тој складира звук локално на неговата вградена меморија. Никогаш не теглиш запис.",
     "@omisStorageDesc": {
         "description": "Description of device storage in sync info sheet"
     },
-    "phoneStorageDesc": "Кога Omi се повторно поврзе, записите се автоматски пренесуваат на твојот телефон како привремена облас за ископување пред ископување.",
+    "phoneStorageDesc": "Кога Carry се повторно поврзе, записите се автоматски пренесуваат на твојот телефон како привремена облас за ископување пред ископување.",
     "@phoneStorageDesc": {
         "description": "Description of phone storage in sync info sheet"
     },
@@ -10173,11 +10173,11 @@
     "@permissionEnable": {
         "description": "Action text to enable a permission"
     },
-    "permissionsPageDescription": "Овие дозволи се основни за тоа како функционира Omi. Тие овозможуваат клучни функции како известувања, локациски искуства и снимање звук.",
+    "permissionsPageDescription": "Овие дозволи се основни за тоа како функционира Carry. Тие овозможуваат клучни функции како известувања, локациски искуства и снимање звук.",
     "@permissionsPageDescription": {
         "description": "Description text shown at the bottom of the permissions page"
     },
-    "permissionsRequiredDescription": "Omi има потреба од неколку дозволи за правилна работа. Молиме дозволи им да продолжи.",
+    "permissionsRequiredDescription": "Carry има потреба од неколку дозволи за правилна работа. Молиме дозволи им да продолжи.",
     "@permissionsRequiredDescription": {
         "description": "Description for the permissions interstitial screen"
     },
@@ -10185,7 +10185,7 @@
     "@permissionsSetupTitle": {
         "description": "Title for the permissions interstitial screen"
     },
-    "permissionsSetupDescription": "Дозволи неколку дозволи за да Omi може да ја направи своја магија.",
+    "permissionsSetupDescription": "Дозволи неколку дозволи за да Carry може да ја направи своја магија.",
     "@permissionsSetupDescription": {
         "description": "Subtitle for the permissions interstitial screen"
     },
@@ -10314,7 +10314,7 @@
     "@feedbackTitleFoundAlternative": {
         "description": "Feedback title when cancel reason is found alternative"
     },
-    "feedbackTitleNotUsing": "Што би те довело да користиш повеќе Omi?",
+    "feedbackTitleNotUsing": "Што би те довело да користиш повеќе Carry?",
     "@feedbackTitleNotUsing": {
         "description": "Feedback title when cancel reason is not using enough"
     },
@@ -10338,7 +10338,7 @@
     "@feedbackSubtitleFoundAlternative": {
         "description": "Feedback subtitle for found alternative"
     },
-    "feedbackSubtitleNotUsing": "Сакаме да го направиме Omi полезен за тебе.",
+    "feedbackSubtitleNotUsing": "Сакаме да го направиме Carry полезен за тебе.",
     "@feedbackSubtitleNotUsing": {
         "description": "Feedback subtitle for not using enough"
     },
@@ -10455,20 +10455,20 @@
     "tasksSelectAll": "Избери сè",
     "tasksDeleteSelected": "Избриши {count} задача(и)",
     "tasksMarkComplete": "Означено како завршено",
-    "appleHealthManageNote": "Omi пристапува до Apple Health преку HealthKit рамката на Apple. Пристапот можете да го повлечете во секое време во поставките на iOS.",
+    "appleHealthManageNote": "Carry пристапува до Apple Health преку HealthKit рамката на Apple. Пристапот можете да го повлечете во секое време во поставките на iOS.",
     "appleHealthConnectCta": "Поврзи со Apple Health",
     "appleHealthDisconnectCta": "Прекини врска со Apple Health",
     "appleHealthConnectedBadge": "Поврзано",
     "appleHealthFeatureChatTitle": "Разговарајте за своето здравје",
-    "appleHealthFeatureChatDesc": "Прашајте го Omi за вашите чекори, сон, срцев ритам и тренинзи.",
+    "appleHealthFeatureChatDesc": "Прашајте го Carry за вашите чекори, сон, срцев ритам и тренинзи.",
     "appleHealthFeatureReadOnlyTitle": "Пристап само за читање",
-    "appleHealthFeatureReadOnlyDesc": "Omi никогаш не запишува во Apple Health и не ги менува вашите податоци.",
+    "appleHealthFeatureReadOnlyDesc": "Carry никогаш не запишува во Apple Health и не ги менува вашите податоци.",
     "appleHealthFeatureSecureTitle": "Безбедна синхронизација",
-    "appleHealthFeatureSecureDesc": "Вашите Apple Health податоци приватно се синхронизираат со Omi сметката.",
+    "appleHealthFeatureSecureDesc": "Вашите Apple Health податоци приватно се синхронизираат со Carry сметката.",
     "appleHealthDeniedTitle": "Пристапот до Apple Health е одбиен",
-    "appleHealthDeniedBody": "Omi нема дозвола да ги чита вашите Apple Health податоци. Овозможете го во iOS Поставки → Приватност и безбедност → Health → Omi.",
+    "appleHealthDeniedBody": "Carry нема дозвола да ги чита вашите Apple Health податоци. Овозможете го во iOS Поставки → Приватност и безбедност → Health → Carry.",
     "deleteFlowReasonTitle": "Зошто си одите?",
-    "deleteFlowReasonSubtitle": "Вашите повратни информации ни помагаат да го подобриме Omi за сите.",
+    "deleteFlowReasonSubtitle": "Вашите повратни информации ни помагаат да го подобриме Carry за сите.",
     "deleteReasonPrivacy": "Грижи за приватноста",
     "deleteReasonNotUsing": "Не го користам доволно често",
     "deleteReasonMissingFeatures": "Недостасуваат функции што ми се потребни",
@@ -10477,7 +10477,7 @@
     "deleteReasonTakingBreak": "Само правам пауза",
     "deleteReasonOther": "Друго",
     "deleteFlowFeedbackTitle": "Кажете ни повеќе",
-    "deleteFlowFeedbackSubtitle": "Што би направило Omi да работи за вас?",
+    "deleteFlowFeedbackSubtitle": "Што би направило Carry да работи за вас?",
     "deleteFlowFeedbackHint": "Опционално — вашите мисли ни помагаат да изградиме подобар производ.",
     "deleteFlowConfirmTitle": "Ова е трајно",
     "deleteFlowConfirmSubtitle": "Откако ќе ја избришете сметката, не може да се врати.",
@@ -10529,13 +10529,13 @@
     "chatUsageCostNoLimit": "Разговор: ${used} искористено овој месец",
     "chatUsageMessages": "Разговор: {used} / {limit} пораки овој месец",
     "chatUsageMessagesNoLimit": "Разговор: {used} пораки овој месец",
-    "chatQuotaSubtitle": "AI chat messages used with Omi this month.",
-    "chatQuotaExceededReply": "Го достигнавте вашиот месечен лимит. Надградете за да продолжите да разговарате со Omi без ограничувања.",
+    "chatQuotaSubtitle": "AI chat messages used with Carry this month.",
+    "chatQuotaExceededReply": "Го достигнавте вашиот месечен лимит. Надградете за да продолжите да разговарате со Carry без ограничувања.",
     "batteryHistory": "Батерија",
     "day": "Ден",
     "noBatteryDataYet": "Сè уште нема податоци за батеријата",
     "week": "Седмица",
-    "voiceResponseAudio": "Прочитај го одговорот на Omi гласно",
+    "voiceResponseAudio": "Прочитај го одговорот на Carry гласно",
     "voiceResponseMode": "Гласовен одговор",
     "voiceResponseModeTitle": "Кога да се изговараат одговорите",
     "voiceResponseOff": "Исклучено",
@@ -10547,7 +10547,7 @@
         "description": "Section header for memory knowledge graph on home page"
     },
     "voiceMode": "Гласовен режим",
-    "quickActionAskOmi": "Прашајте го Omi за сè",
+    "quickActionAskOmi": "Прашајте го Carry за сè",
     "record": "Сними",
     "stop": "Стоп",
     "recordWithPhoneMic": "Снимај со микрофон на телефонот",
@@ -10582,26 +10582,26 @@
     "syncStatusRetrying": "Обработката не успеа — нов обид",
     "syncStatusFailed": "Неуспешно — допрете Обиди се повторно",
     "syncStatusFileUnavailable": "Датотеката е недостапна",
-    "syncStatusUploaded": "Поставено · се обработува на Omi",
+    "syncStatusUploaded": "Поставено · се обработува на Carry",
     "noRecordingsYet": "Сè уште нема снимки",
     "syncInProgress": "Синхронизацијата е во тек",
     "deleteWhileProcessingTitle": "Сè уште се обработува",
-    "deleteWhileProcessingMessage": "Оваа снимка е поставена, но Omi сè уште го создава разговорот. Ако ја избришете сега и обработката не успее, не може да се врати. Сепак да се избрише?",
+    "deleteWhileProcessingMessage": "Оваа снимка е поставена, но Carry сè уште го создава разговорот. Ако ја избришете сега и обработката не успее, не може да се врати. Сепак да се избрише?",
     "syncCardAllBackedUp": "Сите снимки се синхронизирани",
     "syncCardReadyCount": "{count, plural, one{1 снимка спремна за синхронизација} other{{count} снимки спремни за синхронизација}}",
-    "syncCardProcessing": "Се обработува во Omi…",
+    "syncCardProcessing": "Се обработува во Carry…",
     "syncCardWaitingInternet": "Се чека интернет",
     "syncCardNeedsAttention": "{count, plural, one{{count} снимка бара внимание} other{{count} снимки бараат внимание}}",
-    "syncFlowIntro": "Снимките се пренесуваат од вашиот уред на овој телефон и се складираат локално, а потоа се прикачуваат на серверот на Omi, каде што се транскрибираат и се претвораат во разговори.",
+    "syncFlowIntro": "Снимките се пренесуваат од вашиот уред на овој телефон и се складираат локално, а потоа се прикачуваат на серверот на Carry, каде што се транскрибираат и се претвораат во разговори.",
     "syncStepUpload": "Синхронизација",
-    "syncStepUploadDesc": "Вашиот запис се испраќа на серверот на Omi",
+    "syncStepUploadDesc": "Вашиот запис се испраќа на серверот на Carry",
     "syncStepProcess": "Транскрипција",
-    "syncStepProcessDesc": "Omi го претвора звукот во разговор",
+    "syncStepProcessDesc": "Carry го претвора звукот во разговор",
     "syncStepBackedUp": "Разговорот е готов",
     "syncStepBackedUpDesc": "Најди го во Разговори",
     "syncFailureFootnote": "Ако обработката не успее, снимката автоматски се повторува при следната синхронизација.",
     "syncStatusConversationCreated": "Разговорот е создаден",
-    "syncCardUploadingTitle": "Се прикачува на Omi",
+    "syncCardUploadingTitle": "Се прикачува на Carry",
     "syncCardDownloadingTitle": "Се презема од вашиот уред",
     "syncCardProgressOf": "{current} од {total}",
     "syncStatusOnDevice": "На вашиот уред",
@@ -10614,19 +10614,19 @@
     },
     "syncProcessingBackgroundHint": "Ова продолжува во заднина — може да го напуштите овој екран.",
     "syncCardRateLimited": "Достигнат е лимитот за фер користење — синхронизацијата автоматски ќе продолжи",
-    "syncCardBackendBusy": "Серверите на Omi се преоптоварени — вашите снимки ќе се синхронизираат штом ќе се ослободи капацитет",
+    "syncCardBackendBusy": "Серверите на Carry се преоптоварени — вашите снимки ќе се синхронизираат штом ќе се ослободи капацитет",
     "unableToDetermineFirmwareVersion": "Не може да се одреди тековната верзија на фирмверот",
     "promoCode": "Промо код",
     "enterPromoCode": "Внесете промо код",
     "invalidPromotionCode": "Невалиден промо код.",
     "backgroundModeTitle": "Режим во заднина",
-    "backgroundModeDescription": "Зачувајте го снимањето на Omi дури и кога апликацијата е целосно затворена.",
-    "backgroundModeNote": "Засега работи само со уреди Omi и постојано се подобрува.",
+    "backgroundModeDescription": "Зачувајте го снимањето на Carry дури и кога апликацијата е целосно затворена.",
+    "backgroundModeNote": "Засега работи само со уреди Carry и постојано се подобрува.",
     "regenerateRecap": "Регенерирај резиме",
     "recapRegeneratedSnackbar": "Резимето е регенерирано",
     "recapRegenerateFailed": "Не успеа регенерирањето на резимето. Обидете се повторно подоцна.",
     "recapRegenerateCooldown": "Почекајте неколку секунди пред повторно регенерирање.",
     "recapRegenerateNoConversations": "Нема разговори за сумирање за овој ден.",
-    "syncCustomSttWarningTitle": "Синхронизацијата користи транскрипција од Omi",
-    "syncCustomSttWarningMessage": "Користите сопствен провајдер за транскрипција. Синхронизирањето на овие снимки ги транскрибира на серверите на Omi и се сметаат во лимитот за транскрипција на вашиот план."
+    "syncCustomSttWarningTitle": "Синхронизацијата користи транскрипција од Carry",
+    "syncCustomSttWarningMessage": "Користите сопствен провајдер за транскрипција. Синхронизирањето на овие снимки ги транскрибира на серверите на Carry и се сметаат во лимитот за транскрипција на вашиот план."
 }
