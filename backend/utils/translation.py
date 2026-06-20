@@ -119,8 +119,12 @@ _non_lexical_utterances_pattern = re.compile(
     r'\b(' + '|'.join(re.escape(word) for word in _non_lexical_utterances) + r')\b', re.IGNORECASE
 )
 
-# Initialize the translation client globally
-_client = translate_v3.TranslationServiceClient()
+# Initialize the translation client lazily. Some local/dev setups do not have
+# Google Cloud Translation credentials or the API enabled; that must never make
+# transcription unreliable.
+_client = None
+_translation_disabled = False
+_translation_unavailable_warning_logged = False
 _parent = f"projects/{PROJECT_ID}/locations/global"
 _mime_type = "text/plain"
 
@@ -189,6 +193,65 @@ TRANSLATION_CACHE_TTL = int(os.environ.get("TRANSLATION_CACHE_TTL", 60 * 60 * 24
 
 # Max sentences per batch API call (API supports up to 1024, use conservative limit)
 MAX_BATCH_SIZE = 100
+
+
+def _is_translation_config_error(error: Exception) -> bool:
+    """Return True for missing credentials / disabled API style failures."""
+    message = str(error).lower()
+    config_error_markers = (
+        "cloud translation api has not been used",
+        "it is disabled",
+        "service_disabled",
+        "permission_denied",
+        "unauthenticated",
+        "default credentials",
+        "application default credentials",
+        "could not automatically determine credentials",
+        "google_application_credentials",
+        "api key not valid",
+        "api key",
+        "billing",
+        "project was not found",
+        "projects/none",
+    )
+    return any(marker in message for marker in config_error_markers)
+
+
+def _warn_translation_unavailable(reason: str, disable: bool = False):
+    """Warn once that translation is unavailable and transcripts will stay raw."""
+    global _translation_disabled, _translation_unavailable_warning_logged
+    if disable:
+        _translation_disabled = True
+    if not _translation_unavailable_warning_logged:
+        logger.warning(
+            "Translation unavailable; returning untranslated transcript text to the app. Reason: %s",
+            reason,
+        )
+        _translation_unavailable_warning_logged = True
+
+
+def _handle_translation_exception(context: str, error: Exception):
+    """Log translation failures as warnings and disable retries for config errors."""
+    is_config_error = _is_translation_config_error(error)
+    if is_config_error:
+        _warn_translation_unavailable(f"{context}: {error}", disable=True)
+    else:
+        logger.warning("%s failed; returning untranslated transcript text. Error: %s", context, error)
+
+
+def _get_translation_client():
+    """Return a TranslationServiceClient, or None when translation is unavailable."""
+    global _client
+    if _translation_disabled:
+        return None
+    if _client is not None:
+        return _client
+    try:
+        _client = translate_v3.TranslationServiceClient()
+        return _client
+    except Exception as e:
+        _warn_translation_unavailable(f"client initialization failed: {e}", disable=True)
+        return None
 
 
 def _detect_with_langdetect(text: str, hint_language: str = None) -> str | None:
@@ -492,7 +555,14 @@ class TranslationService:
                 chunk_indices = uncached_indices[chunk_start:chunk_end]
 
                 try:
-                    response = _client.translate_text(
+                    client = _get_translation_client()
+                    if client is None:
+                        for idx in chunk_indices:
+                            if results[idx] is None:
+                                results[idx] = sentences[idx]
+                        continue
+
+                    response = client.translate_text(
                         contents=chunk,
                         parent=_parent,
                         mime_type=_mime_type,
@@ -512,7 +582,7 @@ class TranslationService:
                         cache_translation(text_hash, dest_language, translated_text, detected_lang)
 
                 except Exception as e:
-                    logger.error(f"Batch translation error: {e}")
+                    _handle_translation_exception("Batch translation", e)
                     for idx in chunk_indices:
                         if results[idx] is None:
                             results[idx] = sentences[idx]
@@ -586,7 +656,16 @@ class TranslationService:
                 chunk_hashes = uncached_hashes[chunk_start:chunk_end]
 
                 try:
-                    response = _client.translate_text(
+                    client = _get_translation_client()
+                    if client is None:
+                        for h in chunk_hashes:
+                            info = hash_to_info[h]
+                            for idx in info['indices']:
+                                if results[idx] is None:
+                                    results[idx] = (units[idx][0], info['text'], '')
+                        continue
+
+                    response = client.translate_text(
                         contents=chunk,
                         parent=_parent,
                         mime_type=_mime_type,
@@ -606,7 +685,7 @@ class TranslationService:
                             results[idx] = (units[idx][0], translated_text, detected_lang)
 
                 except Exception as e:
-                    logger.error(f"Batch translation error: {e}")
+                    _handle_translation_exception("Batch translation", e)
                     for h in chunk_hashes:
                         info = hash_to_info[h]
                         for idx in info['indices']:
@@ -643,7 +722,11 @@ class TranslationService:
             return result
 
         try:
-            response = _client.translate_text(
+            client = _get_translation_client()
+            if client is None:
+                return (text, "")
+
+            response = client.translate_text(
                 contents=[text],
                 parent=_parent,
                 mime_type=_mime_type,
@@ -659,5 +742,5 @@ class TranslationService:
 
             return (translated_text, detected_lang)
         except Exception as e:
-            logger.error(f"Translation error: {e}")
+            _handle_translation_exception("Translation", e)
             return (text, "")

@@ -326,7 +326,7 @@ class TranslationCoordinator:
                 await self.on_translation_ready(seg_id, translated_text, detected_lang, conv_id)
 
         except Exception as e:
-            logger.error(f"TranslationCoordinator batch error: {e}")
+            logger.warning(f"TranslationCoordinator batch failed; leaving transcript untranslated: {e}")
 
     async def flush(self):
         """Flush all pending translations before session cleanup."""

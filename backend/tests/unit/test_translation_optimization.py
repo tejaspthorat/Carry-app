@@ -165,6 +165,7 @@ from utils.translation import (
     TRANSLATION_CACHE_TTL,
     MAX_BATCH_SIZE,
 )
+import utils.translation as translation_module
 from utils.translation_cache import TranscriptSegmentLanguageCache, should_persist_translation
 
 
@@ -751,9 +752,15 @@ class TestRedisCacheTTL:
 
 class TestTranslationServiceErrorFallback:
     def setup_method(self):
+        translation_module._translation_disabled = False
+        translation_module._translation_unavailable_warning_logged = False
         self.service = TranslationService()
         mock_redis.get.return_value = None
         mock_redis.set.return_value = True
+
+    def teardown_method(self):
+        translation_module._translation_disabled = False
+        translation_module._translation_unavailable_warning_logged = False
 
     def test_translate_text_api_error_returns_original(self):
         """On API error, translate_text should return original text and empty detected lang."""
@@ -773,6 +780,33 @@ class TestTranslationServiceErrorFallback:
             # Should fall back to original sentences joined
             assert "Hello" in result_text
             assert "How are you" in result_text
+
+    def test_disabled_api_error_warns_and_returns_original(self, caplog):
+        """Disabled Cloud Translation should warn once and return the original text."""
+        error = (
+            "Cloud Translation API has not been used in project 123 before or it is disabled. "
+            "Enable it by visiting https://console.developers.google.com/apis/api/translate.googleapis.com"
+        )
+        with patch('utils.translation._client') as mock_client:
+            mock_client.translate_text.side_effect = Exception(error)
+
+            with caplog.at_level("WARNING", logger="utils.translation"):
+                result_text, detected_lang = self.service.translate_text("fr", "Hello")
+
+            assert result_text == "Hello"
+            assert detected_lang == ""
+            assert translation_module._translation_disabled is True
+            assert "Translation unavailable; returning untranslated transcript text to the app" in caplog.text
+
+    def test_disabled_translation_short_circuits_batch_calls(self):
+        """Once translation is disabled, batches should not call the Google client."""
+        translation_module._translation_disabled = True
+
+        with patch('utils.translation._client') as mock_client:
+            result = self.service.translate_units_batch("fr", [("seg-1", "Hello")])
+
+            assert result == [("seg-1", "Hello", "")]
+            mock_client.translate_text.assert_not_called()
 
 
 class TestDominantLanguageDetection:

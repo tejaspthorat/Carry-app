@@ -123,6 +123,13 @@ from utils.translation_cache import (
     should_persist_translation,
 )
 from utils.translation_coordinator import TranslationCoordinator
+from utils.live_transcript_stream import (
+    EVENT_CONVERSATION_STARTED,
+    EVENT_TRANSCRIPT_DELETED,
+    EVENT_TRANSCRIPT_UPDATED,
+    EVENT_TRANSLATION_READY,
+    publish_live_transcript_event_async,
+)
 from utils.webhooks import get_audio_bytes_webhook_seconds
 from utils.onboarding import OnboardingHandler
 
@@ -740,6 +747,25 @@ async def _stream_handler(
             return
         return spawn(_asend_message_event(msg))
 
+    async def _publish_live_event(conversation_id: str, event_type: str, payload: dict):
+        try:
+            await publish_live_transcript_event_async(
+                uid,
+                conversation_id,
+                event_type,
+                payload,
+                session_id=session_id,
+            )
+        except Exception as e:
+            # Redis live streaming is an add-on fan-out path. Never let it break
+            # the active phone transcription socket.
+            logger.warning(
+                'Failed to publish live event type=%s conversation=%s: %s',
+                event_type,
+                conversation_id,
+                e,
+            )
+
     # Heart beat
     started_at = time.time()
     inactivity_timeout_seconds = 90
@@ -929,6 +955,15 @@ async def _stream_handler(
         current_conversation_id = new_conversation_id
 
         logger.info(f"Created new stub conversation: {new_conversation_id} {uid} {session_id}")
+        await _publish_live_event(
+            new_conversation_id,
+            EVENT_CONVERSATION_STARTED,
+            {
+                'conversation_id': new_conversation_id,
+                'source': conversation_source.value,
+                'language': language,
+            },
+        )
 
     async def _process_conversation(conversation_id: str):
         logger.info(f"_process_conversation {uid} {session_id}")
@@ -1764,6 +1799,15 @@ async def _stream_handler(
                                 seg_dict = s
                                 break
                 if seg_dict:
+                    await _publish_live_event(
+                        conversation_id,
+                        EVENT_TRANSLATION_READY,
+                        {
+                            'segments': [seg_dict],
+                            'target_language': translation_language,
+                            'detected_language': detected_lang,
+                        },
+                    )
                     _send_message_event(TranslationEvent(segments=[seg_dict]))
 
         except Exception as e:
@@ -2248,9 +2292,20 @@ async def _stream_handler(
 
             if removed_ids:
                 _send_message_event(SegmentsDeletedEvent(segment_ids=removed_ids))
+                if current_conversation_id:
+                    await _publish_live_event(
+                        current_conversation_id,
+                        EVENT_TRANSCRIPT_DELETED,
+                        {'segment_ids': removed_ids},
+                    )
 
             if transcript_segments:
                 await websocket.send_json([segment.dict() for segment in updated_segments])
+                await _publish_live_event(
+                    conversation.id,
+                    EVENT_TRANSCRIPT_UPDATED,
+                    {'segments': [segment.dict() for segment in updated_segments]},
+                )
 
                 if transcript_send is not None and user_has_credits:
                     transcript_send([segment.dict() for segment in transcript_segments])
