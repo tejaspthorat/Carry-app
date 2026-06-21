@@ -1,174 +1,75 @@
-<div align="center">
+# Carry
 
-# **omi**
+Carry is a wearable, voice-first co-pilot for professionals. It listens during conversations and carries context forward into notes, memory, and follow-up actions.
 
-### A 2nd brain you trust more than your 1st
+The app is a generic anchor for every profession pack. It is not only a doctor app or a lawyer app: the same capture, transcription, memory, review, and follow-up workflow can be shaped for different professional contexts.
 
-Omi captures your screen and conversations, transcribes in real-time, generates summaries and action items, and gives you an AI chat that remembers everything you've seen and heard. Works on desktop, phone and wearables. Fully open source.
+## Profession packs
 
-Trusted by 300,000+ professionals.
+### Doctor Mode
 
+Doctor Mode is the first profession pack. A clinician wears the capture device during a visit. Carry privacy-filters the stream, understands the conversation as it happens, drafts clinical work product at the end, remembers relevant context across sessions, and prepares follow-up work.
 
-[![Discord](https://img.shields.io/discord/1192313062041067520?label=Discord&logo=discord&logoColor=white&style=for-the-badge)](http://discord.omi.me)&ensp;
-[![GitHub Repo stars](https://img.shields.io/github/stars/BasedHardware/Omi?style=for-the-badge)](https://github.com/BasedHardware/Omi)&ensp;
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+Doctor outputs require clinician review. Carry must not automatically diagnose, prescribe, file, message a patient, or perform clinical actions without review.
 
-[Website](https://omi.me/) · [Docs](https://docs.omi.me/) · [Discord](http://discord.omi.me) · [Twitter](https://x.com/kodjima33) · [DeepWiki](https://deepwiki.com/BasedHardware/omi)
+### Lawyer Mode
 
-</div>
+Lawyer Mode is an independent demo that applies the same core workflow to attorney-client meetings. It captures meeting context, prepares notes, preserves relevant memory, and drafts follow-up work for attorney review.
 
-## Quick Start
+Lawyer outputs require attorney review. Carry must not automatically provide legal advice, file documents, communicate with clients, or take legal actions without review.
 
+## What Carry does
 
+- Captures voice from a wearable or mobile session.
+- Streams transcription events to the backend.
+- Privacy-filters and structures the conversation.
+- Maintains memory across sessions.
+- Drafts notes and follow-up actions.
+- Sends live transcript events to web UIs and agent backends.
+- Keeps professional review as the final decision point.
 
-```bash
-git clone https://github.com/BasedHardware/omi.git && cd omi/desktop && ./run.sh --yolo
-```
+## Repository layout
 
-Builds the macOS app, connects to the cloud backend, and launches. No env files, no credentials, no local backend.
+~~~text
+carry-app/
+  app/              Flutter mobile app: the profession-agnostic capture anchor
+  backend/          FastAPI backend: auth, transcription, memory, actions, live streams
+  example_usage/    Small scripts for consuming backend APIs
+~~~
 
-> **Requirements:** macOS 14+, [Xcode](https://developer.apple.com/xcode/) (includes Swift & code signing), [Node.js](https://nodejs.org/)
+## Local development
 
-<details>
-  <summary>Full Installation</summary>
-  
-For local development with the full backend stack:
+Backend setup lives in [backend/README.md](backend/README.md).
 
-1. Install prerequisites
+For a typical local Android + backend setup:
 
-```bash
-xcode-select --install
-curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
-```
+1. Start Redis.
+2. Start the Carry backend from backend/.
+3. Expose the backend with ngrok if testing on a physical phone.
+4. Point the Flutter app environment to the backend URL.
+5. Run the Flutter app on the connected Android device.
 
-2. Clone and configure
+## Live transcript stream
 
-```bash
-git clone https://github.com/BasedHardware/omi.git
-cd omi/desktop
-cp Backend-Rust/.env.example Backend-Rust/.env
-```
+Carry publishes live transcript events through Redis Streams and exposes them over websocket for a web UI or separate agent backend.
 
-3. Build and run
+For the current local POC, the simplest stream is:
 
-```bash
-./run.sh
-```
+~~~text
+wss://<your-backend-host>/v4/live/transcripts
+~~~
 
-See [desktop/macos/README.md](desktop/macos/README.md) for environment variables and credential setup.
+Events include a UTC ISO timestamp:
 
+~~~json
+{
+  "type": "transcript.updated",
+  "timestamp": "2026-06-21T08:30:00.123456Z"
+}
+~~~
 
-### Mobile App
+## Safety boundary
 
-```bash
-cd app && bash setup.sh ios    # or: bash setup.sh android
-```
+Carry is a drafting and context system. It helps professionals move faster, but review remains mandatory.
 
-</details>
-
-<p align="center">
-  <a href="https://macos.omi.me"><img src="docs/assets/readme/download-macos-badge.png" alt="Download for macOS" height="50"></a>
-  <a href="https://apps.apple.com/us/app/friend-ai-wearable/id6502156163"><img src="docs/assets/readme/download-appstore-badge.png" alt="Download on the App Store" height="50"></a>
-  <a href="https://play.google.com/store/apps/details?id=com.friend.ios"><img src="docs/assets/readme/download-gplay-badge.png" alt="Get it on Google Play" height="50"></a>
-</p>
-
-<p align="center">
-  <a href="https://app.omi.me">Try in Browser</a>
-</p>
-
-<details>
-  <summary>How it works</summary>
-
-
-```
-┌─────────────────────────────────────────────────────────┐
-│                      Your Devices                       │
-│                                                         │
-│  ┌──────────┐  ┌──────────────┐  ┌───────────────────┐  │
-│  │ Omi      │  │ macOS App    │  │ Mobile App        │  │
-│  │ Wearable │  │ (Swift/Rust) │  │ (Flutter)         │  │
-│  └────┬─────┘  └──────┬───────┘  └────────┬──────────┘  │
-│       │    BLE         │   HTTPS/WS        │             │
-└───────┼────────────────┼───────────────────┼─────────────┘
-        │                │                   │
-        ▼                ▼                   ▼
-┌─────────────────────────────────────────────────────────┐
-│                    Omi Backend (Python)                  │
-│                                                         │
-│  ┌─────────┐  ┌──────────┐  ┌─────────┐  ┌──────────┐  │
-│  │ Listen  │  │ Pusher   │  │ VAD     │  │ Diarizer │  │
-│  │ (REST)  │  │ (WS)     │  │ (GPU)   │  │ (GPU)    │  │
-│  └─────────┘  └──────────┘  └─────────┘  └──────────┘  │
-│                                                         │
-│  ┌─────────┐  ┌──────────┐  ┌─────────┐  ┌──────────┐  │
-│  │ Deepgram│  │ Firestore│  │ Redis   │  │ LLMs     │  │
-│  │ (STT)   │  │ (DB)     │  │ (Cache) │  │ (AI)     │  │
-│  └─────────┘  └──────────┘  └─────────┘  └──────────┘  │
-└─────────────────────────────────────────────────────────┘
-```
-
-| Component | Path | Stack |
-|-----------|------|-------|
-| **macOS app** | [`desktop/macos/`](desktop/macos/) | Swift, SwiftUI, Rust backend |
-| Mobile app | [`app/`](app/) | Flutter (iOS & Android) |
-| Backend API | [`backend/`](backend/) | Python, FastAPI, Firebase |
-| Firmware | [`omi/`](omi/) | nRF, Zephyr, C |
-| Omi Glass | [`omiGlass/`](omiGlass/) | ESP32-S3, C |
-| SDKs | [`sdks/`](sdks/) | React Native, Swift, Python |
-| AI Personas | [`web/personas-open-source/`](web/personas-open-source/) | Next.js |
-
-</details>
-
-## Documentation
-
-### Getting Started
-- [Introduction](https://docs.omi.me/)
-- [Quick Start Guide](https://docs.omi.me/quickstart)
-- [macOS App Development](desktop/macos/README.md)
-- [Mobile App Setup](https://docs.omi.me/doc/developer/AppSetup)
-- [Backend Setup](https://docs.omi.me/doc/developer/backend/Backend_Setup)
-- [Contributing](https://docs.omi.me/doc/developer/Contribution)
-
-### Building Apps
-- [App Development Guide](https://docs.omi.me/doc/developer/apps/Introduction)
-- [Example Apps](https://docs.omi.me/doc/developer/apps/examples/Github) — GitHub, Slack, OmiMentor
-- [Audio Streaming Apps](https://docs.omi.me/doc/developer/apps/AudioStreaming)
-- [Custom Chat Tools](https://docs.omi.me/doc/developer/apps/ChatTools)
-- [Submit to App Store](https://docs.omi.me/doc/developer/apps/Submitting)
-
-### API & SDKs
-- [API Reference](https://docs.omi.me/api-reference/introduction) — REST endpoints for memories, conversations, action items
-- [Python SDK](sdks/python/)
-- [Swift SDK](sdks/swift/)
-- [React Native SDK](sdks/react-native/)
-- [MCP Server](mcp/) — Model Context Protocol integration
-
-### Architecture
-- [Backend Deep Dive](https://docs.omi.me/doc/developer/backend/backend_deepdive)
-- [Transcription Pipeline](https://docs.omi.me/doc/developer/backend/transcription)
-- [Chat System](https://docs.omi.me/doc/developer/backend/chat_system)
-- [Audio Streaming Pipeline](https://docs.omi.me/doc/developer/backend/listen_pusher_pipeline)
-- [BLE Protocol](https://docs.omi.me/doc/developer/Protocol)
-
-## Omi Hardware
-![Omi](https://github.com/user-attachments/assets/7a658366-9e02-4057-bde5-a510e1f0217a)
-
-Open-source AI wearables that pair with the mobile app for 24h+ continuous capture.
-
-<p align="center">
-  <img src="https://github.com/user-attachments/assets/834d3fdb-31b5-4f22-ae35-da3d2b9a8f59" alt="Omi Wearable" width="49%" />
-  <img src="https://github.com/user-attachments/assets/fdad4226-e5ce-4c55-b547-9101edfa3203" alt="Omi Glass" width="49%" />
-</p>
-
-- [Buy Omi](https://www.omi.me/pages/product)
-- [Buy Omi Glass Dev Kit](https://www.omi.me/glass) — ESP32-S3, camera + audio
-- [Open Source Hardware Designs](https://docs.omi.me/doc/hardware/consumer/electronics)
-- [Buying Guide](https://docs.omi.me/doc/assembly/Buying_Guide)
-- [Build the Device](https://docs.omi.me/doc/assembly/Build_the_device)
-- [Flash Firmware](https://docs.omi.me/doc/get_started/Flash_device)
-- [Integrate Your Wearable](https://docs.omi.me/doc/integrations)
-- [Hardware Specs](https://docs.omi.me/doc/hardware/DevKit2)
-
-## License
-
-MIT — see [LICENSE](LICENSE)
+No automatic diagnosis, prescription, legal advice, filing, or client/patient communication should happen without explicit professional review.

@@ -1,127 +1,274 @@
-# Omi Backend Setup
+# Carry Backend
 
-This README provides a quick setup guide for the Omi backend. For a comprehensive step-by-step guide with detailed explanations, please refer to the [Backend Setup Documentation](https://docs.omi.me/doc/developer/backend/Backend_Setup).
+The Carry backend powers the wearable, voice-first co-pilot for professionals. It receives audio/transcript streams from the mobile app, coordinates transcription, memory, notes, follow-up actions, and live transcript fan-out for web UIs or separate agent backends.
 
-## Quick Setup Steps
+Carry is profession-agnostic at its core. Doctor Mode and Lawyer Mode are profession packs layered on top of the same backend workflow.
 
-1. Install the google-cloud-sdk
-   - Mac: `brew install google-cloud-sdk`
-   - Windows: `choco install gcloudsdk`
-   - Nix envdir: It should be pre-installed
+## What this backend handles
 
-2. You will need to have your own Google Cloud Project with Firebase enabled. If you've already set up Firebase for the Omi app, you're good to go. If not, please refer to the [Firebase Setup Guide](https://firebase.google.com/docs/projects/learn-more).
-   - **IMPORTANT:** Make sure you have the [`Cloud Resource Manager API`](https://console.cloud.google.com/apis/library/cloudresourcemanager.googleapis.com), [`Firebase Management API`](https://console.cloud.google.com/apis/library/firebase.googleapis.com), and [`Cloud Firestore API`](https://console.developers.google.com/apis/api/firestore.googleapis.com/overview) enabled in the [Google Cloud API Console](https://console.cloud.google.com/apis/dashboard) **before proceeding to the next steps**. Failure to enable these APIs will result in authentication errors.
-   - **Firestore Composite Indexes:** You must create composite indexes for API key queries. Go to [Firebase Console](https://console.firebase.google.com/) → Firestore Database → Indexes, and create the following composite indexes:
-     | Collection | Fields |
-     |------------|--------|
-     | `dev_api_keys` | `user_id` (Ascending) + `created_at` (Descending) |
-     | `mcp_api_keys` | `user_id` (Ascending) + `created_at` (Descending) |
-     
-     Without these indexes, the Developer Settings page will show "Failed to load API keys: Internal Server Error".
+- Mobile app API endpoints.
+- Firebase-backed user identity for the main app flow.
+- Streaming transcription provider selection.
+- Conversation storage and memory.
+- Translation with fail-open behavior when translation credentials or APIs are unavailable.
+- Redis-backed live transcript streams.
+- Drafted notes and follow-up work that require professional review.
 
-3. Run the following commands one by one to authenticate with Google Cloud:
-   ```bash
-   gcloud auth login
-   gcloud config set project <project-id>
-   gcloud auth application-default login --project <project-id>
-   ```
-   Replace `<project-id>` with your Google Cloud Project ID.
-   This should generate the `application_default_credentials.json` file in the gcloud config directory (`~/.config/gcloud` on macOS/Linux or `%APPDATA%\gcloud` on Windows). This file is read automatically by gcloud in Python.
+## Safety boundary
 
-4. Install Python 3.11
-   - Mac: `brew install python@3.11`
-   - Windows: Install Python 3.11 from [python.org](https://www.python.org/downloads/windows/), then verify `python --version` prints `3.11.x`
-   - Nix envdir: It should be pre-installed; verify `python --version` prints `3.11.x`
+Carry drafts work product. It does not make final professional decisions.
 
-5. Install `pip` if it doesn't exist (follow instructions on [pip installation page](https://pip.pypa.io/en/stable/installation/))
+- Doctor outputs require clinician review.
+- Lawyer outputs require attorney review.
+- No automatic diagnosis, prescription, legal advice, filing, or client/patient communication.
 
-6. Install `git` and `ffmpeg`
-   - Mac: `brew install git ffmpeg`
-   - Windows: `choco install git.install ffmpeg`
-   - Nix envdir: These should be pre-installed
+## Requirements
 
-7. Install `opus` (required for audio processing)
-   - Mac: `brew install opus`
-   - Windows: install a native `libopus` build and make sure its DLL directory is on `PATH`
-     - MSYS2 UCRT64 example: `pacman -S mingw-w64-ucrt-x86_64-opus`
-     - Add `C:\msys64\ucrt64\bin` to `PATH`, then verify from a new shell with `where.exe opus.dll`
+- Python 3.11
+- Redis
+- FFmpeg
+- Native Opus library for audio streaming
+- Firebase project and service account credentials
+- At least one STT provider key, usually Deepgram for the default streaming flow
+- Optional ngrok tunnel for testing with a physical Android device
 
-8. Move to the backend directory: `cd backend`
+## Environment setup
 
-9. Create your environment file: `cp .env.template .env`
+From this directory:
 
-10. Set up Redis
-    - [Upstash](https://console.upstash.com/) is recommended - sign up and create a free instance
+~~~powershell
+cd C:\Aiboomi-App\carry-app\backend
+copy .env.template .env
+~~~
 
-11. Add the necessary API keys in the `.env` file:
-    - [OpenAI API Key](https://platform.openai.com/settings/organization/api-keys)
-    - [Deepgram API Key](https://console.deepgram.com/api-keys)
-    - Redis credentials from your [Upstash Console](https://console.upstash.com/)
-    - Set `ADMIN_KEY` to a temporary value (e.g., `123`) for local development
-    - **IMPORTANT:** For Pinecone vector database:
-      - Make sure to set `PINECONE_INDEX_NAME` to the name of your Pinecone index
-      - If you don't have a Pinecone index yet, [create one in the Pinecone Console](https://app.pinecone.io/)
-      - The index should be created with the appropriate dimension setting (e.g., 1536 for OpenAI embeddings)
+Then edit .env with your local values.
 
-12. Install Python dependencies (choose one of the following approaches):
+Important local values:
 
-    **Option A: Using a virtual environment (recommended)**
-    ```bash
-    # Verify Python 3.11 before creating the virtual environment
-    python --version
+~~~env
+REDIS_DB_HOST=localhost
+REDIS_DB_PORT=6379
 
-    # Create a virtual environment
-    python -m venv venv
+GOOGLE_APPLICATION_CREDENTIALS=google-credentials.json
 
-    # Activate the virtual environment
-    # On Windows:
-    venv\Scripts\activate
-    # On macOS/Linux:
-    source venv/bin/activate
+STT_STREAMING_PROVIDER=deepgram
+DEEPGRAM_API_KEY=your_deepgram_key
 
-    # Install dependencies within the virtual environment
-    pip install -r requirements.txt
-    ```
-    You should see `(venv)` at the beginning of your command prompt when the virtual environment is active.
+OPENAI_API_KEY=your_openai_key_if_using_openai_features
+ADMIN_KEY=local-dev-admin-key
+~~~
 
-    **Option B: Direct installation**
-    ```bash
-    # Install dependencies globally
-    pip install -r requirements.txt
-    ```
+Do not commit real secrets.
 
-13. Sign up on [ngrok](https://ngrok.com/) and follow the steps to configure it
-    - During onboarding, get your authentication token and run `ngrok config add-authtoken <your-token>`
+## Firebase credentials
 
-14. During the onboarding flow, under the `Static Domain` section, Ngrok should provide you with a static domain and a command to point your localhost to that static domain. Replace the port from 80 to 8000 in that command and run it in your terminal:
-    ```bash
-    ngrok http --domain=example.ngrok-free.app 8000
-    ```
+Place your Firebase service account JSON at:
 
-15. Start the backend server:
-    ```bash
-    uvicorn main:app --reload --env-file .env
-    ```
+~~~text
+backend/google-credentials.json
+~~~
 
-16. Troubleshooting: If you get any error mentioning "no internet connection" while downloading models, add the following lines in the `utils/stt/vad.py` file after the import statements:
-    ```python
-    import ssl
-    ssl._create_default_https_context = ssl._create_unverified_context
-    ```
+Your Flutter app Firebase config and backend service account must point to the same Firebase project. If they do not match, Firebase ID token validation will fail with an audience/project mismatch.
 
-17. Now try running the server again: `uvicorn main:app --reload --env-file .env`
+## Install dependencies
 
-18. In your Omi app's environment, set `BASE_API_URL` to the URL provided by ngrok (e.g., `https://example.ngrok-free.app`)
+Recommended local virtual environment:
 
-19. Your app should now be using your local backend
+~~~powershell
+cd C:\Aiboomi-App\carry-app\backend
+python -m venv .venv
+.\.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+pip install -r requirements.txt
+~~~
 
-20. If you used a virtual environment, when you're done, deactivate it by running:
-    ```bash
-    deactivate
-    ```
+If your shell blocks script activation, run PowerShell as your user and use:
 
-## Additional Resources
+~~~powershell
+Set-ExecutionPolicy -Scope CurrentUser RemoteSigned
+~~~
 
-- [Full Backend Setup Documentation](https://docs.omi.me/developer/backend/Backend_Setup)
-- [Omi Documentation](https://docs.omi.me/)
-- [Community Support](http://discord.omi.me)
+## Redis
+
+For local POC work, Redis can run in Docker:
+
+~~~powershell
+docker run --name carry-redis -p 6379:6379 -d redis:7
+~~~
+
+If the container already exists:
+
+~~~powershell
+docker start carry-redis
+~~~
+
+## Native Opus on Windows
+
+Audio streaming requires the native Opus library.
+
+One Windows option is MSYS2 UCRT64:
+
+~~~powershell
+pacman -S mingw-w64-ucrt-x86_64-opus
+~~~
+
+Then add this directory to your Windows PATH:
+
+~~~text
+C:\msys64\ucrt64\bin
+~~~
+
+Open a new terminal and verify:
+
+~~~powershell
+where.exe opus.dll
+~~~
+
+## Run the backend
+
+~~~powershell
+cd C:\Aiboomi-App\carry-app\backend
+.\.venv\Scripts\python.exe -m uvicorn main:app --reload --host 0.0.0.0 --port 8000 --env-file .env
+~~~
+
+Local API:
+
+~~~text
+http://localhost:8000
+~~~
+
+## Expose with ngrok for a physical phone
+
+~~~powershell
+ngrok http 8000
+~~~
+
+Use the generated HTTPS URL in the Flutter app environment.
+
+Example:
+
+~~~env
+BASE_API_URL=https://your-ngrok-url.ngrok-free.app
+~~~
+
+Websockets should use the same host with wss://.
+
+## STT provider selection
+
+Default:
+
+~~~env
+STT_STREAMING_PROVIDER=deepgram
+~~~
+
+Optional OpenAI diarized transcription flow:
+
+~~~env
+STT_STREAMING_PROVIDER=openai_diarize
+OPENAI_API_KEY=your_openai_key
+OPENAI_DIARIZE_MODEL=gpt-4o-transcribe-diarize
+OPENAI_DIARIZE_WINDOW_SECONDS=12
+OPENAI_DIARIZE_OVERLAP_SECONDS=0
+OPENAI_DIARIZE_SAMPLE_RATE=16000
+OPENAI_DIARIZE_CHUNKING_STRATEGY=auto
+OPENAI_DIARIZE_TIMEOUT_SECONDS=60
+~~~
+
+Deepgram remains the default because it is better suited for low-latency streaming. OpenAI diarized transcription is chunk/window based and may feel slower for real-time UI.
+
+## Live transcript websocket
+
+Carry mirrors transcript events into Redis Streams and exposes them over websocket.
+
+POC global stream:
+
+~~~text
+wss://<backend-host>/v4/live/transcripts
+~~~
+
+Example with ngrok:
+
+~~~text
+wss://your-ngrok-url.ngrok-free.app/v4/live/transcripts
+~~~
+
+Events include a UTC ISO timestamp:
+
+~~~json
+{
+  "id": "1718870000000-0",
+  "type": "transcript.updated",
+  "conversation_id": "conversation-id",
+  "created_at": "1718870000.123456",
+  "timestamp": "2026-06-21T08:30:00.123456Z",
+  "segments": []
+}
+~~~
+
+The current POC global stream is intentionally no-auth and single-user friendly. Do not expose it as-is in production.
+
+## Consume live transcript events
+
+From the repo root:
+
+~~~powershell
+cd C:\Aiboomi-App\carry-app
+$env:CARRY_BACKEND_WS_URL="https://your-ngrok-url.ngrok-free.app"
+python .\example_usage\consume_live_transcript.py
+~~~
+
+If your Windows launcher is py:
+
+~~~powershell
+py .\example_usage\consume_live_transcript.py
+~~~
+
+## Discard live transcript queue
+
+Clear the current POC live transcript Redis queue:
+
+~~~powershell
+Invoke-RestMethod -Method Post -Uri "https://your-ngrok-url.ngrok-free.app/v4/live/transcripts/discard"
+~~~
+
+Clear a specific conversation:
+
+~~~powershell
+Invoke-RestMethod -Method Post -Uri "https://your-ngrok-url.ngrok-free.app/v4/live/transcripts/YOUR_CONVERSATION_ID/discard"
+~~~
+
+The mobile app also includes a discard action from the transcript view.
+
+## Translation behavior
+
+If Google Cloud Translation is not configured or the API is disabled, Carry should warn and continue with untranslated text instead of breaking transcription.
+
+To use Cloud Translation, enable the Cloud Translation API in the same Google project used by the backend credentials.
+
+## Common issues
+
+### Redis connection refused
+
+Start Redis:
+
+~~~powershell
+docker start carry-redis
+~~~
+
+Or create it:
+
+~~~powershell
+docker run --name carry-redis -p 6379:6379 -d redis:7
+~~~
+
+### Firebase token audience mismatch
+
+The Flutter app Firebase config and backend service account are from different Firebase projects. Regenerate app Firebase config or use the matching backend service account.
+
+### Missing Opus library
+
+Install native Opus and ensure its DLL directory is on PATH.
+
+### Google sign-in ApiException 10
+
+The Android package name and SHA-1/SHA-256 signing fingerprints must match the OAuth client configured in Firebase/Google Cloud.
